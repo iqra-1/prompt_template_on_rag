@@ -1,0 +1,45 @@
+# Production RAG Experiment Configuration
+# Save as: configs/config.yaml
+
+# Production RAG Experiment Configuration
+experiment:
+  name: "official_rag_prompt_engineering"
+  version: "1.0"
+  description: "Facebook RAG Token with real Wikipedia embeddings"
+  
+models:
+  rag_model: "facebook/rag-token-nq"  # 🎯 CHANGED THIS
+  use_real_wikipedia: true
+  precision: "fp16"
+  
+hardware:
+  preferred_gpu: "auto"
+  memory_optimization: true
+  batch_size: 1
+  
+experiment_settings:
+  num_test_questions: 20
+  num_templates: 7
+  evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+  
+templates:
+  - name: "instructional"
+    template: "Answer the following question using available information: {question}"
+  - name: "expert_role" 
+    template: "As an expert, provide a precise answer: {question}"
+  - name: "precise_instruction"
+    template: "Give a factual, concise answer to: {question}"
+  - name: "context_emphasis"
+    template: "Based on the relevant context, answer: {question}"
+  - name: "basic"
+    template: "{question}"
+  - name: "knowledge_based"
+    template: "Using available knowledge, answer: {question}"
+  - name: "confident"
+    template: "Provide a confident, accurate answer: {question}"
+
+output:
+  save_detailed_results: true
+  save_summary: true
+  save_markdown_report: true
+  results_directory: "results"
