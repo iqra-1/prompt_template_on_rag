@@ -1,0 +1,15 @@
+{
+  "experiment_id": "final_targeted_20250708_160041",
+  "timestamp": "20250708_161845",
+  "model_used": "facebook/rag-token-nq",
+  "num_questions": 500,
+  "num_templates": 7,
+  "best_template": "basic",
+  "best_f1_score": 0.15789306249306248,
+  "basic_template_rank": 1,
+  "max_improvement": 0.0,
+  "experiment_success": false,
+  "gpu_used": "cuda:0",
+  "real_wikipedia": true,
+  "total_results": 3500
+}

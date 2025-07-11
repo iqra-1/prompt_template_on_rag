@@ -1,0 +1,237 @@
+[19:19:07] 🔥 Setting up GPU configuration...
+[19:19:07] 🎯 Using device: cuda:0
+[19:19:07] 📦 Loading Facebook RAG models...
+[19:24:07] 🚀 RAG system ready!
+[19:24:07] 📚 Loading strategic evaluation dataset...
+[19:24:07] 📝 Created 11 strategic questions
+[19:24:11] 📊 Final dataset: 500 questions
+[19:24:11]    - Strategic: 11
+[19:24:11]    - SQuAD/Additional: 489
+[19:24:11] 🧪 Starting minimal RAG experiment...
+[19:24:11] 📋 Testing 7 templates on 500 questions
+[19:24:11] 
+🔄 Testing template: question_mark
+[19:24:18]   Progress: 20/500 - Recent F1: 0.415
+[19:24:23]   Progress: 40/500 - Recent F1: 0.100
+[19:24:29]   Progress: 60/500 - Recent F1: 0.208
+[19:24:34]   Progress: 80/500 - Recent F1: 0.075
+[19:24:40]   Progress: 100/500 - Recent F1: 0.083
+[19:24:45]   Progress: 120/500 - Recent F1: 0.203
+[19:24:50]   Progress: 140/500 - Recent F1: 0.142
+[19:24:55]   Progress: 160/500 - Recent F1: 0.129
+[19:25:00]   Progress: 180/500 - Recent F1: 0.100
+[19:25:05]   Progress: 200/500 - Recent F1: 0.020
+[19:25:10]   Progress: 220/500 - Recent F1: 0.125
+[19:25:15]   Progress: 240/500 - Recent F1: 0.143
+[19:25:21]   Progress: 260/500 - Recent F1: 0.110
+[19:25:26]   Progress: 280/500 - Recent F1: 0.025
+[19:25:31]   Progress: 300/500 - Recent F1: 0.020
+[19:25:37]   Progress: 320/500 - Recent F1: 0.133
+[19:25:42]   Progress: 340/500 - Recent F1: 0.283
+[19:25:47]   Progress: 360/500 - Recent F1: 0.271
+[19:25:53]   Progress: 380/500 - Recent F1: 0.072
+[19:25:58]   Progress: 400/500 - Recent F1: 0.325
+[19:26:04]   Progress: 420/500 - Recent F1: 0.150
+[19:26:09]   Progress: 440/500 - Recent F1: 0.095
+[19:26:14]   Progress: 460/500 - Recent F1: 0.249
+[19:26:19]   Progress: 480/500 - Recent F1: 0.103
+[19:26:25]   Progress: 500/500 - Recent F1: 0.050
+[19:26:25]    ✅ question_mark: F1=0.145, EM=0.082
+[19:26:25] 
+🔄 Testing template: polite_request
+[19:26:30]   Progress: 20/500 - Recent F1: 0.415
+[19:26:36]   Progress: 40/500 - Recent F1: 0.025
+[19:26:41]   Progress: 60/500 - Recent F1: 0.100
+[19:26:47]   Progress: 80/500 - Recent F1: 0.025
+[19:26:52]   Progress: 100/500 - Recent F1: 0.083
+[19:26:58]   Progress: 120/500 - Recent F1: 0.140
+[19:27:03]   Progress: 140/500 - Recent F1: 0.167
+[19:27:08]   Progress: 160/500 - Recent F1: 0.138
+[19:27:13]   Progress: 180/500 - Recent F1: 0.120
+[19:27:18]   Progress: 200/500 - Recent F1: 0.040
+[19:27:24]   Progress: 220/500 - Recent F1: 0.103
+[19:27:29]   Progress: 240/500 - Recent F1: 0.046
+[19:27:34]   Progress: 260/500 - Recent F1: 0.070
+[19:27:40]   Progress: 280/500 - Recent F1: 0.034
+[19:27:45]   Progress: 300/500 - Recent F1: 0.050
+[19:27:50]   Progress: 320/500 - Recent F1: 0.125
+[19:27:56]   Progress: 340/500 - Recent F1: 0.200
+[19:28:01]   Progress: 360/500 - Recent F1: 0.279
+[19:28:06]   Progress: 380/500 - Recent F1: 0.022
+[19:28:12]   Progress: 400/500 - Recent F1: 0.256
+[19:28:17]   Progress: 420/500 - Recent F1: 0.117
+[19:28:22]   Progress: 440/500 - Recent F1: 0.095
+[19:28:28]   Progress: 460/500 - Recent F1: 0.115
+[19:28:33]   Progress: 480/500 - Recent F1: 0.095
+[19:28:38]   Progress: 500/500 - Recent F1: 0.050
+[19:28:38]    ✅ polite_request: F1=0.116, EM=0.064
+[19:28:38] 
+🔄 Testing template: short_instruction
+[19:28:43]   Progress: 20/500 - Recent F1: 0.373
+[19:28:49]   Progress: 40/500 - Recent F1: 0.000
+[19:28:55]   Progress: 60/500 - Recent F1: 0.163
+[19:29:00]   Progress: 80/500 - Recent F1: 0.050
+[19:29:06]   Progress: 100/500 - Recent F1: 0.033
+[19:29:11]   Progress: 120/500 - Recent F1: 0.168
+[19:29:16]   Progress: 140/500 - Recent F1: 0.208
+[19:29:21]   Progress: 160/500 - Recent F1: 0.152
+[19:29:26]   Progress: 180/500 - Recent F1: 0.070
+[19:29:31]   Progress: 200/500 - Recent F1: 0.045
+[19:29:37]   Progress: 220/500 - Recent F1: 0.050
+[19:29:41]   Progress: 240/500 - Recent F1: 0.066
+[19:29:47]   Progress: 260/500 - Recent F1: 0.120
+[19:29:52]   Progress: 280/500 - Recent F1: 0.034
+[19:29:58]   Progress: 300/500 - Recent F1: 0.020
+[19:30:03]   Progress: 320/500 - Recent F1: 0.150
+[19:30:09]   Progress: 340/500 - Recent F1: 0.225
+[19:30:14]   Progress: 360/500 - Recent F1: 0.329
+[19:30:20]   Progress: 380/500 - Recent F1: 0.050
+[19:30:26]   Progress: 400/500 - Recent F1: 0.267
+[19:30:31]   Progress: 420/500 - Recent F1: 0.067
+[19:30:37]   Progress: 440/500 - Recent F1: 0.113
+[19:30:42]   Progress: 460/500 - Recent F1: 0.190
+[19:30:48]   Progress: 480/500 - Recent F1: 0.095
+[19:30:53]   Progress: 500/500 - Recent F1: 0.100
+[19:30:53]    ✅ short_instruction: F1=0.126, EM=0.066
+[19:30:53] 
+🔄 Testing template: precise
+[19:30:58]   Progress: 20/500 - Recent F1: 0.395
+[19:31:04]   Progress: 40/500 - Recent F1: 0.067
+[19:31:09]   Progress: 60/500 - Recent F1: 0.158
+[19:31:15]   Progress: 80/500 - Recent F1: 0.092
+[19:31:20]   Progress: 100/500 - Recent F1: 0.083
+[19:31:26]   Progress: 120/500 - Recent F1: 0.128
+[19:31:31]   Progress: 140/500 - Recent F1: 0.158
+[19:31:36]   Progress: 160/500 - Recent F1: 0.169
+[19:31:41]   Progress: 180/500 - Recent F1: 0.104
+[19:31:45]   Progress: 200/500 - Recent F1: 0.053
+[19:31:50]   Progress: 220/500 - Recent F1: 0.033
+[19:31:55]   Progress: 240/500 - Recent F1: 0.104
+[19:32:00]   Progress: 260/500 - Recent F1: 0.130
+[19:32:06]   Progress: 280/500 - Recent F1: 0.048
+[19:32:11]   Progress: 300/500 - Recent F1: 0.140
+[19:32:16]   Progress: 320/500 - Recent F1: 0.233
+[19:32:22]   Progress: 340/500 - Recent F1: 0.283
+[19:32:27]   Progress: 360/500 - Recent F1: 0.254
+[19:32:32]   Progress: 380/500 - Recent F1: 0.122
+[19:32:37]   Progress: 400/500 - Recent F1: 0.217
+[19:32:43]   Progress: 420/500 - Recent F1: 0.117
+[19:32:49]   Progress: 440/500 - Recent F1: 0.095
+[19:32:54]   Progress: 460/500 - Recent F1: 0.251
+[19:32:59]   Progress: 480/500 - Recent F1: 0.162
+[19:33:04]   Progress: 500/500 - Recent F1: 0.050
+[19:33:04]    ✅ precise: F1=0.146, EM=0.078
+[19:33:04] 
+🔄 Testing template: what_is
+[19:33:09]   Progress: 20/500 - Recent F1: 0.328
+[19:33:15]   Progress: 40/500 - Recent F1: 0.000
+[19:33:20]   Progress: 60/500 - Recent F1: 0.186
+[19:33:25]   Progress: 80/500 - Recent F1: 0.050
+[19:33:30]   Progress: 100/500 - Recent F1: 0.117
+[19:33:35]   Progress: 120/500 - Recent F1: 0.075
+[19:33:40]   Progress: 140/500 - Recent F1: 0.167
+[19:33:46]   Progress: 160/500 - Recent F1: 0.119
+[19:33:51]   Progress: 180/500 - Recent F1: 0.075
+[19:33:56]   Progress: 200/500 - Recent F1: 0.020
+[19:34:02]   Progress: 220/500 - Recent F1: 0.050
+[19:34:07]   Progress: 240/500 - Recent F1: 0.083
+[19:34:12]   Progress: 260/500 - Recent F1: 0.087
+[19:34:18]   Progress: 280/500 - Recent F1: 0.042
+[19:34:23]   Progress: 300/500 - Recent F1: 0.020
+[19:34:28]   Progress: 320/500 - Recent F1: 0.125
+[19:34:33]   Progress: 340/500 - Recent F1: 0.150
+[19:34:39]   Progress: 360/500 - Recent F1: 0.254
+[19:34:44]   Progress: 380/500 - Recent F1: 0.000
+[19:34:50]   Progress: 400/500 - Recent F1: 0.217
+[19:34:55]   Progress: 420/500 - Recent F1: 0.067
+[19:35:00]   Progress: 440/500 - Recent F1: 0.062
+[19:35:06]   Progress: 460/500 - Recent F1: 0.126
+[19:35:11]   Progress: 480/500 - Recent F1: 0.125
+[19:35:17]   Progress: 500/500 - Recent F1: 0.050
+[19:35:17]    ✅ what_is: F1=0.104, EM=0.062
+[19:35:17] 
+🔄 Testing template: direct
+[19:35:23]   Progress: 20/500 - Recent F1: 0.415
+[19:35:28]   Progress: 40/500 - Recent F1: 0.067
+[19:35:34]   Progress: 60/500 - Recent F1: 0.188
+[19:35:39]   Progress: 80/500 - Recent F1: 0.075
+[19:35:45]   Progress: 100/500 - Recent F1: 0.033
+[19:35:50]   Progress: 120/500 - Recent F1: 0.182
+[19:35:55]   Progress: 140/500 - Recent F1: 0.106
+[19:36:01]   Progress: 160/500 - Recent F1: 0.169
+[19:36:06]   Progress: 180/500 - Recent F1: 0.070
+[19:36:11]   Progress: 200/500 - Recent F1: 0.075
+[19:36:16]   Progress: 220/500 - Recent F1: 0.114
+[19:36:21]   Progress: 240/500 - Recent F1: 0.046
+[19:36:26]   Progress: 260/500 - Recent F1: 0.070
+[19:36:31]   Progress: 280/500 - Recent F1: 0.075
+[19:36:37]   Progress: 300/500 - Recent F1: 0.065
+[19:36:42]   Progress: 320/500 - Recent F1: 0.125
+[19:36:47]   Progress: 340/500 - Recent F1: 0.225
+[19:36:52]   Progress: 360/500 - Recent F1: 0.279
+[19:36:58]   Progress: 380/500 - Recent F1: 0.072
+[19:37:03]   Progress: 400/500 - Recent F1: 0.256
+[19:37:09]   Progress: 420/500 - Recent F1: 0.117
+[19:37:14]   Progress: 440/500 - Recent F1: 0.095
+[19:37:19]   Progress: 460/500 - Recent F1: 0.200
+[19:37:25]   Progress: 480/500 - Recent F1: 0.170
+[19:37:30]   Progress: 500/500 - Recent F1: 0.050
+[19:37:30]    ✅ direct: F1=0.133, EM=0.066
+[19:37:30] 
+🔄 Testing template: basic
+[19:37:35]   Progress: 20/500 - Recent F1: 0.395
+[19:37:40]   Progress: 40/500 - Recent F1: 0.067
+[19:37:45]   Progress: 60/500 - Recent F1: 0.208
+[19:37:51]   Progress: 80/500 - Recent F1: 0.075
+[19:37:56]   Progress: 100/500 - Recent F1: 0.083
+[19:38:02]   Progress: 120/500 - Recent F1: 0.150
+[19:38:07]   Progress: 140/500 - Recent F1: 0.281
+[19:38:13]   Progress: 160/500 - Recent F1: 0.129
+[19:38:18]   Progress: 180/500 - Recent F1: 0.104
+[19:38:24]   Progress: 200/500 - Recent F1: 0.037
+[19:38:29]   Progress: 220/500 - Recent F1: 0.125
+[19:38:34]   Progress: 240/500 - Recent F1: 0.143
+[19:38:40]   Progress: 260/500 - Recent F1: 0.110
+[19:38:45]   Progress: 280/500 - Recent F1: 0.048
+[19:38:51]   Progress: 300/500 - Recent F1: 0.070
+[19:38:55]   Progress: 320/500 - Recent F1: 0.183
+[19:39:01]   Progress: 340/500 - Recent F1: 0.283
+[19:39:06]   Progress: 360/500 - Recent F1: 0.271
+[19:39:11]   Progress: 380/500 - Recent F1: 0.122
+[19:39:17]   Progress: 400/500 - Recent F1: 0.256
+[19:39:22]   Progress: 420/500 - Recent F1: 0.117
+[19:39:27]   Progress: 440/500 - Recent F1: 0.120
+[19:39:33]   Progress: 460/500 - Recent F1: 0.265
+[19:39:38]   Progress: 480/500 - Recent F1: 0.128
+[19:39:43]   Progress: 500/500 - Recent F1: 0.100
+[19:39:43]    ✅ basic: F1=0.155, EM=0.086
+[19:39:43] 
+🎉 Experiment completed! Total results: 3500
+[19:39:43] 
+🔍 ANALYZING RESULTS...
+[19:39:43] 
+🏆 MINIMAL TEMPLATE PERFORMANCE:
+[19:39:43] ----------------------------------------------------------------------
+[19:39:43] Template           F1 Score   EM Score   Improvement 
+[19:39:43] ----------------------------------------------------------------------
+[19:39:43] basic              0.155     0.086     BASELINE    
+[19:39:43] precise            0.146     0.078     -5.8%       
+[19:39:43] question_mark      0.145     0.082     -6.2%       
+[19:39:43] direct             0.133     0.066     -13.8%      
+[19:39:43] short_instruction  0.126     0.066     -18.9%      
+[19:39:43] polite_request     0.116     0.064     -24.8%      
+[19:39:43] what_is            0.104     0.062     -33.0%      
+[19:39:43] 
+📊 MINIMAL EXPERIMENT RESULTS:
+[19:39:43]   🥇 Best: basic (F1: 0.155)
+[19:39:43]   ❌ Basic still wins - RAG may prefer minimal prompts
+[19:39:43]   💡 This actually proves RAG works best with simple inputs!
+[19:39:44] 📊 Detailed results: ../results/minimal_detailed_20250708_193943.csv
+[19:39:44] 📋 Summary: ../results/minimal_summary_20250708_193943.csv
+[19:39:44] 
+📋 TOP 3 TEMPLATES:
+[19:39:44]   1. basic: F1=0.155
+[19:39:44]   2. precise: F1=0.146
+[19:39:44]   3. question_mark: F1=0.145
+[19:39:44] 
+🎉 MINIMAL EXPERIMENT COMPLETED!

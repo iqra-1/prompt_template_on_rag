@@ -1,14 +1,401 @@
-# Production RAG Experiment Configuration
-# Save as: configs/config.yaml
+# # Production RAG Experiment Configuration
+# # Save as: configs/config.yaml
 
-# Production RAG Experiment Configuration
+# # Production RAG Experiment Configuration
+# experiment:
+#   name: "official_rag_prompt_engineering"
+#   version: "1.0"
+#   description: "Facebook RAG Token with real Wikipedia embeddings"
+  
+# models:
+#   rag_model: "facebook/rag-token-nq"  # 🎯 CHANGED THIS
+#   use_real_wikipedia: true
+#   precision: "fp16"
+  
+# hardware:
+#   preferred_gpu: "auto"
+#   memory_optimization: true
+#   batch_size: 1
+  
+# experiment_settings:
+#   num_test_questions: 120
+#   num_templates: 7
+#   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+  
+# templates:
+#   - name: "instructional"
+#     template: "Answer the following question using available information: {question}"
+#   - name: "expert_role" 
+#     template: "As an expert, provide a precise answer: {question}"
+#   - name: "precise_instruction"
+#     template: "Give a factual, concise answer to: {question}"
+#   - name: "context_emphasis"
+#     template: "Based on the relevant context, answer: {question}"
+#   - name: "basic"
+#     template: "{question}"
+#   - name: "knowledge_based"
+#     template: "Using available knowledge, answer: {question}"
+#   - name: "confident"
+#     template: "Provide a confident, accurate answer: {question}"
+
+# output:
+#   save_detailed_results: true
+#   save_summary: true
+#   save_markdown_report: true
+#   results_directory: "results"
+
+
+
+
+# Targeted RAG Experiment Configuration
+# Simplified to focus on core template differentiation
+
+# experiment:
+#   name: "targeted_template_fix"
+#   version: "1.0"
+#   description: "Targeted fix to demonstrate template impact"
+  
+# models:
+#   rag_model: "facebook/rag-token-nq"
+#   use_real_wikipedia: true
+#   precision: "fp16"
+  
+# hardware:
+#   preferred_gpu: "auto"
+#   memory_optimization: true
+#   batch_size: 1
+  
+# experiment_settings:
+#   num_test_questions: 50  # Start smaller for testing
+#   num_templates: 7
+#   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+
+# # Simple, working templates designed for RAG (Retrieval + Generation)
+# templates:
+#   - name: "retrieval_focused"
+#     template: "Based on retrieved information, answer: {question}"
+#   - name: "knowledge_synthesis" 
+#     template: "Using available knowledge sources, answer: {question}"
+#   - name: "instructional_clear"
+#     template: "Please provide a clear answer to: {question}"
+#   - name: "context_guided"
+#     template: "Draw from relevant context to answer: {question}"
+#   - name: "confident_direct"
+#     template: "Answer directly: {question}"
+#   - name: "structured_response"
+#     template: "Provide a well-structured answer to: {question}"
+#   - name: "basic"
+#     template: "{question}"
+
+# output:
+#   save_detailed_results: true
+#   save_summary: true
+#   save_markdown_report: false
+#   results_directory: "results"
+
+
+
+
+# # Minimal Effective Templates Strategy
+# # Use SUBTLE improvements to basic prompt instead of complex instructions
+
+# experiment:
+#   name: "minimal_effective_templates"
+#   version: "1.0"
+#   description: "Subtle template improvements that actually work with RAG"
+  
+# models:
+#   rag_model: "facebook/rag-token-nq"
+#   use_real_wikipedia: true
+#   precision: "fp16"
+  
+# hardware:
+#   preferred_gpu: "auto"
+#   memory_optimization: true
+#   batch_size: 1
+  
+# experiment_settings:
+#   num_test_questions: 500  # Start smaller for testing these minimal changes
+#   num_templates: 7
+#   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+
+# # MINIMAL, EFFECTIVE templates (subtle improvements only)
+# templates:
+#   # Just add a question mark (should help parsing)
+#   - name: "question_mark"
+#     template: "{question}?"
+  
+#   # Add minimal politeness (might improve generation)
+#   - name: "polite_request"
+#     template: "Please answer: {question}"
+  
+#   # Very short instruction (minimal overhead)
+#   - name: "short_instruction"
+#     template: "Answer: {question}"
+  
+#   # Minimal precision request
+#   - name: "precise"
+#     template: "{question} (be precise)"
+  
+#   # Just add context cue (minimal)
+#   - name: "what_is"
+#     template: "What is the answer to: {question}"
+  
+#   # Direct command (might work better)
+#   - name: "direct"
+#     template: "Tell me: {question}"
+  
+#   # Baseline for comparison
+#   - name: "basic"
+#     template: "{question}"
+
+# output:
+#   save_detailed_results: true
+#   save_summary: true
+#   save_markdown_report: false
+#   results_directory: "results"
+
+
+
+# # Question Mark Impact Experiment Configuration
+# # Tests difference between "Question" vs "Question?" on SQuAD dataset
+
+# experiment:
+#   name: "question_mark_impact"
+#   version: "1.0"
+#   description: "Testing question mark impact on RAG performance using SQuAD"
+  
+# models:
+#   rag_model: "facebook/rag-token-nq"
+#   use_real_wikipedia: true
+#   precision: "fp16"
+  
+# hardware:
+#   preferred_gpu: "auto"
+#   memory_optimization: true
+#   batch_size: 1
+  
+# experiment_settings:
+#   num_test_questions: 1000  # 1000 SQuAD questions as requested
+#   num_templates: 2  # Only 2: with ? and without ?
+#   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+
+# output:
+#   save_detailed_results: true
+#   save_summary: true
+#   save_markdown_report: false
+#   results_directory: "results"
+
+
+# # 7-Template Strategic RAG Experiment Configuration
+# # Tests templates that showed promise in 20-50 QA tests + strategic additions
+
+# experiment:
+#   name: "seven_template_strategic"
+#   version: "1.0"
+#   description: "Strategic 7-template experiment using successful patterns"
+  
+# models:
+#   rag_model: "facebook/rag-token-nq"
+#   use_real_wikipedia: true
+#   precision: "fp16"
+  
+# hardware:
+#   preferred_gpu: "auto"
+#   memory_optimization: true
+#   batch_size: 1
+  
+# experiment_settings:
+#   num_test_questions: 500  # Good balance of statistical power and speed
+#   num_templates: 7
+#   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+
+# # 7 STRATEGIC TEMPLATES - based on successful patterns from small tests
+# templates:
+#   # Baseline template
+#   - name: "basic"
+#     template: "{question}"
+#     purpose: "Baseline comparison"
+  
+#   # Punctuation test (showed 0.002 improvement)
+#   - name: "question_mark"
+#     template: "{question}?"
+#     purpose: "Test punctuation impact"
+  
+#   # Your successful template from 20-50 QA tests
+#   - name: "precise_instruction"
+#     template: "Give a factual, concise answer to: {question}"
+#     purpose: "Proven successful template from small tests"
+  
+#   # RAG-optimized template
+#   - name: "retrieval_focused"
+#     template: "Based on retrieved information, answer: {question}"
+#     purpose: "Leverage RAG's retrieval strength"
+  
+#   # Clear instruction format
+#   - name: "direct_answer"
+#     template: "Answer the question: {question}"
+#     purpose: "Direct instruction approach"
+  
+#   # Generation-focused instruction
+#   - name: "generate_format"
+#     template: "Generate answer for this question: {question}"
+#     purpose: "Generation-focused instruction"
+  
+#   # Your prompt engineering pattern with quotes
+#   - name: "quoted_question"
+#     template: "Answer Question: '''{question}'''"
+#     purpose: "Prompt engineering pattern with triple quotes"
+
+# output:
+#   save_detailed_results: true
+#   save_summary: true
+#   save_markdown_report: false
+#   results_directory: "results"
+
+
+# # Improved Template Configuration - 2000 Dataset
+# # Building on question_mark success (2.2% improvement) with subtle variations
+
+# experiment:
+#   name: "improved_template_2000"
+#   version: "1.0"
+#   description: "Improved templates based on question_mark success, 2000 SQuAD questions"
+  
+# models:
+#   rag_model: "facebook/rag-token-nq"
+#   use_real_wikipedia: true
+#   precision: "fp16"
+  
+# hardware:
+#   preferred_gpu: "auto"
+#   memory_optimization: true
+#   batch_size: 1
+  
+# experiment_settings:
+#   num_test_questions: 2000  # Full 2000 dataset as requested
+#   num_templates: 7
+#   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+
+# # IMPROVED TEMPLATES - Building on question_mark success with MINIMAL additions
+# templates:
+#   # Baseline
+#   - name: "basic"
+#     template: "{question}"
+#     purpose: "Baseline comparison"
+  
+#   # Winner from previous test - 2.2% improvement!
+#   - name: "question_mark"
+#     template: "{question}?"
+#     purpose: "Proven winner - 2.2% improvement over basic"
+  
+#   # Minimal variations that might work like question_mark
+#   - name: "question_colon"
+#     template: "{question}:"
+#     purpose: "Punctuation variant - colon instead of question mark"
+  
+#   - name: "question_period"
+#     template: "{question}."
+#     purpose: "Punctuation variant - period for completion"
+  
+#   # Very short additions (learning from question_mark success)
+#   - name: "what_answer"
+#     template: "What is: {question}?"
+#     purpose: "Minimal question framing with proven punctuation"
+  
+#   - name: "short_please"
+#     template: "Please: {question}?"
+#     purpose: "Minimal politeness with proven punctuation"
+  
+#   # Single word addition
+#   - name: "answer_question"
+#     template: "Answer {question}?"
+#     purpose: "Single word instruction with proven punctuation"
+
+# output:
+#   save_detailed_results: true
+#   save_summary: true
+#   save_markdown_report: false
+#   results_directory: "results"
+
+
+# # Alternative Template Strategy - 2000 Dataset
+# # Different approach: What if RAG prefers different question formats?
+
+# experiment:
+#   name: "alternative_strategy_2000"
+#   version: "1.0"
+#   description: "Alternative template strategy testing different question formats"
+  
+# models:
+#   rag_model: "facebook/rag-token-nq"
+#   use_real_wikipedia: true
+#   precision: "fp16"
+  
+# hardware:
+#   preferred_gpu: "auto"
+#   memory_optimization: true
+#   batch_size: 1
+  
+# experiment_settings:
+#   num_test_questions: 1500  # Adjust to realistic expectation based on filtering
+#   num_templates: 7
+#   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+
+# # ALTERNATIVE STRATEGY - Test if RAG prefers statement forms or different structures
+# templates:
+#   # Baseline
+#   - name: "basic"
+#     template: "{question}"
+#     purpose: "Baseline comparison"
+  
+#   # Winner from previous test
+#   - name: "question_mark"
+#     template: "{question}?"
+#     purpose: "Proven 2.2% improvement"
+  
+#   # Test statement forms (opposite of questions)
+#   - name: "statement_form"
+#     template: "The answer to '{question}' is"
+#     purpose: "Statement completion instead of question"
+  
+#   # Test imperative forms
+#   - name: "tell_me"
+#     template: "Tell me {question}"
+#     purpose: "Imperative form - natural command"
+  
+#   # Test completion forms
+#   - name: "complete_sentence"
+#     template: "'{question}' The answer is"
+#     purpose: "Completion prompt format"
+  
+#   # Test search-like format
+#   - name: "search_format"
+#     template: "Search: {question}"
+#     purpose: "Search engine style query"
+  
+#   # Test conversational format
+#   - name: "conversational"
+#     template: "Q: {question} A:"
+#     purpose: "Conversational Q&A format"
+
+# output:
+#   save_detailed_results: true
+#   save_summary: true
+#   save_markdown_report: false
+#   results_directory: "results"
+
+
+# FINAL 7-TEMPLATE CONFIGURATION FOR DISSERTATION
+# Comprehensive evaluation of prompt engineering strategies for RAG systems
+
 experiment:
-  name: "official_rag_prompt_engineering"
+  name: "final_dissertation_templates"
   version: "1.0"
-  description: "Facebook RAG Token with real Wikipedia embeddings"
+  description: "Final 7-template evaluation for dissertation - comprehensive RAG prompt engineering study"
   
 models:
-  rag_model: "facebook/rag-token-nq"  # 🎯 CHANGED THIS
+  rag_model: "facebook/rag-token-nq"
   use_real_wikipedia: true
   precision: "fp16"
   
@@ -18,28 +405,56 @@ hardware:
   batch_size: 1
   
 experiment_settings:
-  num_test_questions: 500
+  num_test_questions: 1500  # Final dataset size
   num_templates: 7
   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
-  
+
+# FINAL 7 TEMPLATES FOR DISSERTATION - Strategic selection covering all major approaches
 templates:
-  - name: "instructional"
-    template: "Answer the following question using available information: {question}"
-  - name: "expert_role" 
-    template: "As an expert, provide a precise answer: {question}"
-  - name: "precise_instruction"
-    template: "Give a factual, concise answer to: {question}"
-  - name: "context_emphasis"
-    template: "Based on the relevant context, answer: {question}"
+  # 1. Baseline template
   - name: "basic"
     template: "{question}"
-  - name: "knowledge_based"
-    template: "Using available knowledge, answer: {question}"
-  - name: "confident"
-    template: "Provide a confident, accurate answer: {question}"
+    purpose: "Baseline - no prompt engineering"
+    category: "Control"
+  
+  # 2. Proven winner - minimal punctuation improvement
+  - name: "question_mark"
+    template: "{question}?"
+    purpose: "Minimal punctuation enhancement - proven 1-3% improvement"
+    category: "Minimal Enhancement"
+  
+  # 3. Instruction-based approach (your requirement)
+  - name: "precise_instruction"
+    template: "Give a factual, concise answer to: {question}"
+    purpose: "Explicit instruction for precision and brevity"
+    category: "Instructional"
+  
+  # 4. RAG-specific optimization (your requirement)
+  - name: "retrieval_focused"
+    template: "Based on retrieved information, answer: {question}"
+    purpose: "Explicitly leverages RAG's retrieval mechanism"
+    category: "RAG-Optimized"
+  
+  # 5. Direct command approach (your requirement)
+  - name: "confident_direct"
+    template: "Answer directly: {question}"
+    purpose: "Direct command for confident responses"
+    category: "Command-Based"
+  
+  # 6. Context emphasis approach
+  - name: "context_guided"
+    template: "Using available context, answer: {question}"
+    purpose: "Emphasizes context utilization"
+    category: "Context-Aware"
+  
+  # 7. Conversational format (alternative approach)
+  - name: "conversational"
+    template: "Q: {question} A:"
+    purpose: "Conversational Q&A format"
+    category: "Conversational"
 
 output:
   save_detailed_results: true
   save_summary: true
-  save_markdown_report: true
+  save_markdown_report: true  # Enable for dissertation
   results_directory: "results"

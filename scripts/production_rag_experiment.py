@@ -130,7 +130,7 @@ class ProductionRAGExperiment:
             return False
 
     def load_evaluation_dataset(self):
-        """Load evaluation dataset"""
+        """Load evaluation dataset with proper scaling for large datasets"""
         self.log_message("📚 Loading evaluation dataset...")
 
         try:
@@ -138,8 +138,20 @@ class ProductionRAGExperiment:
 
             # Try SQuAD 2.0 first
             try:
-                dataset = load_dataset("squad_v2", split="validation[:50]")
-                self.log_message("✅ SQuAD 2.0 loaded")
+                # Get target number of questions from config
+                max_questions = self.config['experiment_settings']['num_test_questions']
+
+                # Load extra to ensure we get enough with answers (SQuAD 2.0 has many without answers)
+                # Load 3x target, max 2000
+                load_size = min(max_questions * 3, 2000)
+
+                self.log_message(
+                    f"Loading {load_size} questions to get {max_questions} with answers")
+
+                dataset = load_dataset(
+                    "squad_v2", split=f"validation[:{load_size}]")
+                self.log_message(
+                    f"✅ SQuAD 2.0 loaded: {len(dataset)} raw questions")
 
                 # Filter for questions with answers
                 test_questions = []
@@ -148,20 +160,27 @@ class ProductionRAGExperiment:
                         test_questions.append({
                             'question': item['question'],
                             'answer': item['answers']['text'][0],
-                            # First 200 chars for reference
                             'context': item['context'][:200] + "..."
                         })
 
-                # Limit to configured number
-                max_questions = self.config['experiment_settings']['num_test_questions']
-                self.test_questions = test_questions[:max_questions]
+                        # Stop when we have enough questions with answers
+                        if len(test_questions) >= max_questions:
+                            break
+
+                if len(test_questions) < max_questions:
+                    self.log_message(
+                        f"⚠️  Only found {len(test_questions)} questions with answers, using all available")
+
+                self.test_questions = test_questions
+                self.log_message(
+                    f"📊 Final dataset: {len(self.test_questions)} questions with answers")
 
             except Exception as e:
                 self.log_message(f"⚠️  SQuAD failed: {e}")
                 self.log_message("🔄 Using fallback questions...")
 
-                # High-quality fallback questions
-                self.test_questions = [
+                # High-quality fallback questions (expanded for larger datasets)
+                fallback_questions = [
                     {"question": "What is the capital of France?",
                         "answer": "Paris", "context": "France geography"},
                     {"question": "Who wrote Romeo and Juliet?",
@@ -181,11 +200,34 @@ class ProductionRAGExperiment:
                     {"question": "What is the longest river in the world?",
                         "answer": "Nile River", "context": "Geography"},
                     {"question": "When did World War II end?",
-                        "answer": "1945", "context": "World History"}
+                        "answer": "1945", "context": "World History"},
+                    {"question": "What is the speed of light?",
+                        "answer": "299,792,458 meters per second", "context": "Physics"},
+                    {"question": "Who wrote Pride and Prejudice?",
+                        "answer": "Jane Austen", "context": "Literature"},
+                    {"question": "What is the chemical formula for water?",
+                        "answer": "H2O", "context": "Chemistry"},
+                    {"question": "When was the Berlin Wall torn down?",
+                        "answer": "1989", "context": "History"},
+                    {"question": "What is the capital of Japan?",
+                        "answer": "Tokyo", "context": "Geography"}
                 ]
 
+                # Repeat fallback questions if needed for large datasets
+                max_questions = self.config['experiment_settings']['num_test_questions']
+                if max_questions > len(fallback_questions):
+                    # Repeat the fallback questions to reach target size
+                    multiplier = (max_questions // len(fallback_questions)) + 1
+                    self.test_questions = (
+                        fallback_questions * multiplier)[:max_questions]
+                else:
+                    self.test_questions = fallback_questions[:max_questions]
+
             self.log_message(
-                f" Loaded {len(self.test_questions)} evaluation questions")
+                f"📊 Loaded {len(self.test_questions)} evaluation questions")
+            self.log_message(
+                f"🎯 Expected total evaluations: {len(self.test_questions)} × 7 templates = {len(self.test_questions) * 7}")
+
             return True
 
         except Exception as e:

@@ -1,0 +1,710 @@
+[17:46:46] 🔥 Setting up GPU configuration...
+[17:46:46] 🎯 Selected GPU 0: 79.3GB available
+[17:46:46] 🔧 Using device: cuda:0
+[17:46:46] 📦 Loading Facebook RAG models...
+[17:46:47] 🤖 Model: facebook/rag-token-nq
+[17:46:47]   Loading tokenizer...
+[17:46:47] 🔍 Loading Wikipedia retriever...
+[17:48:12] ✅ Retriever loaded!
+[17:48:12]   Loading RAG Token model...
+[17:50:08] 🚀 RAG Token system ready!
+[17:50:08] 📚 Loading evaluation dataset...
+[17:50:12] ✅ SQuAD 2.0 loaded
+[17:50:12]  Loaded 21 evaluation questions
+[17:50:12] 🧪 Starting production RAG experiment...
+[17:50:12]  Experiment scope:
+[17:50:12]    Questions: 21
+[17:50:12]    Templates: 7
+[17:50:12]    Total evaluations: 147
+[17:50:12] 
+🔄 Testing template: instructional
+[17:50:12] Generating answer for template: instructional
+[17:50:12] Using prompt: Answer the following question using available information: In what country is Normandy located?
+[17:50:12] Input prepared: torch.Size([1, 17])
+[17:50:13] RAG generated: ' france' for instructional
+[17:50:13] Generating answer for template: instructional
+[17:50:13] Using prompt: Answer the following question using available information: When were the Normans in Normandy?
+[17:50:13] Input prepared: torch.Size([1, 18])
+[17:50:13] RAG generated: ' 10th century -- 15th century' for instructional
+[17:50:13] Generating answer for template: instructional
+[17:50:13] Using prompt: Answer the following question using available information: From which countries did the Norse originate?
+[17:50:13] Input prepared: torch.Size([1, 18])
+[17:50:13] RAG generated: ' iceland' for instructional
+[17:50:13] Generating answer for template: instructional
+[17:50:13] Using prompt: Answer the following question using available information: Who was the Norse leader?
+[17:50:13] Input prepared: torch.Size([1, 16])
+[17:50:13] RAG generated: ' whoopi goldberg' for instructional
+[17:50:13] Generating answer for template: instructional
+[17:50:13] Using prompt: Answer the following question using available information: What century did the Normans first gain their separate identity?
+[17:50:13] Input prepared: torch.Size([1, 22])
+[17:50:13] RAG generated: ' the ninth century' for instructional
+[17:50:13]   Progress: 5/147 (3.4%)
+[17:50:13] Generating answer for template: instructional
+[17:50:13] Using prompt: Answer the following question using available information: Who was the duke in the battle of Hastings?
+[17:50:13] Input prepared: torch.Size([1, 20])
+[17:50:14] RAG generated: ' normandy duke of normandy' for instructional
+[17:50:14] Generating answer for template: instructional
+[17:50:14] Using prompt: Answer the following question using available information: Who ruled the duchy of Normandy
+[17:50:14] Input prepared: torch.Size([1, 16])
+[17:50:14] RAG generated: ' king charles iii' for instructional
+[17:50:14] Generating answer for template: instructional
+[17:50:14] Using prompt: Answer the following question using available information: What religion were the Normans
+[17:50:14] Input prepared: torch.Size([1, 16])
+[17:50:14] RAG generated: ' islam' for instructional
+[17:50:14] Generating answer for template: instructional
+[17:50:14] Using prompt: Answer the following question using available information: What is the original meaning of the word Norman?
+[17:50:14] Input prepared: torch.Size([1, 20])
+[17:50:14] RAG generated: ' norman' for instructional
+[17:50:14] Generating answer for template: instructional
+[17:50:14] Using prompt: Answer the following question using available information: When was the Latin version of the word Norman first recorded?
+[17:50:14] Input prepared: torch.Size([1, 22])
+[17:50:14] RAG generated: ' the 6th century ad' for instructional
+[17:50:14]   Progress: 10/147 (6.8%)
+[17:50:14] Generating answer for template: instructional
+[17:50:14] Using prompt: Answer the following question using available information: When was the Duchy of Normandy founded?
+[17:50:14] Input prepared: torch.Size([1, 18])
+[17:50:14] RAG generated: ' 1066' for instructional
+[17:50:14] Generating answer for template: instructional
+[17:50:14] Using prompt: Answer the following question using available information: Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?
+[17:50:14] Input prepared: torch.Size([1, 28])
+[17:50:15] RAG generated: ' the franks' for instructional
+[17:50:15] Generating answer for template: instructional
+[17:50:15] Using prompt: Answer the following question using available information: What river originally bounded the Duchy
+[17:50:15] Input prepared: torch.Size([1, 16])
+[17:50:15] RAG generated: ' rhode island' for instructional
+[17:50:15] Generating answer for template: instructional
+[17:50:15] Using prompt: Answer the following question using available information: Who upon arriving gave the original viking settlers a common identity?
+[17:50:15] Input prepared: torch.Size([1, 22])
+[17:50:15] RAG generated: ' the Normans' for instructional
+[17:50:15] Generating answer for template: instructional
+[17:50:15] Using prompt: Answer the following question using available information: What was the Norman religion?
+[17:50:15] Input prepared: torch.Size([1, 16])
+[17:50:15] RAG generated: ' christianity' for instructional
+[17:50:15]   Progress: 15/147 (10.2%)
+[17:50:15] Generating answer for template: instructional
+[17:50:15] Using prompt: Answer the following question using available information: What part of France were the Normans located?
+[17:50:15] Input prepared: torch.Size([1, 20])
+[17:50:15] RAG generated: ' what is now france' for instructional
+[17:50:15] Generating answer for template: instructional
+[17:50:15] Using prompt: Answer the following question using available information: What was one of the Norman's major exports?
+[17:50:15] Input prepared: torch.Size([1, 21])
+[17:50:15] RAG generated: ' 266,827' for instructional
+[17:50:15] Generating answer for template: instructional
+[17:50:15] Using prompt: Answer the following question using available information: Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?
+[17:50:15] Input prepared: torch.Size([1, 27])
+[17:50:16] RAG generated: ' byzantine empire' for instructional
+[17:50:16] Generating answer for template: instructional
+[17:50:16] Using prompt: Answer the following question using available information: When did Herve serve as a Byzantine general?
+[17:50:16] Input prepared: torch.Size([1, 20])
+[17:50:16] RAG generated: ' during the byzantine war' for instructional
+[17:50:16] Generating answer for template: instructional
+[17:50:16] Using prompt: Answer the following question using available information: When did Robert Crispin go up against the Turks?
+[17:50:16] Input prepared: torch.Size([1, 21])
+[17:50:16] RAG generated: ' 1998' for instructional
+[17:50:16]   Progress: 20/147 (13.6%)
+[17:50:16] Generating answer for template: instructional
+[17:50:16] Using prompt: Answer the following question using available information: Who ruined Roussel de Bailleul's plans for an independent state?
+[17:50:16] Input prepared: torch.Size([1, 27])
+[17:50:16] RAG generated: '' for instructional
+[17:50:16]    instructional summary: F1=0.113, EM=0.048
+[17:50:16] 
+🔄 Testing template: expert_role
+[17:50:16] Generating answer for template: expert_role
+[17:50:16] Using prompt: As an expert, provide a precise answer: In what country is Normandy located?
+[17:50:16] Input prepared: torch.Size([1, 18])
+[17:50:16] RAG generated: ' france' for expert_role
+[17:50:16] Generating answer for template: expert_role
+[17:50:16] Using prompt: As an expert, provide a precise answer: When were the Normans in Normandy?
+[17:50:16] Input prepared: torch.Size([1, 19])
+[17:50:16] RAG generated: ' 3rd century bc' for expert_role
+[17:50:16] Generating answer for template: expert_role
+[17:50:16] Using prompt: As an expert, provide a precise answer: From which countries did the Norse originate?
+[17:50:16] Input prepared: torch.Size([1, 19])
+[17:50:16] RAG generated: ' iceland' for expert_role
+[17:50:16] Generating answer for template: expert_role
+[17:50:16] Using prompt: As an expert, provide a precise answer: Who was the Norse leader?
+[17:50:16] Input prepared: torch.Size([1, 17])
+[17:50:17] RAG generated: ' norse' for expert_role
+[17:50:17] Generating answer for template: expert_role
+[17:50:17] Using prompt: As an expert, provide a precise answer: What century did the Normans first gain their separate identity?
+[17:50:17] Input prepared: torch.Size([1, 23])
+[17:50:17] RAG generated: ' 1876' for expert_role
+[17:50:17]   Progress: 26/147 (17.7%)
+[17:50:17] Generating answer for template: expert_role
+[17:50:17] Using prompt: As an expert, provide a precise answer: Who was the duke in the battle of Hastings?
+[17:50:17] Input prepared: torch.Size([1, 21])
+[17:50:17] RAG generated: ' duke of normandy' for expert_role
+[17:50:17] Generating answer for template: expert_role
+[17:50:17] Using prompt: As an expert, provide a precise answer: Who ruled the duchy of Normandy
+[17:50:17] Input prepared: torch.Size([1, 17])
+[17:50:17] RAG generated: ' who ruled the duchy of normandy' for expert_role
+[17:50:17] Generating answer for template: expert_role
+[17:50:17] Using prompt: As an expert, provide a precise answer: What religion were the Normans
+[17:50:17] Input prepared: torch.Size([1, 17])
+[17:50:17] RAG generated: ' normans' for expert_role
+[17:50:17] Generating answer for template: expert_role
+[17:50:17] Using prompt: As an expert, provide a precise answer: What is the original meaning of the word Norman?
+[17:50:17] Input prepared: torch.Size([1, 21])
+[17:50:18] RAG generated: ' norman' for expert_role
+[17:50:18] Generating answer for template: expert_role
+[17:50:18] Using prompt: As an expert, provide a precise answer: When was the Latin version of the word Norman first recorded?
+[17:50:18] Input prepared: torch.Size([1, 23])
+[17:50:18] RAG generated: ' 2018' for expert_role
+[17:50:18]   Progress: 31/147 (21.1%)
+[17:50:18] Generating answer for template: expert_role
+[17:50:18] Using prompt: As an expert, provide a precise answer: When was the Duchy of Normandy founded?
+[17:50:18] Input prepared: torch.Size([1, 19])
+[17:50:18] RAG generated: ' 973' for expert_role
+[17:50:18] Generating answer for template: expert_role
+[17:50:18] Using prompt: As an expert, provide a precise answer: Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?
+[17:50:18] Input prepared: torch.Size([1, 29])
+[17:50:18] RAG generated: '' for expert_role
+[17:50:18] Generating answer for template: expert_role
+[17:50:18] Using prompt: As an expert, provide a precise answer: What river originally bounded the Duchy
+[17:50:18] Input prepared: torch.Size([1, 17])
+[17:50:18] RAG generated: ' archimedes' for expert_role
+[17:50:18] Generating answer for template: expert_role
+[17:50:18] Using prompt: As an expert, provide a precise answer: Who upon arriving gave the original viking settlers a common identity?
+[17:50:18] Input prepared: torch.Size([1, 23])
+[17:50:18] RAG generated: ' dr. marcel - jérôme rigollot' for expert_role
+[17:50:18] Generating answer for template: expert_role
+[17:50:18] Using prompt: As an expert, provide a precise answer: What was the Norman religion?
+[17:50:18] Input prepared: torch.Size([1, 17])
+[17:50:19] RAG generated: ' islam' for expert_role
+[17:50:19]   Progress: 36/147 (24.5%)
+[17:50:19] Generating answer for template: expert_role
+[17:50:19] Using prompt: As an expert, provide a precise answer: What part of France were the Normans located?
+[17:50:19] Input prepared: torch.Size([1, 21])
+[17:50:19] RAG generated: ' what is now france' for expert_role
+[17:50:19] Generating answer for template: expert_role
+[17:50:19] Using prompt: As an expert, provide a precise answer: What was one of the Norman's major exports?
+[17:50:19] Input prepared: torch.Size([1, 22])
+[17:50:19] RAG generated: ' cloth' for expert_role
+[17:50:19] Generating answer for template: expert_role
+[17:50:19] Using prompt: As an expert, provide a precise answer: Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?
+[17:50:19] Input prepared: torch.Size([1, 28])
+[17:50:19] RAG generated: ' canada' for expert_role
+[17:50:19] Generating answer for template: expert_role
+[17:50:19] Using prompt: As an expert, provide a precise answer: When did Herve serve as a Byzantine general?
+[17:50:19] Input prepared: torch.Size([1, 21])
+[17:50:19] RAG generated: ' 2004 -- 05' for expert_role
+[17:50:19] Generating answer for template: expert_role
+[17:50:19] Using prompt: As an expert, provide a precise answer: When did Robert Crispin go up against the Turks?
+[17:50:19] Input prepared: torch.Size([1, 22])
+[17:50:19] RAG generated: ' robert crispin' for expert_role
+[17:50:19]   Progress: 41/147 (27.9%)
+[17:50:19] Generating answer for template: expert_role
+[17:50:19] Using prompt: As an expert, provide a precise answer: Who ruined Roussel de Bailleul's plans for an independent state?
+[17:50:19] Input prepared: torch.Size([1, 28])
+[17:50:20] RAG generated: ', as an expert on roussel de bailleul' for expert_role
+[17:50:20]    expert_role summary: F1=0.067, EM=0.048
+[17:50:20] 
+🔄 Testing template: precise_instruction
+[17:50:20] Generating answer for template: precise_instruction
+[17:50:20] Using prompt: Give a factual, concise answer to: In what country is Normandy located?
+[17:50:20] Input prepared: torch.Size([1, 18])
+[17:50:20] RAG generated: ' france' for precise_instruction
+[17:50:20] Generating answer for template: precise_instruction
+[17:50:20] Using prompt: Give a factual, concise answer to: When were the Normans in Normandy?
+[17:50:20] Input prepared: torch.Size([1, 19])
+[17:50:20] RAG generated: ' between the 10th and 13th centuries' for precise_instruction
+[17:50:20] Generating answer for template: precise_instruction
+[17:50:20] Using prompt: Give a factual, concise answer to: From which countries did the Norse originate?
+[17:50:20] Input prepared: torch.Size([1, 19])
+[17:50:20] RAG generated: ' scandinavia' for precise_instruction
+[17:50:20] Generating answer for template: precise_instruction
+[17:50:20] Using prompt: Give a factual, concise answer to: Who was the Norse leader?
+[17:50:20] Input prepared: torch.Size([1, 17])
+[17:50:20] RAG generated: ' norse' for precise_instruction
+[17:50:20] Generating answer for template: precise_instruction
+[17:50:20] Using prompt: Give a factual, concise answer to: What century did the Normans first gain their separate identity?
+[17:50:20] Input prepared: torch.Size([1, 23])
+[17:50:20] RAG generated: ' the 17th century' for precise_instruction
+[17:50:20]   Progress: 47/147 (32.0%)
+[17:50:20] Generating answer for template: precise_instruction
+[17:50:20] Using prompt: Give a factual, concise answer to: Who was the duke in the battle of Hastings?
+[17:50:20] Input prepared: torch.Size([1, 21])
+[17:50:21] RAG generated: ' normandy duke of normandy' for precise_instruction
+[17:50:21] Generating answer for template: precise_instruction
+[17:50:21] Using prompt: Give a factual, concise answer to: Who ruled the duchy of Normandy
+[17:50:21] Input prepared: torch.Size([1, 17])
+[17:50:21] RAG generated: ' king charles iii' for precise_instruction
+[17:50:21] Generating answer for template: precise_instruction
+[17:50:21] Using prompt: Give a factual, concise answer to: What religion were the Normans
+[17:50:21] Input prepared: torch.Size([1, 17])
+[17:50:21] RAG generated: ' catholicism' for precise_instruction
+[17:50:21] Generating answer for template: precise_instruction
+[17:50:21] Using prompt: Give a factual, concise answer to: What is the original meaning of the word Norman?
+[17:50:21] Input prepared: torch.Size([1, 21])
+[17:50:21] RAG generated: ' `` normal ''' for precise_instruction
+[17:50:21] Generating answer for template: precise_instruction
+[17:50:21] Using prompt: Give a factual, concise answer to: When was the Latin version of the word Norman first recorded?
+[17:50:21] Input prepared: torch.Size([1, 23])
+[17:50:21] RAG generated: ' in 1024' for precise_instruction
+[17:50:21]   Progress: 52/147 (35.4%)
+[17:50:21] Generating answer for template: precise_instruction
+[17:50:21] Using prompt: Give a factual, concise answer to: When was the Duchy of Normandy founded?
+[17:50:21] Input prepared: torch.Size([1, 19])
+[17:50:21] RAG generated: ' 1066' for precise_instruction
+[17:50:21] Generating answer for template: precise_instruction
+[17:50:21] Using prompt: Give a factual, concise answer to: Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?
+[17:50:21] Input prepared: torch.Size([1, 29])
+[17:50:21] RAG generated: ' charles' for precise_instruction
+[17:50:21] Generating answer for template: precise_instruction
+[17:50:21] Using prompt: Give a factual, concise answer to: What river originally bounded the Duchy
+[17:50:21] Input prepared: torch.Size([1, 17])
+[17:50:22] RAG generated: ' mississippi river' for precise_instruction
+[17:50:22] Generating answer for template: precise_instruction
+[17:50:22] Using prompt: Give a factual, concise answer to: Who upon arriving gave the original viking settlers a common identity?
+[17:50:22] Input prepared: torch.Size([1, 23])
+[17:50:22] RAG generated: ' the' for precise_instruction
+[17:50:22] Generating answer for template: precise_instruction
+[17:50:22] Using prompt: Give a factual, concise answer to: What was the Norman religion?
+[17:50:22] Input prepared: torch.Size([1, 17])
+[17:50:22] RAG generated: ' islam' for precise_instruction
+[17:50:22]   Progress: 57/147 (38.8%)
+[17:50:22] Generating answer for template: precise_instruction
+[17:50:22] Using prompt: Give a factual, concise answer to: What part of France were the Normans located?
+[17:50:22] Input prepared: torch.Size([1, 21])
+[17:50:22] RAG generated: ' normandy' for precise_instruction
+[17:50:22] Generating answer for template: precise_instruction
+[17:50:22] Using prompt: Give a factual, concise answer to: What was one of the Norman's major exports?
+[17:50:22] Input prepared: torch.Size([1, 22])
+[17:50:22] RAG generated: ' petroleum' for precise_instruction
+[17:50:22] Generating answer for template: precise_instruction
+[17:50:22] Using prompt: Give a factual, concise answer to: Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?
+[17:50:22] Input prepared: torch.Size([1, 28])
+[17:50:22] RAG generated: ' the seljuk turks' for precise_instruction
+[17:50:22] Generating answer for template: precise_instruction
+[17:50:22] Using prompt: Give a factual, concise answer to: When did Herve serve as a Byzantine general?
+[17:50:22] Input prepared: torch.Size([1, 21])
+[17:50:23] RAG generated: ' 1984 -- 86' for precise_instruction
+[17:50:23] Generating answer for template: precise_instruction
+[17:50:23] Using prompt: Give a factual, concise answer to: When did Robert Crispin go up against the Turks?
+[17:50:23] Input prepared: torch.Size([1, 22])
+[17:50:23] RAG generated: ' the battle of thermopylae' for precise_instruction
+[17:50:23]   Progress: 62/147 (42.2%)
+[17:50:23] Generating answer for template: precise_instruction
+[17:50:23] Using prompt: Give a factual, concise answer to: Who ruined Roussel de Bailleul's plans for an independent state?
+[17:50:23] Input prepared: torch.Size([1, 28])
+[17:50:23] RAG generated: ' how / why' for precise_instruction
+[17:50:23]    precise_instruction summary: F1=0.157, EM=0.048
+[17:50:23] 
+🔄 Testing template: context_emphasis
+[17:50:23] Generating answer for template: context_emphasis
+[17:50:23] Using prompt: Based on the relevant context, answer: In what country is Normandy located?
+[17:50:23] Input prepared: torch.Size([1, 17])
+[17:50:23] RAG generated: ' france' for context_emphasis
+[17:50:23] Generating answer for template: context_emphasis
+[17:50:23] Using prompt: Based on the relevant context, answer: When were the Normans in Normandy?
+[17:50:23] Input prepared: torch.Size([1, 18])
+[17:50:23] RAG generated: ' 10th century -- 15th century' for context_emphasis
+[17:50:23] Generating answer for template: context_emphasis
+[17:50:23] Using prompt: Based on the relevant context, answer: From which countries did the Norse originate?
+[17:50:23] Input prepared: torch.Size([1, 18])
+[17:50:23] RAG generated: ' scandinavia' for context_emphasis
+[17:50:23] Generating answer for template: context_emphasis
+[17:50:23] Using prompt: Based on the relevant context, answer: Who was the Norse leader?
+[17:50:23] Input prepared: torch.Size([1, 16])
+[17:50:24] RAG generated: ' who was / was not' for context_emphasis
+[17:50:24] Generating answer for template: context_emphasis
+[17:50:24] Using prompt: Based on the relevant context, answer: What century did the Normans first gain their separate identity?
+[17:50:24] Input prepared: torch.Size([1, 22])
+[17:50:24] RAG generated: ' the 10th century' for context_emphasis
+[17:50:24]   Progress: 68/147 (46.3%)
+[17:50:24] Generating answer for template: context_emphasis
+[17:50:24] Using prompt: Based on the relevant context, answer: Who was the duke in the battle of Hastings?
+[17:50:24] Input prepared: torch.Size([1, 20])
+[17:50:24] RAG generated: ' normandy duke of normandy' for context_emphasis
+[17:50:24] Generating answer for template: context_emphasis
+[17:50:24] Using prompt: Based on the relevant context, answer: Who ruled the duchy of Normandy
+[17:50:24] Input prepared: torch.Size([1, 16])
+[17:50:24] RAG generated: ' king charles iii of west francia' for context_emphasis
+[17:50:24] Generating answer for template: context_emphasis
+[17:50:24] Using prompt: Based on the relevant context, answer: What religion were the Normans
+[17:50:24] Input prepared: torch.Size([1, 16])
+[17:50:24] RAG generated: ' catholicism' for context_emphasis
+[17:50:24] Generating answer for template: context_emphasis
+[17:50:24] Using prompt: Based on the relevant context, answer: What is the original meaning of the word Norman?
+[17:50:24] Input prepared: torch.Size([1, 20])
+[17:50:24] RAG generated: ' norman' for context_emphasis
+[17:50:24] Generating answer for template: context_emphasis
+[17:50:24] Using prompt: Based on the relevant context, answer: When was the Latin version of the word Norman first recorded?
+[17:50:24] Input prepared: torch.Size([1, 22])
+[17:50:25] RAG generated: ' in 1024' for context_emphasis
+[17:50:25]   Progress: 73/147 (49.7%)
+[17:50:25] Generating answer for template: context_emphasis
+[17:50:25] Using prompt: Based on the relevant context, answer: When was the Duchy of Normandy founded?
+[17:50:25] Input prepared: torch.Size([1, 18])
+[17:50:25] RAG generated: ' 1066' for context_emphasis
+[17:50:25] Generating answer for template: context_emphasis
+[17:50:25] Using prompt: Based on the relevant context, answer: Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?
+[17:50:25] Input prepared: torch.Size([1, 28])
+[17:50:25] RAG generated: ' charles the simple' for context_emphasis
+[17:50:25] Generating answer for template: context_emphasis
+[17:50:25] Using prompt: Based on the relevant context, answer: What river originally bounded the Duchy
+[17:50:25] Input prepared: torch.Size([1, 16])
+[17:50:25] RAG generated: ' tennessee river' for context_emphasis
+[17:50:25] Generating answer for template: context_emphasis
+[17:50:25] Using prompt: Based on the relevant context, answer: Who upon arriving gave the original viking settlers a common identity?
+[17:50:25] Input prepared: torch.Size([1, 22])
+[17:50:25] RAG generated: ' the Normans' for context_emphasis
+[17:50:25] Generating answer for template: context_emphasis
+[17:50:25] Using prompt: Based on the relevant context, answer: What was the Norman religion?
+[17:50:25] Input prepared: torch.Size([1, 16])
+[17:50:25] RAG generated: ' islam' for context_emphasis
+[17:50:25]   Progress: 78/147 (53.1%)
+[17:50:25] Generating answer for template: context_emphasis
+[17:50:25] Using prompt: Based on the relevant context, answer: What part of France were the Normans located?
+[17:50:25] Input prepared: torch.Size([1, 20])
+[17:50:25] RAG generated: ' normandy' for context_emphasis
+[17:50:25] Generating answer for template: context_emphasis
+[17:50:25] Using prompt: Based on the relevant context, answer: What was one of the Norman's major exports?
+[17:50:25] Input prepared: torch.Size([1, 21])
+[17:50:26] RAG generated: ' foodstuffs' for context_emphasis
+[17:50:26] Generating answer for template: context_emphasis
+[17:50:26] Using prompt: Based on the relevant context, answer: Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?
+[17:50:26] Input prepared: torch.Size([1, 27])
+[17:50:26] RAG generated: ' the pechenegs' for context_emphasis
+[17:50:26] Generating answer for template: context_emphasis
+[17:50:26] Using prompt: Based on the relevant context, answer: When did Herve serve as a Byzantine general?
+[17:50:26] Input prepared: torch.Size([1, 20])
+[17:50:26] RAG generated: ' 552 -- 553' for context_emphasis
+[17:50:26] Generating answer for template: context_emphasis
+[17:50:26] Using prompt: Based on the relevant context, answer: When did Robert Crispin go up against the Turks?
+[17:50:26] Input prepared: torch.Size([1, 21])
+[17:50:26] RAG generated: ' 2018' for context_emphasis
+[17:50:26]   Progress: 83/147 (56.5%)
+[17:50:26] Generating answer for template: context_emphasis
+[17:50:26] Using prompt: Based on the relevant context, answer: Who ruined Roussel de Bailleul's plans for an independent state?
+[17:50:26] Input prepared: torch.Size([1, 27])
+[17:50:26] RAG generated: ' madame bertrand barère' for context_emphasis
+[17:50:26]    context_emphasis summary: F1=0.113, EM=0.048
+[17:50:26] 
+🔄 Testing template: basic
+[17:50:26] Generating answer for template: basic
+[17:50:26] Using prompt: In what country is Normandy located?
+[17:50:26] Input prepared: torch.Size([1, 9])
+[17:50:26] RAG generated: ' france' for basic
+[17:50:26] Generating answer for template: basic
+[17:50:26] Using prompt: When were the Normans in Normandy?
+[17:50:26] Input prepared: torch.Size([1, 10])
+[17:50:27] RAG generated: ' 9th century -- 9th century' for basic
+[17:50:27] Generating answer for template: basic
+[17:50:27] Using prompt: From which countries did the Norse originate?
+[17:50:27] Input prepared: torch.Size([1, 10])
+[17:50:27] RAG generated: ' sweden' for basic
+[17:50:27] Generating answer for template: basic
+[17:50:27] Using prompt: Who was the Norse leader?
+[17:50:27] Input prepared: torch.Size([1, 8])
+[17:50:27] RAG generated: ' cnut' for basic
+[17:50:27] Generating answer for template: basic
+[17:50:27] Using prompt: What century did the Normans first gain their separate identity?
+[17:50:27] Input prepared: torch.Size([1, 14])
+[17:50:27] RAG generated: ' the ninth century' for basic
+[17:50:27]   Progress: 89/147 (60.5%)
+[17:50:27] Generating answer for template: basic
+[17:50:27] Using prompt: Who was the duke in the battle of Hastings?
+[17:50:27] Input prepared: torch.Size([1, 12])
+[17:50:27] RAG generated: ' william' for basic
+[17:50:27] Generating answer for template: basic
+[17:50:27] Using prompt: Who ruled the duchy of Normandy
+[17:50:27] Input prepared: torch.Size([1, 8])
+[17:50:27] RAG generated: ' king charles iii of west francia' for basic
+[17:50:27] Generating answer for template: basic
+[17:50:27] Using prompt: What religion were the Normans
+[17:50:27] Input prepared: torch.Size([1, 8])
+[17:50:28] RAG generated: ' catholicism' for basic
+[17:50:28] Generating answer for template: basic
+[17:50:28] Using prompt: What is the original meaning of the word Norman?
+[17:50:28] Input prepared: torch.Size([1, 12])
+[17:50:28] RAG generated: ' north' for basic
+[17:50:28] Generating answer for template: basic
+[17:50:28] Using prompt: When was the Latin version of the word Norman first recorded?
+[17:50:28] Input prepared: torch.Size([1, 14])
+[17:50:28] RAG generated: ' 1024' for basic
+[17:50:28]   Progress: 94/147 (63.9%)
+[17:50:28] Generating answer for template: basic
+[17:50:28] Using prompt: When was the Duchy of Normandy founded?
+[17:50:28] Input prepared: torch.Size([1, 10])
+[17:50:28] RAG generated: ' 1066' for basic
+[17:50:28] Generating answer for template: basic
+[17:50:28] Using prompt: Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?
+[17:50:28] Input prepared: torch.Size([1, 20])
+[17:50:28] RAG generated: ' charles the simple' for basic
+[17:50:28] Generating answer for template: basic
+[17:50:28] Using prompt: What river originally bounded the Duchy
+[17:50:28] Input prepared: torch.Size([1, 8])
+[17:50:28] RAG generated: ' elbe' for basic
+[17:50:28] Generating answer for template: basic
+[17:50:28] Using prompt: Who upon arriving gave the original viking settlers a common identity?
+[17:50:28] Input prepared: torch.Size([1, 14])
+[17:50:29] RAG generated: ' the byzantines' for basic
+[17:50:29] Generating answer for template: basic
+[17:50:29] Using prompt: What was the Norman religion?
+[17:50:29] Input prepared: torch.Size([1, 8])
+[17:50:29] RAG generated: ' catholicism' for basic
+[17:50:29]   Progress: 99/147 (67.3%)
+[17:50:29] Generating answer for template: basic
+[17:50:29] Using prompt: What part of France were the Normans located?
+[17:50:29] Input prepared: torch.Size([1, 12])
+[17:50:29] RAG generated: ' west france' for basic
+[17:50:29] Generating answer for template: basic
+[17:50:29] Using prompt: What was one of the Norman's major exports?
+[17:50:29] Input prepared: torch.Size([1, 13])
+[17:50:29] RAG generated: ' cloth' for basic
+[17:50:29] Generating answer for template: basic
+[17:50:29] Using prompt: Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?
+[17:50:29] Input prepared: torch.Size([1, 19])
+[17:50:29] RAG generated: ' hohenstaufen' for basic
+[17:50:29] Generating answer for template: basic
+[17:50:29] Using prompt: When did Herve serve as a Byzantine general?
+[17:50:29] Input prepared: torch.Size([1, 12])
+[17:50:29] RAG generated: ' 1984 -- 86' for basic
+[17:50:29] Generating answer for template: basic
+[17:50:29] Using prompt: When did Robert Crispin go up against the Turks?
+[17:50:29] Input prepared: torch.Size([1, 13])
+[17:50:29] RAG generated: ' 862' for basic
+[17:50:29]   Progress: 104/147 (70.7%)
+[17:50:29] Generating answer for template: basic
+[17:50:29] Using prompt: Who ruined Roussel de Bailleul's plans for an independent state?
+[17:50:29] Input prepared: torch.Size([1, 19])
+[17:50:30] RAG generated: ' henshaw' for basic
+[17:50:30]    basic summary: F1=0.154, EM=0.095
+[17:50:30] 
+🔄 Testing template: knowledge_based
+[17:50:30] Generating answer for template: knowledge_based
+[17:50:30] Using prompt: Using available knowledge, answer: In what country is Normandy located?
+[17:50:30] Input prepared: torch.Size([1, 15])
+[17:50:30] RAG generated: ' france' for knowledge_based
+[17:50:30] Generating answer for template: knowledge_based
+[17:50:30] Using prompt: Using available knowledge, answer: When were the Normans in Normandy?
+[17:50:30] Input prepared: torch.Size([1, 16])
+[17:50:30] RAG generated: ' 10th century -- 15th century' for knowledge_based
+[17:50:30] Generating answer for template: knowledge_based
+[17:50:30] Using prompt: Using available knowledge, answer: From which countries did the Norse originate?
+[17:50:30] Input prepared: torch.Size([1, 16])
+[17:50:30] RAG generated: ' scandinavia' for knowledge_based
+[17:50:30] Generating answer for template: knowledge_based
+[17:50:30] Using prompt: Using available knowledge, answer: Who was the Norse leader?
+[17:50:30] Input prepared: torch.Size([1, 14])
+[17:50:30] RAG generated: ' problem : who was the norse leader' for knowledge_based
+[17:50:30] Generating answer for template: knowledge_based
+[17:50:30] Using prompt: Using available knowledge, answer: What century did the Normans first gain their separate identity?
+[17:50:30] Input prepared: torch.Size([1, 20])
+[17:50:30] RAG generated: ' the early 16th century' for knowledge_based
+[17:50:30]   Progress: 110/147 (74.8%)
+[17:50:30] Generating answer for template: knowledge_based
+[17:50:30] Using prompt: Using available knowledge, answer: Who was the duke in the battle of Hastings?
+[17:50:30] Input prepared: torch.Size([1, 18])
+[17:50:31] RAG generated: ' normandy duke of normandy' for knowledge_based
+[17:50:31] Generating answer for template: knowledge_based
+[17:50:31] Using prompt: Using available knowledge, answer: Who ruled the duchy of Normandy
+[17:50:31] Input prepared: torch.Size([1, 14])
+[17:50:31] RAG generated: ' king charles iii' for knowledge_based
+[17:50:31] Generating answer for template: knowledge_based
+[17:50:31] Using prompt: Using available knowledge, answer: What religion were the Normans
+[17:50:31] Input prepared: torch.Size([1, 14])
+[17:50:31] RAG generated: ' islam' for knowledge_based
+[17:50:31] Generating answer for template: knowledge_based
+[17:50:31] Using prompt: Using available knowledge, answer: What is the original meaning of the word Norman?
+[17:50:31] Input prepared: torch.Size([1, 18])
+[17:50:31] RAG generated: ' norman' for knowledge_based
+[17:50:31] Generating answer for template: knowledge_based
+[17:50:31] Using prompt: Using available knowledge, answer: When was the Latin version of the word Norman first recorded?
+[17:50:31] Input prepared: torch.Size([1, 20])
+[17:50:31] RAG generated: ' sometime before 1982' for knowledge_based
+[17:50:31]   Progress: 115/147 (78.2%)
+[17:50:31] Generating answer for template: knowledge_based
+[17:50:31] Using prompt: Using available knowledge, answer: When was the Duchy of Normandy founded?
+[17:50:31] Input prepared: torch.Size([1, 16])
+[17:50:31] RAG generated: ' 1066' for knowledge_based
+[17:50:31] Generating answer for template: knowledge_based
+[17:50:31] Using prompt: Using available knowledge, answer: Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?
+[17:50:31] Input prepared: torch.Size([1, 26])
+[17:50:32] RAG generated: ' bảo đại' for knowledge_based
+[17:50:32] Generating answer for template: knowledge_based
+[17:50:32] Using prompt: Using available knowledge, answer: What river originally bounded the Duchy
+[17:50:32] Input prepared: torch.Size([1, 14])
+[17:50:32] RAG generated: ' rhode island' for knowledge_based
+[17:50:32] Generating answer for template: knowledge_based
+[17:50:32] Using prompt: Using available knowledge, answer: Who upon arriving gave the original viking settlers a common identity?
+[17:50:32] Input prepared: torch.Size([1, 20])
+[17:50:32] RAG generated: ' the Peaks' for knowledge_based
+[17:50:32] Generating answer for template: knowledge_based
+[17:50:32] Using prompt: Using available knowledge, answer: What was the Norman religion?
+[17:50:32] Input prepared: torch.Size([1, 14])
+[17:50:32] RAG generated: ' islam' for knowledge_based
+[17:50:32]   Progress: 120/147 (81.6%)
+[17:50:32] Generating answer for template: knowledge_based
+[17:50:32] Using prompt: Using available knowledge, answer: What part of France were the Normans located?
+[17:50:32] Input prepared: torch.Size([1, 18])
+[17:50:32] RAG generated: ' normandy' for knowledge_based
+[17:50:32] Generating answer for template: knowledge_based
+[17:50:32] Using prompt: Using available knowledge, answer: What was one of the Norman's major exports?
+[17:50:32] Input prepared: torch.Size([1, 19])
+[17:50:33] RAG generated: ' cloth' for knowledge_based
+[17:50:33] Generating answer for template: knowledge_based
+[17:50:33] Using prompt: Using available knowledge, answer: Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?
+[17:50:33] Input prepared: torch.Size([1, 25])
+[17:50:33] RAG generated: ' the byzantine empire' for knowledge_based
+[17:50:33] Generating answer for template: knowledge_based
+[17:50:33] Using prompt: Using available knowledge, answer: When did Herve serve as a Byzantine general?
+[17:50:33] Input prepared: torch.Size([1, 18])
+[17:50:33] RAG generated: ' 1984 -- 86' for knowledge_based
+[17:50:33] Generating answer for template: knowledge_based
+[17:50:33] Using prompt: Using available knowledge, answer: When did Robert Crispin go up against the Turks?
+[17:50:33] Input prepared: torch.Size([1, 19])
+[17:50:33] RAG generated: ' robert crispin and the turks' for knowledge_based
+[17:50:33]   Progress: 125/147 (85.0%)
+[17:50:33] Generating answer for template: knowledge_based
+[17:50:33] Using prompt: Using available knowledge, answer: Who ruined Roussel de Bailleul's plans for an independent state?
+[17:50:33] Input prepared: torch.Size([1, 25])
+[17:50:33] RAG generated: ' jesus' for knowledge_based
+[17:50:33]    knowledge_based summary: F1=0.075, EM=0.048
+[17:50:33] 
+🔄 Testing template: confident
+[17:50:33] Generating answer for template: confident
+[17:50:33] Using prompt: Provide a confident, accurate answer: In what country is Normandy located?
+[17:50:33] Input prepared: torch.Size([1, 16])
+[17:50:33] RAG generated: ' france' for confident
+[17:50:33] Generating answer for template: confident
+[17:50:33] Using prompt: Provide a confident, accurate answer: When were the Normans in Normandy?
+[17:50:33] Input prepared: torch.Size([1, 17])
+[17:50:34] RAG generated: ' 3rd century -- 17th century' for confident
+[17:50:34] Generating answer for template: confident
+[17:50:34] Using prompt: Provide a confident, accurate answer: From which countries did the Norse originate?
+[17:50:34] Input prepared: torch.Size([1, 17])
+[17:50:34] RAG generated: ' norway' for confident
+[17:50:34] Generating answer for template: confident
+[17:50:34] Using prompt: Provide a confident, accurate answer: Who was the Norse leader?
+[17:50:34] Input prepared: torch.Size([1, 15])
+[17:50:34] RAG generated: ' norse' for confident
+[17:50:34] Generating answer for template: confident
+[17:50:34] Using prompt: Provide a confident, accurate answer: What century did the Normans first gain their separate identity?
+[17:50:34] Input prepared: torch.Size([1, 21])
+[17:50:34] RAG generated: ' the ninth century' for confident
+[17:50:34]   Progress: 131/147 (89.1%)
+[17:50:34] Generating answer for template: confident
+[17:50:34] Using prompt: Provide a confident, accurate answer: Who was the duke in the battle of Hastings?
+[17:50:34] Input prepared: torch.Size([1, 19])
+[17:50:34] RAG generated: ' norman' for confident
+[17:50:34] Generating answer for template: confident
+[17:50:34] Using prompt: Provide a confident, accurate answer: Who ruled the duchy of Normandy
+[17:50:34] Input prepared: torch.Size([1, 15])
+[17:50:34] RAG generated: ' charles - charles' for confident
+[17:50:34] Generating answer for template: confident
+[17:50:34] Using prompt: Provide a confident, accurate answer: What religion were the Normans
+[17:50:34] Input prepared: torch.Size([1, 15])
+[17:50:34] RAG generated: ' normanism' for confident
+[17:50:34] Generating answer for template: confident
+[17:50:34] Using prompt: Provide a confident, accurate answer: What is the original meaning of the word Norman?
+[17:50:34] Input prepared: torch.Size([1, 19])
+[17:50:35] RAG generated: ' norman' for confident
+[17:50:35] Generating answer for template: confident
+[17:50:35] Using prompt: Provide a confident, accurate answer: When was the Latin version of the word Norman first recorded?
+[17:50:35] Input prepared: torch.Size([1, 21])
+[17:50:35] RAG generated: ' the late eighth century' for confident
+[17:50:35]   Progress: 136/147 (92.5%)
+[17:50:35] Generating answer for template: confident
+[17:50:35] Using prompt: Provide a confident, accurate answer: When was the Duchy of Normandy founded?
+[17:50:35] Input prepared: torch.Size([1, 17])
+[17:50:35] RAG generated: ' 1066' for confident
+[17:50:35] Generating answer for template: confident
+[17:50:35] Using prompt: Provide a confident, accurate answer: Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?
+[17:50:35] Input prepared: torch.Size([1, 27])
+[17:50:35] RAG generated: ' the franks' for confident
+[17:50:35] Generating answer for template: confident
+[17:50:35] Using prompt: Provide a confident, accurate answer: What river originally bounded the Duchy
+[17:50:35] Input prepared: torch.Size([1, 15])
+[17:50:35] RAG generated: ' high falls' for confident
+[17:50:35] Generating answer for template: confident
+[17:50:35] Using prompt: Provide a confident, accurate answer: Who upon arriving gave the original viking settlers a common identity?
+[17:50:35] Input prepared: torch.Size([1, 21])
+[17:50:35] RAG generated: '' for confident
+[17:50:35] Generating answer for template: confident
+[17:50:35] Using prompt: Provide a confident, accurate answer: What was the Norman religion?
+[17:50:35] Input prepared: torch.Size([1, 15])
+[17:50:36] RAG generated: ' islam' for confident
+[17:50:36]   Progress: 141/147 (95.9%)
+[17:50:36] Generating answer for template: confident
+[17:50:36] Using prompt: Provide a confident, accurate answer: What part of France were the Normans located?
+[17:50:36] Input prepared: torch.Size([1, 19])
+[17:50:36] RAG generated: ' western france' for confident
+[17:50:36] Generating answer for template: confident
+[17:50:36] Using prompt: Provide a confident, accurate answer: What was one of the Norman's major exports?
+[17:50:36] Input prepared: torch.Size([1, 20])
+[17:50:36] RAG generated: ' 266,827' for confident
+[17:50:36] Generating answer for template: confident
+[17:50:36] Using prompt: Provide a confident, accurate answer: Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?
+[17:50:36] Input prepared: torch.Size([1, 26])
+[17:50:36] RAG generated: '' for confident
+[17:50:36] Generating answer for template: confident
+[17:50:36] Using prompt: Provide a confident, accurate answer: When did Herve serve as a Byzantine general?
+[17:50:36] Input prepared: torch.Size([1, 19])
+[17:50:36] RAG generated: ' 2004 -- 05' for confident
+[17:50:36] Generating answer for template: confident
+[17:50:36] Using prompt: Provide a confident, accurate answer: When did Robert Crispin go up against the Turks?
+[17:50:36] Input prepared: torch.Size([1, 20])
+[17:50:36] RAG generated: ' the battle of odžak' for confident
+[17:50:36]   Progress: 146/147 (99.3%)
+[17:50:36] Generating answer for template: confident
+[17:50:36] Using prompt: Provide a confident, accurate answer: Who ruined Roussel de Bailleul's plans for an independent state?
+[17:50:36] Input prepared: torch.Size([1, 26])
+[17:50:37] RAG generated: ' how did you do it' for confident
+[17:50:37]    confident summary: F1=0.102, EM=0.048
+[17:50:37] 
+🎉 Experiment completed!
+[17:50:37]  Total results generated: 147
+[17:50:37] 
+ ANALYZING RESULTS...
+[17:50:37] 
+🏆 TEMPLATE PERFORMANCE RANKING:
+[17:50:37] --------------------------------------------------------------------------------
+[17:50:37] Template             F1 Score   EM Score   Overlap    Length  
+[17:50:37] --------------------------------------------------------------------------------
+[17:50:37] precise_instruction  0.157     0.048     0.171     2.2
+[17:50:37] basic                0.154     0.095     0.151     1.8
+[17:50:37] instructional        0.113     0.048     0.119     2.1
+[17:50:37] context_emphasis     0.113     0.048     0.123     2.3
+[17:50:37] confident            0.102     0.048     0.107     2.0
+[17:50:37] knowledge_based      0.075     0.048     0.083     2.5
+[17:50:37] expert_role          0.067     0.048     0.060     2.2
+[17:50:37] 
+ STATISTICAL ANALYSIS:
+[17:50:37]   🥇 Best Template: precise_instruction (F1: 0.157)
+[17:50:37]   🥉 Worst Template: expert_role (F1: 0.067)
+[17:50:37]    Performance Improvement: 135.7%
+[17:50:37]   📏 F1 Score Range: 0.067 - 0.157
+[17:50:37]   🌟 Using REAL Wikipedia embeddings
+[17:50:37]   ⚠️  Performance lower than expected with real data
+[17:50:37] 
+ Saving results...
+[17:50:37]    Detailed results: ../results/detailed_results_20250705_175037.csv
+[17:50:37]    Summary: ../results/summary_20250705_175037.csv
+[17:50:37]   📄 Report: ../results/report_20250705_175037.md
+[17:50:37]   🔧 Metadata: ../results/metadata_20250705_175037.json
+[17:50:37] 
+📋 SAMPLE RESULTS:
+[17:50:37] ======================================================================
+[17:50:37] 
+🔸 Example 1 (Template: precise_instruction):
+[17:50:37]    Q: In what country is Normandy located?
+[17:50:37]    Expected: France
+[17:50:37]    Generated: france
+[17:50:37]    F1: 1.000, EM: 1.0
+[17:50:37] 
+🔸 Example 2 (Template: precise_instruction):
+[17:50:37]    Q: When were the Normans in Normandy?
+[17:50:37]    Expected: 10th and 11th centuries
+[17:50:37]    Generated: between the 10th and 13th centuries
+[17:50:37]    F1: 0.600, EM: 0.0
+[17:50:37] 
+🔸 Example 3 (Template: precise_instruction):
+[17:50:37]    Q: From which countries did the Norse originate?
+[17:50:37]    Expected: Denmark, Iceland and Norway
+[17:50:37]    Generated: scandinavia
+[17:50:37]    F1: 0.000, EM: 0.0
+[17:50:37] 
+🎉 EXPERIMENT COMPLETED SUCCESSFULLY!
+[17:50:37]  Check the results directory for detailed outputs

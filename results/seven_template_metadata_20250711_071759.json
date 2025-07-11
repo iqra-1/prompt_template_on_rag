@@ -1,0 +1,12 @@
+{
+  "experiment_id": "seven_template_20250711_065702",
+  "timestamp": "20250711_071759",
+  "model_used": "facebook/rag-token-nq",
+  "num_questions": 498,
+  "num_templates": 7,
+  "total_evaluations": 3486,
+  "best_template": "question_mark",
+  "best_f1_score": 0.13911092975586242,
+  "basic_f1_score": 0.13614973432478747,
+  "basic_template_rank": 2,
+  "experiment_success": 

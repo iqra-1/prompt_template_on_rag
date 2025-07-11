@@ -1,0 +1,284 @@
+[07:53:52] 🔥 Setting up GPU configuration...
+[07:53:52] 🎯 Selected GPU 0: 79.3GB available
+[07:53:52] 🔧 Using device: cuda:0
+[07:53:52] 📦 Loading Facebook RAG models...
+[07:53:53] 🤖 Model: facebook/rag-token-nq
+[07:53:53]   Loading tokenizer...
+[07:53:53] 🔍 Loading Wikipedia retriever...
+[07:55:12] ✅ Retriever loaded!
+[07:55:12]   Loading RAG Token model...
+[07:57:08] 🚀 RAG Token system ready!
+[07:57:08] 📚 Loading targeted evaluation dataset...
+[07:57:08] 🎯 Target questions from config: 500
+[07:57:08] 📝 Created 19 targeted questions
+[07:57:08] 🔄 Loading 1000 SQuAD questions...
+[07:57:11] 📊 Loaded 481 SQuAD questions
+[07:57:11] 📊 Question sources:
+[07:57:11]    - Targeted questions: 19
+[07:57:11]    - SQuAD/Fallback questions: 481
+[07:57:11]    - Total available: 500
+[07:57:11]    - Target from config: 500
+[07:57:11] 📊 Final dataset: 500 questions
+[07:57:11] 🎯 Expected total evaluations: 500 × 7 templates = 3500
+[07:57:11] ✅ Successfully loaded target number of questions!
+[07:57:11] 🧪 Starting final targeted RAG experiment...
+[07:57:11] 📋 Experiment scope:
+[07:57:11]    Questions: 500
+[07:57:11]    Templates: 7
+[07:57:11]    Total evaluations: 3500
+[07:57:11] 
+🔄 Testing template: retrieval_focused
+[07:57:16]   Progress: 25/500 - Recent F1: 0.309
+[07:57:20]   Progress: 50/500 - Recent F1: 0.000
+[07:57:24]   Progress: 75/500 - Recent F1: 0.140
+[07:57:28]   Progress: 100/500 - Recent F1: 0.060
+[07:57:32]   Progress: 125/500 - Recent F1: 0.051
+[07:57:36]   Progress: 150/500 - Recent F1: 0.125
+[07:57:40]   Progress: 175/500 - Recent F1: 0.105
+[07:57:43]   Progress: 200/500 - Recent F1: 0.043
+[07:57:47]   Progress: 225/500 - Recent F1: 0.000
+[07:57:51]   Progress: 250/500 - Recent F1: 0.027
+[07:57:54]   Progress: 275/500 - Recent F1: 0.072
+[07:57:58]   Progress: 300/500 - Recent F1: 0.049
+[07:58:02]   Progress: 325/500 - Recent F1: 0.056
+[07:58:06]   Progress: 350/500 - Recent F1: 0.260
+[07:58:10]   Progress: 375/500 - Recent F1: 0.121
+[07:58:14]   Progress: 400/500 - Recent F1: 0.047
+[07:58:18]   Progress: 425/500 - Recent F1: 0.093
+[07:58:22]   Progress: 450/500 - Recent F1: 0.090
+[07:58:26]   Progress: 475/500 - Recent F1: 0.103
+[07:58:30]   Progress: 500/500 - Recent F1: 0.107
+[07:58:30]    ✅ retrieval_focused completed:
+[07:58:30]       F1: 0.093, EM: 0.046
+[07:58:30]       Success: 500/500
+[07:58:30] 
+🔄 Testing template: knowledge_synthesis
+[07:58:34]   Progress: 25/500 - Recent F1: 0.163
+[07:58:38]   Progress: 50/500 - Recent F1: 0.000
+[07:58:42]   Progress: 75/500 - Recent F1: 0.106
+[07:58:46]   Progress: 100/500 - Recent F1: 0.100
+[07:58:49]   Progress: 125/500 - Recent F1: 0.087
+[07:58:53]   Progress: 150/500 - Recent F1: 0.109
+[07:58:57]   Progress: 175/500 - Recent F1: 0.065
+[07:59:01]   Progress: 200/500 - Recent F1: 0.059
+[07:59:04]   Progress: 225/500 - Recent F1: 0.043
+[07:59:08]   Progress: 250/500 - Recent F1: 0.043
+[07:59:12]   Progress: 275/500 - Recent F1: 0.069
+[07:59:16]   Progress: 300/500 - Recent F1: 0.033
+[07:59:19]   Progress: 325/500 - Recent F1: 0.056
+[07:59:23]   Progress: 350/500 - Recent F1: 0.220
+[07:59:27]   Progress: 375/500 - Recent F1: 0.140
+[07:59:32]   Progress: 400/500 - Recent F1: 0.020
+[07:59:35]   Progress: 425/500 - Recent F1: 0.080
+[07:59:39]   Progress: 450/500 - Recent F1: 0.029
+[07:59:43]   Progress: 475/500 - Recent F1: 0.093
+[07:59:47]   Progress: 500/500 - Recent F1: 0.060
+[07:59:47]    ✅ knowledge_synthesis completed:
+[07:59:47]       F1: 0.079, EM: 0.036
+[07:59:47]       Success: 500/500
+[07:59:47] 
+🔄 Testing template: instructional_clear
+[07:59:51]   Progress: 25/500 - Recent F1: 0.255
+[07:59:55]   Progress: 50/500 - Recent F1: 0.020
+[07:59:59]   Progress: 75/500 - Recent F1: 0.141
+[08:00:03]   Progress: 100/500 - Recent F1: 0.000
+[08:00:06]   Progress: 125/500 - Recent F1: 0.076
+[08:00:10]   Progress: 150/500 - Recent F1: 0.161
+[08:00:14]   Progress: 175/500 - Recent F1: 0.072
+[08:00:18]   Progress: 200/500 - Recent F1: 0.010
+[08:00:22]   Progress: 225/500 - Recent F1: 0.000
+[08:00:25]   Progress: 250/500 - Recent F1: 0.027
+[08:00:29]   Progress: 275/500 - Recent F1: 0.056
+[08:00:33]   Progress: 300/500 - Recent F1: 0.047
+[08:00:37]   Progress: 325/500 - Recent F1: 0.040
+[08:00:41]   Progress: 350/500 - Recent F1: 0.200
+[08:00:45]   Progress: 375/500 - Recent F1: 0.157
+[08:00:49]   Progress: 400/500 - Recent F1: 0.113
+[08:00:53]   Progress: 425/500 - Recent F1: 0.165
+[08:00:57]   Progress: 450/500 - Recent F1: 0.090
+[08:01:01]   Progress: 475/500 - Recent F1: 0.110
+[08:01:04]   Progress: 500/500 - Recent F1: 0.132
+[08:01:04]    ✅ instructional_clear completed:
+[08:01:04]       F1: 0.094, EM: 0.042
+[08:01:04]       Success: 500/500
+[08:01:04] 
+🔄 Testing template: context_guided
+[08:01:08]   Progress: 25/500 - Recent F1: 0.199
+[08:01:12]   Progress: 50/500 - Recent F1: 0.013
+[08:01:16]   Progress: 75/500 - Recent F1: 0.125
+[08:01:20]   Progress: 100/500 - Recent F1: 0.000
+[08:01:24]   Progress: 125/500 - Recent F1: 0.137
+[08:01:28]   Progress: 150/500 - Recent F1: 0.076
+[08:01:31]   Progress: 175/500 - Recent F1: 0.087
+[08:01:35]   Progress: 200/500 - Recent F1: 0.049
+[08:01:39]   Progress: 225/500 - Recent F1: 0.043
+[08:01:42]   Progress: 250/500 - Recent F1: 0.027
+[08:01:46]   Progress: 275/500 - Recent F1: 0.056
+[08:01:50]   Progress: 300/500 - Recent F1: 0.033
+[08:01:54]   Progress: 325/500 - Recent F1: 0.040
+[08:01:57]   Progress: 350/500 - Recent F1: 0.153
+[08:02:01]   Progress: 375/500 - Recent F1: 0.167
+[08:02:05]   Progress: 400/500 - Recent F1: 0.053
+[08:02:09]   Progress: 425/500 - Recent F1: 0.140
+[08:02:13]   Progress: 450/500 - Recent F1: 0.073
+[08:02:17]   Progress: 475/500 - Recent F1: 0.086
+[08:02:21]   Progress: 500/500 - Recent F1: 0.204
+[08:02:21]    ✅ context_guided completed:
+[08:02:21]       F1: 0.088, EM: 0.044
+[08:02:21]       Success: 500/500
+[08:02:21] 
+🔄 Testing template: confident_direct
+[08:02:25]   Progress: 25/500 - Recent F1: 0.292
+[08:02:29]   Progress: 50/500 - Recent F1: 0.013
+[08:02:32]   Progress: 75/500 - Recent F1: 0.170
+[08:02:36]   Progress: 100/500 - Recent F1: 0.000
+[08:02:40]   Progress: 125/500 - Recent F1: 0.129
+[08:02:44]   Progress: 150/500 - Recent F1: 0.156
+[08:02:47]   Progress: 175/500 - Recent F1: 0.110
+[08:02:51]   Progress: 200/500 - Recent F1: 0.079
+[08:02:55]   Progress: 225/500 - Recent F1: 0.080
+[08:02:58]   Progress: 250/500 - Recent F1: 0.027
+[08:03:02]   Progress: 275/500 - Recent F1: 0.072
+[08:03:06]   Progress: 300/500 - Recent F1: 0.049
+[08:03:10]   Progress: 325/500 - Recent F1: 0.116
+[08:03:14]   Progress: 350/500 - Recent F1: 0.236
+[08:03:18]   Progress: 375/500 - Recent F1: 0.223
+[08:03:22]   Progress: 400/500 - Recent F1: 0.153
+[08:03:26]   Progress: 425/500 - Recent F1: 0.153
+[08:03:30]   Progress: 450/500 - Recent F1: 0.036
+[08:03:33]   Progress: 475/500 - Recent F1: 0.130
+[08:03:37]   Progress: 500/500 - Recent F1: 0.156
+[08:03:37]    ✅ confident_direct completed:
+[08:03:37]       F1: 0.119, EM: 0.058
+[08:03:37]       Success: 500/500
+[08:03:37] 
+🔄 Testing template: structured_response
+[08:03:41]   Progress: 25/500 - Recent F1: 0.248
+[08:03:45]   Progress: 50/500 - Recent F1: 0.020
+[08:03:49]   Progress: 75/500 - Recent F1: 0.163
+[08:03:52]   Progress: 100/500 - Recent F1: 0.080
+[08:03:56]   Progress: 125/500 - Recent F1: 0.081
+[08:04:00]   Progress: 150/500 - Recent F1: 0.072
+[08:04:03]   Progress: 175/500 - Recent F1: 0.132
+[08:04:07]   Progress: 200/500 - Recent F1: 0.043
+[08:04:11]   Progress: 225/500 - Recent F1: 0.040
+[08:04:14]   Progress: 250/500 - Recent F1: 0.074
+[08:04:18]   Progress: 275/500 - Recent F1: 0.056
+[08:04:22]   Progress: 300/500 - Recent F1: 0.075
+[08:04:26]   Progress: 325/500 - Recent F1: 0.040
+[08:04:29]   Progress: 350/500 - Recent F1: 0.229
+[08:04:33]   Progress: 375/500 - Recent F1: 0.140
+[08:04:37]   Progress: 400/500 - Recent F1: 0.047
+[08:04:41]   Progress: 425/500 - Recent F1: 0.140
+[08:04:44]   Progress: 450/500 - Recent F1: 0.069
+[08:04:48]   Progress: 475/500 - Recent F1: 0.090
+[08:04:52]   Progress: 500/500 - Recent F1: 0.100
+[08:04:52]    ✅ structured_response completed:
+[08:04:52]       F1: 0.097, EM: 0.054
+[08:04:52]       Success: 500/500
+[08:04:52] 
+🔄 Testing template: basic
+[08:04:56]   Progress: 25/500 - Recent F1: 0.266
+[08:05:00]   Progress: 50/500 - Recent F1: 0.053
+[08:05:03]   Progress: 75/500 - Recent F1: 0.206
+[08:05:07]   Progress: 100/500 - Recent F1: 0.020
+[08:05:11]   Progress: 125/500 - Recent F1: 0.153
+[08:05:15]   Progress: 150/500 - Recent F1: 0.243
+[08:05:19]   Progress: 175/500 - Recent F1: 0.134
+[08:05:22]   Progress: 200/500 - Recent F1: 0.069
+[08:05:26]   Progress: 225/500 - Recent F1: 0.140
+[08:05:30]   Progress: 250/500 - Recent F1: 0.115
+[08:05:34]   Progress: 275/500 - Recent F1: 0.088
+[08:05:37]   Progress: 300/500 - Recent F1: 0.019
+[08:05:41]   Progress: 325/500 - Recent F1: 0.099
+[08:05:45]   Progress: 350/500 - Recent F1: 0.297
+[08:05:49]   Progress: 375/500 - Recent F1: 0.235
+[08:05:53]   Progress: 400/500 - Recent F1: 0.193
+[08:05:57]   Progress: 425/500 - Recent F1: 0.173
+[08:06:00]   Progress: 450/500 - Recent F1: 0.116
+[08:06:04]   Progress: 475/500 - Recent F1: 0.201
+[08:06:08]   Progress: 500/500 - Recent F1: 0.123
+[08:06:08]    ✅ basic completed:
+[08:06:08]       F1: 0.147, EM: 0.080
+[08:06:08]       Success: 500/500
+[08:06:08] 
+🎉 Experiment completed!
+[08:06:08] 📊 Total results generated: 3500
+[08:06:08] 🔍 Expected results: 500 questions × 7 templates = 3500
+[08:06:08] ✅ All expected results generated successfully!
+[08:06:08] 
+🔍 ANALYZING RESULTS...
+[08:06:08] 
+🏆 TEMPLATE PERFORMANCE RANKING:
+[08:06:08] -------------------------------------------------------------------------------------
+[08:06:08] Template             F1 Score   EM Score   Samples  Improvement 
+[08:06:08] -------------------------------------------------------------------------------------
+[08:06:08] basic                0.147     0.080     500      BASELINE    
+[08:06:08] confident_direct     0.119     0.058     500      -19.1%      
+[08:06:08] structured_response  0.097     0.054     500      -34.1%      
+[08:06:08] instructional_clear  0.094     0.042     500      -36.4%      
+[08:06:08] retrieval_focused    0.093     0.046     500      -36.9%      
+[08:06:08] context_guided       0.088     0.044     500      -40.2%      
+[08:06:08] knowledge_synthesis  0.079     0.036     500      -46.5%      
+[08:06:08] 
+📊 SUCCESS ANALYSIS:
+[08:06:08]   🥇 Best Template: basic (F1: 0.147)
+[08:06:08]   ❌ Basic template still dominates (rank 1)
+[08:06:08]   💡 Consider more targeted questions or different prompts
+[08:06:08] 
+💾 Saving results...
+[08:06:08]    📊 Detailed CSV: ../results/detailed_results_20250707_080608.csv
+[08:06:08]        Contains: question, true_answer, generated_answer, template, f1_score, etc.
+[08:06:08]    📋 Summary CSV: ../results/summary_20250707_080608.csv
+[08:06:08]    🎓 Dissertation CSV: ../results/dissertation_analysis_20250707_080608.csv
+[08:06:08]    🔧 Metadata: ../results/experiment_metadata_20250707_080608.json
+[08:06:08] 
+✅ All results saved to: ../results
+[08:06:08] 📈 Key files for dissertation:
+[08:06:08]    - detailed_results_*.csv (raw data - 3500 rows)
+[08:06:08]    - dissertation_analysis_*.csv (processed analysis)
+[08:06:08]    - summary_*.csv (template comparison)
+[08:06:08]    - experiment_metadata_*.json (experiment details)
+[08:06:08] 
+📋 SAMPLE RESULTS:
+[08:06:08] ======================================================================
+[08:06:08] 
+🔸 Template: basic (Rank 1)
+[08:06:08]    Q: What is the capital of France?...
+[08:06:08]    Expected: Paris
+[08:06:08]    Generated: paris
+[08:06:08]    Score: F1=1.000
+[08:06:08]    Q: Who wrote Romeo and Juliet?...
+[08:06:08]    Expected: William Shakespeare
+[08:06:08]    Generated: william shakespeare
+[08:06:08]    Score: F1=1.000
+[08:06:08] 
+🔸 Template: confident_direct (Rank 2)
+[08:06:08]    Q: What is the capital of France?...
+[08:06:08]    Expected: Paris
+[08:06:08]    Generated: paris
+[08:06:08]    Score: F1=1.000
+[08:06:08]    Q: Who wrote Romeo and Juliet?...
+[08:06:08]    Expected: William Shakespeare
+[08:06:08]    Generated: william shakespeare
+[08:06:08]    Score: F1=1.000
+[08:06:08] 
+🔸 Template: structured_response (Rank 3)
+[08:06:08]    Q: What is the capital of France?...
+[08:06:08]    Expected: Paris
+[08:06:08]    Generated: paris
+[08:06:08]    Score: F1=1.000
+[08:06:08]    Q: Who wrote Romeo and Juliet?...
+[08:06:08]    Expected: William Shakespeare
+[08:06:08]    Generated: william shakespeare
+[08:06:08]    Score: F1=1.000
+[08:06:08] 
+📊 IMPROVEMENT SUMMARY:
+[08:06:08]    confident_direct: -19.1% vs basic
+[08:06:08]    structured_response: -34.1% vs basic
+[08:06:08]    instructional_clear: -36.4% vs basic
+[08:06:08]    retrieval_focused: -36.9% vs basic
+[08:06:08] 
+🎉 FINAL EXPERIMENT COMPLETED SUCCESSFULLY!
+[08:06:08] 📚 All CSV files saved for dissertation analysis
+[08:06:08] 🎯 Check results directory for complete data

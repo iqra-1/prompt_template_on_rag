@@ -1,0 +1,284 @@
+[16:00:41] 🔥 Setting up GPU configuration...
+[16:00:41] 🎯 Selected GPU 0: 79.3GB available
+[16:00:41] 🔧 Using device: cuda:0
+[16:00:41] 📦 Loading Facebook RAG models...
+[16:00:42] 🤖 Model: facebook/rag-token-nq
+[16:00:42]   Loading tokenizer...
+[16:00:43] 🔍 Loading Wikipedia retriever...
+[16:01:52] ✅ Retriever loaded!
+[16:01:52]   Loading RAG Token model...
+[16:04:25] 🚀 RAG Token system ready!
+[16:04:25] 📚 Loading targeted evaluation dataset...
+[16:04:25] 🎯 Target questions from config: 500
+[16:04:25] 📝 Created 23 targeted questions
+[16:04:25] 🔄 Loading 1000 SQuAD questions...
+[16:04:29] 📊 Loaded 477 SQuAD questions
+[16:04:29] 📊 Question sources:
+[16:04:29]    - Targeted questions: 23
+[16:04:29]    - SQuAD/Fallback questions: 477
+[16:04:29]    - Total available: 500
+[16:04:29]    - Target from config: 500
+[16:04:29] 📊 Final dataset: 500 questions
+[16:04:29] 🎯 Expected total evaluations: 500 × 7 templates = 3500
+[16:04:29] ✅ Successfully loaded target number of questions!
+[16:04:29] 🧪 Starting final targeted RAG experiment...
+[16:04:29] 📋 Experiment scope:
+[16:04:29]    Questions: 500
+[16:04:29]    Templates: 7
+[16:04:29]    Total evaluations: 3500
+[16:04:29] 
+🔄 Testing template: search_and_answer
+[16:04:37]   Progress: 25/500 - Recent F1: 0.107
+[16:04:43]   Progress: 50/500 - Recent F1: 0.013
+[16:04:49]   Progress: 75/500 - Recent F1: 0.013
+[16:04:56]   Progress: 100/500 - Recent F1: 0.060
+[16:05:02]   Progress: 125/500 - Recent F1: 0.032
+[16:05:07]   Progress: 150/500 - Recent F1: 0.065
+[16:05:14]   Progress: 175/500 - Recent F1: 0.105
+[16:05:20]   Progress: 200/500 - Recent F1: 0.056
+[16:05:26]   Progress: 225/500 - Recent F1: 0.029
+[16:05:32]   Progress: 250/500 - Recent F1: 0.077
+[16:05:38]   Progress: 275/500 - Recent F1: 0.056
+[16:05:44]   Progress: 300/500 - Recent F1: 0.043
+[16:05:50]   Progress: 325/500 - Recent F1: 0.040
+[16:05:56]   Progress: 350/500 - Recent F1: 0.160
+[16:06:02]   Progress: 375/500 - Recent F1: 0.040
+[16:06:09]   Progress: 400/500 - Recent F1: 0.098
+[16:06:15]   Progress: 425/500 - Recent F1: 0.060
+[16:06:21]   Progress: 450/500 - Recent F1: 0.080
+[16:06:27]   Progress: 475/500 - Recent F1: 0.057
+[16:06:33]   Progress: 500/500 - Recent F1: 0.127
+[16:06:33]    ✅ search_and_answer completed:
+[16:06:33]       F1: 0.066, EM: 0.028
+[16:06:33]       Success: 500/500
+[16:06:33] 
+🔄 Testing template: multi_source
+[16:06:39]   Progress: 25/500 - Recent F1: 0.203
+[16:06:45]   Progress: 50/500 - Recent F1: 0.032
+[16:06:51]   Progress: 75/500 - Recent F1: 0.110
+[16:06:57]   Progress: 100/500 - Recent F1: 0.100
+[16:07:03]   Progress: 125/500 - Recent F1: 0.032
+[16:07:09]   Progress: 150/500 - Recent F1: 0.067
+[16:07:15]   Progress: 175/500 - Recent F1: 0.061
+[16:07:21]   Progress: 200/500 - Recent F1: 0.047
+[16:07:27]   Progress: 225/500 - Recent F1: 0.000
+[16:07:34]   Progress: 250/500 - Recent F1: 0.096
+[16:07:40]   Progress: 275/500 - Recent F1: 0.059
+[16:07:46]   Progress: 300/500 - Recent F1: 0.013
+[16:07:52]   Progress: 325/500 - Recent F1: 0.040
+[16:07:59]   Progress: 350/500 - Recent F1: 0.229
+[16:08:05]   Progress: 375/500 - Recent F1: 0.147
+[16:08:11]   Progress: 400/500 - Recent F1: 0.000
+[16:08:17]   Progress: 425/500 - Recent F1: 0.080
+[16:08:24]   Progress: 450/500 - Recent F1: 0.103
+[16:08:30]   Progress: 475/500 - Recent F1: 0.110
+[16:08:36]   Progress: 500/500 - Recent F1: 0.110
+[16:08:36]    ✅ multi_source completed:
+[16:08:36]       F1: 0.082, EM: 0.042
+[16:08:36]       Success: 500/500
+[16:08:36] 
+🔄 Testing template: evidence_based
+[16:08:42]   Progress: 25/500 - Recent F1: 0.386
+[16:08:49]   Progress: 50/500 - Recent F1: 0.045
+[16:08:55]   Progress: 75/500 - Recent F1: 0.146
+[16:09:01]   Progress: 100/500 - Recent F1: 0.033
+[16:09:07]   Progress: 125/500 - Recent F1: 0.105
+[16:09:13]   Progress: 150/500 - Recent F1: 0.109
+[16:09:19]   Progress: 175/500 - Recent F1: 0.039
+[16:09:25]   Progress: 200/500 - Recent F1: 0.046
+[16:09:31]   Progress: 225/500 - Recent F1: 0.016
+[16:09:37]   Progress: 250/500 - Recent F1: 0.027
+[16:09:43]   Progress: 275/500 - Recent F1: 0.069
+[16:09:49]   Progress: 300/500 - Recent F1: 0.033
+[16:09:55]   Progress: 325/500 - Recent F1: 0.056
+[16:10:01]   Progress: 350/500 - Recent F1: 0.216
+[16:10:07]   Progress: 375/500 - Recent F1: 0.103
+[16:10:13]   Progress: 400/500 - Recent F1: 0.040
+[16:10:20]   Progress: 425/500 - Recent F1: 0.180
+[16:10:26]   Progress: 450/500 - Recent F1: 0.076
+[16:10:32]   Progress: 475/500 - Recent F1: 0.106
+[16:10:38]   Progress: 500/500 - Recent F1: 0.143
+[16:10:38]    ✅ evidence_based completed:
+[16:10:38]       F1: 0.099, EM: 0.050
+[16:10:38]       Success: 500/500
+[16:10:38] 
+🔄 Testing template: detailed_explanation
+[16:10:45]   Progress: 25/500 - Recent F1: 0.417
+[16:10:51]   Progress: 50/500 - Recent F1: 0.105
+[16:10:57]   Progress: 75/500 - Recent F1: 0.103
+[16:11:03]   Progress: 100/500 - Recent F1: 0.080
+[16:11:09]   Progress: 125/500 - Recent F1: 0.072
+[16:11:15]   Progress: 150/500 - Recent F1: 0.065
+[16:11:21]   Progress: 175/500 - Recent F1: 0.183
+[16:11:27]   Progress: 200/500 - Recent F1: 0.073
+[16:11:33]   Progress: 225/500 - Recent F1: 0.067
+[16:11:39]   Progress: 250/500 - Recent F1: 0.053
+[16:11:45]   Progress: 275/500 - Recent F1: 0.069
+[16:11:51]   Progress: 300/500 - Recent F1: 0.098
+[16:11:57]   Progress: 325/500 - Recent F1: 0.040
+[16:12:03]   Progress: 350/500 - Recent F1: 0.140
+[16:12:09]   Progress: 375/500 - Recent F1: 0.157
+[16:12:15]   Progress: 400/500 - Recent F1: 0.044
+[16:12:21]   Progress: 425/500 - Recent F1: 0.187
+[16:12:27]   Progress: 450/500 - Recent F1: 0.109
+[16:12:34]   Progress: 475/500 - Recent F1: 0.094
+[16:12:40]   Progress: 500/500 - Recent F1: 0.167
+[16:12:40]    ✅ detailed_explanation completed:
+[16:12:40]       F1: 0.116, EM: 0.058
+[16:12:40]       Success: 500/500
+[16:12:40] 
+🔄 Testing template: source_aware
+[16:12:46]   Progress: 25/500 - Recent F1: 0.394
+[16:12:52]   Progress: 50/500 - Recent F1: 0.052
+[16:12:58]   Progress: 75/500 - Recent F1: 0.130
+[16:13:04]   Progress: 100/500 - Recent F1: 0.060
+[16:13:10]   Progress: 125/500 - Recent F1: 0.120
+[16:13:16]   Progress: 150/500 - Recent F1: 0.159
+[16:13:22]   Progress: 175/500 - Recent F1: 0.092
+[16:13:28]   Progress: 200/500 - Recent F1: 0.036
+[16:13:34]   Progress: 225/500 - Recent F1: 0.052
+[16:13:40]   Progress: 250/500 - Recent F1: 0.053
+[16:13:46]   Progress: 275/500 - Recent F1: 0.056
+[16:13:52]   Progress: 300/500 - Recent F1: 0.075
+[16:13:59]   Progress: 325/500 - Recent F1: 0.056
+[16:14:05]   Progress: 350/500 - Recent F1: 0.246
+[16:14:11]   Progress: 375/500 - Recent F1: 0.087
+[16:14:17]   Progress: 400/500 - Recent F1: 0.000
+[16:14:23]   Progress: 425/500 - Recent F1: 0.160
+[16:14:28]   Progress: 450/500 - Recent F1: 0.070
+[16:14:35]   Progress: 475/500 - Recent F1: 0.103
+[16:14:41]   Progress: 500/500 - Recent F1: 0.100
+[16:14:41]    ✅ source_aware completed:
+[16:14:41]       F1: 0.105, EM: 0.052
+[16:14:41]       Success: 500/500
+[16:14:41] 
+🔄 Testing template: factual_lookup
+[16:14:46]   Progress: 25/500 - Recent F1: 0.292
+[16:14:53]   Progress: 50/500 - Recent F1: 0.029
+[16:14:59]   Progress: 75/500 - Recent F1: 0.187
+[16:15:05]   Progress: 100/500 - Recent F1: 0.111
+[16:15:11]   Progress: 125/500 - Recent F1: 0.048
+[16:15:17]   Progress: 150/500 - Recent F1: 0.080
+[16:15:23]   Progress: 175/500 - Recent F1: 0.103
+[16:15:29]   Progress: 200/500 - Recent F1: 0.056
+[16:15:35]   Progress: 225/500 - Recent F1: 0.000
+[16:15:41]   Progress: 250/500 - Recent F1: 0.053
+[16:15:47]   Progress: 275/500 - Recent F1: 0.056
+[16:15:53]   Progress: 300/500 - Recent F1: 0.013
+[16:15:59]   Progress: 325/500 - Recent F1: 0.072
+[16:16:05]   Progress: 350/500 - Recent F1: 0.253
+[16:16:11]   Progress: 375/500 - Recent F1: 0.147
+[16:16:17]   Progress: 400/500 - Recent F1: 0.044
+[16:16:24]   Progress: 425/500 - Recent F1: 0.213
+[16:16:30]   Progress: 450/500 - Recent F1: 0.170
+[16:16:36]   Progress: 475/500 - Recent F1: 0.112
+[16:16:42]   Progress: 500/500 - Recent F1: 0.136
+[16:16:42]    ✅ factual_lookup completed:
+[16:16:42]       F1: 0.109, EM: 0.054
+[16:16:42]       Success: 500/500
+[16:16:42] 
+🔄 Testing template: basic
+[16:16:48]   Progress: 25/500 - Recent F1: 0.445
+[16:16:55]   Progress: 50/500 - Recent F1: 0.089
+[16:17:01]   Progress: 75/500 - Recent F1: 0.166
+[16:17:07]   Progress: 100/500 - Recent F1: 0.060
+[16:17:13]   Progress: 125/500 - Recent F1: 0.133
+[16:17:19]   Progress: 150/500 - Recent F1: 0.218
+[16:17:26]   Progress: 175/500 - Recent F1: 0.139
+[16:17:32]   Progress: 200/500 - Recent F1: 0.096
+[16:17:37]   Progress: 225/500 - Recent F1: 0.087
+[16:17:43]   Progress: 250/500 - Recent F1: 0.181
+[16:17:49]   Progress: 275/500 - Recent F1: 0.088
+[16:17:55]   Progress: 300/500 - Recent F1: 0.019
+[16:18:01]   Progress: 325/500 - Recent F1: 0.083
+[16:18:08]   Progress: 350/500 - Recent F1: 0.313
+[16:18:14]   Progress: 375/500 - Recent F1: 0.217
+[16:18:20]   Progress: 400/500 - Recent F1: 0.124
+[16:18:26]   Progress: 425/500 - Recent F1: 0.220
+[16:18:33]   Progress: 450/500 - Recent F1: 0.156
+[16:18:39]   Progress: 475/500 - Recent F1: 0.201
+[16:18:45]   Progress: 500/500 - Recent F1: 0.123
+[16:18:45]    ✅ basic completed:
+[16:18:45]       F1: 0.158, EM: 0.082
+[16:18:45]       Success: 500/500
+[16:18:45] 
+🎉 Experiment completed!
+[16:18:45] 📊 Total results generated: 3500
+[16:18:45] 🔍 Expected results: 500 questions × 7 templates = 3500
+[16:18:45] ✅ All expected results generated successfully!
+[16:18:45] 
+🔍 ANALYZING RESULTS...
+[16:18:45] 
+🏆 TEMPLATE PERFORMANCE RANKING:
+[16:18:45] -------------------------------------------------------------------------------------
+[16:18:45] Template             F1 Score   EM Score   Samples  Improvement 
+[16:18:45] -------------------------------------------------------------------------------------
+[16:18:45] basic                0.158     0.082     500      BASELINE    
+[16:18:45] detailed_explanation 0.116     0.058     500      -26.4%      
+[16:18:45] factual_lookup       0.109     0.054     500      -31.1%      
+[16:18:45] source_aware         0.105     0.052     500      -33.5%      
+[16:18:45] evidence_based       0.099     0.050     500      -37.4%      
+[16:18:45] multi_source         0.082     0.042     500      -48.1%      
+[16:18:45] search_and_answer    0.066     0.028     500      -58.3%      
+[16:18:45] 
+📊 SUCCESS ANALYSIS:
+[16:18:45]   🥇 Best Template: basic (F1: 0.158)
+[16:18:45]   ❌ Basic template still dominates (rank 1)
+[16:18:45]   💡 Consider more targeted questions or different prompts
+[16:18:45] 
+💾 Saving results...
+[16:18:45]    📊 Detailed CSV: ../results/detailed_results_20250708_161845.csv
+[16:18:45]        Contains: question, true_answer, generated_answer, template, f1_score, etc.
+[16:18:45]    📋 Summary CSV: ../results/summary_20250708_161845.csv
+[16:18:45]    🎓 Dissertation CSV: ../results/dissertation_analysis_20250708_161845.csv
+[16:18:45]    🔧 Metadata: ../results/experiment_metadata_20250708_161845.json
+[16:18:45] 
+✅ All results saved to: ../results
+[16:18:45] 📈 Key files for dissertation:
+[16:18:45]    - detailed_results_*.csv (raw data - 3500 rows)
+[16:18:45]    - dissertation_analysis_*.csv (processed analysis)
+[16:18:45]    - summary_*.csv (template comparison)
+[16:18:45]    - experiment_metadata_*.json (experiment details)
+[16:18:45] 
+📋 SAMPLE RESULTS:
+[16:18:45] ======================================================================
+[16:18:45] 
+🔸 Template: basic (Rank 1)
+[16:18:45]    Q: When was Barack Obama born?...
+[16:18:45]    Expected: August 4 1961
+[16:18:45]    Generated: august 1961
+[16:18:45]    Score: F1=0.800
+[16:18:45]    Q: What is the population of Tokyo?...
+[16:18:45]    Expected: 37 million
+[16:18:45]    Generated: 38,140,000
+[16:18:45]    Score: F1=0.000
+[16:18:45] 
+🔸 Template: detailed_explanation (Rank 2)
+[16:18:45]    Q: When was Barack Obama born?...
+[16:18:45]    Expected: August 4 1961
+[16:18:45]    Generated: august 1961
+[16:18:45]    Score: F1=0.800
+[16:18:45]    Q: What is the population of Tokyo?...
+[16:18:45]    Expected: 37 million
+[16:18:45]    Generated: 1,895,925
+[16:18:45]    Score: F1=0.000
+[16:18:45] 
+🔸 Template: factual_lookup (Rank 3)
+[16:18:45]    Q: When was Barack Obama born?...
+[16:18:45]    Expected: August 4 1961
+[16:18:45]    Generated: august 1961
+[16:18:45]    Score: F1=0.800
+[16:18:45]    Q: What is the population of Tokyo?...
+[16:18:45]    Expected: 37 million
+[16:18:45]    Generated: 39,925,000
+[16:18:45]    Score: F1=0.000
+[16:18:45] 
+📊 IMPROVEMENT SUMMARY:
+[16:18:45]    detailed_explanation: -26.4% vs basic
+[16:18:45]    factual_lookup: -31.1% vs basic
+[16:18:45]    source_aware: -33.5% vs basic
+[16:18:45]    evidence_based: -37.4% vs basic
+[16:18:45] 
+🎉 FINAL EXPERIMENT COMPLETED SUCCESSFULLY!
+[16:18:45] 📚 All CSV files saved for dissertation analysis
+[16:18:45] 🎯 Check results directory for complete data

@@ -1,0 +1,111 @@
+[06:06:53] 🔥 Setting up GPU configuration...
+[06:06:54] 🎯 Using device: cuda:0
+[06:06:54] 📦 Loading Facebook RAG models...
+[06:10:18] 🚀 RAG system ready!
+[06:10:18] 📚 Loading SQuAD dataset...
+[06:10:18] 🔄 Loading 2000 SQuAD questions...
+[06:10:21] 📊 Dataset processed:
+[06:10:21]    Total questions: 1000
+[06:10:21]    Originally had '?': 962
+[06:10:21]    Originally no '?': 38
+[06:10:21]    🎯 Testing both with and without '?' for each question
+[06:10:21] 
+📋 EXAMPLES:
+[06:10:21]    Example 1:
+[06:10:21]      Original: 'In what country is Normandy located?'
+[06:10:21]      Without ?: 'In what country is Normandy located'
+[06:10:21]      With ?: 'In what country is Normandy located?'
+[06:10:21]      Answer: 'France'
+[06:10:21]    Example 2:
+[06:10:21]      Original: 'When were the Normans in Normandy?'
+[06:10:21]      Without ?: 'When were the Normans in Normandy'
+[06:10:21]      With ?: 'When were the Normans in Normandy?'
+[06:10:21]      Answer: '10th and 11th centuries'
+[06:10:21]    Example 3:
+[06:10:21]      Original: 'From which countries did the Norse originate?'
+[06:10:21]      Without ?: 'From which countries did the Norse originate'
+[06:10:21]      With ?: 'From which countries did the Norse originate?'
+[06:10:21]      Answer: 'Denmark, Iceland and Norway'
+[06:10:21] 🧪 Starting question mark impact experiment...
+[06:10:21] 📋 Experiment scope:
+[06:10:21]    Questions: 1000
+[06:10:21]    Templates: 2 (with ? and without ?)
+[06:10:21]    Total evaluations: 2000
+[06:10:21] 
+🔄 Testing template: without_question_mark
+[06:10:46]   Progress: 50/1000 - Recent F1: 0.129
+[06:11:18]   Progress: 100/1000 - Recent F1: 0.077
+[06:11:44]   Progress: 150/1000 - Recent F1: 0.172
+[06:12:11]   Progress: 200/1000 - Recent F1: 0.067
+[06:12:39]   Progress: 250/1000 - Recent F1: 0.129
+[06:13:06]   Progress: 300/1000 - Recent F1: 0.076
+[06:13:35]   Progress: 350/1000 - Recent F1: 0.195
+[06:14:05]   Progress: 400/1000 - Recent F1: 0.198
+[06:14:34]   Progress: 450/1000 - Recent F1: 0.207
+[06:15:03]   Progress: 500/1000 - Recent F1: 0.106
+[06:15:30]   Progress: 550/1000 - Recent F1: 0.108
+[06:16:00]   Progress: 600/1000 - Recent F1: 0.071
+[06:16:30]   Progress: 650/1000 - Recent F1: 0.167
+[06:17:01]   Progress: 700/1000 - Recent F1: 0.203
+[06:17:32]   Progress: 750/1000 - Recent F1: 0.179
+[06:18:02]   Progress: 800/1000 - Recent F1: 0.156
+[06:18:33]   Progress: 850/1000 - Recent F1: 0.078
+[06:19:05]   Progress: 900/1000 - Recent F1: 0.116
+[06:19:36]   Progress: 950/1000 - Recent F1: 0.231
+[06:20:03]   Progress: 1000/1000 - Recent F1: 0.291
+[06:20:03]    ✅ without_question_mark: F1=0.148, EM=0.079
+[06:20:03] 
+🔄 Testing template: with_question_mark
+[06:20:34]   Progress: 50/1000 - Recent F1: 0.148
+[06:21:04]   Progress: 100/1000 - Recent F1: 0.117
+[06:21:32]   Progress: 150/1000 - Recent F1: 0.156
+[06:21:59]   Progress: 200/1000 - Recent F1: 0.083
+[06:22:27]   Progress: 250/1000 - Recent F1: 0.155
+[06:22:57]   Progress: 300/1000 - Recent F1: 0.037
+[06:23:27]   Progress: 350/1000 - Recent F1: 0.241
+[06:23:56]   Progress: 400/1000 - Recent F1: 0.209
+[06:24:24]   Progress: 450/1000 - Recent F1: 0.178
+[06:24:53]   Progress: 500/1000 - Recent F1: 0.061
+[06:25:20]   Progress: 550/1000 - Recent F1: 0.093
+[06:25:48]   Progress: 600/1000 - Recent F1: 0.091
+[06:26:19]   Progress: 650/1000 - Recent F1: 0.130
+[06:26:50]   Progress: 700/1000 - Recent F1: 0.203
+[06:27:21]   Progress: 750/1000 - Recent F1: 0.191
+[06:27:51]   Progress: 800/1000 - Recent F1: 0.163
+[06:28:20]   Progress: 850/1000 - Recent F1: 0.098
+[06:28:50]   Progress: 900/1000 - Recent F1: 0.124
+[06:29:18]   Progress: 950/1000 - Recent F1: 0.252
+[06:29:46]   Progress: 1000/1000 - Recent F1: 0.260
+[06:29:46]    ✅ with_question_mark: F1=0.150, EM=0.085
+[06:29:46] 
+🎉 Experiment completed!
+[06:29:46] 📊 Total results generated: 2000
+[06:29:46] 
+🔍 ANALYZING QUESTION MARK IMPACT...
+[06:29:46] 
+🏆 QUESTION MARK IMPACT RESULTS:
+[06:29:46] --------------------------------------------------------------------------------
+[06:29:46] Template                  F1 Score   EM Score   Samples  Difference  
+[06:29:46] --------------------------------------------------------------------------------
+[06:29:46] without_question_mark     0.148     0.079     1000     BASELINE    
+[06:29:46] with_question_mark        0.150     0.085     1000     +0.002 (+1.1%)
+[06:29:46] 
+📊 STATISTICAL ANALYSIS:
+[06:29:46]   📈 F1 Score Difference: +0.0017
+[06:29:46]   📈 Percentage Change: +1.14%
+[06:29:46]   ✅ SIGNIFICANT: Question mark shows 1.1% impact!
+[06:29:46] 
+🔍 BREAKDOWN BY ORIGINAL QUESTION FORMAT:
+[06:29:46]   📝 Questions originally WITH '?' (962 questions):
+[06:29:46]      Without ?: F1=0.151
+[06:29:46]      With ?: F1=0.152
+[06:29:46]      Impact: +0.001
+[06:29:46]   📝 Questions originally WITHOUT '?' (38 questions):
+[06:29:46]      Without ?: F1=0.075
+[06:29:46]      With ?: F1=0.084
+[06:29:46]      Impact: +0.009
+[06:29:46] 
+💾 Saving results...
+[06:29:46]    📊 Detailed results: ../results/question_mark_detailed_20250710_062946.csv
+[06:29:46]        Contains: 2000 rows with question/answer/scores
+[06:29:46]    📋 Summary analysis: ../results/question_mark_summary_20250710_062946.csv

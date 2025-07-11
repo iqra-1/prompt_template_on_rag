@@ -1,0 +1,11 @@
+{
+  "experiment_id": "question_mark_20250710_060653",
+  "timestamp": "20250710_062946",
+  "model_used": "facebook/rag-token-nq",
+  "num_questions": 1000,
+  "total_evaluations": 2000,
+  "f1_without_question_mark": 0.147851358771947,
+  "f1_with_question_mark": 0.14953847720906543,
+  "f1_difference": 0.00168711843711844,
+  "percent_impact": 1.141090924785299,
+  "significant_impact": 

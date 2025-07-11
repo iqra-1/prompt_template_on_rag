@@ -1,0 +1,985 @@
+[07:18:24] 🔥 Setting up GPU configuration...
+[07:18:24] 🎯 Using device: cuda:0
+[07:18:24] 📦 Loading RAG models...
+[07:21:46] 🚀 RAG system ready!
+[07:21:46] 📚 Loading targeted evaluation dataset...
+[07:21:49] 📊 Dataset loaded: 42 questions
+[07:21:49]    - Targeted questions: 12
+[07:21:49]    - SQuAD questions: 30
+[07:21:49] 🧪 Starting targeted RAG experiment...
+[07:21:49] 📋 Testing 7 templates on 42 questions
+[07:21:49] 
+🔄 Testing template: retrieval_focused
+[07:21:50] DEBUG: Generated='paris' vs Expected='paris'
+[07:21:50] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:21:50] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:21:50] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[07:21:50] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[07:21:50] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:21:51] DEBUG: Generated='factorials n!' vs Expected='4'
+[07:21:51] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:51] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:51] DEBUG: Generated='' vs Expected='process where plants make food from sunlight'
+[07:21:51] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:51] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[07:21:51] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:51] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:51] DEBUG: Generated='red' vs Expected='red blue green'
+[07:21:51] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:21:51] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:21:51] DEBUG: Generated='cat' vs Expected='cat dog'
+[07:21:51] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[07:21:51] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[07:21:51] DEBUG: Generated='health' vs Expected='essential for life and survival'
+[07:21:51] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:51] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:52] DEBUG: Generated='chlorophyll' vs Expected='chlorophyll'
+[07:21:52] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:21:52] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:21:52] DEBUG: Generated='factorials n!' vs Expected='yes'
+[07:21:52] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:52] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:52]   Progress: 10/42 - Recent F1: 0.417
+[07:21:52] DEBUG: Generated='' vs Expected='yes'
+[07:21:52] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:52] DEBUG: Generated='blue' vs Expected='red yellow blue'
+[07:21:52] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:21:52] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:21:52] DEBUG: Generated='france' vs Expected='france'
+[07:21:52] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:21:52] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:21:52] DEBUG: Generated='9th century -- 9th century' vs Expected='10th and 11th centuries'
+[07:21:52] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:52] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:52] DEBUG: Generated='iceland' vs Expected='denmark, iceland and norway'
+[07:21:52] DEBUG: Overlap=1, Precision=1.000, Recall=0.250
+[07:21:52] DEBUG: F1=0.400, EM=0.0, Overlap=0.250
+[07:21:53] DEBUG: Generated='bjorn ulvaeus' vs Expected='rollo'
+[07:21:53] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:53] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:53] DEBUG: Generated='the ninth century' vs Expected='10th century'
+[07:21:53] DEBUG: Overlap=1, Precision=0.333, Recall=0.500
+[07:21:53] DEBUG: F1=0.400, EM=0.0, Overlap=0.500
+[07:21:53] DEBUG: Generated='william' vs Expected='william the conqueror'
+[07:21:53] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:21:53] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:21:53] DEBUG: Generated='king charles iii' vs Expected='richard i'
+[07:21:53] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:53] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:53] DEBUG: Generated='catholicism' vs Expected='catholic'
+[07:21:53] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:53] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:53]   Progress: 20/42 - Recent F1: 0.280
+[07:21:53] DEBUG: Generated='north' vs Expected='viking'
+[07:21:53] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:53] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:54] DEBUG: Generated='in 1024' vs Expected='9th century'
+[07:21:54] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:54] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:54] DEBUG: Generated='1066' vs Expected='911'
+[07:21:54] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:54] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:54] DEBUG: Generated='the franks' vs Expected='king charles iii'
+[07:21:54] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:54] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:54] DEBUG: Generated='tennessee river' vs Expected='seine'
+[07:21:54] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:54] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:54] DEBUG: Generated='the inuit' vs Expected='rollo'
+[07:21:54] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:54] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:54] DEBUG: Generated='islam' vs Expected='catholicism'
+[07:21:54] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:54] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:55] DEBUG: Generated='normandy' vs Expected='north'
+[07:21:55] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:55] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:55] DEBUG: Generated='foodstuffs' vs Expected='fighting horsemen'
+[07:21:55] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:55] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:55] DEBUG: Generated='byzantine empire' vs Expected='seljuk turks'
+[07:21:55] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:55] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:55]   Progress: 30/42 - Recent F1: 0.000
+[07:21:55] DEBUG: Generated='1984 -- 86' vs Expected='1050s'
+[07:21:55] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:55] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:55] DEBUG: Generated='1984' vs Expected='1060s'
+[07:21:55] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:55] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:55] DEBUG: Generated='factorials' vs Expected='alexius komnenos'
+[07:21:55] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:55] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:56] DEBUG: Generated='the château de caen' vs Expected='afranji'
+[07:21:56] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:56] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:56] DEBUG: Generated='' vs Expected='oursel'
+[07:21:56] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:56] DEBUG: Generated='turkey' vs Expected='turkish forces'
+[07:21:56] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:56] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:56] DEBUG: Generated='byzantine origin' vs Expected='norman mercenary'
+[07:21:56] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:56] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:56] DEBUG: Generated='( last ) frederick iii' vs Expected='robert guiscard'
+[07:21:56] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:56] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:56] DEBUG: Generated='true' vs Expected='1082'
+[07:21:56] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:56] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:57] DEBUG: Generated='about 100,000 and 150,000' vs Expected='30,000'
+[07:21:57] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:57] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:57]   Progress: 40/42 - Recent F1: 0.000
+[07:21:57] DEBUG: Generated='constantinople' vs Expected='deabolis'
+[07:21:57] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:57] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:57] DEBUG: Generated='robert's son' vs Expected='bohemond'
+[07:21:57] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:57] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:57]    retrieval_focused completed: F1=0.166, EM=0.095
+[07:21:57] 
+🔄 Testing template: knowledge_synthesis
+[07:21:57] DEBUG: Generated='paris' vs Expected='paris'
+[07:21:57] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:21:57] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:21:57] DEBUG: Generated='who?' vs Expected='william shakespeare'
+[07:21:57] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:57] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:57] DEBUG: Generated='factorials n!' vs Expected='4'
+[07:21:57] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:57] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:58] DEBUG: Generated='plants, algae and cyanobacteria' vs Expected='process where plants make food from sunlight'
+[07:21:58] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:58] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:58] DEBUG: Generated='problem / problem / solution' vs Expected='they process information using electrical circuits'
+[07:21:58] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:58] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:58] DEBUG: Generated='' vs Expected='red blue green'
+[07:21:58] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:58] DEBUG: Generated='cat' vs Expected='cat dog'
+[07:21:58] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[07:21:58] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[07:21:58] DEBUG: Generated='data visuali zation' vs Expected='essential for life and survival'
+[07:21:58] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:58] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:58] DEBUG: Generated='what makes plants green' vs Expected='chlorophyll'
+[07:21:58] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:58] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:58] DEBUG: Generated='what turns you on?' vs Expected='yes'
+[07:21:58] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:58] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:58]   Progress: 10/42 - Recent F1: 0.167
+[07:21:59] DEBUG: Generated='do you like sex?' vs Expected='yes'
+[07:21:59] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:59] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:59] DEBUG: Generated='blue' vs Expected='red yellow blue'
+[07:21:59] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:21:59] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:21:59] DEBUG: Generated='france' vs Expected='france'
+[07:21:59] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:21:59] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:21:59] DEBUG: Generated='10th century -- 15th century' vs Expected='10th and 11th centuries'
+[07:21:59] DEBUG: Overlap=1, Precision=0.250, Recall=0.250
+[07:21:59] DEBUG: F1=0.250, EM=0.0, Overlap=0.250
+[07:21:59] DEBUG: Generated='scandinavia' vs Expected='denmark, iceland and norway'
+[07:21:59] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:59] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:21:59] DEBUG: Generated='who was the norse leader' vs Expected='rollo'
+[07:21:59] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:21:59] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:00] DEBUG: Generated='the ninth century' vs Expected='10th century'
+[07:22:00] DEBUG: Overlap=1, Precision=0.333, Recall=0.500
+[07:22:00] DEBUG: F1=0.400, EM=0.0, Overlap=0.500
+[07:22:00] DEBUG: Generated='normandy duke of normandy' vs Expected='william the conqueror'
+[07:22:00] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:00] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:00] DEBUG: Generated='king charles iii' vs Expected='richard i'
+[07:22:00] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:00] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:00] DEBUG: Generated='catholicism' vs Expected='catholic'
+[07:22:00] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:00] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:00]   Progress: 20/42 - Recent F1: 0.215
+[07:22:00] DEBUG: Generated='data visuali zation' vs Expected='viking'
+[07:22:00] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:00] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:00] DEBUG: Generated='in 1024' vs Expected='9th century'
+[07:22:00] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:00] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:01] DEBUG: Generated='1066' vs Expected='911'
+[07:22:01] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:01] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:01] DEBUG: Generated='patrick alexander russell' vs Expected='king charles iii'
+[07:22:01] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:01] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:01] DEBUG: Generated='tennessee river' vs Expected='seine'
+[07:22:01] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:01] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:01] DEBUG: Generated='the normans' vs Expected='rollo'
+[07:22:01] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:01] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:01] DEBUG: Generated='islam' vs Expected='catholicism'
+[07:22:01] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:01] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:01] DEBUG: Generated='normandy' vs Expected='north'
+[07:22:01] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:01] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:02] DEBUG: Generated='266,827' vs Expected='fighting horsemen'
+[07:22:02] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:02] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:02] DEBUG: Generated='byzantine empire' vs Expected='seljuk turks'
+[07:22:02] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:02] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:02]   Progress: 30/42 - Recent F1: 0.000
+[07:22:02] DEBUG: Generated='1984 -- 86' vs Expected='1050s'
+[07:22:02] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:02] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:02] DEBUG: Generated='robert crispin's diary' vs Expected='1060s'
+[07:22:02] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:02] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:02] DEBUG: Generated='british empire' vs Expected='alexius komnenos'
+[07:22:02] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:02] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:02] DEBUG: Generated='' vs Expected='afranji'
+[07:22:02] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:03] DEBUG: Generated='2018' vs Expected='oursel'
+[07:22:03] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:03] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:03] DEBUG: Generated='turkey' vs Expected='turkish forces'
+[07:22:03] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:03] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:03] DEBUG: Generated='byzantine origin' vs Expected='norman mercenary'
+[07:22:03] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:03] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:03] DEBUG: Generated='' vs Expected='robert guiscard'
+[07:22:03] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:03] DEBUG: Generated='1970s' vs Expected='1082'
+[07:22:03] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:03] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:03] DEBUG: Generated='1,250,000 men' vs Expected='30,000'
+[07:22:03] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:03] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:03]   Progress: 40/42 - Recent F1: 0.000
+[07:22:04] DEBUG: Generated='constantinople' vs Expected='deabolis'
+[07:22:04] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:04] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:04] DEBUG: Generated='' vs Expected='bohemond'
+[07:22:04] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:04]    knowledge_synthesis completed: F1=0.091, EM=0.048
+[07:22:04] 
+🔄 Testing template: instructional_clear
+[07:22:04] DEBUG: Generated='paris' vs Expected='paris'
+[07:22:04] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:04] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:04] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[07:22:04] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[07:22:04] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:04] DEBUG: Generated='the question' vs Expected='4'
+[07:22:04] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:04] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:04] DEBUG: Generated='photosynthesis' vs Expected='process where plants make food from sunlight'
+[07:22:04] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:04] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:05] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[07:22:05] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:05] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:05] DEBUG: Generated='blue' vs Expected='red blue green'
+[07:22:05] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:05] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:05] DEBUG: Generated='cat' vs Expected='cat dog'
+[07:22:05] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[07:22:05] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[07:22:05] DEBUG: Generated='for all known forms of life' vs Expected='essential for life and survival'
+[07:22:05] DEBUG: Overlap=2, Precision=0.333, Recall=0.400
+[07:22:05] DEBUG: F1=0.364, EM=0.0, Overlap=0.400
+[07:22:05] DEBUG: Generated='what turns you on?' vs Expected='chlorophyll'
+[07:22:05] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:05] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:05] DEBUG: Generated='the question' vs Expected='yes'
+[07:22:05] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:05] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:05]   Progress: 10/42 - Recent F1: 0.353
+[07:22:05] DEBUG: Generated='' vs Expected='yes'
+[07:22:05] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:06] DEBUG: Generated='red' vs Expected='red yellow blue'
+[07:22:06] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:06] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:06] DEBUG: Generated='france' vs Expected='france'
+[07:22:06] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:06] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:06] DEBUG: Generated='during the trojan war' vs Expected='10th and 11th centuries'
+[07:22:06] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:06] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:06] DEBUG: Generated='iceland' vs Expected='denmark, iceland and norway'
+[07:22:06] DEBUG: Overlap=1, Precision=1.000, Recall=0.250
+[07:22:06] DEBUG: F1=0.400, EM=0.0, Overlap=0.250
+[07:22:06] DEBUG: Generated='the question' vs Expected='rollo'
+[07:22:06] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:06] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:06] DEBUG: Generated='the ninth century' vs Expected='10th century'
+[07:22:06] DEBUG: Overlap=1, Precision=0.333, Recall=0.500
+[07:22:06] DEBUG: F1=0.400, EM=0.0, Overlap=0.500
+[07:22:07] DEBUG: Generated='the duke of normandy' vs Expected='william the conqueror'
+[07:22:07] DEBUG: Overlap=1, Precision=0.250, Recall=0.333
+[07:22:07] DEBUG: F1=0.286, EM=0.0, Overlap=0.333
+[07:22:07] DEBUG: Generated='king charles iii' vs Expected='richard i'
+[07:22:07] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:07] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:07] DEBUG: Generated='islam' vs Expected='catholic'
+[07:22:07] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:07] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:07]   Progress: 20/42 - Recent F1: 0.259
+[07:22:07] DEBUG: Generated='norman' vs Expected='viking'
+[07:22:07] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:07] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:07] DEBUG: Generated='in 1024' vs Expected='9th century'
+[07:22:07] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:07] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:07] DEBUG: Generated='1066' vs Expected='911'
+[07:22:07] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:07] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:08] DEBUG: Generated='charles' vs Expected='king charles iii'
+[07:22:08] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:08] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:08] DEBUG: Generated='what turns you on?' vs Expected='seine'
+[07:22:08] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:08] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:08] DEBUG: Generated='the normans' vs Expected='rollo'
+[07:22:08] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:08] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:08] DEBUG: Generated='what turns you on?' vs Expected='catholicism'
+[07:22:08] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:08] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:08] DEBUG: Generated='normandy' vs Expected='north'
+[07:22:08] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:08] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:08] DEBUG: Generated='what turns you on?' vs Expected='fighting horsemen'
+[07:22:08] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:08] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:09] DEBUG: Generated='byzantine empire' vs Expected='seljuk turks'
+[07:22:09] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:09] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:09]   Progress: 30/42 - Recent F1: 0.050
+[07:22:09] DEBUG: Generated='602 -- 603' vs Expected='1050s'
+[07:22:09] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:09] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:09] DEBUG: Generated='robert crispin and the turks' vs Expected='1060s'
+[07:22:09] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:09] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:09] DEBUG: Generated='can you please provide a clear answer' vs Expected='alexius komnenos'
+[07:22:09] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:09] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:09] DEBUG: Generated='what turns you on?' vs Expected='afranji'
+[07:22:09] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:09] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:09] DEBUG: Generated='roosevelt' vs Expected='oursel'
+[07:22:09] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:09] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:10] DEBUG: Generated='turkey' vs Expected='turkish forces'
+[07:22:10] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:10] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:10] DEBUG: Generated='normandy, france' vs Expected='norman mercenary'
+[07:22:10] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:10] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:10] DEBUG: Generated='lord canning' vs Expected='robert guiscard'
+[07:22:10] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:10] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:10] DEBUG: Generated='what happened to dyrrachium?' vs Expected='1082'
+[07:22:10] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:10] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:10] DEBUG: Generated='1,000,000' vs Expected='30,000'
+[07:22:10] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:10] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:10]   Progress: 40/42 - Recent F1: 0.000
+[07:22:10] DEBUG: Generated='constantinople' vs Expected='deabolis'
+[07:22:10] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:10] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:11] DEBUG: Generated=', andrew' vs Expected='bohemond'
+[07:22:11] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:11] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:11]    instructional_clear completed: F1=0.158, EM=0.071
+[07:22:11] 
+🔄 Testing template: context_guided
+[07:22:11] DEBUG: Generated='paris' vs Expected='paris'
+[07:22:11] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:11] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:11] DEBUG: Generated='' vs Expected='william shakespeare'
+[07:22:11] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:11] DEBUG: Generated='what turns you on?' vs Expected='4'
+[07:22:11] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:11] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:11] DEBUG: Generated='' vs Expected='process where plants make food from sunlight'
+[07:22:11] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:11] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[07:22:11] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:11] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:12] DEBUG: Generated='green' vs Expected='red blue green'
+[07:22:12] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:12] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:12] DEBUG: Generated='cat' vs Expected='cat dog'
+[07:22:12] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[07:22:12] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[07:22:12] DEBUG: Generated='why is water important?' vs Expected='essential for life and survival'
+[07:22:12] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:12] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:12] DEBUG: Generated='what makes plants green' vs Expected='chlorophyll'
+[07:22:12] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:12] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:12] DEBUG: Generated='what turns you on?' vs Expected='yes'
+[07:22:12] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:12] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:12]   Progress: 10/42 - Recent F1: 0.217
+[07:22:12] DEBUG: Generated='the basic question' vs Expected='yes'
+[07:22:12] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:12] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:12] DEBUG: Generated='red' vs Expected='red yellow blue'
+[07:22:12] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:12] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:13] DEBUG: Generated='france' vs Expected='france'
+[07:22:13] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:13] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:13] DEBUG: Generated='the 10th and 13th centuries' vs Expected='10th and 11th centuries'
+[07:22:13] DEBUG: Overlap=3, Precision=0.600, Recall=0.750
+[07:22:13] DEBUG: F1=0.667, EM=0.0, Overlap=0.750
+[07:22:13] DEBUG: Generated='scandinavia' vs Expected='denmark, iceland and norway'
+[07:22:13] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:13] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:13] DEBUG: Generated='who was the norse leader' vs Expected='rollo'
+[07:22:13] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:13] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:13] DEBUG: Generated='the ninth century' vs Expected='10th century'
+[07:22:13] DEBUG: Overlap=1, Precision=0.333, Recall=0.500
+[07:22:13] DEBUG: F1=0.400, EM=0.0, Overlap=0.500
+[07:22:13] DEBUG: Generated='normandy duke of normandy' vs Expected='william the conqueror'
+[07:22:13] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:13] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:14] DEBUG: Generated='king charles iii' vs Expected='richard i'
+[07:22:14] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:14] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:14] DEBUG: Generated='catholicism' vs Expected='catholic'
+[07:22:14] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:14] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:14]   Progress: 20/42 - Recent F1: 0.257
+[07:22:14] DEBUG: Generated='norman' vs Expected='viking'
+[07:22:14] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:14] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:14] DEBUG: Generated='in 1024' vs Expected='9th century'
+[07:22:14] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:14] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:14] DEBUG: Generated='1066' vs Expected='911'
+[07:22:14] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:14] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:14] DEBUG: Generated='charles the simple' vs Expected='king charles iii'
+[07:22:14] DEBUG: Overlap=1, Precision=0.333, Recall=0.333
+[07:22:14] DEBUG: F1=0.333, EM=0.0, Overlap=0.333
+[07:22:15] DEBUG: Generated='tennessee river' vs Expected='seine'
+[07:22:15] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:15] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:15] DEBUG: Generated='the normans' vs Expected='rollo'
+[07:22:15] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:15] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:15] DEBUG: Generated='normanism' vs Expected='catholicism'
+[07:22:15] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:15] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:15] DEBUG: Generated='normandy' vs Expected='north'
+[07:22:15] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:15] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:15] DEBUG: Generated='foodstuffs' vs Expected='fighting horsemen'
+[07:22:15] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:15] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:15] DEBUG: Generated='the byzantine empire' vs Expected='seljuk turks'
+[07:22:15] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:15] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:15]   Progress: 30/42 - Recent F1: 0.033
+[07:22:15] DEBUG: Generated='during the byzantine war' vs Expected='1050s'
+[07:22:15] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:15] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:16] DEBUG: Generated='2003' vs Expected='1060s'
+[07:22:16] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:16] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:16] DEBUG: Generated='ask the question' vs Expected='alexius komnenos'
+[07:22:16] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:16] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:16] DEBUG: Generated='neuschwanstein castle' vs Expected='afranji'
+[07:22:16] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:16] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:16] DEBUG: Generated='roosevelt' vs Expected='oursel'
+[07:22:16] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:16] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:16] DEBUG: Generated='turkey' vs Expected='turkish forces'
+[07:22:16] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:16] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:16] DEBUG: Generated='normandy' vs Expected='norman mercenary'
+[07:22:16] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:16] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:17] DEBUG: Generated='( last ) frederick iii' vs Expected='robert guiscard'
+[07:22:17] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:17] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:17] DEBUG: Generated='180 bc' vs Expected='1082'
+[07:22:17] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:17] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:17] DEBUG: Generated='about a million men' vs Expected='30,000'
+[07:22:17] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:17] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:17]   Progress: 40/42 - Recent F1: 0.000
+[07:22:17] DEBUG: Generated='in jaffa' vs Expected='deabolis'
+[07:22:17] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:17] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:17] DEBUG: Generated='robert's son' vs Expected='bohemond'
+[07:22:17] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:17] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:17]    context_guided completed: F1=0.121, EM=0.048
+[07:22:17] 
+🔄 Testing template: confident_direct
+[07:22:17] DEBUG: Generated='paris' vs Expected='paris'
+[07:22:17] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:17] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:18] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[07:22:18] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[07:22:18] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:18] DEBUG: Generated='what turns you on?' vs Expected='4'
+[07:22:18] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:18] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:18] DEBUG: Generated='to convert light energy into chemical energy' vs Expected='process where plants make food from sunlight'
+[07:22:18] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:18] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:18] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[07:22:18] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:18] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:18] DEBUG: Generated='red' vs Expected='red blue green'
+[07:22:18] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:18] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:18] DEBUG: Generated='rodents' vs Expected='cat dog'
+[07:22:18] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:18] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:18] DEBUG: Generated='why is water important?' vs Expected='essential for life and survival'
+[07:22:18] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:18] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:19] DEBUG: Generated='chlorophyll' vs Expected='chlorophyll'
+[07:22:19] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:19] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:19] DEBUG: Generated='is the earth round' vs Expected='yes'
+[07:22:19] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:19] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:19]   Progress: 10/42 - Recent F1: 0.350
+[07:22:19] DEBUG: Generated='' vs Expected='yes'
+[07:22:19] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:19] DEBUG: Generated='red' vs Expected='red yellow blue'
+[07:22:19] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:19] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:19] DEBUG: Generated='france' vs Expected='france'
+[07:22:19] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:19] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:19] DEBUG: Generated='10th century -- 15th century' vs Expected='10th and 11th centuries'
+[07:22:19] DEBUG: Overlap=1, Precision=0.250, Recall=0.250
+[07:22:19] DEBUG: F1=0.250, EM=0.0, Overlap=0.250
+[07:22:19] DEBUG: Generated='iceland' vs Expected='denmark, iceland and norway'
+[07:22:19] DEBUG: Overlap=1, Precision=1.000, Recall=0.250
+[07:22:19] DEBUG: F1=0.400, EM=0.0, Overlap=0.250
+[07:22:20] DEBUG: Generated='who was the norse leader' vs Expected='rollo'
+[07:22:20] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:20] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:20] DEBUG: Generated='the ninth century' vs Expected='10th century'
+[07:22:20] DEBUG: Overlap=1, Precision=0.333, Recall=0.500
+[07:22:20] DEBUG: F1=0.400, EM=0.0, Overlap=0.500
+[07:22:20] DEBUG: Generated='william' vs Expected='william the conqueror'
+[07:22:20] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:20] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:20] DEBUG: Generated='the king of england' vs Expected='richard i'
+[07:22:20] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:20] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:20] DEBUG: Generated='catholicism' vs Expected='catholic'
+[07:22:20] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:20] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:20]   Progress: 20/42 - Recent F1: 0.305
+[07:22:20] DEBUG: Generated='north' vs Expected='viking'
+[07:22:20] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:20] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:21] DEBUG: Generated='in 1024' vs Expected='9th century'
+[07:22:21] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:21] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:21] DEBUG: Generated='1066' vs Expected='911'
+[07:22:21] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:21] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:21] DEBUG: Generated='charles the simple' vs Expected='king charles iii'
+[07:22:21] DEBUG: Overlap=1, Precision=0.333, Recall=0.333
+[07:22:21] DEBUG: F1=0.333, EM=0.0, Overlap=0.333
+[07:22:21] DEBUG: Generated='river of british columbia' vs Expected='seine'
+[07:22:21] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:21] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:21] DEBUG: Generated='the normans' vs Expected='rollo'
+[07:22:21] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:21] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:21] DEBUG: Generated='islam' vs Expected='catholicism'
+[07:22:21] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:21] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:22] DEBUG: Generated='normandy' vs Expected='north'
+[07:22:22] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:22] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:22] DEBUG: Generated='cloth' vs Expected='fighting horsemen'
+[07:22:22] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:22] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:22] DEBUG: Generated='byzantine empire' vs Expected='seljuk turks'
+[07:22:22] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:22] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:22]   Progress: 30/42 - Recent F1: 0.033
+[07:22:22] DEBUG: Generated='during the byzantine war' vs Expected='1050s'
+[07:22:22] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:22] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:22] DEBUG: Generated='2003' vs Expected='1060s'
+[07:22:22] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:22] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:22] DEBUG: Generated='oliver cromwell' vs Expected='alexius komnenos'
+[07:22:22] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:22] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:23] DEBUG: Generated='château paris' vs Expected='afranji'
+[07:22:23] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:23] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:23] DEBUG: Generated='theudebert i' vs Expected='oursel'
+[07:22:23] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:23] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:23] DEBUG: Generated='turkey' vs Expected='turkish forces'
+[07:22:23] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:23] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:23] DEBUG: Generated='answers the question' vs Expected='norman mercenary'
+[07:22:23] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:23] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:23] DEBUG: Generated='tobey' vs Expected='robert guiscard'
+[07:22:23] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:23] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:23] DEBUG: Generated='2011' vs Expected='1082'
+[07:22:23] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:23] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:24] DEBUG: Generated='350,000 and 150,000' vs Expected='30,000'
+[07:22:24] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:24] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:24]   Progress: 40/42 - Recent F1: 0.000
+[07:22:24] DEBUG: Generated='constantinople' vs Expected='deabolis'
+[07:22:24] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:24] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:24] DEBUG: Generated='steffon' vs Expected='bohemond'
+[07:22:24] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:24] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:24]    confident_direct completed: F1=0.164, EM=0.095
+[07:22:24] 
+🔄 Testing template: structured_response
+[07:22:24] DEBUG: Generated='paris' vs Expected='paris'
+[07:22:24] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:24] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:24] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[07:22:24] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[07:22:24] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:24] DEBUG: Generated='the binary interpretation of the numbers' vs Expected='4'
+[07:22:24] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:24] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:25] DEBUG: Generated='what turns you on?' vs Expected='process where plants make food from sunlight'
+[07:22:25] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:25] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:25] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[07:22:25] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:25] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:25] DEBUG: Generated='red' vs Expected='red blue green'
+[07:22:25] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:25] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:25] DEBUG: Generated='cat' vs Expected='cat dog'
+[07:22:25] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[07:22:25] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[07:22:25] DEBUG: Generated='water infinity' vs Expected='essential for life and survival'
+[07:22:25] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:25] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:25] DEBUG: Generated='what turns you on' vs Expected='chlorophyll'
+[07:22:25] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:25] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:25] DEBUG: Generated='the question' vs Expected='yes'
+[07:22:25] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:25] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:25]   Progress: 10/42 - Recent F1: 0.317
+[07:22:26] DEBUG: Generated='' vs Expected='yes'
+[07:22:26] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:26] DEBUG: Generated='blue' vs Expected='red yellow blue'
+[07:22:26] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:26] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:26] DEBUG: Generated='france' vs Expected='france'
+[07:22:26] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:26] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:26] DEBUG: Generated='between the 10th and 13th centuries' vs Expected='10th and 11th centuries'
+[07:22:26] DEBUG: Overlap=3, Precision=0.500, Recall=0.750
+[07:22:26] DEBUG: F1=0.600, EM=0.0, Overlap=0.750
+[07:22:26] DEBUG: Generated='iceland' vs Expected='denmark, iceland and norway'
+[07:22:26] DEBUG: Overlap=1, Precision=1.000, Recall=0.250
+[07:22:26] DEBUG: F1=0.400, EM=0.0, Overlap=0.250
+[07:22:26] DEBUG: Generated='the norse leader' vs Expected='rollo'
+[07:22:26] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:26] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:26] DEBUG: Generated='the european renaissance' vs Expected='10th century'
+[07:22:26] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:26] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:27] DEBUG: Generated='the duke of normandy' vs Expected='william the conqueror'
+[07:22:27] DEBUG: Overlap=1, Precision=0.250, Recall=0.333
+[07:22:27] DEBUG: F1=0.286, EM=0.0, Overlap=0.333
+[07:22:27] DEBUG: Generated='king' vs Expected='richard i'
+[07:22:27] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:27] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:27] DEBUG: Generated='islam' vs Expected='catholic'
+[07:22:27] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:27] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:27]   Progress: 20/42 - Recent F1: 0.279
+[07:22:27] DEBUG: Generated='what turns you on?' vs Expected='viking'
+[07:22:27] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:27] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:27] DEBUG: Generated='in 1024' vs Expected='9th century'
+[07:22:27] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:27] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:27] DEBUG: Generated='987' vs Expected='911'
+[07:22:27] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:27] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:28] DEBUG: Generated='the franks' vs Expected='king charles iii'
+[07:22:28] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:28] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:28] DEBUG: Generated='the rio de janeiro' vs Expected='seine'
+[07:22:28] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:28] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:28] DEBUG: Generated='the question' vs Expected='rollo'
+[07:22:28] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:28] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:28] DEBUG: Generated='islam' vs Expected='catholicism'
+[07:22:28] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:28] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:28] DEBUG: Generated='northern france' vs Expected='north'
+[07:22:28] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:28] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:28] DEBUG: Generated='foodstuffs' vs Expected='fighting horsemen'
+[07:22:28] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:28] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:28] DEBUG: Generated='byzantine empire' vs Expected='seljuk turks'
+[07:22:28] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:28] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:28]   Progress: 30/42 - Recent F1: 0.000
+[07:22:29] DEBUG: Generated='1984 -- 86' vs Expected='1050s'
+[07:22:29] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:29] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:29] DEBUG: Generated='2017' vs Expected='1060s'
+[07:22:29] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:29] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:29] DEBUG: Generated='his idea of kingship' vs Expected='alexius komnenos'
+[07:22:29] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:29] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:29] DEBUG: Generated='the classic roman republic' vs Expected='afranji'
+[07:22:29] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:29] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:29] DEBUG: Generated='charles martel' vs Expected='oursel'
+[07:22:29] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:29] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:29] DEBUG: Generated='turkey' vs Expected='turkish forces'
+[07:22:29] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:29] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:30] DEBUG: Generated='norman origin' vs Expected='norman mercenary'
+[07:22:30] DEBUG: Overlap=1, Precision=0.500, Recall=0.500
+[07:22:30] DEBUG: F1=0.500, EM=0.0, Overlap=0.500
+[07:22:30] DEBUG: Generated='( last ) frederick iii' vs Expected='robert guiscard'
+[07:22:30] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:30] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:30] DEBUG: Generated='what turns you on?' vs Expected='1082'
+[07:22:30] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:30] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:30] DEBUG: Generated='3,000 infantry and 300 horsemen' vs Expected='30,000'
+[07:22:30] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:30] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:30]   Progress: 40/42 - Recent F1: 0.050
+[07:22:30] DEBUG: Generated='constantinople' vs Expected='deabolis'
+[07:22:30] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:30] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:30] DEBUG: Generated='robert's son' vs Expected='bohemond'
+[07:22:30] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:30] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:30]    structured_response completed: F1=0.154, EM=0.071
+[07:22:30] 
+🔄 Testing template: basic
+[07:22:31] DEBUG: Generated='paris' vs Expected='paris'
+[07:22:31] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:31] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:31] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[07:22:31] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[07:22:31] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:31] DEBUG: Generated='factorials n!' vs Expected='4'
+[07:22:31] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:31] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:31] DEBUG: Generated='to convert light energy into chemical energy' vs Expected='process where plants make food from sunlight'
+[07:22:31] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:31] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:31] DEBUG: Generated='numerical interpretation of numbers' vs Expected='they process information using electrical circuits'
+[07:22:31] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:31] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:31] DEBUG: Generated='white' vs Expected='red blue green'
+[07:22:31] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:31] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:32] DEBUG: Generated='amphibians' vs Expected='cat dog'
+[07:22:32] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:32] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:32] DEBUG: Generated='all living things require water' vs Expected='essential for life and survival'
+[07:22:32] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:32] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:32] DEBUG: Generated='chlorophyll' vs Expected='chlorophyll'
+[07:22:32] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:32] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:32] DEBUG: Generated='ellipse' vs Expected='yes'
+[07:22:32] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:32] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:32]   Progress: 10/42 - Recent F1: 0.300
+[07:22:32] DEBUG: Generated='bird flight' vs Expected='yes'
+[07:22:32] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:32] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:32] DEBUG: Generated='blue' vs Expected='red yellow blue'
+[07:22:32] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:32] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:32] DEBUG: Generated='france' vs Expected='france'
+[07:22:32] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:32] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:33] DEBUG: Generated='9th century -- 9th century' vs Expected='10th and 11th centuries'
+[07:22:33] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:33] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:33] DEBUG: Generated='sweden' vs Expected='denmark, iceland and norway'
+[07:22:33] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:33] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:33] DEBUG: Generated='cnut' vs Expected='rollo'
+[07:22:33] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:33] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:33] DEBUG: Generated='the ninth century' vs Expected='10th century'
+[07:22:33] DEBUG: Overlap=1, Precision=0.333, Recall=0.500
+[07:22:33] DEBUG: F1=0.400, EM=0.0, Overlap=0.500
+[07:22:33] DEBUG: Generated='william' vs Expected='william the conqueror'
+[07:22:33] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[07:22:33] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[07:22:33] DEBUG: Generated='king charles iii of west francia' vs Expected='richard i'
+[07:22:33] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:33] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:34] DEBUG: Generated='catholicism' vs Expected='catholic'
+[07:22:34] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:34] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:34]   Progress: 20/42 - Recent F1: 0.240
+[07:22:34] DEBUG: Generated='north' vs Expected='viking'
+[07:22:34] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:34] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:34] DEBUG: Generated='1024' vs Expected='9th century'
+[07:22:34] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:34] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:34] DEBUG: Generated='1066' vs Expected='911'
+[07:22:34] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:34] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:34] DEBUG: Generated='charles the simple' vs Expected='king charles iii'
+[07:22:34] DEBUG: Overlap=1, Precision=0.333, Recall=0.333
+[07:22:34] DEBUG: F1=0.333, EM=0.0, Overlap=0.333
+[07:22:34] DEBUG: Generated='elbe' vs Expected='seine'
+[07:22:34] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:34] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:34] DEBUG: Generated='the byzantines' vs Expected='rollo'
+[07:22:34] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:34] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:35] DEBUG: Generated='catholicism' vs Expected='catholicism'
+[07:22:35] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[07:22:35] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[07:22:35] DEBUG: Generated='west france' vs Expected='north'
+[07:22:35] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:35] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:35] DEBUG: Generated='cloth' vs Expected='fighting horsemen'
+[07:22:35] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:35] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:35] DEBUG: Generated='hohenstaufen' vs Expected='seljuk turks'
+[07:22:35] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:35] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:35]   Progress: 30/42 - Recent F1: 0.133
+[07:22:35] DEBUG: Generated='1984 -- 86' vs Expected='1050s'
+[07:22:35] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:35] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:35] DEBUG: Generated='862' vs Expected='1060s'
+[07:22:35] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:35] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:35] DEBUG: Generated='henshaw' vs Expected='alexius komnenos'
+[07:22:35] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:35] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:36] DEBUG: Generated='neath castle' vs Expected='afranji'
+[07:22:36] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:36] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:36] DEBUG: Generated='theudebert i' vs Expected='oursel'
+[07:22:36] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:36] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:36] DEBUG: Generated='turkey' vs Expected='turkish forces'
+[07:22:36] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:36] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:36] DEBUG: Generated='english' vs Expected='norman mercenary'
+[07:22:36] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:36] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:36] DEBUG: Generated='( last ) frederick iii' vs Expected='robert guiscard'
+[07:22:36] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:36] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:36] DEBUG: Generated='10th century' vs Expected='1082'
+[07:22:36] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:36] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:37] DEBUG: Generated='1,000,000' vs Expected='30,000'
+[07:22:37] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:37] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:37]   Progress: 40/42 - Recent F1: 0.000
+[07:22:37] DEBUG: Generated='constantinople' vs Expected='deabolis'
+[07:22:37] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:37] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:37] DEBUG: Generated='steffon' vs Expected='bohemond'
+[07:22:37] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[07:22:37] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[07:22:37]    basic completed: F1=0.160, EM=0.119
+[07:22:37] 
+🎉 Experiment completed! Total results: 294
+[07:22:37] 
+🔍 ANALYZING RESULTS...
+[07:22:37] 
+🏆 TEMPLATE PERFORMANCE RANKING:
+[07:22:37] --------------------------------------------------------------------------------
+[07:22:37] Template             F1 Score   EM Score   Samples  Improvement 
+[07:22:37] --------------------------------------------------------------------------------
+[07:22:37] retrieval_focused    0.166     0.095     42       ++3.5%      
+[07:22:37] confident_direct     0.164     0.095     42       ++2.2%      
+[07:22:37] basic                0.160     0.119     42       BASELINE    
+[07:22:37] instructional_clear  0.158     0.071     42       +-1.7%      
+[07:22:37] structured_response  0.154     0.071     42       +-4.2%      
+[07:22:37] context_guided       0.121     0.048     42       +-24.8%     
+[07:22:37] knowledge_synthesis  0.091     0.048     42       +-43.3%     
+[07:22:37] 
+📊 SUCCESS ANALYSIS:
+[07:22:37]   🥇 Best Template: retrieval_focused (F1: 0.166)
+[07:22:37]   ✅ SUCCESS! Basic template relegated to rank 3
+[07:22:37]   🎯 Template engineering shows measurable impact!
+[07:22:37] 
+📋 SAMPLE RESULTS:
+[07:22:37] ======================================================================
+[07:22:37] 
+🔸 Template: retrieval_focused (Rank 1)
+[07:22:37]    Q: What is the capital of France?...
+[07:22:37]    Expected: Paris
+[07:22:37]    Generated: paris
+[07:22:37]    Score: F1=1.000
+[07:22:37]    Q: Who wrote Romeo and Juliet?...
+[07:22:37]    Expected: William Shakespeare
+[07:22:37]    Generated: william shakespeare
+[07:22:37]    Score: F1=1.000
+[07:22:37] 
+🔸 Template: confident_direct (Rank 2)
+[07:22:37]    Q: What is the capital of France?...
+[07:22:37]    Expected: Paris
+[07:22:37]    Generated: paris
+[07:22:37]    Score: F1=1.000
+[07:22:37]    Q: Who wrote Romeo and Juliet?...
+[07:22:37]    Expected: William Shakespeare
+[07:22:37]    Generated: william shakespeare
+[07:22:37]    Score: F1=1.000
+[07:22:37] 
+🔸 Template: basic (Rank 3)
+[07:22:37]    Q: What is the capital of France?...
+[07:22:37]    Expected: Paris
+[07:22:37]    Generated: paris
+[07:22:37]    Score: F1=1.000
+[07:22:37]    Q: Who wrote Romeo and Juliet?...
+[07:22:37]    Expected: William Shakespeare
+[07:22:37]    Generated: william shakespeare
+[07:22:37]    Score: F1=1.000
+[07:22:37] 
+🎉 TARGETED EXPERIMENT COMPLETED!
