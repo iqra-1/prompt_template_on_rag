@@ -21,7 +21,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 class TargetedRAGExperiment:
-    def __init__(self, config_path="../configs/config.yaml"):
+    def __init__(self, config_path="../configs/config2.yaml"):
         """Initialize targeted RAG experiment"""
         self.load_config(config_path)
         self.setup_logging()
@@ -32,9 +32,9 @@ class TargetedRAGExperiment:
         try:
             with open(config_path, 'r') as f:
                 self.config = yaml.safe_load(f)
-            print("✅ Configuration loaded successfully")
+            print(" Configuration loaded successfully")
         except Exception as e:
-            print(f"❌ Failed to load config: {e}")
+            print(f" Failed to load config: {e}")
             sys.exit(1)
 
     def setup_logging(self):
@@ -42,7 +42,7 @@ class TargetedRAGExperiment:
         self.experiment_id = f"targeted_fix_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         self.log_file = f"../logs/{self.experiment_id}.log"
         os.makedirs("../logs", exist_ok=True)
-        print(f"🆔 Experiment ID: {self.experiment_id}")
+        print(f" Experiment ID: {self.experiment_id}")
 
     def log_message(self, message):
         """Log message to file and console"""
@@ -54,7 +54,7 @@ class TargetedRAGExperiment:
 
     def setup_gpu(self):
         """Setup GPU configuration"""
-        self.log_message("🔥 Setting up GPU configuration...")
+        self.log_message(" Setting up GPU configuration...")
         if not torch.cuda.is_available():
             self.device = "cpu"
             return False
@@ -72,13 +72,13 @@ class TargetedRAGExperiment:
                 best_gpu = i
 
         torch.cuda.set_device(best_gpu)
-        self.device = f"cuda:{best_gpu}"
-        self.log_message(f"🎯 Using device: {self.device}")
+        self.device = f"cuda:{1}"
+        self.log_message(f" Using device: {self.device}")
         return True
 
     def load_rag_models(self):
         """Load RAG models"""
-        self.log_message("📦 Loading RAG models...")
+        self.log_message(" Loading RAG models...")
         try:
             from transformers import RagTokenizer, RagRetriever, RagTokenForGeneration
 
@@ -91,10 +91,10 @@ class TargetedRAGExperiment:
             self.model = RagTokenForGeneration.from_pretrained(
                 model_name, retriever=self.retriever).to(self.device)
 
-            self.log_message("🚀 RAG system ready!")
+            self.log_message(" RAG system ready!")
             return True
         except Exception as e:
-            self.log_message(f"❌ Failed to load RAG models: {e}")
+            self.log_message(f" Failed to load RAG models: {e}")
             return False
 
     def create_targeted_questions(self):
@@ -191,7 +191,7 @@ class TargetedRAGExperiment:
 
     def load_evaluation_dataset(self):
         """Load targeted evaluation dataset"""
-        self.log_message("📚 Loading targeted evaluation dataset...")
+        self.log_message(" Loading targeted evaluation dataset...")
 
         # Start with targeted questions
         targeted_questions = self.create_targeted_questions()
@@ -210,23 +210,24 @@ class TargetedRAGExperiment:
                         'context': item['context'][:100] + "...",
                         'why_targeted': "SQuAD baseline"
                     })
-                    if len(squad_questions) >= 30:  # Limit SQuAD questions
-                        break
+                    # if len(squad_questions) >= 30:  # Limit SQuAD questions
+                    #     break
 
         except Exception as e:
-            self.log_message(f"⚠️ SQuAD loading failed: {e}")
+            self.log_message(f" SQuAD loading failed: {e}")
             squad_questions = []
 
         # Combine targeted and SQuAD questions
         all_questions = targeted_questions + squad_questions
+        # all_questions = squad_questions
 
         # Limit to config setting
         max_questions = self.config['experiment_settings']['num_test_questions']
         self.test_questions = all_questions[:max_questions]
 
         self.log_message(
-            f"📊 Dataset loaded: {len(self.test_questions)} questions")
-        self.log_message(f"   - Targeted questions: {len(targeted_questions)}")
+            f" Dataset loaded: {len(self.test_questions)} questions")
+        # self.log_message(f"   - Targeted questions: {len(targeted_questions)}")
         self.log_message(f"   - SQuAD questions: {len(squad_questions)}")
 
         return True
@@ -252,7 +253,7 @@ class TargetedRAGExperiment:
                 prompt, return_tensors="pt")
 
             if "input_ids" not in input_dict:
-                self.log_message("❌ No input_ids in tokenization result")
+                self.log_message(" No input_ids in tokenization result")
                 return "Tokenization failed"
 
             input_ids = input_dict["input_ids"].to(self.device)
@@ -262,7 +263,7 @@ class TargetedRAGExperiment:
                 generated = self.model.generate(input_ids=input_ids)
 
             if generated is None:
-                self.log_message("❌ Generation returned None")
+                self.log_message(" Generation returned None")
                 return "Generation returned None"
 
             # EXACT DECODING FROM WORKING ORIGINAL CODE
@@ -334,7 +335,7 @@ class TargetedRAGExperiment:
 
     def run_experiment(self):
         """Run the targeted experiment"""
-        self.log_message("🧪 Starting targeted RAG experiment...")
+        self.log_message(" Starting targeted RAG experiment...")
 
         # Test specific templates in order (put basic last)
         template_names = [
@@ -344,12 +345,12 @@ class TargetedRAGExperiment:
 
         total_evaluations = len(self.test_questions) * len(template_names)
         self.log_message(
-            f"📋 Testing {len(template_names)} templates on {len(self.test_questions)} questions")
+            f" Testing {len(template_names)} templates on {len(self.test_questions)} questions")
 
         completed = 0
 
         for template_name in template_names:
-            self.log_message(f"\n🔄 Testing template: {template_name}")
+            self.log_message(f"\n Testing template: {template_name}")
 
             template_results = []
 
@@ -396,7 +397,7 @@ class TargetedRAGExperiment:
 
                 except Exception as e:
                     self.log_message(
-                        f"  ❌ Question {i+1} failed: {str(e)[:50]}")
+                        f"   Question {i+1} failed: {str(e)[:50]}")
                     continue
 
             # Template summary
@@ -407,14 +408,14 @@ class TargetedRAGExperiment:
                     f"   {template_name} completed: F1={avg_f1:.3f}, EM={avg_em:.3f}")
 
         self.log_message(
-            f"\n🎉 Experiment completed! Total results: {len(self.results)}")
+            f"\n Experiment completed! Total results: {len(self.results)}")
 
     def analyze_results(self):
         """Analyze results with focus on template differences"""
-        self.log_message("\n🔍 ANALYZING RESULTS...")
+        self.log_message("\n ANALYZING RESULTS...")
 
         if not self.results:
-            self.log_message("❌ No results to analyze")
+            self.log_message(" No results to analyze")
             return {}
 
         df = pd.DataFrame(self.results)
@@ -436,7 +437,7 @@ class TargetedRAGExperiment:
             template_metrics[template] = metrics
 
         # Display results
-        self.log_message("\n🏆 TEMPLATE PERFORMANCE RANKING:")
+        self.log_message("\n TEMPLATE PERFORMANCE RANKING:")
         self.log_message("-" * 80)
         self.log_message(
             f"{'Template':<20} {'F1 Score':<10} {'EM Score':<10} {'Samples':<8} {'Improvement':<12}")
@@ -468,25 +469,25 @@ class TargetedRAGExperiment:
         basic_rank = next((i for i, (name, _) in enumerate(
             sorted_templates) if name == 'basic'), -1)
 
-        self.log_message(f"\n📊 SUCCESS ANALYSIS:")
+        self.log_message(f"\n SUCCESS ANALYSIS:")
         self.log_message(
-            f"  🥇 Best Template: {best_template[0]} (F1: {best_template[1]['f1_score']:.3f})")
+            f"   Best Template: {best_template[0]} (F1: {best_template[1]['f1_score']:.3f})")
 
         if basic_rank == 0:
-            self.log_message(f"  ❌ Basic template still dominates (rank 1)")
+            self.log_message(f"   Basic template still dominates (rank 1)")
             self.log_message(
-                f"  💡 Suggestion: Try even simpler prompts or different question types")
+                f"   Suggestion: Try even simpler prompts or different question types")
         else:
             self.log_message(
-                f"  ✅ SUCCESS! Basic template relegated to rank {basic_rank + 1}")
+                f"   SUCCESS! Basic template relegated to rank {basic_rank + 1}")
             self.log_message(
-                f"  🎯 Template engineering shows measurable impact!")
+                f"   Template engineering shows measurable impact!")
 
         return template_metrics
 
     def display_sample_results(self):
         """Display sample results"""
-        self.log_message("\n📋 SAMPLE RESULTS:")
+        self.log_message("\n SAMPLE RESULTS:")
         self.log_message("=" * 70)
 
         if self.results:
@@ -496,7 +497,7 @@ class TargetedRAGExperiment:
 
             # Show top 3 templates
             for i, template in enumerate(template_performance.head(3).index):
-                self.log_message(f"\n🔸 Template: {template} (Rank {i+1})")
+                self.log_message(f"\n Template: {template} (Rank {i+1})")
                 template_results = df[df['template'] == template].head(2)
 
                 for _, result in template_results.iterrows():
@@ -509,7 +510,7 @@ class TargetedRAGExperiment:
 
 def main():
     """Main execution function"""
-    print("🎯 TARGETED RAG TEMPLATE FIX EXPERIMENT")
+    print(" TARGETED RAG TEMPLATE FIX EXPERIMENT")
     print("=" * 70)
     print("Designed to demonstrate template impact")
     print("=" * 70)
@@ -518,28 +519,28 @@ def main():
         experiment = TargetedRAGExperiment()
 
         if not experiment.setup_gpu():
-            experiment.log_message("⚠️ GPU setup failed - using CPU")
+            experiment.log_message(" GPU setup failed - using CPU")
 
         if not experiment.load_rag_models():
-            experiment.log_message("❌ Failed to load RAG models")
+            experiment.log_message(" Failed to load RAG models")
             return False
 
         if not experiment.load_evaluation_dataset():
-            experiment.log_message("❌ Failed to load evaluation dataset")
+            experiment.log_message(" Failed to load evaluation dataset")
             return False
 
         experiment.run_experiment()
         template_metrics = experiment.analyze_results()
         experiment.display_sample_results()
 
-        experiment.log_message("\n🎉 TARGETED EXPERIMENT COMPLETED!")
+        experiment.log_message("\n TARGETED EXPERIMENT COMPLETED!")
         return True
 
     except KeyboardInterrupt:
-        print("\n⏹️ Experiment interrupted by user")
+        print("\n Experiment interrupted by user")
         return False
     except Exception as e:
-        print(f"\n❌ Experiment failed: {str(e)}")
+        print(f"\n Experiment failed: {str(e)}")
         import traceback
         traceback.print_exc()
         return False

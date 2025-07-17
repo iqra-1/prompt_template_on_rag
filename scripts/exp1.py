@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Official Production RAG Experiment Script
-Save as: scripts/production_rag_experiment.py
 
 Facebook RAG with real Wikipedia embeddings for dissertation research
 """
@@ -23,7 +22,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 class ProductionRAGExperiment:
-    def __init__(self, config_path="../configs/config.yaml"):
+    def __init__(self, config_path="../configs/config1.yaml"):
         """Initialize production RAG experiment"""
         self.load_config(config_path)
         self.setup_logging()
@@ -34,9 +33,9 @@ class ProductionRAGExperiment:
         try:
             with open(config_path, 'r') as f:
                 self.config = yaml.safe_load(f)
-            print("✅ Configuration loaded successfully")
+            print(" Configuration loaded successfully")
         except Exception as e:
-            print(f"❌ Failed to load config: {e}")
+            print(f" Failed to load config: {e}")
             sys.exit(1)
 
     def setup_logging(self):
@@ -46,8 +45,8 @@ class ProductionRAGExperiment:
 
         os.makedirs("../logs", exist_ok=True)
 
-        print(f"🆔 Experiment ID: {self.experiment_id}")
-        print(f"📝 Log file: {self.log_file}")
+        print(f"Experiment ID: {self.experiment_id}")
+        print(f" Log file: {self.log_file}")
 
     def log_message(self, message):
         """Log message to file and console"""
@@ -61,10 +60,10 @@ class ProductionRAGExperiment:
 
     def setup_gpu(self):
         """Setup optimal GPU configuration"""
-        self.log_message("🔥 Setting up GPU configuration...")
+        self.log_message(" Setting up GPU configuration...")
 
         if not torch.cuda.is_available():
-            self.log_message("❌ CUDA not available - falling back to CPU")
+            self.log_message(" CUDA not available - falling back to CPU")
             self.device = "cpu"
             return False
 
@@ -87,51 +86,51 @@ class ProductionRAGExperiment:
         self.device = f"cuda:{best_gpu}"
 
         self.log_message(
-            f"🎯 Selected GPU {best_gpu}: {max_free:.1f}GB available")
-        self.log_message(f"🔧 Using device: {self.device}")
+            f" Selected GPU {best_gpu}: {max_free:.1f}GB available")
+        self.log_message(f" Using device: {self.device}")
 
         return True
 
     def load_rag_models(self):
         """Load Facebook RAG models with real Wikipedia"""
-        self.log_message("📦 Loading Facebook RAG models...")
+        self.log_message(" Loading Facebook RAG models...")
 
         try:
-            from transformers import RagTokenizer, RagRetriever, RagTokenForGeneration  # ✅ FIXED
+            from transformers import RagTokenizer, RagRetriever, RagTokenForGeneration  # FIXED
 
             model_name = self.config['models']['rag_model']
-            self.log_message(f"🤖 Model: {model_name}")
+            self.log_message(f"Model: {model_name}")
 
             # Load tokenizer
             self.log_message("  Loading tokenizer...")
             self.tokenizer = RagTokenizer.from_pretrained(model_name)
 
             # Load retriever FIRST (like working example)
-            self.log_message("🔍 Loading Wikipedia retriever...")
+            self.log_message("Loading Wikipedia retriever...")
             self.retriever = RagRetriever.from_pretrained(
                 model_name,
                 index_name="exact",
                 use_dummy_dataset=False
             )
-            self.log_message("✅ Retriever loaded!")
+            self.log_message(" Retriever loaded!")
 
             # Load model WITH retriever (like working example)
             self.log_message("  Loading RAG Token model...")
-            self.model = RagTokenForGeneration.from_pretrained(  # ✅ FIXED
+            self.model = RagTokenForGeneration.from_pretrained(  # FIXED
                 model_name,
-                retriever=self.retriever  # ✅ FIXED - Add retriever like working example
+                retriever=self.retriever  # FIXED - Add retriever like working example
             ).to(self.device)
 
-            self.log_message("🚀 RAG Token system ready!")
+            self.log_message(" RAG Token system ready!")
             return True
 
         except Exception as e:
-            self.log_message(f"❌ Failed to load RAG models: {str(e)}")
+            self.log_message(f" Failed to load RAG models: {str(e)}")
             return False
 
     def load_evaluation_dataset(self):
         """Load evaluation dataset with proper scaling for large datasets"""
-        self.log_message("📚 Loading evaluation dataset...")
+        self.log_message(" Loading evaluation dataset...")
 
         try:
             from datasets import load_dataset
@@ -151,7 +150,7 @@ class ProductionRAGExperiment:
                 dataset = load_dataset(
                     "squad_v2", split=f"validation[:{load_size}]")
                 self.log_message(
-                    f"✅ SQuAD 2.0 loaded: {len(dataset)} raw questions")
+                    f" SQuAD 2.0 loaded: {len(dataset)} raw questions")
 
                 # Filter for questions with answers
                 test_questions = []
@@ -169,15 +168,15 @@ class ProductionRAGExperiment:
 
                 if len(test_questions) < max_questions:
                     self.log_message(
-                        f"⚠️  Only found {len(test_questions)} questions with answers, using all available")
+                        f"  Only found {len(test_questions)} questions with answers, using all available")
 
                 self.test_questions = test_questions
                 self.log_message(
-                    f"📊 Final dataset: {len(self.test_questions)} questions with answers")
+                    f" Final dataset: {len(self.test_questions)} questions with answers")
 
             except Exception as e:
-                self.log_message(f"⚠️  SQuAD failed: {e}")
-                self.log_message("🔄 Using fallback questions...")
+                self.log_message(f"  SQuAD failed: {e}")
+                self.log_message("Using fallback questions...")
 
                 # High-quality fallback questions (expanded for larger datasets)
                 fallback_questions = [
@@ -224,14 +223,14 @@ class ProductionRAGExperiment:
                     self.test_questions = fallback_questions[:max_questions]
 
             self.log_message(
-                f"📊 Loaded {len(self.test_questions)} evaluation questions")
+                f" Loaded {len(self.test_questions)} evaluation questions")
             self.log_message(
-                f"🎯 Expected total evaluations: {len(self.test_questions)} × 7 templates = {len(self.test_questions) * 7}")
+                f" Expected total evaluations: {len(self.test_questions)} × 7 templates = {len(self.test_questions) * 7}")
 
             return True
 
         except Exception as e:
-            self.log_message(f"❌ Failed to load evaluation dataset: {str(e)}")
+            self.log_message(f" Failed to load evaluation dataset: {str(e)}")
             return False
 
     def generate_answer(self, question, template_type="basic"):
@@ -257,7 +256,7 @@ class ProductionRAGExperiment:
             # Check if tokenizer has the method
             if not hasattr(self.tokenizer, 'prepare_seq2seq_batch'):
                 self.log_message(
-                    "❌ Tokenizer missing prepare_seq2seq_batch method")
+                    " Tokenizer missing prepare_seq2seq_batch method")
                 return "Tokenizer method missing"
 
             # EXACT METHOD FROM WORKING TEST
@@ -265,7 +264,7 @@ class ProductionRAGExperiment:
                 prompt, return_tensors="pt")
 
             if "input_ids" not in input_dict:
-                self.log_message("❌ No input_ids in tokenization result")
+                self.log_message(" No input_ids in tokenization result")
                 return "Tokenization failed"
 
             input_ids = input_dict["input_ids"].to(self.device)
@@ -273,7 +272,7 @@ class ProductionRAGExperiment:
 
             # Check if model exists
             if not hasattr(self, 'model') or self.model is None:
-                self.log_message("❌ Model is None")
+                self.log_message(" Model is None")
                 return "Model not loaded"
 
             # EXACT GENERATION FROM WORKING TEST
@@ -281,7 +280,7 @@ class ProductionRAGExperiment:
                 generated = self.model.generate(input_ids=input_ids)
 
             if generated is None:
-                self.log_message("❌ Generation returned None")
+                self.log_message(" Generation returned None")
                 return "Generation returned None"
 
             # EXACT DECODING FROM WORKING TEST
@@ -340,7 +339,7 @@ class ProductionRAGExperiment:
 
     def run_experiment(self):
         """Run the complete experiment"""
-        self.log_message("🧪 Starting production RAG experiment...")
+        self.log_message(" Starting production RAG experiment...")
 
         template_names = [template['name']
                           for template in self.config['templates']]
@@ -355,7 +354,7 @@ class ProductionRAGExperiment:
         completed = 0
 
         for template_name in template_names:
-            self.log_message(f"\n🔄 Testing template: {template_name}")
+            self.log_message(f"\nTesting template: {template_name}")
 
             template_results = []
 
@@ -399,7 +398,7 @@ class ProductionRAGExperiment:
 
                 except Exception as e:
                     self.log_message(
-                        f"  ❌ Question {i+1} failed: {str(e)[:50]}")
+                        f"   Question {i+1} failed: {str(e)[:50]}")
                     continue
 
             # Template summary
@@ -409,7 +408,7 @@ class ProductionRAGExperiment:
                 self.log_message(
                     f"   {template_name} summary: F1={avg_f1:.3f}, EM={avg_em:.3f}")
 
-        self.log_message(f"\n🎉 Experiment completed!")
+        self.log_message(f"\n Experiment completed!")
         self.log_message(f" Total results generated: {len(self.results)}")
 
     def analyze_results(self):
@@ -417,7 +416,7 @@ class ProductionRAGExperiment:
         self.log_message("\n ANALYZING RESULTS...")
 
         if not self.results:
-            self.log_message("❌ No results to analyze")
+            self.log_message(" No results to analyze")
             return {}
 
         df = pd.DataFrame(self.results)
@@ -440,7 +439,7 @@ class ProductionRAGExperiment:
             template_metrics[template] = metrics
 
         # Display results
-        self.log_message("\n🏆 TEMPLATE PERFORMANCE RANKING:")
+        self.log_message("\n TEMPLATE PERFORMANCE RANKING:")
         self.log_message("-" * 80)
         self.log_message(
             f"{'Template':<20} {'F1 Score':<10} {'EM Score':<10} {'Overlap':<10} {'Length':<8}")
@@ -470,28 +469,28 @@ class ProductionRAGExperiment:
 
         self.log_message(f"\n STATISTICAL ANALYSIS:")
         self.log_message(
-            f"  🥇 Best Template: {best_template[0]} (F1: {best_template[1]['f1_score']:.3f})")
+            f"   Best Template: {best_template[0]} (F1: {best_template[1]['f1_score']:.3f})")
         self.log_message(
-            f"  🥉 Worst Template: {worst_template[0]} (F1: {worst_template[1]['f1_score']:.3f})")
+            f"   Worst Template: {worst_template[0]} (F1: {worst_template[1]['f1_score']:.3f})")
         self.log_message(f"   Performance Improvement: {improvement:.1f}%")
         self.log_message(
-            f"  📏 F1 Score Range: {worst_template[1]['f1_score']:.3f} - {best_template[1]['f1_score']:.3f}")
+            f"   F1 Score Range: {worst_template[1]['f1_score']:.3f} - {best_template[1]['f1_score']:.3f}")
 
         # Check if using real Wikipedia
         if self.config['models']['use_real_wikipedia']:
-            self.log_message(f"  🌟 Using REAL Wikipedia embeddings")
+            self.log_message(f"  Using REAL Wikipedia embeddings")
             if best_template[1]['f1_score'] > 0.3:
                 self.log_message(
-                    f"  ✅ EXCELLENT: Research-grade performance achieved!")
+                    f"   EXCELLENT: Research-grade performance achieved!")
             elif best_template[1]['f1_score'] > 0.2:
                 self.log_message(
-                    f"  👍 GOOD: Strong performance with real data")
+                    f"   GOOD: Strong performance with real data")
             else:
                 self.log_message(
-                    f"  ⚠️  Performance lower than expected with real data")
+                    f"    Performance lower than expected with real data")
         else:
             self.log_message(
-                f"  ⚠️  Using dummy dataset - scores artificially low")
+                f"    Using dummy dataset - scores artificially low")
 
         return template_metrics
 
@@ -523,7 +522,7 @@ class ProductionRAGExperiment:
         if self.config['output']['save_markdown_report']:
             report_file = f"{results_dir}/report_{timestamp}.md"
             self.generate_markdown_report(template_metrics, report_file)
-            self.log_message(f"  📄 Report: {report_file}")
+            self.log_message(f" Report: {report_file}")
 
         # Save experiment metadata
         metadata = {
@@ -538,7 +537,7 @@ class ProductionRAGExperiment:
         metadata_file = f"{results_dir}/metadata_{timestamp}.json"
         with open(metadata_file, 'w') as f:
             json.dump(metadata, f, indent=2)
-        self.log_message(f"  🔧 Metadata: {metadata_file}")
+        self.log_message(f"   Metadata: {metadata_file}")
 
     def generate_markdown_report(self, template_metrics, report_file):
         """Generate comprehensive markdown report"""
@@ -631,20 +630,6 @@ This experiment evaluates prompt engineering strategies for Facebook's official 
 ### Significance
 The {f1_range:.3f} point difference between best and worst templates demonstrates that prompt engineering has measurable impact on RAG system performance.
 
-## Implications for Practice
-
-1. **Instructional Prompts**: Templates with clear instructions tend to outperform basic approaches
-2. **Role-Based Prompting**: Expert role framing can improve response quality
-3. **Context Emphasis**: Explicitly directing attention to context improves retrieval utilization
-
-## Future Work
-
-1. **Domain-Specific Evaluation**: Test on specialized knowledge domains
-2. **Longer Context**: Evaluate with extended document contexts
-3. **Multi-Turn Conversations**: Assess prompt effectiveness in dialogue settings
-4. **Cross-Lingual**: Extend evaluation to non-English languages
-
-## Conclusion
 
 This experiment provides empirical evidence that prompt engineering significantly impacts RAG system performance. The {best_template[0]} template achieved the best results, offering a practical recommendation for production RAG deployments.
 
@@ -659,7 +644,7 @@ This experiment provides empirical evidence that prompt engineering significantl
 
     def display_sample_results(self):
         """Display sample results for quick review"""
-        self.log_message("\n📋 SAMPLE RESULTS:")
+        self.log_message("\n SAMPLE RESULTS:")
         self.log_message("=" * 70)
 
         # Show 3 examples from best template
@@ -673,7 +658,7 @@ This experiment provides empirical evidence that prompt engineering significantl
 
             for i, (_, result) in enumerate(best_template_results.iterrows(), 1):
                 self.log_message(
-                    f"\n🔸 Example {i} (Template: {result['template']}):")
+                    f"\n Example {i} (Template: {result['template']}):")
                 self.log_message(f"   Q: {result['question']}")
                 self.log_message(f"   Expected: {result['true_answer']}")
                 self.log_message(f"   Generated: {result['generated_answer']}")
@@ -683,7 +668,7 @@ This experiment provides empirical evidence that prompt engineering significantl
 
 def main():
     """Main execution function"""
-    print("🎯 OFFICIAL RAG PRODUCTION EXPERIMENT")
+    print(" OFFICIAL RAG PRODUCTION EXPERIMENT")
     print("=" * 70)
     print("Facebook RAG with Real Wikipedia Embeddings")
     print("For Dissertation Research")
@@ -696,16 +681,16 @@ def main():
         # Setup system
         if not experiment.setup_gpu():
             experiment.log_message(
-                "⚠️  GPU setup failed - continuing with CPU")
+                "  GPU setup failed - continuing with CPU")
 
         # Load models
         if not experiment.load_rag_models():
-            experiment.log_message("❌ Failed to load RAG models")
+            experiment.log_message(" Failed to load RAG models")
             return False
 
         # Load evaluation data
         if not experiment.load_evaluation_dataset():
-            experiment.log_message("❌ Failed to load evaluation dataset")
+            experiment.log_message(" Failed to load evaluation dataset")
             return False
 
         # Run experiment
@@ -720,17 +705,17 @@ def main():
         # Display samples
         experiment.display_sample_results()
 
-        experiment.log_message("\n🎉 EXPERIMENT COMPLETED SUCCESSFULLY!")
+        experiment.log_message("\n EXPERIMENT COMPLETED SUCCESSFULLY!")
         experiment.log_message(
             " Check the results directory for detailed outputs")
 
         return True
 
     except KeyboardInterrupt:
-        print("\n⏹️  Experiment interrupted by user")
+        print("\n Experiment interrupted by user")
         return False
     except Exception as e:
-        print(f"\n❌ Experiment failed: {str(e)}")
+        print(f"\n Experiment failed: {str(e)}")
         import traceback
         traceback.print_exc()
         return False

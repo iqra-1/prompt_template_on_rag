@@ -2,7 +2,7 @@
 from transformers import RagTokenizer, RagRetriever, RagTokenForGeneration
 import torch
 
-print("🧪 Testing RAG Token Generation")
+print(" Testing RAG Token Generation")
 print("=" * 50)
 
 # Load model components
@@ -36,7 +36,7 @@ templates = {
 }
 
 for question in questions:
-    print(f"\n📋 Question: {question}")
+    print(f"\n Question: {question}")
 
     for template_name, template in templates.items():
         prompt = template.format(question=question)
@@ -55,4 +55,4 @@ for question in questions:
 
     print("-" * 50)
 
-print("\n🎯 If this works, we'll integrate it into your main script!")
+print("\n If this works, we'll integrate it into your main script!")

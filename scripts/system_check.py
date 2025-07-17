@@ -16,7 +16,7 @@ from datetime import datetime
 def print_header():
     """Print formatted header"""
     print("=" * 70)
-    print("🎯 OFFICIAL RAG PRODUCTION SYSTEM CHECK")
+    print(" OFFICIAL RAG PRODUCTION SYSTEM CHECK")
     print("=" * 70)
     print(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
@@ -62,29 +62,29 @@ def check_python_environment():
                 print(f"  ✅ Pandas: {version}")
 
         except ImportError:
-            print(f"  ❌ {package}: Not installed")
+            print(f"   {package}: Not installed")
             missing_packages.append(package)
 
     if missing_packages:
         print(
-            f"\n⚠️  Install missing packages: pip install {' '.join(missing_packages)}")
+            f"\n  Install missing packages: pip install {' '.join(missing_packages)}")
         return False
 
-    print("  🎉 All required packages installed!")
+    print("   All required packages installed!")
     return True
 
 
 def check_gpu_resources():
     """Comprehensive GPU check"""
-    print("\n🔥 GPU RESOURCES CHECK")
+    print("\n GPU RESOURCES CHECK")
     print("-" * 40)
 
     if not torch.cuda.is_available():
-        print("  ❌ CUDA not available")
+        print("   CUDA not available")
         return False, -1
 
     gpu_count = torch.cuda.device_count()
-    print(f"  📊 Available GPUs: {gpu_count}")
+    print(f"   Available GPUs: {gpu_count}")
 
     best_gpu = 0
     max_free_memory = 0
@@ -122,20 +122,20 @@ def check_gpu_resources():
             best_gpu = i
 
     print(
-        f"\n  🎯 Recommended GPU: {best_gpu} ({max_free_memory:.1f} GB available)")
+        f"\n   Recommended GPU: {best_gpu} ({max_free_memory:.1f} GB available)")
 
     # Overall assessment
     if max_free_memory >= 6:
         print("  ✅ System ready for production RAG!")
         return True, best_gpu
     else:
-        print("  ⚠️  May need memory optimization or cleanup")
+        print("    May need memory optimization or cleanup")
         return False, best_gpu
 
 
 def check_disk_space():
     """Check available disk space"""
-    print("\n💾 DISK SPACE CHECK")
+    print("\n DISK SPACE CHECK")
     print("-" * 40)
 
     # Check current directory
@@ -157,13 +157,13 @@ def check_disk_space():
         print(f"  ✅ Sufficient space for 21GB Wikipedia download")
         return True
     else:
-        print(f"  ❌ Need {required_space - free_gb:.1f} GB more space")
+        print(f"   Need {required_space - free_gb:.1f} GB more space")
         return False
 
 
 def check_internet_connection():
     """Check internet connectivity"""
-    print("\n🌐 INTERNET CONNECTIVITY CHECK")
+    print("\n INTERNET CONNECTIVITY CHECK")
     print("-" * 40)
 
     try:
@@ -172,7 +172,7 @@ def check_internet_connection():
         print("  ✅ HuggingFace accessible")
 
         # Estimate download speed (simple test)
-        print("  🔄 Testing download speed...")
+        print("   Testing download speed...")
         import time
         start_time = time.time()
         urllib.request.urlopen(
@@ -190,7 +190,7 @@ def check_internet_connection():
         return True
 
     except Exception as e:
-        print(f"  ❌ Connection issue: {str(e)}")
+        print(f"   Connection issue: {str(e)}")
         return False
 
 
@@ -210,7 +210,7 @@ def check_huggingface_cache():
             cache_size = sum(os.path.getsize(os.path.join(dirpath, filename))
                              for dirpath, dirnames, filenames in os.walk(rag_cache)
                              for filename in filenames) / 1024**3
-            print(f"  📊 Current cache size: {cache_size:.1f} GB")
+            print(f"   Current cache size: {cache_size:.1f} GB")
 
         print("  ✅ Cache directory ready")
     else:
@@ -221,7 +221,7 @@ def check_huggingface_cache():
 
 def generate_system_report():
     """Generate comprehensive system report"""
-    print("\n📋 SYSTEM READINESS REPORT")
+    print("\n SYSTEM READINESS REPORT")
     print("=" * 70)
 
     checks = {
@@ -235,23 +235,23 @@ def generate_system_report():
     passed_checks = sum(checks.values())
     total_checks = len(checks)
 
-    print(f"\n🎯 OVERALL SYSTEM STATUS:")
+    print(f"\n OVERALL SYSTEM STATUS:")
     print(f"  Passed: {passed_checks}/{total_checks} checks")
 
     for check_name, passed in checks.items():
-        status = "✅ PASS" if passed else "❌ FAIL"
+        status = "✅ PASS" if passed else " FAIL"
         print(f"  {check_name}: {status}")
 
     if passed_checks == total_checks:
-        print(f"\n🚀 SYSTEM READY FOR PRODUCTION RAG!")
+        print(f"\n SYSTEM READY FOR PRODUCTION RAG!")
         print(f"  All prerequisites met")
         print(f"  Recommended next step: Run production experiment")
     elif passed_checks >= total_checks - 1:
-        print(f"\n⚠️  SYSTEM MOSTLY READY")
+        print(f"\n  SYSTEM MOSTLY READY")
         print(f"  Minor issues detected - experiment may still work")
         print(f"  Consider addressing failed checks")
     else:
-        print(f"\n❌ SYSTEM NOT READY")
+        print(f"\n SYSTEM NOT READY")
         print(f"  Multiple issues detected")
         print(f"  Address failed checks before proceeding")
 
@@ -273,12 +273,12 @@ def main():
         # Create logs directory if it doesn't exist
         os.makedirs("../logs", exist_ok=True)
 
-        print(f"\n💾 System check report saved to: {report_file}")
+        print(f"\n System check report saved to: {report_file}")
 
         return system_ready
 
     except Exception as e:
-        print(f"\n❌ System check failed: {str(e)}")
+        print(f"\n System check failed: {str(e)}")
         return False
 
 

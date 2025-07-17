@@ -1,0 +1,89 @@
+[14:05:22] 🔥 Setting up GPU configuration...
+[14:05:22] 🎯 Using device: cuda:0
+[14:05:22] 📦 Loading Facebook RAG models...
+[14:08:42] 🚀 RAG system ready!
+[14:08:42] 🧪 Starting multi-dataset RAG experiment...
+[14:08:42] 📚 Loading multi-dataset evaluation...
+[14:08:42] 🎯 Target: 3 questions per dataset
+[14:08:42] 📚 Loading SQuAD dataset (3 questions)...
+[14:08:46] ✅ SQuAD loaded: 3 questions
+[14:08:46] 📚 Loading NQ-Open dataset (3 questions)...
+[14:08:49] ✅ NQ-Open loaded: 3 questions
+[14:08:49] 📚 Loading TriviaQA dataset (3 questions)...
+[14:08:53] ✅ TriviaQA loaded: 3 questions
+[14:08:53] 
+📊 DATASET SUMMARY:
+[14:08:53]    SQuAD: 3 questions
+[14:08:53]    NQ-Open: 3 questions
+[14:08:53]    TriviaQA: 3 questions
+[14:08:53]    Total: 9 questions
+[14:08:53] ✅ Loaded 7 templates from config
+[14:08:53] 📋 Experiment scope:
+[14:08:53]    Questions: 9
+[14:08:53]    Templates: 7
+[14:08:53]    Total evaluations: 63
+[14:08:53] 
+🔄 Testing template: question_mark
+[14:08:58]    ✅ question_mark: F1=0.333, EM=0.333
+[14:08:58] 
+🔄 Testing template: precise_instruction
+[14:09:02]    ✅ precise_instruction: F1=0.350, EM=0.222
+[14:09:02] 
+🔄 Testing template: retrieval_focused
+[14:09:06]    ✅ retrieval_focused: F1=0.378, EM=0.333
+[14:09:06] 
+🔄 Testing template: confident_direct
+[14:09:10]    ✅ confident_direct: F1=0.378, EM=0.333
+[14:09:10] 
+🔄 Testing template: context_guided
+[14:09:14]    ✅ context_guided: F1=0.267, EM=0.222
+[14:09:14] 
+🔄 Testing template: conversational
+[14:09:18]    ✅ conversational: F1=0.267, EM=0.222
+[14:09:18] 
+🔄 Testing template: basic
+[14:09:22]    ✅ basic: F1=0.222, EM=0.222
+[14:09:22] 
+🎉 Multi-dataset experiment completed!
+[14:09:22] 📊 Total results generated: 63
+[14:09:22] 
+🔍 ANALYZING MULTI-DATASET RESULTS...
+[14:09:22] 
+🏆 OVERALL MULTI-DATASET PERFORMANCE:
+[14:09:22] -------------------------------------------------------------------------------------
+[14:09:22] Template             F1 Score   EM Score   Samples  Improvement 
+[14:09:22] -------------------------------------------------------------------------------------
+[14:09:22] retrieval_focused    0.378     0.333     9        +70.0%      
+[14:09:22] confident_direct     0.378     0.333     9        +70.0%      
+[14:09:22] precise_instruction  0.350     0.222     9        +57.5%      
+[14:09:22] question_mark        0.333     0.333     9        +50.0%      
+[14:09:22] context_guided       0.267     0.222     9        +20.0%      
+[14:09:22] conversational       0.267     0.222     9        +20.0%      
+[14:09:22] basic                0.222     0.222     9        BASELINE    
+[14:09:22] 
+📊 PER-DATASET ANALYSIS:
+[14:09:22] 
+🔸 SQuAD Dataset:
+[14:09:22]    1. precise_instruction: F1=0.717 (+115.0%)
+[14:09:22]    2. retrieval_focused: F1=0.467 (+40.0%)
+[14:09:22]    3. confident_direct: F1=0.467 (+40.0%)
+[14:09:22] 
+🔸 NQ-Open Dataset:
+[14:09:22]    1. question_mark: F1=0.667 (+100.0%)
+[14:09:22]    2. retrieval_focused: F1=0.667 (+100.0%)
+[14:09:22]    3. confident_direct: F1=0.667 (+100.0%)
+[14:09:22] 
+🔸 TriviaQA Dataset:
+[14:09:22]    1. question_mark: F1=0.000 (N/A)
+[14:09:22]    2. precise_instruction: F1=0.000 (N/A)
+[14:09:22]    3. retrieval_focused: F1=0.000 (N/A)
+[14:09:22] 
+💾 Saving multi-dataset results...
+[14:09:22]    📊 Detailed results: ../results/multi_dataset_detailed_20250711_140922.csv
+[14:09:22]    📋 Summary: ../results/multi_dataset_summary_20250711_140922.csv
+[14:09:22]    📊 SQuAD results: ../results/multi_dataset_squad_20250711_140922.csv
+[14:09:22]    📊 NQ-Open results: ../results/multi_dataset_nq-open_20250711_140922.csv
+[14:09:22]    📊 TriviaQA results: ../results/multi_dataset_triviaqa_20250711_140922.csv
+[14:09:22] 
+🎉 MULTI-DATASET EXPERIMENT COMPLETED!
+[14:09:22] 📚 Cross-dataset validation complete for dissertation

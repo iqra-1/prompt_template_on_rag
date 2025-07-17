@@ -1,0 +1,553 @@
+[15:26:16] 🔥 Setting up GPU configuration...
+[15:26:16] 🎯 Using device: cuda:0
+[15:26:16] 📦 Loading Facebook RAG models...
+[15:30:20] 🚀 RAG system ready!
+[15:30:20] 🧪 Starting multi-dataset RAG experiment...
+[15:30:20] 📚 Loading multi-dataset evaluation...
+[15:30:20] 🎯 Target: 500 questions per dataset
+[15:30:20] 📚 Loading SQuAD dataset (500 questions)...
+[15:30:25] ✅ SQuAD loaded: 498 questions
+[15:30:25] 📚 Loading NQ-Open dataset (500 questions)...
+[15:30:28] ✅ NQ-Open loaded: 500 questions
+[15:30:28] 📚 Loading TriviaQA dataset (500 questions)...
+[15:30:32] ✅ TriviaQA loaded: 500 questions
+[15:30:32] 
+📊 DATASET SUMMARY:
+[15:30:32]    SQuAD: 498 questions
+[15:30:32]    NQ-Open: 500 questions
+[15:30:32]    TriviaQA: 500 questions
+[15:30:32]    Total: 1498 questions
+[15:30:32] ✅ Loaded 7 templates from config
+[15:30:32] 📋 Experiment scope:
+[15:30:32]    Questions: 1498
+[15:30:32]    Templates: 7
+[15:30:32]    Total evaluations: 10486
+[15:30:32] 
+🔄 Testing template: question_mark
+[15:30:44]   Progress: 25/1498 - Recent F1: 0.129
+[15:30:56]   Progress: 50/1498 - Recent F1: 0.166
+[15:31:08]   Progress: 75/1498 - Recent F1: 0.060
+[15:31:20]   Progress: 100/1498 - Recent F1: 0.173
+[15:31:30]   Progress: 125/1498 - Recent F1: 0.196
+[15:31:40]   Progress: 150/1498 - Recent F1: 0.116
+[15:31:51]   Progress: 175/1498 - Recent F1: 0.119
+[15:32:02]   Progress: 200/1498 - Recent F1: 0.047
+[15:32:13]   Progress: 225/1498 - Recent F1: 0.221
+[15:32:23]   Progress: 250/1498 - Recent F1: 0.088
+[15:32:35]   Progress: 275/1498 - Recent F1: 0.019
+[15:32:47]   Progress: 300/1498 - Recent F1: 0.056
+[15:32:58]   Progress: 325/1498 - Recent F1: 0.293
+[15:33:09]   Progress: 350/1498 - Recent F1: 0.190
+[15:33:20]   Progress: 375/1498 - Recent F1: 0.172
+[15:33:32]   Progress: 400/1498 - Recent F1: 0.247
+[15:33:43]   Progress: 425/1498 - Recent F1: 0.116
+[15:33:54]   Progress: 450/1498 - Recent F1: 0.241
+[15:34:05]   Progress: 475/1498 - Recent F1: 0.083
+[15:34:15]   Progress: 500/1498 - Recent F1: 0.080
+[15:34:27]   Progress: 525/1498 - Recent F1: 0.340
+[15:34:38]   Progress: 550/1498 - Recent F1: 0.278
+[15:34:50]   Progress: 575/1498 - Recent F1: 0.256
+[15:35:02]   Progress: 600/1498 - Recent F1: 0.247
+[15:35:12]   Progress: 625/1498 - Recent F1: 0.315
+[15:35:24]   Progress: 650/1498 - Recent F1: 0.387
+[15:35:37]   Progress: 675/1498 - Recent F1: 0.447
+[15:35:50]   Progress: 700/1498 - Recent F1: 0.257
+[15:36:02]   Progress: 725/1498 - Recent F1: 0.513
+[15:36:14]   Progress: 750/1498 - Recent F1: 0.335
+[15:36:26]   Progress: 775/1498 - Recent F1: 0.406
+[15:36:37]   Progress: 800/1498 - Recent F1: 0.425
+[15:36:49]   Progress: 825/1498 - Recent F1: 0.411
+[15:37:00]   Progress: 850/1498 - Recent F1: 0.353
+[15:37:12]   Progress: 875/1498 - Recent F1: 0.399
+[15:37:25]   Progress: 900/1498 - Recent F1: 0.337
+[15:37:37]   Progress: 925/1498 - Recent F1: 0.413
+[15:37:49]   Progress: 950/1498 - Recent F1: 0.337
+[15:38:01]   Progress: 975/1498 - Recent F1: 0.411
+[15:38:13]   Progress: 1000/1498 - Recent F1: 0.320
+[15:38:24]   Progress: 1025/1498 - Recent F1: 0.146
+[15:38:35]   Progress: 1050/1498 - Recent F1: 0.179
+[15:38:47]   Progress: 1075/1498 - Recent F1: 0.090
+[15:38:59]   Progress: 1100/1498 - Recent F1: 0.164
+[15:39:11]   Progress: 1125/1498 - Recent F1: 0.118
+[15:39:23]   Progress: 1150/1498 - Recent F1: 0.103
+[15:39:34]   Progress: 1175/1498 - Recent F1: 0.099
+[15:39:45]   Progress: 1200/1498 - Recent F1: 0.161
+[15:39:57]   Progress: 1225/1498 - Recent F1: 0.294
+[15:40:09]   Progress: 1250/1498 - Recent F1: 0.099
+[15:40:20]   Progress: 1275/1498 - Recent F1: 0.062
+[15:40:30]   Progress: 1300/1498 - Recent F1: 0.139
+[15:40:41]   Progress: 1325/1498 - Recent F1: 0.029
+[15:40:52]   Progress: 1350/1498 - Recent F1: 0.175
+[15:41:04]   Progress: 1375/1498 - Recent F1: 0.262
+[15:41:16]   Progress: 1400/1498 - Recent F1: 0.255
+[15:41:27]   Progress: 1425/1498 - Recent F1: 0.257
+[15:41:39]   Progress: 1450/1498 - Recent F1: 0.100
+[15:41:51]   Progress: 1475/1498 - Recent F1: 0.120
+[15:42:02]    ✅ question_mark: F1=0.218, EM=0.128
+[15:42:02] 
+🔄 Testing template: precise_instruction
+[15:42:13]   Progress: 25/1498 - Recent F1: 0.142
+[15:42:26]   Progress: 50/1498 - Recent F1: 0.130
+[15:42:38]   Progress: 75/1498 - Recent F1: 0.100
+[15:42:49]   Progress: 100/1498 - Recent F1: 0.093
+[15:42:59]   Progress: 125/1498 - Recent F1: 0.115
+[15:43:10]   Progress: 150/1498 - Recent F1: 0.076
+[15:43:20]   Progress: 175/1498 - Recent F1: 0.077
+[15:43:31]   Progress: 200/1498 - Recent F1: 0.020
+[15:43:42]   Progress: 225/1498 - Recent F1: 0.027
+[15:43:52]   Progress: 250/1498 - Recent F1: 0.069
+[15:44:04]   Progress: 275/1498 - Recent F1: 0.048
+[15:44:16]   Progress: 300/1498 - Recent F1: 0.112
+[15:44:26]   Progress: 325/1498 - Recent F1: 0.252
+[15:44:38]   Progress: 350/1498 - Recent F1: 0.147
+[15:44:49]   Progress: 375/1498 - Recent F1: 0.000
+[15:44:59]   Progress: 400/1498 - Recent F1: 0.200
+[15:45:10]   Progress: 425/1498 - Recent F1: 0.123
+[15:45:22]   Progress: 450/1498 - Recent F1: 0.130
+[15:45:33]   Progress: 475/1498 - Recent F1: 0.087
+[15:45:44]   Progress: 500/1498 - Recent F1: 0.120
+[15:45:56]   Progress: 525/1498 - Recent F1: 0.347
+[15:46:08]   Progress: 550/1498 - Recent F1: 0.321
+[15:46:19]   Progress: 575/1498 - Recent F1: 0.193
+[15:46:31]   Progress: 600/1498 - Recent F1: 0.207
+[15:46:42]   Progress: 625/1498 - Recent F1: 0.299
+[15:46:54]   Progress: 650/1498 - Recent F1: 0.256
+[15:47:14]   Progress: 675/1498 - Recent F1: 0.495
+[15:47:34]   Progress: 700/1498 - Recent F1: 0.229
+[15:47:48]   Progress: 725/1498 - Recent F1: 0.320
+[15:48:00]   Progress: 750/1498 - Recent F1: 0.264
+[15:48:16]   Progress: 775/1498 - Recent F1: 0.332
+[15:48:35]   Progress: 800/1498 - Recent F1: 0.190
+[15:48:53]   Progress: 825/1498 - Recent F1: 0.300
+[15:49:14]   Progress: 850/1498 - Recent F1: 0.357
+[15:49:33]   Progress: 875/1498 - Recent F1: 0.144
+[15:49:52]   Progress: 900/1498 - Recent F1: 0.317
+[15:50:12]   Progress: 925/1498 - Recent F1: 0.348
+[15:50:31]   Progress: 950/1498 - Recent F1: 0.320
+[15:50:48]   Progress: 975/1498 - Recent F1: 0.149
+[15:51:07]   Progress: 1000/1498 - Recent F1: 0.260
+[15:51:23]   Progress: 1025/1498 - Recent F1: 0.167
+[15:51:42]   Progress: 1050/1498 - Recent F1: 0.105
+[15:52:02]   Progress: 1075/1498 - Recent F1: 0.065
+[15:52:21]   Progress: 1100/1498 - Recent F1: 0.172
+[15:52:40]   Progress: 1125/1498 - Recent F1: 0.098
+[15:52:59]   Progress: 1150/1498 - Recent F1: 0.150
+[15:53:18]   Progress: 1175/1498 - Recent F1: 0.119
+[15:53:36]   Progress: 1200/1498 - Recent F1: 0.176
+[15:53:55]   Progress: 1225/1498 - Recent F1: 0.251
+[15:54:12]   Progress: 1250/1498 - Recent F1: 0.099
+[15:54:28]   Progress: 1275/1498 - Recent F1: 0.116
+[15:54:44]   Progress: 1300/1498 - Recent F1: 0.163
+[15:55:02]   Progress: 1325/1498 - Recent F1: 0.040
+[15:55:21]   Progress: 1350/1498 - Recent F1: 0.113
+[15:55:38]   Progress: 1375/1498 - Recent F1: 0.100
+[15:55:59]   Progress: 1400/1498 - Recent F1: 0.203
+[15:56:18]   Progress: 1425/1498 - Recent F1: 0.184
+[15:56:37]   Progress: 1450/1498 - Recent F1: 0.111
+[15:56:57]   Progress: 1475/1498 - Recent F1: 0.196
+[15:57:15]    ✅ precise_instruction: F1=0.176, EM=0.098
+[15:57:15] 
+🔄 Testing template: retrieval_focused
+[15:57:35]   Progress: 25/1498 - Recent F1: 0.092
+[15:57:50]   Progress: 50/1498 - Recent F1: 0.110
+[15:58:09]   Progress: 75/1498 - Recent F1: 0.060
+[15:58:27]   Progress: 100/1498 - Recent F1: 0.040
+[15:58:44]   Progress: 125/1498 - Recent F1: 0.071
+[15:59:01]   Progress: 150/1498 - Recent F1: 0.101
+[15:59:18]   Progress: 175/1498 - Recent F1: 0.050
+[15:59:36]   Progress: 200/1498 - Recent F1: 0.032
+[15:59:54]   Progress: 225/1498 - Recent F1: 0.007
+[16:00:12]   Progress: 250/1498 - Recent F1: 0.072
+[16:00:32]   Progress: 275/1498 - Recent F1: 0.068
+[16:00:51]   Progress: 300/1498 - Recent F1: 0.051
+[16:01:09]   Progress: 325/1498 - Recent F1: 0.300
+[16:01:29]   Progress: 350/1498 - Recent F1: 0.183
+[16:01:49]   Progress: 375/1498 - Recent F1: 0.098
+[16:02:08]   Progress: 400/1498 - Recent F1: 0.120
+[16:02:27]   Progress: 425/1498 - Recent F1: 0.090
+[16:02:46]   Progress: 450/1498 - Recent F1: 0.172
+[16:03:06]   Progress: 475/1498 - Recent F1: 0.163
+[16:03:25]   Progress: 500/1498 - Recent F1: 0.080
+[16:03:44]   Progress: 525/1498 - Recent F1: 0.338
+[16:04:01]   Progress: 550/1498 - Recent F1: 0.344
+[16:04:21]   Progress: 575/1498 - Recent F1: 0.256
+[16:04:40]   Progress: 600/1498 - Recent F1: 0.293
+[16:05:02]   Progress: 625/1498 - Recent F1: 0.330
+[16:05:23]   Progress: 650/1498 - Recent F1: 0.333
+[16:05:47]   Progress: 675/1498 - Recent F1: 0.543
+[16:06:10]   Progress: 700/1498 - Recent F1: 0.327
+[16:06:32]   Progress: 725/1498 - Recent F1: 0.357
+[16:06:54]   Progress: 750/1498 - Recent F1: 0.224
+[16:07:09]   Progress: 775/1498 - Recent F1: 0.362
+[16:07:27]   Progress: 800/1498 - Recent F1: 0.317
+[16:07:47]   Progress: 825/1498 - Recent F1: 0.298
+[16:08:07]   Progress: 850/1498 - Recent F1: 0.330
+[16:08:28]   Progress: 875/1498 - Recent F1: 0.344
+[16:08:48]   Progress: 900/1498 - Recent F1: 0.326
+[16:09:03]   Progress: 925/1498 - Recent F1: 0.404
+[16:09:14]   Progress: 950/1498 - Recent F1: 0.328
+[16:09:31]   Progress: 975/1498 - Recent F1: 0.384
+[16:09:52]   Progress: 1000/1498 - Recent F1: 0.284
+[16:10:12]   Progress: 1025/1498 - Recent F1: 0.172
+[16:10:31]   Progress: 1050/1498 - Recent F1: 0.129
+[16:10:50]   Progress: 1075/1498 - Recent F1: 0.085
+[16:11:07]   Progress: 1100/1498 - Recent F1: 0.092
+[16:11:21]   Progress: 1125/1498 - Recent F1: 0.150
+[16:11:32]   Progress: 1150/1498 - Recent F1: 0.147
+[16:11:44]   Progress: 1175/1498 - Recent F1: 0.119
+[16:12:00]   Progress: 1200/1498 - Recent F1: 0.191
+[16:12:20]   Progress: 1225/1498 - Recent F1: 0.258
+[16:12:38]   Progress: 1250/1498 - Recent F1: 0.119
+[16:12:56]   Progress: 1275/1498 - Recent F1: 0.043
+[16:13:15]   Progress: 1300/1498 - Recent F1: 0.123
+[16:13:37]   Progress: 1325/1498 - Recent F1: 0.040
+[16:13:57]   Progress: 1350/1498 - Recent F1: 0.148
+[16:14:19]   Progress: 1375/1498 - Recent F1: 0.143
+[16:14:42]   Progress: 1400/1498 - Recent F1: 0.296
+[16:15:05]   Progress: 1425/1498 - Recent F1: 0.177
+[16:15:22]   Progress: 1450/1498 - Recent F1: 0.151
+[16:15:39]   Progress: 1475/1498 - Recent F1: 0.098
+[16:15:54]    ✅ retrieval_focused: F1=0.193, EM=0.109
+[16:15:54] 
+🔄 Testing template: confident_direct
+[16:16:15]   Progress: 25/1498 - Recent F1: 0.105
+[16:16:37]   Progress: 50/1498 - Recent F1: 0.130
+[16:16:58]   Progress: 75/1498 - Recent F1: 0.080
+[16:17:20]   Progress: 100/1498 - Recent F1: 0.093
+[16:17:40]   Progress: 125/1498 - Recent F1: 0.123
+[16:18:00]   Progress: 150/1498 - Recent F1: 0.123
+[16:18:19]   Progress: 175/1498 - Recent F1: 0.126
+[16:18:39]   Progress: 200/1498 - Recent F1: 0.000
+[16:18:59]   Progress: 225/1498 - Recent F1: 0.153
+[16:19:21]   Progress: 250/1498 - Recent F1: 0.072
+[16:19:42]   Progress: 275/1498 - Recent F1: 0.040
+[16:20:04]   Progress: 300/1498 - Recent F1: 0.056
+[16:20:24]   Progress: 325/1498 - Recent F1: 0.276
+[16:20:47]   Progress: 350/1498 - Recent F1: 0.160
+[16:21:10]   Progress: 375/1498 - Recent F1: 0.178
+[16:21:31]   Progress: 400/1498 - Recent F1: 0.218
+[16:21:51]   Progress: 425/1498 - Recent F1: 0.090
+[16:22:11]   Progress: 450/1498 - Recent F1: 0.196
+[16:22:30]   Progress: 475/1498 - Recent F1: 0.146
+[16:22:50]   Progress: 500/1498 - Recent F1: 0.080
+[16:23:10]   Progress: 525/1498 - Recent F1: 0.431
+[16:23:31]   Progress: 550/1498 - Recent F1: 0.369
+[16:23:54]   Progress: 575/1498 - Recent F1: 0.216
+[16:24:11]   Progress: 600/1498 - Recent F1: 0.227
+[16:24:32]   Progress: 625/1498 - Recent F1: 0.341
+[16:24:52]   Progress: 650/1498 - Recent F1: 0.309
+[16:25:15]   Progress: 675/1498 - Recent F1: 0.547
+[16:25:36]   Progress: 700/1498 - Recent F1: 0.312
+[16:25:55]   Progress: 725/1498 - Recent F1: 0.330
+[16:26:12]   Progress: 750/1498 - Recent F1: 0.197
+[16:26:31]   Progress: 775/1498 - Recent F1: 0.466
+[16:26:50]   Progress: 800/1498 - Recent F1: 0.427
+[16:27:09]   Progress: 825/1498 - Recent F1: 0.451
+[16:27:30]   Progress: 850/1498 - Recent F1: 0.300
+[16:27:48]   Progress: 875/1498 - Recent F1: 0.304
+[16:28:07]   Progress: 900/1498 - Recent F1: 0.323
+[16:28:26]   Progress: 925/1498 - Recent F1: 0.493
+[16:28:46]   Progress: 950/1498 - Recent F1: 0.350
+[16:29:05]   Progress: 975/1498 - Recent F1: 0.322
+[16:29:25]   Progress: 1000/1498 - Recent F1: 0.248
+[16:29:42]   Progress: 1025/1498 - Recent F1: 0.135
+[16:30:01]   Progress: 1050/1498 - Recent F1: 0.217
+[16:30:19]   Progress: 1075/1498 - Recent F1: 0.074
+[16:30:38]   Progress: 1100/1498 - Recent F1: 0.164
+[16:30:58]   Progress: 1125/1498 - Recent F1: 0.206
+[16:31:16]   Progress: 1150/1498 - Recent F1: 0.087
+[16:31:34]   Progress: 1175/1498 - Recent F1: 0.079
+[16:31:53]   Progress: 1200/1498 - Recent F1: 0.145
+[16:32:11]   Progress: 1225/1498 - Recent F1: 0.315
+[16:32:28]   Progress: 1250/1498 - Recent F1: 0.112
+[16:32:46]   Progress: 1275/1498 - Recent F1: 0.079
+[16:33:04]   Progress: 1300/1498 - Recent F1: 0.143
+[16:33:21]   Progress: 1325/1498 - Recent F1: 0.040
+[16:33:40]   Progress: 1350/1498 - Recent F1: 0.189
+[16:33:58]   Progress: 1375/1498 - Recent F1: 0.133
+[16:34:16]   Progress: 1400/1498 - Recent F1: 0.163
+[16:34:34]   Progress: 1425/1498 - Recent F1: 0.217
+[16:34:52]   Progress: 1450/1498 - Recent F1: 0.168
+[16:35:12]   Progress: 1475/1498 - Recent F1: 0.120
+[16:35:30]    ✅ confident_direct: F1=0.207, EM=0.122
+[16:35:30] 
+🔄 Testing template: context_guided
+[16:35:50]   Progress: 25/1498 - Recent F1: 0.121
+[16:36:08]   Progress: 50/1498 - Recent F1: 0.113
+[16:36:26]   Progress: 75/1498 - Recent F1: 0.020
+[16:36:45]   Progress: 100/1498 - Recent F1: 0.045
+[16:37:02]   Progress: 125/1498 - Recent F1: 0.126
+[16:37:20]   Progress: 150/1498 - Recent F1: 0.085
+[16:37:37]   Progress: 175/1498 - Recent F1: 0.067
+[16:37:54]   Progress: 200/1498 - Recent F1: 0.045
+[16:38:10]   Progress: 225/1498 - Recent F1: 0.149
+[16:38:28]   Progress: 250/1498 - Recent F1: 0.085
+[16:38:45]   Progress: 275/1498 - Recent F1: 0.013
+[16:39:02]   Progress: 300/1498 - Recent F1: 0.056
+[16:39:20]   Progress: 325/1498 - Recent F1: 0.169
+[16:39:40]   Progress: 350/1498 - Recent F1: 0.080
+[16:40:00]   Progress: 375/1498 - Recent F1: 0.052
+[16:40:16]   Progress: 400/1498 - Recent F1: 0.207
+[16:40:34]   Progress: 425/1498 - Recent F1: 0.116
+[16:40:53]   Progress: 450/1498 - Recent F1: 0.135
+[16:41:11]   Progress: 475/1498 - Recent F1: 0.076
+[16:41:27]   Progress: 500/1498 - Recent F1: 0.080
+[16:41:46]   Progress: 525/1498 - Recent F1: 0.233
+[16:42:04]   Progress: 550/1498 - Recent F1: 0.181
+[16:42:21]   Progress: 575/1498 - Recent F1: 0.193
+[16:42:40]   Progress: 600/1498 - Recent F1: 0.247
+[16:43:00]   Progress: 625/1498 - Recent F1: 0.163
+[16:43:20]   Progress: 650/1498 - Recent F1: 0.253
+[16:43:40]   Progress: 675/1498 - Recent F1: 0.460
+[16:44:02]   Progress: 700/1498 - Recent F1: 0.196
+[16:44:19]   Progress: 725/1498 - Recent F1: 0.244
+[16:44:38]   Progress: 750/1498 - Recent F1: 0.162
+[16:44:58]   Progress: 775/1498 - Recent F1: 0.346
+[16:45:16]   Progress: 800/1498 - Recent F1: 0.190
+[16:45:33]   Progress: 825/1498 - Recent F1: 0.338
+[16:45:53]   Progress: 850/1498 - Recent F1: 0.430
+[16:46:10]   Progress: 875/1498 - Recent F1: 0.297
+[16:46:30]   Progress: 900/1498 - Recent F1: 0.317
+[16:46:51]   Progress: 925/1498 - Recent F1: 0.288
+[16:47:12]   Progress: 950/1498 - Recent F1: 0.197
+[16:47:31]   Progress: 975/1498 - Recent F1: 0.273
+[16:47:52]   Progress: 1000/1498 - Recent F1: 0.356
+[16:48:09]   Progress: 1025/1498 - Recent F1: 0.115
+[16:48:27]   Progress: 1050/1498 - Recent F1: 0.153
+[16:48:47]   Progress: 1075/1498 - Recent F1: 0.054
+[16:49:06]   Progress: 1100/1498 - Recent F1: 0.100
+[16:49:25]   Progress: 1125/1498 - Recent F1: 0.128
+[16:49:44]   Progress: 1150/1498 - Recent F1: 0.171
+[16:50:01]   Progress: 1175/1498 - Recent F1: 0.099
+[16:50:20]   Progress: 1200/1498 - Recent F1: 0.167
+[16:50:40]   Progress: 1225/1498 - Recent F1: 0.302
+[16:50:58]   Progress: 1250/1498 - Recent F1: 0.119
+[16:51:17]   Progress: 1275/1498 - Recent F1: 0.106
+[16:51:36]   Progress: 1300/1498 - Recent F1: 0.163
+[16:51:53]   Progress: 1325/1498 - Recent F1: 0.040
+[16:52:07]   Progress: 1350/1498 - Recent F1: 0.113
+[16:52:19]   Progress: 1375/1498 - Recent F1: 0.087
+[16:52:32]   Progress: 1400/1498 - Recent F1: 0.143
+[16:52:44]   Progress: 1425/1498 - Recent F1: 0.149
+[16:52:57]   Progress: 1450/1498 - Recent F1: 0.141
+[16:53:09]   Progress: 1475/1498 - Recent F1: 0.120
+[16:53:21]    ✅ context_guided: F1=0.165, EM=0.090
+[16:53:21] 
+🔄 Testing template: conversational
+[16:53:34]   Progress: 25/1498 - Recent F1: 0.092
+[16:53:47]   Progress: 50/1498 - Recent F1: 0.116
+[16:54:01]   Progress: 75/1498 - Recent F1: 0.020
+[16:54:13]   Progress: 100/1498 - Recent F1: 0.099
+[16:54:24]   Progress: 125/1498 - Recent F1: 0.085
+[16:54:36]   Progress: 150/1498 - Recent F1: 0.085
+[16:54:47]   Progress: 175/1498 - Recent F1: 0.053
+[16:54:59]   Progress: 200/1498 - Recent F1: 0.032
+[16:55:11]   Progress: 225/1498 - Recent F1: 0.123
+[16:55:23]   Progress: 250/1498 - Recent F1: 0.094
+[16:55:36]   Progress: 275/1498 - Recent F1: 0.033
+[16:55:48]   Progress: 300/1498 - Recent F1: 0.073
+[16:56:01]   Progress: 325/1498 - Recent F1: 0.183
+[16:56:13]   Progress: 350/1498 - Recent F1: 0.120
+[16:56:26]   Progress: 375/1498 - Recent F1: 0.159
+[16:56:39]   Progress: 400/1498 - Recent F1: 0.100
+[16:56:50]   Progress: 425/1498 - Recent F1: 0.090
+[16:57:03]   Progress: 450/1498 - Recent F1: 0.160
+[16:57:15]   Progress: 475/1498 - Recent F1: 0.105
+[16:57:28]   Progress: 500/1498 - Recent F1: 0.000
+[16:57:40]   Progress: 525/1498 - Recent F1: 0.350
+[16:57:52]   Progress: 550/1498 - Recent F1: 0.243
+[16:58:06]   Progress: 575/1498 - Recent F1: 0.168
+[16:58:18]   Progress: 600/1498 - Recent F1: 0.213
+[16:58:32]   Progress: 625/1498 - Recent F1: 0.400
+[16:58:44]   Progress: 650/1498 - Recent F1: 0.300
+[16:58:58]   Progress: 675/1498 - Recent F1: 0.427
+[16:59:11]   Progress: 700/1498 - Recent F1: 0.262
+[16:59:24]   Progress: 725/1498 - Recent F1: 0.449
+[16:59:37]   Progress: 750/1498 - Recent F1: 0.211
+[16:59:50]   Progress: 775/1498 - Recent F1: 0.355
+[17:00:02]   Progress: 800/1498 - Recent F1: 0.372
+[17:00:14]   Progress: 825/1498 - Recent F1: 0.278
+[17:00:27]   Progress: 850/1498 - Recent F1: 0.330
+[17:00:39]   Progress: 875/1498 - Recent F1: 0.187
+[17:00:52]   Progress: 900/1498 - Recent F1: 0.208
+[17:01:06]   Progress: 925/1498 - Recent F1: 0.385
+[17:01:19]   Progress: 950/1498 - Recent F1: 0.296
+[17:01:32]   Progress: 975/1498 - Recent F1: 0.273
+[17:01:45]   Progress: 1000/1498 - Recent F1: 0.320
+[17:01:57]   Progress: 1025/1498 - Recent F1: 0.153
+[17:02:10]   Progress: 1050/1498 - Recent F1: 0.136
+[17:02:24]   Progress: 1075/1498 - Recent F1: 0.065
+[17:02:37]   Progress: 1100/1498 - Recent F1: 0.092
+[17:02:49]   Progress: 1125/1498 - Recent F1: 0.116
+[17:03:02]   Progress: 1150/1498 - Recent F1: 0.071
+[17:03:14]   Progress: 1175/1498 - Recent F1: 0.099
+[17:03:27]   Progress: 1200/1498 - Recent F1: 0.221
+[17:03:39]   Progress: 1225/1498 - Recent F1: 0.269
+[17:03:51]   Progress: 1250/1498 - Recent F1: 0.060
+[17:04:02]   Progress: 1275/1498 - Recent F1: 0.039
+[17:04:15]   Progress: 1300/1498 - Recent F1: 0.103
+[17:04:27]   Progress: 1325/1498 - Recent F1: 0.056
+[17:04:39]   Progress: 1350/1498 - Recent F1: 0.173
+[17:04:52]   Progress: 1375/1498 - Recent F1: 0.107
+[17:05:05]   Progress: 1400/1498 - Recent F1: 0.265
+[17:05:17]   Progress: 1425/1498 - Recent F1: 0.184
+[17:05:30]   Progress: 1450/1498 - Recent F1: 0.132
+[17:05:42]   Progress: 1475/1498 - Recent F1: 0.100
+[17:05:54]    ✅ conversational: F1=0.175, EM=0.097
+[17:05:54] 
+🔄 Testing template: basic
+[17:06:07]   Progress: 25/1498 - Recent F1: 0.132
+[17:06:20]   Progress: 50/1498 - Recent F1: 0.126
+[17:06:33]   Progress: 75/1498 - Recent F1: 0.060
+[17:06:46]   Progress: 100/1498 - Recent F1: 0.093
+[17:06:57]   Progress: 125/1498 - Recent F1: 0.169
+[17:07:09]   Progress: 150/1498 - Recent F1: 0.175
+[17:07:20]   Progress: 175/1498 - Recent F1: 0.100
+[17:07:31]   Progress: 200/1498 - Recent F1: 0.033
+[17:07:49]   Progress: 225/1498 - Recent F1: 0.158
+[17:08:08]   Progress: 250/1498 - Recent F1: 0.101
+[17:08:26]   Progress: 275/1498 - Recent F1: 0.040
+[17:08:45]   Progress: 300/1498 - Recent F1: 0.112
+[17:09:04]   Progress: 325/1498 - Recent F1: 0.200
+[17:09:22]   Progress: 350/1498 - Recent F1: 0.190
+[17:09:41]   Progress: 375/1498 - Recent F1: 0.178
+[17:10:00]   Progress: 400/1498 - Recent F1: 0.218
+[17:10:20]   Progress: 425/1498 - Recent F1: 0.170
+[17:10:39]   Progress: 450/1498 - Recent F1: 0.244
+[17:10:59]   Progress: 475/1498 - Recent F1: 0.133
+[17:11:16]   Progress: 500/1498 - Recent F1: 0.120
+[17:11:34]   Progress: 525/1498 - Recent F1: 0.354
+[17:11:53]   Progress: 550/1498 - Recent F1: 0.328
+[17:12:13]   Progress: 575/1498 - Recent F1: 0.216
+[17:12:32]   Progress: 600/1498 - Recent F1: 0.227
+[17:12:51]   Progress: 625/1498 - Recent F1: 0.352
+[17:13:11]   Progress: 650/1498 - Recent F1: 0.360
+[17:13:31]   Progress: 675/1498 - Recent F1: 0.507
+[17:13:54]   Progress: 700/1498 - Recent F1: 0.257
+[17:14:14]   Progress: 725/1498 - Recent F1: 0.447
+[17:14:34]   Progress: 750/1498 - Recent F1: 0.306
+[17:14:53]   Progress: 775/1498 - Recent F1: 0.493
+[17:15:10]   Progress: 800/1498 - Recent F1: 0.379
+[17:15:30]   Progress: 825/1498 - Recent F1: 0.458
+[17:15:51]   Progress: 850/1498 - Recent F1: 0.357
+[17:16:13]   Progress: 875/1498 - Recent F1: 0.402
+[17:16:33]   Progress: 900/1498 - Recent F1: 0.326
+[17:16:54]   Progress: 925/1498 - Recent F1: 0.431
+[17:17:13]   Progress: 950/1498 - Recent F1: 0.417
+[17:17:34]   Progress: 975/1498 - Recent F1: 0.343
+[17:17:55]   Progress: 1000/1498 - Recent F1: 0.320
+[17:18:13]   Progress: 1025/1498 - Recent F1: 0.151
+[17:18:33]   Progress: 1050/1498 - Recent F1: 0.203
+[17:18:51]   Progress: 1075/1498 - Recent F1: 0.103
+[17:19:09]   Progress: 1100/1498 - Recent F1: 0.124
+[17:19:29]   Progress: 1125/1498 - Recent F1: 0.164
+[17:19:49]   Progress: 1150/1498 - Recent F1: 0.179
+[17:20:09]   Progress: 1175/1498 - Recent F1: 0.119
+[17:20:28]   Progress: 1200/1498 - Recent F1: 0.181
+[17:20:48]   Progress: 1225/1498 - Recent F1: 0.321
+[17:21:06]   Progress: 1250/1498 - Recent F1: 0.099
+[17:21:25]   Progress: 1275/1498 - Recent F1: 0.026
+[17:21:43]   Progress: 1300/1498 - Recent F1: 0.163
+[17:22:02]   Progress: 1325/1498 - Recent F1: 0.043
+[17:22:21]   Progress: 1350/1498 - Recent F1: 0.161
+[17:22:39]   Progress: 1375/1498 - Recent F1: 0.302
+[17:22:59]   Progress: 1400/1498 - Recent F1: 0.262
+[17:23:19]   Progress: 1425/1498 - Recent F1: 0.284
+[17:23:37]   Progress: 1450/1498 - Recent F1: 0.115
+[17:23:57]   Progress: 1475/1498 - Recent F1: 0.120
+[17:24:17]    ✅ basic: F1=0.223, EM=0.128
+[17:24:17] 
+🎉 Multi-dataset experiment completed!
+[17:24:17] 📊 Total results generated: 10486
+[17:24:17] 
+🔍 ANALYZING MULTI-DATASET RESULTS...
+[17:24:17] 
+==========================================================================================
+[17:24:17] 📊 INDIVIDUAL DATASET PERFORMANCE RANKINGS
+[17:24:17] ==========================================================================================
+[17:24:17] 
+🔸 NQ-OPEN DATASET - 7-TEMPLATE PERFORMANCE RANKING:
+[17:24:17] -------------------------------------------------------------------------------------
+[17:24:17] Template             F1 Score   EM Score   Samples  Improvement 
+[17:24:17] -------------------------------------------------------------------------------------
+[17:24:17] basic                0.366     0.258     500      BASELINE    
+[17:24:17] question_mark        0.361     0.260     500      -1.3%       
+[17:24:17] confident_direct     0.350     0.252     500      -4.3%       
+[17:24:17] retrieval_focused    0.338     0.232     500      -7.6%       
+[17:24:17] conversational       0.301     0.206     500      -17.7%      
+[17:24:17] precise_instruction  0.284     0.196     500      -22.3%      
+[17:24:17] context_guided       0.270     0.184     500      -26.2%      
+[17:24:17] 
+📊 NQ-Open SUCCESS ANALYSIS:
+[17:24:17]   🥇 Best Template: basic (F1: 0.366)
+[17:24:17]   ❌ Basic dominates NQ-Open (rank 1)
+[17:24:17] 
+🔸 SQUAD DATASET - 7-TEMPLATE PERFORMANCE RANKING:
+[17:24:17] -------------------------------------------------------------------------------------
+[17:24:17] Template             F1 Score   EM Score   Samples  Improvement 
+[17:24:17] -------------------------------------------------------------------------------------
+[17:24:17] question_mark        0.139     0.072     498      +2.2%       
+[17:24:17] basic                0.136     0.068     498      BASELINE    
+[17:24:17] confident_direct     0.121     0.060     498      -11.3%      
+[17:24:17] precise_instruction  0.102     0.044     498      -25.3%      
+[17:24:17] retrieval_focused    0.096     0.054     498      -29.2%      
+[17:24:17] conversational       0.091     0.038     498      -32.8%      
+[17:24:17] context_guided       0.090     0.038     498      -33.6%      
+[17:24:17] 
+📊 SQuAD SUCCESS ANALYSIS:
+[17:24:17]   🥇 Best Template: question_mark (F1: 0.139)
+[17:24:17]   ✅ Basic relegated to rank 2 in SQuAD
+[17:24:17]   📈 Best improvement: 2.2% over basic
+[17:24:17] 
+🔸 TRIVIAQA DATASET - 7-TEMPLATE PERFORMANCE RANKING:
+[17:24:17] -------------------------------------------------------------------------------------
+[17:24:17] Template             F1 Score   EM Score   Samples  Improvement 
+[17:24:17] -------------------------------------------------------------------------------------
+[17:24:17] basic                0.167     0.058     500      BASELINE    
+[17:24:17] question_mark        0.152     0.050     500      -8.6%       
+[17:24:17] confident_direct     0.149     0.054     500      -10.7%      
+[17:24:17] retrieval_focused    0.144     0.042     500      -13.7%      
+[17:24:17] precise_instruction  0.142     0.054     500      -14.5%      
+[17:24:17] context_guided       0.133     0.048     500      -20.4%      
+[17:24:17] conversational       0.131     0.046     500      -21.7%      
+[17:24:17] 
+📊 TriviaQA SUCCESS ANALYSIS:
+[17:24:17]   🥇 Best Template: basic (F1: 0.167)
+[17:24:17]   ❌ Basic dominates TriviaQA (rank 1)
+[17:24:17] 
+==========================================================================================
+[17:24:17] 🌐 OVERALL MULTI-DATASET PERFORMANCE RANKING
+[17:24:17] ==========================================================================================
+[17:24:17] 
+🏆 COMBINED MULTI-DATASET - 7-TEMPLATE PERFORMANCE RANKING:
+[17:24:17] -------------------------------------------------------------------------------------
+[17:24:17] Template             F1 Score   EM Score   Samples  Improvement 
+[17:24:17] -------------------------------------------------------------------------------------
+[17:24:17] basic                0.223     0.128     1498     BASELINE    
+[17:24:17] question_mark        0.218     0.128     1498     -2.4%       
+[17:24:17] confident_direct     0.207     0.122     1498     -7.3%       
+[17:24:17] retrieval_focused    0.193     0.109     1498     -13.5%      
+[17:24:17] precise_instruction  0.176     0.098     1498     -21.0%      
+[17:24:17] conversational       0.175     0.097     1498     -21.7%      
+[17:24:17] context_guided       0.165     0.090     1498     -26.2%      
+[17:24:17] 
+📊 OVERALL MULTI-DATASET SUCCESS ANALYSIS:
+[17:24:17]   🥇 Best Overall Template: basic (F1: 0.223)
+[17:24:17]   ❌ Basic still dominates overall (rank 1)
+[17:24:17] 
+🔍 CROSS-DATASET CONSISTENCY ANALYSIS:
+[17:24:17]   📊 Dataset wins by template:
+[17:24:17]      basic: 2/3 datasets (NQ-Open, TriviaQA)
+[17:24:17]      question_mark: 1/3 datasets (SQuAD)
+[17:24:17] 
+  🎯 Template consistency across datasets:
+[17:24:17]      question_mark: std=0.102 (lower=more consistent)
+[17:24:17]      precise_instruction: std=0.078 (lower=more consistent)
+[17:24:17]      retrieval_focused: std=0.105 (lower=more consistent)
+[17:24:17]      confident_direct: std=0.102 (lower=more consistent)
+[17:24:17]      context_guided: std=0.077 (lower=more consistent)
+[17:24:17]      conversational: std=0.091 (lower=more consistent)
+[17:24:17]      basic: std=0.102 (lower=more consistent)
+[17:24:17] 
+💾 Saving multi-dataset results...
+[17:24:17]    📊 Detailed results: ../results/multi_dataset_detailed_20250711_172417.csv

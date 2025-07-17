@@ -50,48 +50,48 @@
 # Targeted RAG Experiment Configuration
 # Simplified to focus on core template differentiation
 
-# experiment:
-#   name: "targeted_template_fix"
-#   version: "1.0"
-#   description: "Targeted fix to demonstrate template impact"
+experiment:
+  name: "targeted_template_fix"
+  version: "1.0"
+  description: "Targeted fix to demonstrate template impact"
   
-# models:
-#   rag_model: "facebook/rag-token-nq"
-#   use_real_wikipedia: true
-#   precision: "fp16"
+models:
+  rag_model: "facebook/rag-token-nq"
+  use_real_wikipedia: true
+  precision: "fp16"
   
-# hardware:
-#   preferred_gpu: "auto"
-#   memory_optimization: true
-#   batch_size: 1
+hardware:
+  preferred_gpu: "auto"
+  memory_optimization: true
+  batch_size: 1
   
-# experiment_settings:
-#   num_test_questions: 50  # Start smaller for testing
-#   num_templates: 7
-#   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+experiment_settings:
+  num_test_questions: 50  # Start smaller for testing
+  num_templates: 7
+  evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
 
-# # Simple, working templates designed for RAG (Retrieval + Generation)
-# templates:
-#   - name: "retrieval_focused"
-#     template: "Based on retrieved information, answer: {question}"
-#   - name: "knowledge_synthesis" 
-#     template: "Using available knowledge sources, answer: {question}"
-#   - name: "instructional_clear"
-#     template: "Please provide a clear answer to: {question}"
-#   - name: "context_guided"
-#     template: "Draw from relevant context to answer: {question}"
-#   - name: "confident_direct"
-#     template: "Answer directly: {question}"
-#   - name: "structured_response"
-#     template: "Provide a well-structured answer to: {question}"
-#   - name: "basic"
-#     template: "{question}"
+# Simple, working templates designed for RAG (Retrieval + Generation)
+templates:
+  - name: "retrieval_focused"
+    template: "Based on retrieved information, answer: {question}"
+  - name: "knowledge_synthesis" 
+    template: "Using available knowledge sources, answer: {question}"
+  - name: "instructional_clear"
+    template: "Please provide a clear answer to: {question}"
+  - name: "context_guided"
+    template: "Draw from relevant context to answer: {question}"
+  - name: "confident_direct"
+    template: "Answer directly: {question}"
+  - name: "structured_response"
+    template: "Provide a well-structured answer to: {question}"
+  - name: "basic"
+    template: "{question}"
 
-# output:
-#   save_detailed_results: true
-#   save_summary: true
-#   save_markdown_report: false
-#   results_directory: "results"
+output:
+  save_detailed_results: true
+  save_summary: true
+  save_markdown_report: false
+  results_directory: "results"
 
 
 
@@ -389,72 +389,72 @@
 # FINAL 7-TEMPLATE CONFIGURATION FOR DISSERTATION
 # Comprehensive evaluation of prompt engineering strategies for RAG systems
 
-experiment:
-  name: "final_dissertation_templates"
-  version: "1.0"
-  description: "Final 7-template evaluation for dissertation - comprehensive RAG prompt engineering study"
+# experiment:
+#   name: "final_dissertation_templates"
+#   version: "1.0"
+#   description: "Final 7-template evaluation for dissertation - comprehensive RAG prompt engineering study"
   
-models:
-  rag_model: "facebook/rag-token-nq"
-  use_real_wikipedia: true
-  precision: "fp16"
+# models:
+#   rag_model: "facebook/rag-token-nq"
+#   use_real_wikipedia: true
+#   precision: "fp16"
   
-hardware:
-  preferred_gpu: "auto"
-  memory_optimization: true
-  batch_size: 1
+# hardware:
+#   preferred_gpu: "auto"
+#   memory_optimization: true
+#   batch_size: 1
   
-experiment_settings:
-  num_test_questions: 1500  # Final dataset size
-  num_templates: 7
-  evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
+# experiment_settings:
+#   num_test_questions: 1500  # Final dataset size
+#   num_templates: 7
+#   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
 
-# FINAL 7 TEMPLATES FOR DISSERTATION - Strategic selection covering all major approaches
-templates:
-  # 1. Baseline template
-  - name: "basic"
-    template: "{question}"
-    purpose: "Baseline - no prompt engineering"
-    category: "Control"
+# # FINAL 7 TEMPLATES FOR DISSERTATION - Strategic selection covering all major approaches
+# templates:
+#   # 1. Baseline template
+#   - name: "basic"
+#     template: "{question}"
+#     purpose: "Baseline - no prompt engineering"
+#     category: "Control"
   
-  # 2. Proven winner - minimal punctuation improvement
-  - name: "question_mark"
-    template: "{question}?"
-    purpose: "Minimal punctuation enhancement - proven 1-3% improvement"
-    category: "Minimal Enhancement"
+#   # 2. Proven winner - minimal punctuation improvement
+#   - name: "question_mark"
+#     template: "{question}?"
+#     purpose: "Minimal punctuation enhancement - proven 1-3% improvement"
+#     category: "Minimal Enhancement"
   
-  # 3. Instruction-based approach (your requirement)
-  - name: "precise_instruction"
-    template: "Give a factual, concise answer to: {question}"
-    purpose: "Explicit instruction for precision and brevity"
-    category: "Instructional"
+#   # 3. Instruction-based approach (your requirement)
+#   - name: "precise_instruction"
+#     template: "Give a factual, concise answer to: {question}"
+#     purpose: "Explicit instruction for precision and brevity"
+#     category: "Instructional"
   
-  # 4. RAG-specific optimization (your requirement)
-  - name: "retrieval_focused"
-    template: "Based on retrieved information, answer: {question}"
-    purpose: "Explicitly leverages RAG's retrieval mechanism"
-    category: "RAG-Optimized"
+#   # 4. RAG-specific optimization (your requirement)
+#   - name: "retrieval_focused"
+#     template: "Based on retrieved information, answer: {question}"
+#     purpose: "Explicitly leverages RAG's retrieval mechanism"
+#     category: "RAG-Optimized"
   
-  # 5. Direct command approach (your requirement)
-  - name: "confident_direct"
-    template: "Answer directly: {question}"
-    purpose: "Direct command for confident responses"
-    category: "Command-Based"
+#   # 5. Direct command approach (your requirement)
+#   - name: "confident_direct"
+#     template: "Answer directly: {question}"
+#     purpose: "Direct command for confident responses"
+#     category: "Command-Based"
   
-  # 6. Context emphasis approach
-  - name: "context_guided"
-    template: "Using available context, answer: {question}"
-    purpose: "Emphasizes context utilization"
-    category: "Context-Aware"
+#   # 6. Context emphasis approach
+#   - name: "context_guided"
+#     template: "Using available context, answer: {question}"
+#     purpose: "Emphasizes context utilization"
+#     category: "Context-Aware"
   
-  # 7. Conversational format (alternative approach)
-  - name: "conversational"
-    template: "Q: {question} A:"
-    purpose: "Conversational Q&A format"
-    category: "Conversational"
+#   # 7. Conversational format (alternative approach)
+#   - name: "conversational"
+#     template: "Q: {question} A:"
+#     purpose: "Conversational Q&A format"
+#     category: "Conversational"
 
-output:
-  save_detailed_results: true
-  save_summary: true
-  save_markdown_report: true  # Enable for dissertation
-  results_directory: "results"
+# output:
+#   save_detailed_results: true
+#   save_summary: true
+#   save_markdown_report: true  # Enable for dissertation
+#   results_directory: "results"

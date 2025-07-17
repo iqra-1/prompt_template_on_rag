@@ -1,0 +1,49 @@
+# FINAL 7 TEMPLATES FOR DISSERTATION - Strategic selection covering all major approaches
+templates:
+  # 1. Baseline template
+  - name: "basic"
+    template: "{question}"
+    purpose: "Baseline - no prompt engineering"
+    category: "Control"
+  
+  # 2. Proven winner - minimal punctuation improvement
+  - name: "question_mark"
+    template: "{question}?"
+    purpose: "Minimal punctuation enhancement - proven 1-3% improvement"
+    category: "Minimal Enhancement"
+  
+  # 3. Instruction-based approach
+  - name: "precise_instruction"
+    template: "Give a factual, concise answer to: {question}"
+    purpose: "Explicit instruction for precision and brevity"
+    category: "Instructional"
+  
+  # 4. RAG-specific optimization
+  - name: "retrieval_focused"
+    template: "Based on retrieved information, answer: {question}"
+    purpose: "Explicitly leverages RAG's retrieval mechanism"
+    category: "RAG-Optimized"
+  
+  # 5. Direct command approach 
+  - name: "confident_direct"
+    template: "Answer directly: {question}"
+    purpose: "Direct command for confident responses"
+    category: "Command-Based"
+  
+  # 6. Context emphasis approach
+  - name: "context_guided"
+    template: "Using available context, answer: {question}"
+    purpose: "Emphasizes context utilization"
+    category: "Context-Aware"
+  
+  # 7. Conversational format
+  - name: "conversational"
+    template: "Q: {question} A:"
+    purpose: "Conversational Q&A format"
+    category: "Conversational"
+
+output:
+  save_detailed_results: true
+  save_summary: true
+  save_markdown_report: true  # Enable for dissertation
+  results_directory: "results"
