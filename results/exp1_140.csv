@@ -1,0 +1,981 @@
+experiment_id,template,question_id,question,true_answer,generated_answer,exact_match,f1_score,token_overlap,answer_length,timestamp
+official_rag_prompt_engineering_20250814_042444,instructional,0,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,2025-08-14T04:30:38.835124
+official_rag_prompt_engineering_20250814_042444,instructional,1,When were the Normans in Normandy?,10th and 11th centuries,10th century -- 15th century,0.0,0.25,0.25,5,2025-08-14T04:30:40.224760
+official_rag_prompt_engineering_20250814_042444,instructional,2,From which countries did the Norse originate?,"Denmark, Iceland and Norway",iceland,0.0,0.4,0.25,1,2025-08-14T04:30:41.144313
+official_rag_prompt_engineering_20250814_042444,instructional,3,Who was the Norse leader?,Rollo,whoopi goldberg,0.0,0.0,0.0,2,2025-08-14T04:30:42.946745
+official_rag_prompt_engineering_20250814_042444,instructional,4,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,2025-08-14T04:30:44.482983
+official_rag_prompt_engineering_20250814_042444,instructional,5,Who was the duke in the battle of Hastings?,William the Conqueror,normandy duke of normandy,0.0,0.0,0.0,4,2025-08-14T04:30:46.317459
+official_rag_prompt_engineering_20250814_042444,instructional,6,Who ruled the duchy of Normandy,Richard I,king charles iii,0.0,0.0,0.0,3,2025-08-14T04:30:48.346925
+official_rag_prompt_engineering_20250814_042444,instructional,7,What religion were the Normans,Catholic,islam,0.0,0.0,0.0,1,2025-08-14T04:30:49.816509
+official_rag_prompt_engineering_20250814_042444,instructional,8,What is the original meaning of the word Norman?,Viking,norman,0.0,0.0,0.0,1,2025-08-14T04:30:50.938906
+official_rag_prompt_engineering_20250814_042444,instructional,9,When was the Latin version of the word Norman first recorded?,9th century,the 6th century ad,0.0,0.3333333333333333,0.5,4,2025-08-14T04:30:52.352600
+official_rag_prompt_engineering_20250814_042444,instructional,10,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,2025-08-14T04:30:53.231886
+official_rag_prompt_engineering_20250814_042444,instructional,11,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,the franks,0.0,0.0,0.0,2,2025-08-14T04:30:54.662550
+official_rag_prompt_engineering_20250814_042444,instructional,12,What river originally bounded the Duchy,Seine,rhode island,0.0,0.0,0.0,2,2025-08-14T04:30:55.675734
+official_rag_prompt_engineering_20250814_042444,instructional,13,Who upon arriving gave the original viking settlers a common identity?,Rollo,the Normans,0.0,0.0,0.0,2,2025-08-14T04:30:56.912986
+official_rag_prompt_engineering_20250814_042444,instructional,14,What was the Norman religion?,Catholicism,christianity,0.0,0.0,0.0,1,2025-08-14T04:30:58.085577
+official_rag_prompt_engineering_20250814_042444,instructional,15,What part of France were the Normans located?,north,what is now france,0.0,0.0,0.0,4,2025-08-14T04:30:59.328136
+official_rag_prompt_engineering_20250814_042444,instructional,16,What was one of the Norman's major exports?,fighting horsemen,"266,827",0.0,0.0,0.0,1,2025-08-14T04:31:00.441040
+official_rag_prompt_engineering_20250814_042444,instructional,17,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,byzantine empire,0.0,0.0,0.0,2,2025-08-14T04:31:01.715182
+official_rag_prompt_engineering_20250814_042444,instructional,18,When did Herve serve as a Byzantine general?,1050s,during the byzantine war,0.0,0.0,0.0,4,2025-08-14T04:31:02.961459
+official_rag_prompt_engineering_20250814_042444,instructional,19,When did Robert Crispin go up against the Turks?,1060s,1998,0.0,0.0,0.0,1,2025-08-14T04:31:04.185376
+official_rag_prompt_engineering_20250814_042444,instructional,20,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,,0.0,0.0,0.0,0,2025-08-14T04:31:04.953812
+official_rag_prompt_engineering_20250814_042444,instructional,21,What was the name of the Norman castle?,Afranji,`` norman castle '',0.0,0.0,0.0,4,2025-08-14T04:31:06.046798
+official_rag_prompt_engineering_20250814_042444,instructional,22,Who was the leader when the Franks entered the Euphrates valley?,Oursel,2018,0.0,0.0,0.0,1,2025-08-14T04:31:06.900152
+official_rag_prompt_engineering_20250814_042444,instructional,23,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,2025-08-14T04:31:08.098207
+official_rag_prompt_engineering_20250814_042444,instructional,24,What were the origins of the Raouliii family?,Norman mercenary,"normandy, france",0.0,0.0,0.0,2,2025-08-14T04:31:09.408789
+official_rag_prompt_engineering_20250814_042444,instructional,25,What was the name of the count of Apulia ,Robert Guiscard,giovanni branca,0.0,0.0,0.0,2,2025-08-14T04:31:10.998507
+official_rag_prompt_engineering_20250814_042444,instructional,26,When did Dyrrachium  fall to the Normans?,1082,2009,0.0,0.0,0.0,1,2025-08-14T04:31:13.038715
+official_rag_prompt_engineering_20250814_042444,instructional,27,How many men were in Robert's army?,"30,000",about a million men,0.0,0.0,0.0,4,2025-08-14T04:31:14.358997
+official_rag_prompt_engineering_20250814_042444,instructional,28,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,2025-08-14T04:31:15.552101
+official_rag_prompt_engineering_20250814_042444,instructional,29,Who was Robert's son?,Bohemond,robert's son,0.0,0.0,0.0,2,2025-08-14T04:31:16.767486
+official_rag_prompt_engineering_20250814_042444,instructional,30,What river was Petrela located by?,Deabolis,river sita,0.0,0.0,0.0,2,2025-08-14T04:31:17.650644
+official_rag_prompt_engineering_20250814_042444,instructional,31,When did the Normans attack Dyrrachium?,1185,when,0.0,0.0,0.0,1,2025-08-14T04:31:18.992975
+official_rag_prompt_engineering_20250814_042444,instructional,32,What was the naval base called?,Dyrrachium,commander,0.0,0.0,0.0,1,2025-08-14T04:31:20.736068
+official_rag_prompt_engineering_20250814_042444,instructional,33,Where was Dyrrachium located?,the Adriatic,north america,0.0,0.0,0.0,2,2025-08-14T04:31:22.374314
+official_rag_prompt_engineering_20250814_042444,instructional,34,Who did Emma Marry?,King Ethelred II,theo,0.0,0.0,0.0,1,2025-08-14T04:31:24.049326
+official_rag_prompt_engineering_20250814_042444,instructional,35,Who was Emma's brother?,Duke Richard II,emma's brother,0.0,0.0,0.0,2,2025-08-14T04:31:25.489080
+official_rag_prompt_engineering_20250814_042444,instructional,36,To where did Ethelred flee?,Normandy,to return to britain,0.0,0.0,0.0,4,2025-08-14T04:31:26.733660
+official_rag_prompt_engineering_20250814_042444,instructional,37,Who kicked Ethelred out?,Sweyn Forkbeard,who kicked ethelred out?,0.0,0.0,0.0,4,2025-08-14T04:31:28.149474
+official_rag_prompt_engineering_20250814_042444,instructional,38,Who was Edward the Confessor's half-brother?,Harthacnut,,0.0,0.0,0.0,0,2025-08-14T04:31:28.928404
+official_rag_prompt_engineering_20250814_042444,instructional,39,When did Edward return?,1041,2 august 1274,0.0,0.0,0.0,3,2025-08-14T04:31:29.982082
+official_rag_prompt_engineering_20250814_042444,instructional,40,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,who,0.0,0.0,0.0,1,2025-08-14T04:31:31.657016
+official_rag_prompt_engineering_20250814_042444,instructional,41,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,2025-08-14T04:31:33.026075
+official_rag_prompt_engineering_20250814_042444,instructional,42,Who killed Harold II? ,William II,who killed harold ii,0.0,0.3333333333333333,0.5,4,2025-08-14T04:31:34.353274
+official_rag_prompt_engineering_20250814_042444,instructional,43,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,2025-08-14T04:31:35.740105
+official_rag_prompt_engineering_20250814_042444,instructional,44,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the aristots,0.0,0.0,0.0,2,2025-08-14T04:31:36.852451
+official_rag_prompt_engineering_20250814_042444,instructional,45,What was the Anglo-Norman language's final form?,Modern English,,0.0,0.0,0.0,0,2025-08-14T04:31:37.916801
+official_rag_prompt_engineering_20250814_042444,instructional,46,In what year did the Norman's invade at Bannow Bay?,1169,1169,1.0,1.0,1.0,1,2025-08-14T04:31:39.068143
+official_rag_prompt_engineering_20250814_042444,instructional,47,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,2025-08-14T04:31:39.884831
+official_rag_prompt_engineering_20250814_042444,instructional,48,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,2025-08-14T04:31:41.087983
+official_rag_prompt_engineering_20250814_042444,instructional,49,Who was Margaret's brother?,Edgar,patrick,0.0,0.0,0.0,1,2025-08-14T04:31:42.001960
+official_rag_prompt_engineering_20250814_042444,instructional,50,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,2025-08-14T04:31:43.115953
+official_rag_prompt_engineering_20250814_042444,instructional,51,When was Scotland invaded by William?,1072,1097,0.0,0.0,0.0,1,2025-08-14T04:31:44.143740
+official_rag_prompt_engineering_20250814_042444,instructional,52,Who was the hostage?,Duncan,who was the hostage,0.0,0.0,0.0,4,2025-08-14T04:31:45.204178
+official_rag_prompt_engineering_20250814_042444,instructional,53,Who did Alexander I marry?,Sybilla of Normandy,maria maria,0.0,0.0,0.0,2,2025-08-14T04:31:46.224885
+official_rag_prompt_engineering_20250814_042444,instructional,54,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,gaelic,0.0,0.0,0.0,1,2025-08-14T04:31:47.423833
+official_rag_prompt_engineering_20250814_042444,instructional,55,Where was Ralph earl of?,Hereford,the earl of essex,0.0,0.0,0.0,4,2025-08-14T04:31:49.335960
+official_rag_prompt_engineering_20250814_042444,instructional,56,Who was Ralph in charge of being at war with?,the Welsh,in war with mexico,0.0,0.0,0.0,4,2025-08-14T04:31:50.763957
+official_rag_prompt_engineering_20250814_042444,instructional,57,Who made Ralph earl?,Edward the Confessor,ralph earl,0.0,0.0,0.0,2,2025-08-14T04:31:51.932792
+official_rag_prompt_engineering_20250814_042444,instructional,58,What country was under the control of Norman barons?,Wales,wales,1.0,1.0,1.0,1,2025-08-14T04:31:52.907285
+official_rag_prompt_engineering_20250814_042444,instructional,59,What year did Roger de Tosny fail to accomplish what he set out to do?,1018,1982,0.0,0.0,0.0,1,2025-08-14T04:31:53.675410
+official_rag_prompt_engineering_20250814_042444,instructional,60,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope alexander iii,0.0,0.0,0.0,3,2025-08-14T04:31:54.762861
+official_rag_prompt_engineering_20250814_042444,instructional,61,When did the Siege of Antioch take place?,1097,1097 and 1098,0.0,0.5,1.0,3,2025-08-14T04:31:55.944293
+official_rag_prompt_engineering_20250814_042444,instructional,62,What was the name of Bohemond's nephew?,Tancred,jean - françois rameau,0.0,0.0,0.0,4,2025-08-14T04:31:57.544622
+official_rag_prompt_engineering_20250814_042444,instructional,63,What major conquest did Tancred play a roll in?,Jerusalem,british invasion of belgium,0.0,0.0,0.0,4,2025-08-14T04:31:58.880994
+official_rag_prompt_engineering_20250814_042444,instructional,64,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,2025-08-14T04:31:59.936102
+official_rag_prompt_engineering_20250814_042444,instructional,65,What ruined Richard's plans to reach Acre?,a storm,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:32:01.012678
+official_rag_prompt_engineering_20250814_042444,instructional,66,Who was Richard's fiancee?,Berengaria,,0.0,0.0,0.0,0,2025-08-14T04:32:01.903182
+official_rag_prompt_engineering_20250814_042444,instructional,67,What year did the storm hit Richard's fleet?,1191,1980,0.0,0.0,0.0,1,2025-08-14T04:32:02.757925
+official_rag_prompt_engineering_20250814_042444,instructional,68,Who ruled Cyprus in 1191?,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,2025-08-14T04:32:04.227143
+official_rag_prompt_engineering_20250814_042444,instructional,69,Who was Guy's Rival?,Conrad of Montferrat,the other guy,0.0,0.0,0.0,3,2025-08-14T04:32:05.538737
+official_rag_prompt_engineering_20250814_042444,instructional,70,What were Isaac's chains made out of?,silver,,0.0,0.0,0.0,0,2025-08-14T04:32:06.495254
+official_rag_prompt_engineering_20250814_042444,instructional,71,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,who led the way,0.0,0.0,0.0,4,2025-08-14T04:32:07.833783
+official_rag_prompt_engineering_20250814_042444,instructional,72,What continent are the Canarian Islands off the coast of?,Africa,western hemisphere,0.0,0.0,0.0,2,2025-08-14T04:32:09.059186
+official_rag_prompt_engineering_20250814_042444,instructional,73,Who became the King of the Canary Islands?,Bethencourt,alexander iii,0.0,0.0,0.0,2,2025-08-14T04:32:10.153492
+official_rag_prompt_engineering_20250814_042444,instructional,74,Who bought the rights?,Enrique Pérez de Guzmán,who bought the rights,0.0,0.0,0.0,4,2025-08-14T04:32:11.135694
+official_rag_prompt_engineering_20250814_042444,instructional,75,Who sold the rights?,Maciot de Bethencourt,who owns the rights,0.0,0.0,0.0,4,2025-08-14T04:32:12.338424
+official_rag_prompt_engineering_20250814_042444,instructional,76,Where are Jersey and Guernsey,Channel Islands,channel islands,1.0,1.0,1.0,2,2025-08-14T04:32:13.305849
+official_rag_prompt_engineering_20250814_042444,instructional,77,How many customaries does Norman customary law have?,two,,0.0,0.0,0.0,0,2025-08-14T04:32:14.134685
+official_rag_prompt_engineering_20250814_042444,instructional,78,What is the Norman architecture idiom?,Romanesque,norman transitional architecture,0.0,0.0,0.0,3,2025-08-14T04:32:15.403732
+official_rag_prompt_engineering_20250814_042444,instructional,79,What kind of arches does Norman architecture have?,rounded,grand archways,0.0,0.0,0.0,2,2025-08-14T04:32:16.277303
+official_rag_prompt_engineering_20250814_042444,instructional,80,What architecture type came after Norman in England?,Early Gothic,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:32:17.654778
+official_rag_prompt_engineering_20250814_042444,instructional,81,What architecture type came before Norman in England?,Anglo-Saxon,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:32:18.796223
+official_rag_prompt_engineering_20250814_042444,instructional,82,What place had the Norman Arab architectural style?,Sicily,abbasid samarra,0.0,0.0,0.0,2,2025-08-14T04:32:20.378855
+official_rag_prompt_engineering_20250814_042444,instructional,83,When did the church reform begin?,early 11th century,1876,0.0,0.0,0.0,1,2025-08-14T04:32:22.139775
+official_rag_prompt_engineering_20250814_042444,instructional,84,Who used the church to unify themselves?,dukes,pope alexander iii,0.0,0.0,0.0,3,2025-08-14T04:32:23.402158
+official_rag_prompt_engineering_20250814_042444,instructional,85,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,2025-08-14T04:32:24.637603
+official_rag_prompt_engineering_20250814_042444,instructional,86,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,2025-08-14T04:32:25.882475
+official_rag_prompt_engineering_20250814_042444,instructional,87,What is Norman art's most well known piece?,Bayeux Tapestry,,0.0,0.0,0.0,0,2025-08-14T04:32:26.785940
+official_rag_prompt_engineering_20250814_042444,instructional,88,Who commissioned the Tapestry?,Odo,queen matilda,0.0,0.0,0.0,2,2025-08-14T04:32:28.544553
+official_rag_prompt_engineering_20250814_042444,instructional,89,What is the most important type of Norman art preserved in churches?,mosaics,preservation of norman architecture,0.0,0.0,0.0,4,2025-08-14T04:32:29.821234
+official_rag_prompt_engineering_20250814_042444,instructional,90,In what century did important classical music developments occur in Normandy?,11th,the 14th century,0.0,0.0,0.0,3,2025-08-14T04:32:30.962930
+official_rag_prompt_engineering_20250814_042444,instructional,91,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard i,0.0,0.0,0.0,2,2025-08-14T04:32:32.174782
+official_rag_prompt_engineering_20250814_042444,instructional,92,Where did the monks flee to?,southern Italy,italy,0.0,0.6666666666666666,0.5,1,2025-08-14T04:32:33.694334
+official_rag_prompt_engineering_20250814_042444,instructional,93,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:32:35.155382
+official_rag_prompt_engineering_20250814_042444,instructional,94,Who patronized the monks in Italy? ,Robert Guiscard,who,0.0,0.0,0.0,1,2025-08-14T04:32:36.654230
+official_rag_prompt_engineering_20250814_042444,instructional,95,What tradition were the Saint-Evroul monks known for?,singing,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:32:38.206830
+official_rag_prompt_engineering_20250814_042444,instructional,96,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,2025-08-14T04:32:39.199674
+official_rag_prompt_engineering_20250814_042444,instructional,97,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,computational complexity,0.0,0.0,0.0,2,2025-08-14T04:32:40.079163
+official_rag_prompt_engineering_20250814_042444,instructional,98,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,2025-08-14T04:32:40.999526
+official_rag_prompt_engineering_20250814_042444,instructional,99,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,complexity,0.0,0.0,0.0,1,2025-08-14T04:32:41.868196
+official_rag_prompt_engineering_20250814_042444,instructional,100,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,decision problem,0.0,0.0,0.0,2,2025-08-14T04:32:42.754337
+official_rag_prompt_engineering_20250814_042444,instructional,101,What are two basic primary resources used to guage complexity?,time and storage,information,0.0,0.0,0.0,1,2025-08-14T04:32:43.435480
+official_rag_prompt_engineering_20250814_042444,instructional,102,What unit is measured to determine circuit complexity?,number of gates in a circuit,Boolean,0.0,0.0,0.0,1,2025-08-14T04:32:44.309891
+official_rag_prompt_engineering_20250814_042444,instructional,103,What practical role does defining the complexity of problems play in everyday computing?,determine the practical limits on what computers can and cannot do,computational complexity,0.0,0.0,0.0,2,2025-08-14T04:32:45.349759
+official_rag_prompt_engineering_20250814_042444,instructional,104,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,2025-08-14T04:32:46.833439
+official_rag_prompt_engineering_20250814_042444,instructional,105,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,analysis of algorithms,1.0,1.0,1.0,3,2025-08-14T04:32:48.175602
+official_rag_prompt_engineering_20250814_042444,instructional,106,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,analysis of algorithms,0.0,0.0,0.0,3,2025-08-14T04:32:49.127091
+official_rag_prompt_engineering_20250814_042444,instructional,107,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?,computability theory,optimization,0.0,0.0,0.0,1,2025-08-14T04:32:50.031323
+official_rag_prompt_engineering_20250814_042444,instructional,108,What is the name given to the input string of a computational problem?,problem instance,problem instance,1.0,1.0,1.0,2,2025-08-14T04:32:51.101774
+official_rag_prompt_engineering_20250814_042444,instructional,109,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,search problem,0.0,0.5,0.5,2,2025-08-14T04:32:51.947153
+official_rag_prompt_engineering_20250814_042444,instructional,110,Is a problem instance typically characterized as abstract or concrete?,concrete,abstracted from reality,0.0,0.0,0.0,3,2025-08-14T04:32:52.862533
+official_rag_prompt_engineering_20250814_042444,instructional,111,What is another name for any given measure of input associated with a problem?,instances,data visuali zation,0.0,0.0,0.0,3,2025-08-14T04:32:54.113233
+official_rag_prompt_engineering_20250814_042444,instructional,112,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,2025-08-14T04:32:55.162400
+official_rag_prompt_engineering_20250814_042444,instructional,113,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,shortest possible route,0.0,0.0,0.0,3,2025-08-14T04:32:56.318695
+official_rag_prompt_engineering_20250814_042444,instructional,114,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer?,round trip through all sites in Milan,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:32:57.511779
+official_rag_prompt_engineering_20250814_042444,instructional,115,What does computational complexity theory most specifically seek to answer? ,computational problems,computational problems,1.0,1.0,1.0,2,2025-08-14T04:32:58.403831
+official_rag_prompt_engineering_20250814_042444,instructional,116,"In a computational problem, what can be described as a string over an alphabet?",problem instance,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:32:59.653619
+official_rag_prompt_engineering_20250814_042444,instructional,117,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,alphonse,0.0,0.0,0.0,1,2025-08-14T04:33:00.673432
+official_rag_prompt_engineering_20250814_042444,instructional,118,What is another term for the string of a problem instance?,bitstrings,aegilops,0.0,0.0,0.0,1,2025-08-14T04:33:01.665807
+official_rag_prompt_engineering_20250814_042444,instructional,119,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed?",binary notation,factorials n!,0.0,0.0,0.0,2,2025-08-14T04:33:02.858447
+official_rag_prompt_engineering_20250814_042444,instructional,120,What is one way in which graphs can be encoded? ,adjacency matrices,data - generating process,0.0,0.0,0.0,4,2025-08-14T04:33:03.849237
+official_rag_prompt_engineering_20250814_042444,instructional,121,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,computational problems,0.0,0.5,0.5,2,2025-08-14T04:33:04.634399
+official_rag_prompt_engineering_20250814_042444,instructional,122,What are the two simple word responses to a decision problem?,yes or no,,0.0,0.0,0.0,0,2025-08-14T04:33:05.372915
+official_rag_prompt_engineering_20250814_042444,instructional,123,What are the two integer responses to a decision problem?,1 or 0,yes,0.0,0.0,0.0,1,2025-08-14T04:33:06.295295
+official_rag_prompt_engineering_20250814_042444,instructional,124,What will the output be for a member of the language of a decision problem?,yes,yes,1.0,1.0,1.0,1,2025-08-14T04:33:07.075392
+official_rag_prompt_engineering_20250814_042444,instructional,125,What answer denotes that an algorithm has accepted an input string?,yes,receiving input,0.0,0.0,0.0,2,2025-08-14T04:33:08.137591
+official_rag_prompt_engineering_20250814_042444,instructional,126,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,2025-08-14T04:33:09.033404
+official_rag_prompt_engineering_20250814_042444,instructional,127,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,2025-08-14T04:33:09.845839
+official_rag_prompt_engineering_20250814_042444,instructional,128,What encoding decision needs to be made in order to determine an exact definition of the formal language?,how graphs are encoded as binary strings,,0.0,0.0,0.0,0,2025-08-14T04:33:10.711660
+official_rag_prompt_engineering_20250814_042444,instructional,129,A function problem is an example of what?,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,2025-08-14T04:33:11.731624
+official_rag_prompt_engineering_20250814_042444,instructional,130,How many outputs are expected for each input in a function problem?,a single output,a single output,1.0,1.0,1.0,3,2025-08-14T04:33:12.659977
+official_rag_prompt_engineering_20250814_042444,instructional,131,The traveling salesman problem is an example of what type of problem?,A function problem,combinatorial optimization,0.0,0.0,0.0,2,2025-08-14T04:33:13.758756
+official_rag_prompt_engineering_20250814_042444,instructional,132,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling purchaser problem,0.0,0.28571428571428575,0.25,3,2025-08-14T04:33:14.848255
+official_rag_prompt_engineering_20250814_042444,instructional,133,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,simple,0.0,0.0,0.0,1,2025-08-14T04:33:15.933084
+official_rag_prompt_engineering_20250814_042444,instructional,134,How can function problems typically be restated?,decision problems,summation,0.0,0.0,0.0,1,2025-08-14T04:33:17.021678
+official_rag_prompt_engineering_20250814_042444,instructional,135,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,set,0.0,0.5,0.3333333333333333,1,2025-08-14T04:33:17.757454
+official_rag_prompt_engineering_20250814_042444,instructional,136,What is a commonly used measurement used to determine the complexity of a computational problem?,how much time the best algorithm requires to solve the problem,decision problem,0.0,0.16666666666666669,0.1,2,2025-08-14T04:33:18.535439
+official_rag_prompt_engineering_20250814_042444,instructional,137,What is one variable on which the running time may be contingent?,the instance,variable a against variable b,0.0,0.0,0.0,5,2025-08-14T04:33:19.626713
+official_rag_prompt_engineering_20250814_042444,instructional,138,How is the time needed to obtain the solution to a problem calculated?,as a function of the size of the instance,problem / solution ratio,0.0,0.0,0.0,4,2025-08-14T04:33:21.018876
+official_rag_prompt_engineering_20250814_042444,instructional,139,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,2025-08-14T04:33:22.143864
+official_rag_prompt_engineering_20250814_042444,expert_role,0,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,2025-08-14T04:33:23.288484
+official_rag_prompt_engineering_20250814_042444,expert_role,1,When were the Normans in Normandy?,10th and 11th centuries,3rd century bc,0.0,0.0,0.0,3,2025-08-14T04:33:24.836723
+official_rag_prompt_engineering_20250814_042444,expert_role,2,From which countries did the Norse originate?,"Denmark, Iceland and Norway",iceland,0.0,0.4,0.25,1,2025-08-14T04:33:25.698799
+official_rag_prompt_engineering_20250814_042444,expert_role,3,Who was the Norse leader?,Rollo,norse,0.0,0.0,0.0,1,2025-08-14T04:33:27.467681
+official_rag_prompt_engineering_20250814_042444,expert_role,4,What century did the Normans first gain their separate identity?,10th century,1876,0.0,0.0,0.0,1,2025-08-14T04:33:28.445637
+official_rag_prompt_engineering_20250814_042444,expert_role,5,Who was the duke in the battle of Hastings?,William the Conqueror,duke of normandy,0.0,0.0,0.0,3,2025-08-14T04:33:30.047904
+official_rag_prompt_engineering_20250814_042444,expert_role,6,Who ruled the duchy of Normandy,Richard I,who ruled the duchy of normandy,0.0,0.0,0.0,6,2025-08-14T04:33:31.636175
+official_rag_prompt_engineering_20250814_042444,expert_role,7,What religion were the Normans,Catholic,normans,0.0,0.0,0.0,1,2025-08-14T04:33:32.550420
+official_rag_prompt_engineering_20250814_042444,expert_role,8,What is the original meaning of the word Norman?,Viking,norman,0.0,0.0,0.0,1,2025-08-14T04:33:33.630023
+official_rag_prompt_engineering_20250814_042444,expert_role,9,When was the Latin version of the word Norman first recorded?,9th century,2018,0.0,0.0,0.0,1,2025-08-14T04:33:34.424966
+official_rag_prompt_engineering_20250814_042444,expert_role,10,When was the Duchy of Normandy founded?,911,973,0.0,0.0,0.0,1,2025-08-14T04:33:35.249516
+official_rag_prompt_engineering_20250814_042444,expert_role,11,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,,0.0,0.0,0.0,0,2025-08-14T04:33:36.191678
+official_rag_prompt_engineering_20250814_042444,expert_role,12,What river originally bounded the Duchy,Seine,archimedes,0.0,0.0,0.0,1,2025-08-14T04:33:37.920496
+official_rag_prompt_engineering_20250814_042444,expert_role,13,Who upon arriving gave the original viking settlers a common identity?,Rollo,dr. marcel - jérôme rigollot,0.0,0.0,0.0,5,2025-08-14T04:33:39.976920
+official_rag_prompt_engineering_20250814_042444,expert_role,14,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,2025-08-14T04:33:41.096107
+official_rag_prompt_engineering_20250814_042444,expert_role,15,What part of France were the Normans located?,north,what is now france,0.0,0.0,0.0,4,2025-08-14T04:33:42.171476
+official_rag_prompt_engineering_20250814_042444,expert_role,16,What was one of the Norman's major exports?,fighting horsemen,cloth,0.0,0.0,0.0,1,2025-08-14T04:33:42.877856
+official_rag_prompt_engineering_20250814_042444,expert_role,17,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,canada,0.0,0.0,0.0,1,2025-08-14T04:33:44.029701
+official_rag_prompt_engineering_20250814_042444,expert_role,18,When did Herve serve as a Byzantine general?,1050s,2004 -- 05,0.0,0.0,0.0,3,2025-08-14T04:33:44.998021
+official_rag_prompt_engineering_20250814_042444,expert_role,19,When did Robert Crispin go up against the Turks?,1060s,robert crispin,0.0,0.0,0.0,2,2025-08-14T04:33:46.337942
+official_rag_prompt_engineering_20250814_042444,expert_role,20,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,", as an expert on roussel de bailleul",0.0,0.0,0.0,8,2025-08-14T04:33:48.629780
+official_rag_prompt_engineering_20250814_042444,expert_role,21,What was the name of the Norman castle?,Afranji,château d'alençon,0.0,0.0,0.0,2,2025-08-14T04:33:51.106861
+official_rag_prompt_engineering_20250814_042444,expert_role,22,Who was the leader when the Franks entered the Euphrates valley?,Oursel,,0.0,0.0,0.0,0,2025-08-14T04:33:52.036199
+official_rag_prompt_engineering_20250814_042444,expert_role,23,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,2025-08-14T04:33:53.870813
+official_rag_prompt_engineering_20250814_042444,expert_role,24,What were the origins of the Raouliii family?,Norman mercenary,"normandy, france",0.0,0.0,0.0,2,2025-08-14T04:33:54.936660
+official_rag_prompt_engineering_20250814_042444,expert_role,25,What was the name of the count of Apulia ,Robert Guiscard,,0.0,0.0,0.0,0,2025-08-14T04:33:56.158686
+official_rag_prompt_engineering_20250814_042444,expert_role,26,When did Dyrrachium  fall to the Normans?,1082,1980s,0.0,0.0,0.0,1,2025-08-14T04:33:56.981960
+official_rag_prompt_engineering_20250814_042444,expert_role,27,How many men were in Robert's army?,"30,000",,0.0,0.0,0.0,0,2025-08-14T04:33:57.699764
+official_rag_prompt_engineering_20250814_042444,expert_role,28,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,2025-08-14T04:33:58.604089
+official_rag_prompt_engineering_20250814_042444,expert_role,29,Who was Robert's son?,Bohemond,patrick,0.0,0.0,0.0,1,2025-08-14T04:34:00.051372
+official_rag_prompt_engineering_20250814_042444,expert_role,30,What river was Petrela located by?,Deabolis,river sita,0.0,0.0,0.0,2,2025-08-14T04:34:01.055983
+official_rag_prompt_engineering_20250814_042444,expert_role,31,When did the Normans attack Dyrrachium?,1185,2018,0.0,0.0,0.0,1,2025-08-14T04:34:01.990290
+official_rag_prompt_engineering_20250814_042444,expert_role,32,What was the naval base called?,Dyrrachium,la spezia,0.0,0.0,0.0,2,2025-08-14T04:34:03.355912
+official_rag_prompt_engineering_20250814_042444,expert_role,33,Where was Dyrrachium located?,the Adriatic,aristotle,0.0,0.0,0.0,1,2025-08-14T04:34:04.369623
+official_rag_prompt_engineering_20250814_042444,expert_role,34,Who did Emma Marry?,King Ethelred II,the baker's father,0.0,0.0,0.0,3,2025-08-14T04:34:05.536467
+official_rag_prompt_engineering_20250814_042444,expert_role,35,Who was Emma's brother?,Duke Richard II,,0.0,0.0,0.0,0,2025-08-14T04:34:06.467142
+official_rag_prompt_engineering_20250814_042444,expert_role,36,To where did Ethelred flee?,Normandy,telemundo,0.0,0.0,0.0,1,2025-08-14T04:34:07.634458
+official_rag_prompt_engineering_20250814_042444,expert_role,37,Who kicked Ethelred out?,Sweyn Forkbeard,patrick debois,0.0,0.0,0.0,2,2025-08-14T04:34:08.660154
+official_rag_prompt_engineering_20250814_042444,expert_role,38,Who was Edward the Confessor's half-brother?,Harthacnut,none,0.0,0.0,0.0,1,2025-08-14T04:34:09.578763
+official_rag_prompt_engineering_20250814_042444,expert_role,39,When did Edward return?,1041,1998,0.0,0.0,0.0,1,2025-08-14T04:34:11.109223
+official_rag_prompt_engineering_20250814_042444,expert_role,40,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,who,0.0,0.0,0.0,1,2025-08-14T04:34:12.188881
+official_rag_prompt_engineering_20250814_042444,expert_role,41,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,2025-08-14T04:34:13.509398
+official_rag_prompt_engineering_20250814_042444,expert_role,42,Who killed Harold II? ,William II,four knights,0.0,0.0,0.0,2,2025-08-14T04:34:14.511575
+official_rag_prompt_engineering_20250814_042444,expert_role,43,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,2025-08-14T04:34:15.842921
+official_rag_prompt_engineering_20250814_042444,expert_role,44,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the bourgeoisie,0.0,0.0,0.0,2,2025-08-14T04:34:17.058635
+official_rag_prompt_engineering_20250814_042444,expert_role,45,What was the Anglo-Norman language's final form?,Modern English,english,0.0,0.6666666666666666,0.5,1,2025-08-14T04:34:18.585485
+official_rag_prompt_engineering_20250814_042444,expert_role,46,In what year did the Norman's invade at Bannow Bay?,1169,1066,0.0,0.0,0.0,1,2025-08-14T04:34:19.569785
+official_rag_prompt_engineering_20250814_042444,expert_role,47,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,2025-08-14T04:34:20.636177
+official_rag_prompt_engineering_20250814_042444,expert_role,48,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,2025-08-14T04:34:21.644531
+official_rag_prompt_engineering_20250814_042444,expert_role,49,Who was Margaret's brother?,Edgar,patrick,0.0,0.0,0.0,1,2025-08-14T04:34:22.938095
+official_rag_prompt_engineering_20250814_042444,expert_role,50,Who was Margaret's husband?,King Malcolm III of Scotland,béla iii of hungary,0.0,0.4444444444444445,0.4,4,2025-08-14T04:34:24.509442
+official_rag_prompt_engineering_20250814_042444,expert_role,51,When was Scotland invaded by William?,1072,1016,0.0,0.0,0.0,1,2025-08-14T04:34:25.430414
+official_rag_prompt_engineering_20250814_042444,expert_role,52,Who was the hostage?,Duncan,hostage takers,0.0,0.0,0.0,2,2025-08-14T04:34:26.466867
+official_rag_prompt_engineering_20250814_042444,expert_role,53,Who did Alexander I marry?,Sybilla of Normandy,archimedes,0.0,0.0,0.0,1,2025-08-14T04:34:27.672461
+official_rag_prompt_engineering_20250814_042444,expert_role,54,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,benjamin hudson,0.0,0.0,0.0,2,2025-08-14T04:34:28.890666
+official_rag_prompt_engineering_20250814_042444,expert_role,55,Where was Ralph earl of?,Hereford,the mississippi river,0.0,0.0,0.0,3,2025-08-14T04:34:30.108806
+official_rag_prompt_engineering_20250814_042444,expert_role,56,Who was Ralph in charge of being at war with?,the Welsh,roosevelt,0.0,0.0,0.0,1,2025-08-14T04:34:31.413415
+official_rag_prompt_engineering_20250814_042444,expert_role,57,Who made Ralph earl?,Edward the Confessor,who made ralph earl,0.0,0.0,0.0,4,2025-08-14T04:34:32.588243
+official_rag_prompt_engineering_20250814_042444,expert_role,58,What country was under the control of Norman barons?,Wales,england,0.0,0.0,0.0,1,2025-08-14T04:34:33.432486
+official_rag_prompt_engineering_20250814_042444,expert_role,59,What year did Roger de Tosny fail to accomplish what he set out to do?,1018,1990,0.0,0.0,0.0,1,2025-08-14T04:34:34.137499
+official_rag_prompt_engineering_20250814_042444,expert_role,60,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope clement v,0.0,0.0,0.0,3,2025-08-14T04:34:35.214249
+official_rag_prompt_engineering_20250814_042444,expert_role,61,When did the Siege of Antioch take place?,1097,1097 and 1098,0.0,0.5,1.0,3,2025-08-14T04:34:36.809105
+official_rag_prompt_engineering_20250814_042444,expert_role,62,What was the name of Bohemond's nephew?,Tancred,jean - françois rameau,0.0,0.0,0.0,4,2025-08-14T04:34:38.922512
+official_rag_prompt_engineering_20250814_042444,expert_role,63,What major conquest did Tancred play a roll in?,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,2025-08-14T04:34:40.697364
+official_rag_prompt_engineering_20250814_042444,expert_role,64,How long did Western Europe control Cyprus?,380 years,1878 -- 1991,0.0,0.0,0.0,3,2025-08-14T04:34:41.813452
+official_rag_prompt_engineering_20250814_042444,expert_role,65,What ruined Richard's plans to reach Acre?,a storm,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:34:43.259589
+official_rag_prompt_engineering_20250814_042444,expert_role,66,Who was Richard's fiancee?,Berengaria,,0.0,0.0,0.0,0,2025-08-14T04:34:44.091297
+official_rag_prompt_engineering_20250814_042444,expert_role,67,What year did the storm hit Richard's fleet?,1191,1980,0.0,0.0,0.0,1,2025-08-14T04:34:44.817800
+official_rag_prompt_engineering_20250814_042444,expert_role,68,Who ruled Cyprus in 1191?,Isaac Komnenos,king richard i,0.0,0.0,0.0,3,2025-08-14T04:34:46.162283
+official_rag_prompt_engineering_20250814_042444,expert_role,69,Who was Guy's Rival?,Conrad of Montferrat,herman melville,0.0,0.0,0.0,2,2025-08-14T04:34:47.121889
+official_rag_prompt_engineering_20250814_042444,expert_role,70,What were Isaac's chains made out of?,silver,,0.0,0.0,0.0,0,2025-08-14T04:34:47.857164
+official_rag_prompt_engineering_20250814_042444,expert_role,71,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,,0.0,0.0,0.0,0,2025-08-14T04:34:48.679514
+official_rag_prompt_engineering_20250814_042444,expert_role,72,What continent are the Canarian Islands off the coast of?,Africa,western hemisphere,0.0,0.0,0.0,2,2025-08-14T04:34:49.825976
+official_rag_prompt_engineering_20250814_042444,expert_role,73,Who became the King of the Canary Islands?,Bethencourt,how a roman diplomat or merchant,0.0,0.0,0.0,6,2025-08-14T04:34:51.609379
+official_rag_prompt_engineering_20250814_042444,expert_role,74,Who bought the rights?,Enrique Pérez de Guzmán,who,0.0,0.0,0.0,1,2025-08-14T04:34:52.785582
+official_rag_prompt_engineering_20250814_042444,expert_role,75,Who sold the rights?,Maciot de Bethencourt,who sold the rights?,0.0,0.0,0.0,4,2025-08-14T04:34:53.665840
+official_rag_prompt_engineering_20250814_042444,expert_role,76,Where are Jersey and Guernsey,Channel Islands,channel islands,1.0,1.0,1.0,2,2025-08-14T04:34:54.671990
+official_rag_prompt_engineering_20250814_042444,expert_role,77,How many customaries does Norman customary law have?,two,two,1.0,1.0,1.0,1,2025-08-14T04:34:55.722790
+official_rag_prompt_engineering_20250814_042444,expert_role,78,What is the Norman architecture idiom?,Romanesque,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:34:57.070830
+official_rag_prompt_engineering_20250814_042444,expert_role,79,What kind of arches does Norman architecture have?,rounded,archaeologist,0.0,0.0,0.0,1,2025-08-14T04:34:58.042393
+official_rag_prompt_engineering_20250814_042444,expert_role,80,What architecture type came after Norman in England?,Early Gothic,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:34:59.045341
+official_rag_prompt_engineering_20250814_042444,expert_role,81,What architecture type came before Norman in England?,Anglo-Saxon,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:35:00.025862
+official_rag_prompt_engineering_20250814_042444,expert_role,82,What place had the Norman Arab architectural style?,Sicily,abbasid samarra,0.0,0.0,0.0,2,2025-08-14T04:35:01.154608
+official_rag_prompt_engineering_20250814_042444,expert_role,83,When did the church reform begin?,early 11th century,"april 28, 2010",0.0,0.0,0.0,3,2025-08-14T04:35:02.351339
+official_rag_prompt_engineering_20250814_042444,expert_role,84,Who used the church to unify themselves?,dukes,jesus,0.0,0.0,0.0,1,2025-08-14T04:35:03.438040
+official_rag_prompt_engineering_20250814_042444,expert_role,85,When were the French wars of religion?,16th century,1960s and early 1970s,0.0,0.0,0.0,4,2025-08-14T04:35:04.763977
+official_rag_prompt_engineering_20250814_042444,expert_role,86,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,2025-08-14T04:35:05.987196
+official_rag_prompt_engineering_20250814_042444,expert_role,87,What is Norman art's most well known piece?,Bayeux Tapestry,portrait,0.0,0.0,0.0,1,2025-08-14T04:35:07.301076
+official_rag_prompt_engineering_20250814_042444,expert_role,88,Who commissioned the Tapestry?,Odo,who,0.0,0.0,0.0,1,2025-08-14T04:35:08.359546
+official_rag_prompt_engineering_20250814_042444,expert_role,89,What is the most important type of Norman art preserved in churches?,mosaics,architecture,0.0,0.0,0.0,1,2025-08-14T04:35:09.204498
+official_rag_prompt_engineering_20250814_042444,expert_role,90,In what century did important classical music developments occur in Normandy?,11th,18th century,0.0,0.0,0.0,2,2025-08-14T04:35:10.769649
+official_rag_prompt_engineering_20250814_042444,expert_role,91,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,", however,",0.0,0.0,0.0,2,2025-08-14T04:35:11.672777
+official_rag_prompt_engineering_20250814_042444,expert_role,92,Where did the monks flee to?,southern Italy,italy,0.0,0.6666666666666666,0.5,1,2025-08-14T04:35:12.700296
+official_rag_prompt_engineering_20250814_042444,expert_role,93,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:35:13.841607
+official_rag_prompt_engineering_20250814_042444,expert_role,94,Who patronized the monks in Italy? ,Robert Guiscard,pope alexander iii,0.0,0.0,0.0,3,2025-08-14T04:35:14.936749
+official_rag_prompt_engineering_20250814_042444,expert_role,95,What tradition were the Saint-Evroul monks known for?,singing,the doctrine of the trinity,0.0,0.0,0.0,5,2025-08-14T04:35:16.112944
+official_rag_prompt_engineering_20250814_042444,expert_role,96,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,2025-08-14T04:35:17.151124
+official_rag_prompt_engineering_20250814_042444,expert_role,97,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,difficult to solve,0.0,0.0,0.0,3,2025-08-14T04:35:18.188320
+official_rag_prompt_engineering_20250814_042444,expert_role,98,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,a human expert,0.0,0.0,0.0,3,2025-08-14T04:35:19.259319
+official_rag_prompt_engineering_20250814_042444,expert_role,99,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,turing degree,0.0,0.0,0.0,2,2025-08-14T04:35:20.574427
+official_rag_prompt_engineering_20250814_042444,expert_role,100,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,data interpretation,0.0,0.0,0.0,2,2025-08-14T04:35:21.953581
+official_rag_prompt_engineering_20250814_042444,expert_role,101,What are two basic primary resources used to guage complexity?,time and storage,social,0.0,0.0,0.0,1,2025-08-14T04:35:23.059901
+official_rag_prompt_engineering_20250814_042444,expert_role,102,What unit is measured to determine circuit complexity?,number of gates in a circuit,delay,0.0,0.0,0.0,1,2025-08-14T04:35:23.948094
+official_rag_prompt_engineering_20250814_042444,expert_role,103,What practical role does defining the complexity of problems play in everyday computing?,determine the practical limits on what computers can and cannot do,cognitive complexity,0.0,0.0,0.0,2,2025-08-14T04:35:25.036309
+official_rag_prompt_engineering_20250814_042444,expert_role,104,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,2018,0.0,0.0,0.0,1,2025-08-14T04:35:25.659861
+official_rag_prompt_engineering_20250814_042444,expert_role,105,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,empirical statistics,0.0,0.0,0.0,2,2025-08-14T04:35:26.531438
+official_rag_prompt_engineering_20250814_042444,expert_role,106,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,algorithm analysis,0.0,0.0,0.0,2,2025-08-14T04:35:27.487463
+official_rag_prompt_engineering_20250814_042444,expert_role,107,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?,computability theory,artificial intelligence,0.0,0.0,0.0,2,2025-08-14T04:35:28.323413
+official_rag_prompt_engineering_20250814_042444,expert_role,108,What is the name given to the input string of a computational problem?,problem instance,problem / solution,0.0,0.4,0.5,3,2025-08-14T04:35:29.480581
+official_rag_prompt_engineering_20250814_042444,expert_role,109,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,empty set,0.0,0.0,0.0,2,2025-08-14T04:35:30.432460
+official_rag_prompt_engineering_20250814_042444,expert_role,110,Is a problem instance typically characterized as abstract or concrete?,concrete,concrete ( solution ),0.0,0.4,1.0,4,2025-08-14T04:35:31.747688
+official_rag_prompt_engineering_20250814_042444,expert_role,111,What is another name for any given measure of input associated with a problem?,instances,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:35:32.967651
+official_rag_prompt_engineering_20250814_042444,expert_role,112,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,2025-08-14T04:35:33.852310
+official_rag_prompt_engineering_20250814_042444,expert_role,113,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,no expert,0.0,0.0,0.0,2,2025-08-14T04:35:34.765614
+official_rag_prompt_engineering_20250814_042444,expert_role,114,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer?,round trip through all sites in Milan,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:35:35.881264
+official_rag_prompt_engineering_20250814_042444,expert_role,115,What does computational complexity theory most specifically seek to answer? ,computational problems,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:35:37.053677
+official_rag_prompt_engineering_20250814_042444,expert_role,116,"In a computational problem, what can be described as a string over an alphabet?",problem instance,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:35:38.243274
+official_rag_prompt_engineering_20250814_042444,expert_role,117,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,alphonse,0.0,0.0,0.0,1,2025-08-14T04:35:39.641437
+official_rag_prompt_engineering_20250814_042444,expert_role,118,What is another term for the string of a problem instance?,bitstrings,witness,0.0,0.0,0.0,1,2025-08-14T04:35:40.880189
+official_rag_prompt_engineering_20250814_042444,expert_role,119,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed?",binary notation,factorials n!,0.0,0.0,0.0,2,2025-08-14T04:35:42.226714
+official_rag_prompt_engineering_20250814_042444,expert_role,120,What is one way in which graphs can be encoded? ,adjacency matrices,"can't, as an expert",0.0,0.0,0.0,4,2025-08-14T04:35:44.006491
+official_rag_prompt_engineering_20250814_042444,expert_role,121,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,decision problem,0.0,0.5,0.5,2,2025-08-14T04:35:45.032839
+official_rag_prompt_engineering_20250814_042444,expert_role,122,What are the two simple word responses to a decision problem?,yes or no,,0.0,0.0,0.0,0,2025-08-14T04:35:46.286577
+official_rag_prompt_engineering_20250814_042444,expert_role,123,What are the two integer responses to a decision problem?,1 or 0,yes,0.0,0.0,0.0,1,2025-08-14T04:35:47.136522
+official_rag_prompt_engineering_20250814_042444,expert_role,124,What will the output be for a member of the language of a decision problem?,yes,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:35:48.426326
+official_rag_prompt_engineering_20250814_042444,expert_role,125,What answer denotes that an algorithm has accepted an input string?,yes,traditional answers,0.0,0.0,0.0,2,2025-08-14T04:35:49.380111
+official_rag_prompt_engineering_20250814_042444,expert_role,126,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,2025-08-14T04:35:50.368607
+official_rag_prompt_engineering_20250814_042444,expert_role,127,What is the term for the set of all connected graphs related to this decision problem?,formal language,decision problem,0.0,0.0,0.0,2,2025-08-14T04:35:51.523436
+official_rag_prompt_engineering_20250814_042444,expert_role,128,What encoding decision needs to be made in order to determine an exact definition of the formal language?,how graphs are encoded as binary strings,encoding decision,0.0,0.0,0.0,2,2025-08-14T04:35:52.314231
+official_rag_prompt_engineering_20250814_042444,expert_role,129,A function problem is an example of what?,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,2025-08-14T04:35:53.278112
+official_rag_prompt_engineering_20250814_042444,expert_role,130,How many outputs are expected for each input in a function problem?,a single output,single output,0.0,0.8,0.6666666666666666,2,2025-08-14T04:35:54.067690
+official_rag_prompt_engineering_20250814_042444,expert_role,131,The traveling salesman problem is an example of what type of problem?,A function problem,,0.0,0.0,0.0,0,2025-08-14T04:35:54.961456
+official_rag_prompt_engineering_20250814_042444,expert_role,132,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,"unable to, as an expert",0.0,0.0,0.0,5,2025-08-14T04:35:56.280749
+official_rag_prompt_engineering_20250814_042444,expert_role,133,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,yes,0.0,0.0,0.0,1,2025-08-14T04:35:57.188596
+official_rag_prompt_engineering_20250814_042444,expert_role,134,How can function problems typically be restated?,decision problems,function designer,0.0,0.0,0.0,2,2025-08-14T04:35:58.360136
+official_rag_prompt_engineering_20250814_042444,expert_role,135,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:35:59.516396
+official_rag_prompt_engineering_20250814_042444,expert_role,136,What is a commonly used measurement used to determine the complexity of a computational problem?,how much time the best algorithm requires to solve the problem,uncertainty,0.0,0.0,0.0,1,2025-08-14T04:36:00.477240
+official_rag_prompt_engineering_20250814_042444,expert_role,137,What is one variable on which the running time may be contingent?,the instance,variable a against variable b,0.0,0.0,0.0,5,2025-08-14T04:36:01.618121
+official_rag_prompt_engineering_20250814_042444,expert_role,138,How is the time needed to obtain the solution to a problem calculated?,as a function of the size of the instance,ansatz,0.0,0.0,0.0,1,2025-08-14T04:36:02.813028
+official_rag_prompt_engineering_20250814_042444,expert_role,139,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,2025-08-14T04:36:04.137085
+official_rag_prompt_engineering_20250814_042444,precise_instruction,0,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,2025-08-14T04:36:05.494455
+official_rag_prompt_engineering_20250814_042444,precise_instruction,1,When were the Normans in Normandy?,10th and 11th centuries,between the 10th and 13th centuries,0.0,0.6,0.75,6,2025-08-14T04:36:07.020456
+official_rag_prompt_engineering_20250814_042444,precise_instruction,2,From which countries did the Norse originate?,"Denmark, Iceland and Norway",scandinavia,0.0,0.0,0.0,1,2025-08-14T04:36:08.102495
+official_rag_prompt_engineering_20250814_042444,precise_instruction,3,Who was the Norse leader?,Rollo,norse,0.0,0.0,0.0,1,2025-08-14T04:36:09.378520
+official_rag_prompt_engineering_20250814_042444,precise_instruction,4,What century did the Normans first gain their separate identity?,10th century,the 17th century,0.0,0.4,0.5,3,2025-08-14T04:36:10.573593
+official_rag_prompt_engineering_20250814_042444,precise_instruction,5,Who was the duke in the battle of Hastings?,William the Conqueror,normandy duke of normandy,0.0,0.0,0.0,4,2025-08-14T04:36:11.853562
+official_rag_prompt_engineering_20250814_042444,precise_instruction,6,Who ruled the duchy of Normandy,Richard I,king charles iii,0.0,0.0,0.0,3,2025-08-14T04:36:13.248855
+official_rag_prompt_engineering_20250814_042444,precise_instruction,7,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,2025-08-14T04:36:14.203868
+official_rag_prompt_engineering_20250814_042444,precise_instruction,8,What is the original meaning of the word Norman?,Viking,`` normal '',0.0,0.0,0.0,3,2025-08-14T04:36:15.250014
+official_rag_prompt_engineering_20250814_042444,precise_instruction,9,When was the Latin version of the word Norman first recorded?,9th century,in 1024,0.0,0.0,0.0,2,2025-08-14T04:36:16.308312
+official_rag_prompt_engineering_20250814_042444,precise_instruction,10,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,2025-08-14T04:36:17.166598
+official_rag_prompt_engineering_20250814_042444,precise_instruction,11,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,charles,0.0,0.5,0.3333333333333333,1,2025-08-14T04:36:18.041227
+official_rag_prompt_engineering_20250814_042444,precise_instruction,12,What river originally bounded the Duchy,Seine,mississippi river,0.0,0.0,0.0,2,2025-08-14T04:36:19.006090
+official_rag_prompt_engineering_20250814_042444,precise_instruction,13,Who upon arriving gave the original viking settlers a common identity?,Rollo,the,0.0,0.0,0.0,1,2025-08-14T04:36:19.836080
+official_rag_prompt_engineering_20250814_042444,precise_instruction,14,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,2025-08-14T04:36:21.013756
+official_rag_prompt_engineering_20250814_042444,precise_instruction,15,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,2025-08-14T04:36:22.096248
+official_rag_prompt_engineering_20250814_042444,precise_instruction,16,What was one of the Norman's major exports?,fighting horsemen,petroleum,0.0,0.0,0.0,1,2025-08-14T04:36:22.944377
+official_rag_prompt_engineering_20250814_042444,precise_instruction,17,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,the seljuk turks,0.0,0.8,1.0,3,2025-08-14T04:36:24.395305
+official_rag_prompt_engineering_20250814_042444,precise_instruction,18,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,2025-08-14T04:36:25.279530
+official_rag_prompt_engineering_20250814_042444,precise_instruction,19,When did Robert Crispin go up against the Turks?,1060s,the battle of thermopylae,0.0,0.0,0.0,4,2025-08-14T04:36:26.703217
+official_rag_prompt_engineering_20250814_042444,precise_instruction,20,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,how / why,0.0,0.0,0.0,3,2025-08-14T04:36:27.724157
+official_rag_prompt_engineering_20250814_042444,precise_instruction,21,What was the name of the Norman castle?,Afranji,what is a castle?,0.0,0.0,0.0,4,2025-08-14T04:36:28.903661
+official_rag_prompt_engineering_20250814_042444,precise_instruction,22,Who was the leader when the Franks entered the Euphrates valley?,Oursel,,0.0,0.0,0.0,0,2025-08-14T04:36:29.863551
+official_rag_prompt_engineering_20250814_042444,precise_instruction,23,Who did the Normans team up with in Anatolia?,Turkish forces,,0.0,0.0,0.0,0,2025-08-14T04:36:30.709190
+official_rag_prompt_engineering_20250814_042444,precise_instruction,24,What were the origins of the Raouliii family?,Norman mercenary,"normandy, france",0.0,0.0,0.0,2,2025-08-14T04:36:31.774509
+official_rag_prompt_engineering_20250814_042444,precise_instruction,25,What was the name of the count of Apulia ,Robert Guiscard,fernando i,0.0,0.0,0.0,2,2025-08-14T04:36:32.936471
+official_rag_prompt_engineering_20250814_042444,precise_instruction,26,When did Dyrrachium  fall to the Normans?,1082,2011,0.0,0.0,0.0,1,2025-08-14T04:36:33.885560
+official_rag_prompt_engineering_20250814_042444,precise_instruction,27,How many men were in Robert's army?,"30,000",about a million men,0.0,0.0,0.0,4,2025-08-14T04:36:35.126248
+official_rag_prompt_engineering_20250814_042444,precise_instruction,28,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,2025-08-14T04:36:36.160828
+official_rag_prompt_engineering_20250814_042444,precise_instruction,29,Who was Robert's son?,Bohemond,robert's son,0.0,0.0,0.0,2,2025-08-14T04:36:37.661191
+official_rag_prompt_engineering_20250814_042444,precise_instruction,30,What river was Petrela located by?,Deabolis,river sita,0.0,0.0,0.0,2,2025-08-14T04:36:39.135556
+official_rag_prompt_engineering_20250814_042444,precise_instruction,31,When did the Normans attack Dyrrachium?,1185,1984,0.0,0.0,0.0,1,2025-08-14T04:36:40.471584
+official_rag_prompt_engineering_20250814_042444,precise_instruction,32,What was the naval base called?,Dyrrachium,what is a naval base?,0.0,0.0,0.0,5,2025-08-14T04:36:42.353844
+official_rag_prompt_engineering_20250814_042444,precise_instruction,33,Where was Dyrrachium located?,the Adriatic,the fundamental question,0.0,0.4,0.5,3,2025-08-14T04:36:43.558378
+official_rag_prompt_engineering_20250814_042444,precise_instruction,34,Who did Emma Marry?,King Ethelred II,admiral horatio nelson,0.0,0.0,0.0,3,2025-08-14T04:36:44.690946
+official_rag_prompt_engineering_20250814_042444,precise_instruction,35,Who was Emma's brother?,Duke Richard II,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:36:45.755848
+official_rag_prompt_engineering_20250814_042444,precise_instruction,36,To where did Ethelred flee?,Normandy,to return to england,0.0,0.0,0.0,4,2025-08-14T04:36:46.899378
+official_rag_prompt_engineering_20250814_042444,precise_instruction,37,Who kicked Ethelred out?,Sweyn Forkbeard,parliament,0.0,0.0,0.0,1,2025-08-14T04:36:47.808445
+official_rag_prompt_engineering_20250814_042444,precise_instruction,38,Who was Edward the Confessor's half-brother?,Harthacnut,,0.0,0.0,0.0,0,2025-08-14T04:36:48.520786
+official_rag_prompt_engineering_20250814_042444,precise_instruction,39,When did Edward return?,1041,18 november 2011,0.0,0.0,0.0,3,2025-08-14T04:36:49.713987
+official_rag_prompt_engineering_20250814_042444,precise_instruction,40,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,who,0.0,0.0,0.0,1,2025-08-14T04:36:50.812341
+official_rag_prompt_engineering_20250814_042444,precise_instruction,41,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,2025-08-14T04:36:51.934446
+official_rag_prompt_engineering_20250814_042444,precise_instruction,42,Who killed Harold II? ,William II,2018,0.0,0.0,0.0,1,2025-08-14T04:36:52.653057
+official_rag_prompt_engineering_20250814_042444,precise_instruction,43,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,2025-08-14T04:36:53.808133
+official_rag_prompt_engineering_20250814_042444,precise_instruction,44,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the trojans,0.0,0.0,0.0,2,2025-08-14T04:36:54.942879
+official_rag_prompt_engineering_20250814_042444,precise_instruction,45,What was the Anglo-Norman language's final form?,Modern English,english,0.0,0.6666666666666666,0.5,1,2025-08-14T04:36:55.946154
+official_rag_prompt_engineering_20250814_042444,precise_instruction,46,In what year did the Norman's invade at Bannow Bay?,1169,11th century,0.0,0.0,0.0,2,2025-08-14T04:36:56.892297
+official_rag_prompt_engineering_20250814_042444,precise_instruction,47,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,2025-08-14T04:36:57.815277
+official_rag_prompt_engineering_20250814_042444,precise_instruction,48,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,2025-08-14T04:36:58.898260
+official_rag_prompt_engineering_20250814_042444,precise_instruction,49,Who was Margaret's brother?,Edgar,patrick,0.0,0.0,0.0,1,2025-08-14T04:37:00.106693
+official_rag_prompt_engineering_20250814_042444,precise_instruction,50,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,2025-08-14T04:37:01.320952
+official_rag_prompt_engineering_20250814_042444,precise_instruction,51,When was Scotland invaded by William?,1072,1016,0.0,0.0,0.0,1,2025-08-14T04:37:02.199567
+official_rag_prompt_engineering_20250814_042444,precise_instruction,52,Who was the hostage?,Duncan,british soldier,0.0,0.0,0.0,2,2025-08-14T04:37:04.319665
+official_rag_prompt_engineering_20250814_042444,precise_instruction,53,Who did Alexander I marry?,Sybilla of Normandy,maria maria,0.0,0.0,0.0,2,2025-08-14T04:37:05.501434
+official_rag_prompt_engineering_20250814_042444,precise_instruction,54,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,norman,1.0,1.0,1.0,1,2025-08-14T04:37:06.690267
+official_rag_prompt_engineering_20250814_042444,precise_instruction,55,Where was Ralph earl of?,Hereford,the mississippi river,0.0,0.0,0.0,3,2025-08-14T04:37:07.844110
+official_rag_prompt_engineering_20250814_042444,precise_instruction,56,Who was Ralph in charge of being at war with?,the Welsh,roosevelt,0.0,0.0,0.0,1,2025-08-14T04:37:08.722499
+official_rag_prompt_engineering_20250814_042444,precise_instruction,57,Who made Ralph earl?,Edward the Confessor,who,0.0,0.0,0.0,1,2025-08-14T04:37:09.804830
+official_rag_prompt_engineering_20250814_042444,precise_instruction,58,What country was under the control of Norman barons?,Wales,france,0.0,0.0,0.0,1,2025-08-14T04:37:10.786850
+official_rag_prompt_engineering_20250814_042444,precise_instruction,59,What year did Roger de Tosny fail to accomplish what he set out to do?,1018,2013,0.0,0.0,0.0,1,2025-08-14T04:37:11.547167
+official_rag_prompt_engineering_20250814_042444,precise_instruction,60,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope nicholas ii,0.0,0.0,0.0,3,2025-08-14T04:37:12.642442
+official_rag_prompt_engineering_20250814_042444,precise_instruction,61,When did the Siege of Antioch take place?,1097,during the first crusade,0.0,0.0,0.0,4,2025-08-14T04:37:13.962022
+official_rag_prompt_engineering_20250814_042444,precise_instruction,62,What was the name of Bohemond's nephew?,Tancred,jean - françois rameau,0.0,0.0,0.0,4,2025-08-14T04:37:15.999104
+official_rag_prompt_engineering_20250814_042444,precise_instruction,63,What major conquest did Tancred play a roll in?,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,2025-08-14T04:37:17.773794
+official_rag_prompt_engineering_20250814_042444,precise_instruction,64,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,2025-08-14T04:37:18.951342
+official_rag_prompt_engineering_20250814_042444,precise_instruction,65,What ruined Richard's plans to reach Acre?,a storm,the question,0.0,0.0,0.0,2,2025-08-14T04:37:20.011725
+official_rag_prompt_engineering_20250814_042444,precise_instruction,66,Who was Richard's fiancee?,Berengaria,patricia clarkson,0.0,0.0,0.0,2,2025-08-14T04:37:21.114485
+official_rag_prompt_engineering_20250814_042444,precise_instruction,67,What year did the storm hit Richard's fleet?,1191,1997,0.0,0.0,0.0,1,2025-08-14T04:37:21.872131
+official_rag_prompt_engineering_20250814_042444,precise_instruction,68,Who ruled Cyprus in 1191?,Isaac Komnenos,king richard i,0.0,0.0,0.0,3,2025-08-14T04:37:23.245493
+official_rag_prompt_engineering_20250814_042444,precise_instruction,69,Who was Guy's Rival?,Conrad of Montferrat,herman brar,0.0,0.0,0.0,2,2025-08-14T04:37:24.490655
+official_rag_prompt_engineering_20250814_042444,precise_instruction,70,What were Isaac's chains made out of?,silver,steel,0.0,0.0,0.0,1,2025-08-14T04:37:25.644436
+official_rag_prompt_engineering_20250814_042444,precise_instruction,71,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,,0.0,0.0,0.0,0,2025-08-14T04:37:26.572960
+official_rag_prompt_engineering_20250814_042444,precise_instruction,72,What continent are the Canarian Islands off the coast of?,Africa,western hemisphere,0.0,0.0,0.0,2,2025-08-14T04:37:27.693532
+official_rag_prompt_engineering_20250814_042444,precise_instruction,73,Who became the King of the Canary Islands?,Bethencourt,turnovers,0.0,0.0,0.0,1,2025-08-14T04:37:28.542956
+official_rag_prompt_engineering_20250814_042444,precise_instruction,74,Who bought the rights?,Enrique Pérez de Guzmán,the seller,0.0,0.0,0.0,2,2025-08-14T04:37:29.556726
+official_rag_prompt_engineering_20250814_042444,precise_instruction,75,Who sold the rights?,Maciot de Bethencourt,the seller,0.0,0.0,0.0,2,2025-08-14T04:37:30.491675
+official_rag_prompt_engineering_20250814_042444,precise_instruction,76,Where are Jersey and Guernsey,Channel Islands,in the english channel,0.0,0.3333333333333333,0.5,4,2025-08-14T04:37:31.581329
+official_rag_prompt_engineering_20250814_042444,precise_instruction,77,How many customaries does Norman customary law have?,two,,0.0,0.0,0.0,0,2025-08-14T04:37:32.443564
+official_rag_prompt_engineering_20250814_042444,precise_instruction,78,What is the Norman architecture idiom?,Romanesque,what is the norman architecture idiom,0.0,0.0,0.0,6,2025-08-14T04:37:33.962965
+official_rag_prompt_engineering_20250814_042444,precise_instruction,79,What kind of arches does Norman architecture have?,rounded,vertical curved structure,0.0,0.0,0.0,3,2025-08-14T04:37:35.123077
+official_rag_prompt_engineering_20250814_042444,precise_instruction,80,What architecture type came after Norman in England?,Early Gothic,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:37:36.283779
+official_rag_prompt_engineering_20250814_042444,precise_instruction,81,What architecture type came before Norman in England?,Anglo-Saxon,romanesque,0.0,0.0,0.0,1,2025-08-14T04:37:37.313876
+official_rag_prompt_engineering_20250814_042444,precise_instruction,82,What place had the Norman Arab architectural style?,Sicily,abbasid samarra,0.0,0.0,0.0,2,2025-08-14T04:37:38.584734
+official_rag_prompt_engineering_20250814_042444,precise_instruction,83,When did the church reform begin?,early 11th century,1876,0.0,0.0,0.0,1,2025-08-14T04:37:39.680628
+official_rag_prompt_engineering_20250814_042444,precise_instruction,84,Who used the church to unify themselves?,dukes,"howard canto vi, xvii",0.0,0.0,0.0,4,2025-08-14T04:37:41.641992
+official_rag_prompt_engineering_20250814_042444,precise_instruction,85,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,2025-08-14T04:37:43.396885
+official_rag_prompt_engineering_20250814_042444,precise_instruction,86,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,2025-08-14T04:37:44.606254
+official_rag_prompt_engineering_20250814_042444,precise_instruction,87,What is Norman art's most well known piece?,Bayeux Tapestry,the battle of thermopylae,0.0,0.0,0.0,4,2025-08-14T04:37:46.126056
+official_rag_prompt_engineering_20250814_042444,precise_instruction,88,Who commissioned the Tapestry?,Odo,,0.0,0.0,0.0,0,2025-08-14T04:37:46.911595
+official_rag_prompt_engineering_20250814_042444,precise_instruction,89,What is the most important type of Norman art preserved in churches?,mosaics,preservation of norman architecture,0.0,0.0,0.0,4,2025-08-14T04:37:48.401160
+official_rag_prompt_engineering_20250814_042444,precise_instruction,90,In what century did important classical music developments occur in Normandy?,11th,the 14th century,0.0,0.0,0.0,3,2025-08-14T04:37:50.376753
+official_rag_prompt_engineering_20250814_042444,precise_instruction,91,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard ii,0.0,0.0,0.0,2,2025-08-14T04:37:51.520599
+official_rag_prompt_engineering_20250814_042444,precise_instruction,92,Where did the monks flee to?,southern Italy,california,0.0,0.0,0.0,1,2025-08-14T04:37:52.487089
+official_rag_prompt_engineering_20250814_042444,precise_instruction,93,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,the,0.0,0.0,0.0,1,2025-08-14T04:37:53.294459
+official_rag_prompt_engineering_20250814_042444,precise_instruction,94,Who patronized the monks in Italy? ,Robert Guiscard,,0.0,0.0,0.0,0,2025-08-14T04:37:54.082479
+official_rag_prompt_engineering_20250814_042444,precise_instruction,95,What tradition were the Saint-Evroul monks known for?,singing,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:37:55.403827
+official_rag_prompt_engineering_20250814_042444,precise_instruction,96,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,2025-08-14T04:37:56.934402
+official_rag_prompt_engineering_20250814_042444,precise_instruction,97,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,inherent difficulty,1.0,1.0,1.0,2,2025-08-14T04:37:58.473126
+official_rag_prompt_engineering_20250814_042444,precise_instruction,98,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,2025-08-14T04:37:59.596636
+official_rag_prompt_engineering_20250814_042444,precise_instruction,99,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,Turing degree,0.0,0.0,0.0,2,2025-08-14T04:38:00.788690
+official_rag_prompt_engineering_20250814_042444,precise_instruction,100,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,computational complexity theory,0.0,0.0,0.0,3,2025-08-14T04:38:02.225534
+official_rag_prompt_engineering_20250814_042444,precise_instruction,101,What are two basic primary resources used to guage complexity?,time and storage,social,0.0,0.0,0.0,1,2025-08-14T04:38:03.172379
+official_rag_prompt_engineering_20250814_042444,precise_instruction,102,What unit is measured to determine circuit complexity?,number of gates in a circuit,delay,0.0,0.0,0.0,1,2025-08-14T04:38:04.087960
+official_rag_prompt_engineering_20250814_042444,precise_instruction,103,What practical role does defining the complexity of problems play in everyday computing?,determine the practical limits on what computers can and cannot do,cognitive complexity,0.0,0.0,0.0,2,2025-08-14T04:38:05.453671
+official_rag_prompt_engineering_20250814_042444,precise_instruction,104,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,2025-08-14T04:38:06.760755
+official_rag_prompt_engineering_20250814_042444,precise_instruction,105,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,program analysis,0.0,0.4,0.3333333333333333,2,2025-08-14T04:38:07.888909
+official_rag_prompt_engineering_20250814_042444,precise_instruction,106,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,problem / dilemma,0.0,0.0,0.0,3,2025-08-14T04:38:09.082123
+official_rag_prompt_engineering_20250814_042444,precise_instruction,107,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?,computability theory,optimization,0.0,0.0,0.0,1,2025-08-14T04:38:10.120764
+official_rag_prompt_engineering_20250814_042444,precise_instruction,108,What is the name given to the input string of a computational problem?,problem instance,problem / solution,0.0,0.4,0.5,3,2025-08-14T04:38:11.052025
+official_rag_prompt_engineering_20250814_042444,precise_instruction,109,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,the emptiness problem,0.0,0.8,1.0,3,2025-08-14T04:38:11.930120
+official_rag_prompt_engineering_20250814_042444,precise_instruction,110,Is a problem instance typically characterized as abstract or concrete?,concrete,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:38:13.043280
+official_rag_prompt_engineering_20250814_042444,precise_instruction,111,What is another name for any given measure of input associated with a problem?,instances,data visuali zation,0.0,0.0,0.0,3,2025-08-14T04:38:14.566015
+official_rag_prompt_engineering_20250814_042444,precise_instruction,112,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,2025-08-14T04:38:15.912068
+official_rag_prompt_engineering_20250814_042444,precise_instruction,113,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,"150,000 km",0.0,0.0,0.0,2,2025-08-14T04:38:17.199964
+official_rag_prompt_engineering_20250814_042444,precise_instruction,114,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer?,round trip through all sites in Milan,traveling salesman problem,0.0,0.0,0.0,3,2025-08-14T04:38:18.274075
+official_rag_prompt_engineering_20250814_042444,precise_instruction,115,What does computational complexity theory most specifically seek to answer? ,computational problems,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:38:19.342693
+official_rag_prompt_engineering_20250814_042444,precise_instruction,116,"In a computational problem, what can be described as a string over an alphabet?",problem instance,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:38:20.467435
+official_rag_prompt_engineering_20250814_042444,precise_instruction,117,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:38:21.869253
+official_rag_prompt_engineering_20250814_042444,precise_instruction,118,What is another term for the string of a problem instance?,bitstrings,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:38:22.746683
+official_rag_prompt_engineering_20250814_042444,precise_instruction,119,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed?",binary notation,factorials n!,0.0,0.0,0.0,2,2025-08-14T04:38:24.004238
+official_rag_prompt_engineering_20250814_042444,precise_instruction,120,What is one way in which graphs can be encoded? ,adjacency matrices,communication,0.0,0.0,0.0,1,2025-08-14T04:38:25.193532
+official_rag_prompt_engineering_20250814_042444,precise_instruction,121,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,decision making,0.0,0.5,0.5,2,2025-08-14T04:38:26.454858
+official_rag_prompt_engineering_20250814_042444,precise_instruction,122,What are the two simple word responses to a decision problem?,yes or no,decision,0.0,0.0,0.0,1,2025-08-14T04:38:27.583799
+official_rag_prompt_engineering_20250814_042444,precise_instruction,123,What are the two integer responses to a decision problem?,1 or 0,factorials n!,0.0,0.0,0.0,2,2025-08-14T04:38:29.118463
+official_rag_prompt_engineering_20250814_042444,precise_instruction,124,What will the output be for a member of the language of a decision problem?,yes,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:38:30.744294
+official_rag_prompt_engineering_20250814_042444,precise_instruction,125,What answer denotes that an algorithm has accepted an input string?,yes,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:38:32.432064
+official_rag_prompt_engineering_20250814_042444,precise_instruction,126,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,2025-08-14T04:38:33.405562
+official_rag_prompt_engineering_20250814_042444,precise_instruction,127,What is the term for the set of all connected graphs related to this decision problem?,formal language,decision problem,0.0,0.0,0.0,2,2025-08-14T04:38:34.474168
+official_rag_prompt_engineering_20250814_042444,precise_instruction,128,What encoding decision needs to be made in order to determine an exact definition of the formal language?,how graphs are encoded as binary strings,encoded description,0.0,0.22222222222222224,0.14285714285714285,2,2025-08-14T04:38:35.646676
+official_rag_prompt_engineering_20250814_042444,precise_instruction,129,A function problem is an example of what?,a computational problem,yes or no,0.0,0.0,0.0,3,2025-08-14T04:38:36.841540
+official_rag_prompt_engineering_20250814_042444,precise_instruction,130,How many outputs are expected for each input in a function problem?,a single output,receiving input,0.0,0.0,0.0,2,2025-08-14T04:38:37.845058
+official_rag_prompt_engineering_20250814_042444,precise_instruction,131,The traveling salesman problem is an example of what type of problem?,A function problem,npa - hard problem,0.0,0.28571428571428575,0.3333333333333333,4,2025-08-14T04:38:39.419469
+official_rag_prompt_engineering_20250814_042444,precise_instruction,132,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:38:41.023641
+official_rag_prompt_engineering_20250814_042444,precise_instruction,133,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,yes,0.0,0.0,0.0,1,2025-08-14T04:38:42.409628
+official_rag_prompt_engineering_20250814_042444,precise_instruction,134,How can function problems typically be restated?,decision problems,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:38:44.069404
+official_rag_prompt_engineering_20250814_042444,precise_instruction,135,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:38:45.945899
+official_rag_prompt_engineering_20250814_042444,precise_instruction,136,What is a commonly used measurement used to determine the complexity of a computational problem?,how much time the best algorithm requires to solve the problem,computation time,0.0,0.16666666666666669,0.1,2,2025-08-14T04:38:47.306586
+official_rag_prompt_engineering_20250814_042444,precise_instruction,137,What is one variable on which the running time may be contingent?,the instance,variable a against variable b,0.0,0.0,0.0,5,2025-08-14T04:38:48.738759
+official_rag_prompt_engineering_20250814_042444,precise_instruction,138,How is the time needed to obtain the solution to a problem calculated?,as a function of the size of the instance,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:38:50.233146
+official_rag_prompt_engineering_20250814_042444,precise_instruction,139,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,2025-08-14T04:38:51.294974
+official_rag_prompt_engineering_20250814_042444,context_emphasis,0,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,2025-08-14T04:38:52.160137
+official_rag_prompt_engineering_20250814_042444,context_emphasis,1,When were the Normans in Normandy?,10th and 11th centuries,10th century -- 15th century,0.0,0.25,0.25,5,2025-08-14T04:38:53.644961
+official_rag_prompt_engineering_20250814_042444,context_emphasis,2,From which countries did the Norse originate?,"Denmark, Iceland and Norway",scandinavia,0.0,0.0,0.0,1,2025-08-14T04:38:55.176187
+official_rag_prompt_engineering_20250814_042444,context_emphasis,3,Who was the Norse leader?,Rollo,who was / was not,0.0,0.0,0.0,5,2025-08-14T04:38:56.783832
+official_rag_prompt_engineering_20250814_042444,context_emphasis,4,What century did the Normans first gain their separate identity?,10th century,the 10th century,0.0,0.8,1.0,3,2025-08-14T04:38:58.516170
+official_rag_prompt_engineering_20250814_042444,context_emphasis,5,Who was the duke in the battle of Hastings?,William the Conqueror,normandy duke of normandy,0.0,0.0,0.0,4,2025-08-14T04:39:00.143792
+official_rag_prompt_engineering_20250814_042444,context_emphasis,6,Who ruled the duchy of Normandy,Richard I,king charles iii of west francia,0.0,0.0,0.0,6,2025-08-14T04:39:01.709947
+official_rag_prompt_engineering_20250814_042444,context_emphasis,7,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,2025-08-14T04:39:02.781507
+official_rag_prompt_engineering_20250814_042444,context_emphasis,8,What is the original meaning of the word Norman?,Viking,norman,0.0,0.0,0.0,1,2025-08-14T04:39:04.502796
+official_rag_prompt_engineering_20250814_042444,context_emphasis,9,When was the Latin version of the word Norman first recorded?,9th century,in 1024,0.0,0.0,0.0,2,2025-08-14T04:39:06.100192
+official_rag_prompt_engineering_20250814_042444,context_emphasis,10,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,2025-08-14T04:39:07.385767
+official_rag_prompt_engineering_20250814_042444,context_emphasis,11,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,charles the simple,0.0,0.3333333333333333,0.3333333333333333,3,2025-08-14T04:39:08.437820
+official_rag_prompt_engineering_20250814_042444,context_emphasis,12,What river originally bounded the Duchy,Seine,tennessee river,0.0,0.0,0.0,2,2025-08-14T04:39:09.598835
+official_rag_prompt_engineering_20250814_042444,context_emphasis,13,Who upon arriving gave the original viking settlers a common identity?,Rollo,the Normans,0.0,0.0,0.0,2,2025-08-14T04:39:10.719039
+official_rag_prompt_engineering_20250814_042444,context_emphasis,14,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,2025-08-14T04:39:12.153572
+official_rag_prompt_engineering_20250814_042444,context_emphasis,15,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,2025-08-14T04:39:13.351402
+official_rag_prompt_engineering_20250814_042444,context_emphasis,16,What was one of the Norman's major exports?,fighting horsemen,foodstuffs,0.0,0.0,0.0,1,2025-08-14T04:39:14.581637
+official_rag_prompt_engineering_20250814_042444,context_emphasis,17,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,the pechenegs,0.0,0.0,0.0,2,2025-08-14T04:39:16.209111
+official_rag_prompt_engineering_20250814_042444,context_emphasis,18,When did Herve serve as a Byzantine general?,1050s,552 -- 553,0.0,0.0,0.0,3,2025-08-14T04:39:17.526835
+official_rag_prompt_engineering_20250814_042444,context_emphasis,19,When did Robert Crispin go up against the Turks?,1060s,2018,0.0,0.0,0.0,1,2025-08-14T04:39:18.317553
+official_rag_prompt_engineering_20250814_042444,context_emphasis,20,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,madame bertrand barère,0.0,0.0,0.0,3,2025-08-14T04:39:19.964612
+official_rag_prompt_engineering_20250814_042444,context_emphasis,21,What was the name of the Norman castle?,Afranji,neath castle,0.0,0.0,0.0,2,2025-08-14T04:39:21.356483
+official_rag_prompt_engineering_20250814_042444,context_emphasis,22,Who was the leader when the Franks entered the Euphrates valley?,Oursel,,0.0,0.0,0.0,0,2025-08-14T04:39:22.423831
+official_rag_prompt_engineering_20250814_042444,context_emphasis,23,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,2025-08-14T04:39:23.839552
+official_rag_prompt_engineering_20250814_042444,context_emphasis,24,What were the origins of the Raouliii family?,Norman mercenary,"normandy, france",0.0,0.0,0.0,2,2025-08-14T04:39:25.208679
+official_rag_prompt_engineering_20250814_042444,context_emphasis,25,What was the name of the count of Apulia ,Robert Guiscard,,0.0,0.0,0.0,0,2025-08-14T04:39:26.208827
+official_rag_prompt_engineering_20250814_042444,context_emphasis,26,When did Dyrrachium  fall to the Normans?,1082,Answer : yes,0.0,0.0,0.0,3,2025-08-14T04:39:27.560580
+official_rag_prompt_engineering_20250814_042444,context_emphasis,27,How many men were in Robert's army?,"30,000","about 100,000 and 150,000",0.0,0.0,0.0,4,2025-08-14T04:39:29.106589
+official_rag_prompt_engineering_20250814_042444,context_emphasis,28,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,2025-08-14T04:39:30.276249
+official_rag_prompt_engineering_20250814_042444,context_emphasis,29,Who was Robert's son?,Bohemond,alan,0.0,0.0,0.0,1,2025-08-14T04:39:31.618650
+official_rag_prompt_engineering_20250814_042444,context_emphasis,30,What river was Petrela located by?,Deabolis,river sita,0.0,0.0,0.0,2,2025-08-14T04:39:33.048904
+official_rag_prompt_engineering_20250814_042444,context_emphasis,31,When did the Normans attack Dyrrachium?,1185,2018,0.0,0.0,0.0,1,2025-08-14T04:39:34.306852
+official_rag_prompt_engineering_20250814_042444,context_emphasis,32,What was the naval base called?,Dyrrachium,Guantanamo bay,0.0,0.0,0.0,2,2025-08-14T04:39:35.578708
+official_rag_prompt_engineering_20250814_042444,context_emphasis,33,Where was Dyrrachium located?,the Adriatic,the earth's crust,0.0,0.4,0.5,3,2025-08-14T04:39:37.157550
+official_rag_prompt_engineering_20250814_042444,context_emphasis,34,Who did Emma Marry?,King Ethelred II,matt willis,0.0,0.0,0.0,2,2025-08-14T04:39:38.814594
+official_rag_prompt_engineering_20250814_042444,context_emphasis,35,Who was Emma's brother?,Duke Richard II,the baker's brother,0.0,0.0,0.0,3,2025-08-14T04:39:40.304578
+official_rag_prompt_engineering_20250814_042444,context_emphasis,36,To where did Ethelred flee?,Normandy,to go to australia,0.0,0.0,0.0,4,2025-08-14T04:39:42.034995
+official_rag_prompt_engineering_20250814_042444,context_emphasis,37,Who kicked Ethelred out?,Sweyn Forkbeard,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:39:43.283970
+official_rag_prompt_engineering_20250814_042444,context_emphasis,38,Who was Edward the Confessor's half-brother?,Harthacnut,,0.0,0.0,0.0,0,2025-08-14T04:39:44.141160
+official_rag_prompt_engineering_20250814_042444,context_emphasis,39,When did Edward return?,1041,when,0.0,0.0,0.0,1,2025-08-14T04:39:45.515229
+official_rag_prompt_engineering_20250814_042444,context_emphasis,40,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,himself,0.0,0.0,0.0,1,2025-08-14T04:39:46.763353
+official_rag_prompt_engineering_20250814_042444,context_emphasis,41,Where did Harold II die?,Battle of Hastings,in the caribbean,0.0,0.0,0.0,3,2025-08-14T04:39:47.938781
+official_rag_prompt_engineering_20250814_042444,context_emphasis,42,Who killed Harold II? ,William II,,0.0,0.0,0.0,0,2025-08-14T04:39:49.009378
+official_rag_prompt_engineering_20250814_042444,context_emphasis,43,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,2025-08-14T04:39:50.675167
+official_rag_prompt_engineering_20250814_042444,context_emphasis,44,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the trojans,0.0,0.0,0.0,2,2025-08-14T04:39:52.426781
+official_rag_prompt_engineering_20250814_042444,context_emphasis,45,What was the Anglo-Norman language's final form?,Modern English,,0.0,0.0,0.0,0,2025-08-14T04:39:53.469446
+official_rag_prompt_engineering_20250814_042444,context_emphasis,46,In what year did the Norman's invade at Bannow Bay?,1169,1169,1.0,1.0,1.0,1,2025-08-14T04:39:54.957628
+official_rag_prompt_engineering_20250814_042444,context_emphasis,47,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,2025-08-14T04:39:56.049074
+official_rag_prompt_engineering_20250814_042444,context_emphasis,48,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,2025-08-14T04:39:57.171920
+official_rag_prompt_engineering_20250814_042444,context_emphasis,49,Who was Margaret's brother?,Edgar,eamonn,0.0,0.0,0.0,1,2025-08-14T04:39:58.909430
+official_rag_prompt_engineering_20250814_042444,context_emphasis,50,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,2025-08-14T04:40:00.265535
+official_rag_prompt_engineering_20250814_042444,context_emphasis,51,When was Scotland invaded by William?,1072,1091,0.0,0.0,0.0,1,2025-08-14T04:40:01.469076
+official_rag_prompt_engineering_20250814_042444,context_emphasis,52,Who was the hostage?,Duncan,the hostage,0.0,0.0,0.0,2,2025-08-14T04:40:02.830934
+official_rag_prompt_engineering_20250814_042444,context_emphasis,53,Who did Alexander I marry?,Sybilla of Normandy,maria maria,0.0,0.0,0.0,2,2025-08-14T04:40:04.649735
+official_rag_prompt_engineering_20250814_042444,context_emphasis,54,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,flemish,0.0,0.0,0.0,1,2025-08-14T04:40:05.765245
+official_rag_prompt_engineering_20250814_042444,context_emphasis,55,Where was Ralph earl of?,Hereford,the mississippi river,0.0,0.0,0.0,3,2025-08-14T04:40:07.020005
+official_rag_prompt_engineering_20250814_042444,context_emphasis,56,Who was Ralph in charge of being at war with?,the Welsh,u.s. army,0.0,0.0,0.0,2,2025-08-14T04:40:08.190059
+official_rag_prompt_engineering_20250814_042444,context_emphasis,57,Who made Ralph earl?,Edward the Confessor,who,0.0,0.0,0.0,1,2025-08-14T04:40:09.559141
+official_rag_prompt_engineering_20250814_042444,context_emphasis,58,What country was under the control of Norman barons?,Wales,france,0.0,0.0,0.0,1,2025-08-14T04:40:10.464194
+official_rag_prompt_engineering_20250814_042444,context_emphasis,59,What year did Roger de Tosny fail to accomplish what he set out to do?,1018,2013,0.0,0.0,0.0,1,2025-08-14T04:40:11.235342
+official_rag_prompt_engineering_20250814_042444,context_emphasis,60,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope nicholas ii,0.0,0.0,0.0,3,2025-08-14T04:40:12.596992
+official_rag_prompt_engineering_20250814_042444,context_emphasis,61,When did the Siege of Antioch take place?,1097,during the first crusade,0.0,0.0,0.0,4,2025-08-14T04:40:14.236193
+official_rag_prompt_engineering_20250814_042444,context_emphasis,62,What was the name of Bohemond's nephew?,Tancred,jean - françois rameau,0.0,0.0,0.0,4,2025-08-14T04:40:16.007204
+official_rag_prompt_engineering_20250814_042444,context_emphasis,63,What major conquest did Tancred play a roll in?,Jerusalem,british invasion of belgium,0.0,0.0,0.0,4,2025-08-14T04:40:17.928834
+official_rag_prompt_engineering_20250814_042444,context_emphasis,64,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,2025-08-14T04:40:19.406169
+official_rag_prompt_engineering_20250814_042444,context_emphasis,65,What ruined Richard's plans to reach Acre?,a storm,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:40:21.030522
+official_rag_prompt_engineering_20250814_042444,context_emphasis,66,Who was Richard's fiancee?,Berengaria,her brother - in - law,0.0,0.0,0.0,6,2025-08-14T04:40:22.697464
+official_rag_prompt_engineering_20250814_042444,context_emphasis,67,What year did the storm hit Richard's fleet?,1191,1997,0.0,0.0,0.0,1,2025-08-14T04:40:23.761329
+official_rag_prompt_engineering_20250814_042444,context_emphasis,68,Who ruled Cyprus in 1191?,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,2025-08-14T04:40:25.733764
+official_rag_prompt_engineering_20250814_042444,context_emphasis,69,Who was Guy's Rival?,Conrad of Montferrat,the other guy,0.0,0.0,0.0,3,2025-08-14T04:40:27.548135
+official_rag_prompt_engineering_20250814_042444,context_emphasis,70,What were Isaac's chains made out of?,silver,,0.0,0.0,0.0,0,2025-08-14T04:40:28.771325
+official_rag_prompt_engineering_20250814_042444,context_emphasis,71,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,"answer, based on the relevant context",0.0,0.0,0.0,6,2025-08-14T04:40:31.224010
+official_rag_prompt_engineering_20250814_042444,context_emphasis,72,What continent are the Canarian Islands off the coast of?,Africa,africa,1.0,1.0,1.0,1,2025-08-14T04:40:32.744385
+official_rag_prompt_engineering_20250814_042444,context_emphasis,73,Who became the King of the Canary Islands?,Bethencourt,jean de béthencourt,0.0,0.0,0.0,3,2025-08-14T04:40:34.676366
+official_rag_prompt_engineering_20250814_042444,context_emphasis,74,Who bought the rights?,Enrique Pérez de Guzmán,who,0.0,0.0,0.0,1,2025-08-14T04:40:35.857842
+official_rag_prompt_engineering_20250814_042444,context_emphasis,75,Who sold the rights?,Maciot de Bethencourt,who owns the rights,0.0,0.0,0.0,4,2025-08-14T04:40:36.971961
+official_rag_prompt_engineering_20250814_042444,context_emphasis,76,Where are Jersey and Guernsey,Channel Islands,in the english channel,0.0,0.3333333333333333,0.5,4,2025-08-14T04:40:38.296073
+official_rag_prompt_engineering_20250814_042444,context_emphasis,77,How many customaries does Norman customary law have?,two,,0.0,0.0,0.0,0,2025-08-14T04:40:39.097267
+official_rag_prompt_engineering_20250814_042444,context_emphasis,78,What is the Norman architecture idiom?,Romanesque,norman transitional architecture,0.0,0.0,0.0,3,2025-08-14T04:40:40.320959
+official_rag_prompt_engineering_20250814_042444,context_emphasis,79,What kind of arches does Norman architecture have?,rounded,grand archways,0.0,0.0,0.0,2,2025-08-14T04:40:41.447467
+official_rag_prompt_engineering_20250814_042444,context_emphasis,80,What architecture type came after Norman in England?,Early Gothic,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:40:42.737393
+official_rag_prompt_engineering_20250814_042444,context_emphasis,81,What architecture type came before Norman in England?,Anglo-Saxon,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:40:44.072359
+official_rag_prompt_engineering_20250814_042444,context_emphasis,82,What place had the Norman Arab architectural style?,Sicily,ireland,0.0,0.0,0.0,1,2025-08-14T04:40:45.374452
+official_rag_prompt_engineering_20250814_042444,context_emphasis,83,When did the church reform begin?,early 11th century,1517,0.0,0.0,0.0,1,2025-08-14T04:40:46.410366
+official_rag_prompt_engineering_20250814_042444,context_emphasis,84,Who used the church to unify themselves?,dukes,straw man,0.0,0.0,0.0,2,2025-08-14T04:40:48.250067
+official_rag_prompt_engineering_20250814_042444,context_emphasis,85,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,2025-08-14T04:40:49.866545
+official_rag_prompt_engineering_20250814_042444,context_emphasis,86,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,2025-08-14T04:40:51.059803
+official_rag_prompt_engineering_20250814_042444,context_emphasis,87,What is Norman art's most well known piece?,Bayeux Tapestry,the battle of thermopylae,0.0,0.0,0.0,4,2025-08-14T04:40:52.648741
+official_rag_prompt_engineering_20250814_042444,context_emphasis,88,Who commissioned the Tapestry?,Odo,tourism ireland,0.0,0.0,0.0,2,2025-08-14T04:40:53.977334
+official_rag_prompt_engineering_20250814_042444,context_emphasis,89,What is the most important type of Norman art preserved in churches?,mosaics,"answer, based on the relevant context",0.0,0.0,0.0,6,2025-08-14T04:40:55.589967
+official_rag_prompt_engineering_20250814_042444,context_emphasis,90,In what century did important classical music developments occur in Normandy?,11th,18th century,0.0,0.0,0.0,2,2025-08-14T04:40:57.096429
+official_rag_prompt_engineering_20250814_042444,context_emphasis,91,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard i,0.0,0.0,0.0,2,2025-08-14T04:40:58.523234
+official_rag_prompt_engineering_20250814_042444,context_emphasis,92,Where did the monks flee to?,southern Italy,italy,0.0,0.6666666666666666,0.5,1,2025-08-14T04:40:59.895443
+official_rag_prompt_engineering_20250814_042444,context_emphasis,93,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:41:01.350601
+official_rag_prompt_engineering_20250814_042444,context_emphasis,94,Who patronized the monks in Italy? ,Robert Guiscard,,0.0,0.0,0.0,0,2025-08-14T04:41:02.194669
+official_rag_prompt_engineering_20250814_042444,context_emphasis,95,What tradition were the Saint-Evroul monks known for?,singing,aristotelianism,0.0,0.0,0.0,1,2025-08-14T04:41:03.501109
+official_rag_prompt_engineering_20250814_042444,context_emphasis,96,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity,0.0,0.8,0.6666666666666666,2,2025-08-14T04:41:04.498215
+official_rag_prompt_engineering_20250814_042444,context_emphasis,97,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,computational complexity,0.0,0.0,0.0,2,2025-08-14T04:41:05.394709
+official_rag_prompt_engineering_20250814_042444,context_emphasis,98,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,2025-08-14T04:41:06.178915
+official_rag_prompt_engineering_20250814_042444,context_emphasis,99,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,turing degree,0.0,0.0,0.0,2,2025-08-14T04:41:07.129439
+official_rag_prompt_engineering_20250814_042444,context_emphasis,100,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,computational resource management,0.0,0.0,0.0,3,2025-08-14T04:41:08.581244
+official_rag_prompt_engineering_20250814_042444,context_emphasis,101,What are two basic primary resources used to guage complexity?,time and storage,social,0.0,0.0,0.0,1,2025-08-14T04:41:09.865814
+official_rag_prompt_engineering_20250814_042444,context_emphasis,102,What unit is measured to determine circuit complexity?,number of gates in a circuit,delay,0.0,0.0,0.0,1,2025-08-14T04:41:11.175220
+official_rag_prompt_engineering_20250814_042444,context_emphasis,103,What practical role does defining the complexity of problems play in everyday computing?,determine the practical limits on what computers can and cannot do,what turns you on?,0.0,0.13333333333333333,0.09090909090909091,4,2025-08-14T04:41:12.761877
+official_rag_prompt_engineering_20250814_042444,context_emphasis,104,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,2025-08-14T04:41:14.278519
+official_rag_prompt_engineering_20250814_042444,context_emphasis,105,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,computational statistics,0.0,0.0,0.0,2,2025-08-14T04:41:15.627563
+official_rag_prompt_engineering_20250814_042444,context_emphasis,106,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,computability,0.0,0.0,0.0,1,2025-08-14T04:41:17.321764
+official_rag_prompt_engineering_20250814_042444,context_emphasis,107,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?,computability theory,computability,0.0,0.6666666666666666,0.5,1,2025-08-14T04:41:18.701230
+official_rag_prompt_engineering_20250814_042444,context_emphasis,108,What is the name given to the input string of a computational problem?,problem instance,problem / solution,0.0,0.4,0.5,3,2025-08-14T04:41:20.138284
+official_rag_prompt_engineering_20250814_042444,context_emphasis,109,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,a problem,0.0,0.5,0.5,2,2025-08-14T04:41:21.214499
+official_rag_prompt_engineering_20250814_042444,context_emphasis,110,Is a problem instance typically characterized as abstract or concrete?,concrete,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:41:22.390156
+official_rag_prompt_engineering_20250814_042444,context_emphasis,111,What is another name for any given measure of input associated with a problem?,instances,receiving input,0.0,0.0,0.0,2,2025-08-14T04:41:23.680334
+official_rag_prompt_engineering_20250814_042444,context_emphasis,112,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,2025-08-14T04:41:24.582449
+official_rag_prompt_engineering_20250814_042444,context_emphasis,113,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,shortest possible route,0.0,0.0,0.0,3,2025-08-14T04:41:25.574802
+official_rag_prompt_engineering_20250814_042444,context_emphasis,114,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer?,round trip through all sites in Milan,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:41:26.884046
+official_rag_prompt_engineering_20250814_042444,context_emphasis,115,What does computational complexity theory most specifically seek to answer? ,computational problems,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:41:28.324242
+official_rag_prompt_engineering_20250814_042444,context_emphasis,116,"In a computational problem, what can be described as a string over an alphabet?",problem instance,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:41:29.943798
+official_rag_prompt_engineering_20250814_042444,context_emphasis,117,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,", r",0.0,0.0,0.0,2,2025-08-14T04:41:31.205341
+official_rag_prompt_engineering_20250814_042444,context_emphasis,118,What is another term for the string of a problem instance?,bitstrings,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:41:32.603213
+official_rag_prompt_engineering_20250814_042444,context_emphasis,119,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed?",binary notation,factorials n!,0.0,0.0,0.0,2,2025-08-14T04:41:33.636744
+official_rag_prompt_engineering_20250814_042444,context_emphasis,120,What is one way in which graphs can be encoded? ,adjacency matrices,factorials n!,0.0,0.0,0.0,2,2025-08-14T04:41:34.897920
+official_rag_prompt_engineering_20250814_042444,context_emphasis,121,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,decision problem,0.0,0.5,0.5,2,2025-08-14T04:41:35.914952
+official_rag_prompt_engineering_20250814_042444,context_emphasis,122,What are the two simple word responses to a decision problem?,yes or no,decision,0.0,0.0,0.0,1,2025-08-14T04:41:37.332454
+official_rag_prompt_engineering_20250814_042444,context_emphasis,123,What are the two integer responses to a decision problem?,1 or 0,yes,0.0,0.0,0.0,1,2025-08-14T04:41:38.419997
+official_rag_prompt_engineering_20250814_042444,context_emphasis,124,What will the output be for a member of the language of a decision problem?,yes,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:41:39.842178
+official_rag_prompt_engineering_20250814_042444,context_emphasis,125,What answer denotes that an algorithm has accepted an input string?,yes,yes,1.0,1.0,1.0,1,2025-08-14T04:41:41.273226
+official_rag_prompt_engineering_20250814_042444,context_emphasis,126,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision,0.0,0.0,0.0,1,2025-08-14T04:41:41.918758
+official_rag_prompt_engineering_20250814_042444,context_emphasis,127,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,2025-08-14T04:41:42.856908
+official_rag_prompt_engineering_20250814_042444,context_emphasis,128,What encoding decision needs to be made in order to determine an exact definition of the formal language?,how graphs are encoded as binary strings,answer : what turns you on,0.0,0.0,0.0,6,2025-08-14T04:41:44.245662
+official_rag_prompt_engineering_20250814_042444,context_emphasis,129,A function problem is an example of what?,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,2025-08-14T04:41:45.381546
+official_rag_prompt_engineering_20250814_042444,context_emphasis,130,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,2025-08-14T04:41:46.534291
+official_rag_prompt_engineering_20250814_042444,context_emphasis,131,The traveling salesman problem is an example of what type of problem?,A function problem,combinatorial optimization,0.0,0.0,0.0,2,2025-08-14T04:41:48.107391
+official_rag_prompt_engineering_20250814_042444,context_emphasis,132,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling salesman problem,0.0,0.28571428571428575,0.25,3,2025-08-14T04:41:49.498281
+official_rag_prompt_engineering_20250814_042444,context_emphasis,133,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,simple,0.0,0.0,0.0,1,2025-08-14T04:41:51.234204
+official_rag_prompt_engineering_20250814_042444,context_emphasis,134,How can function problems typically be restated?,decision problems,,0.0,0.0,0.0,0,2025-08-14T04:41:52.583640
+official_rag_prompt_engineering_20250814_042444,context_emphasis,135,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,conditional,0.0,0.0,0.0,1,2025-08-14T04:41:54.362644
+official_rag_prompt_engineering_20250814_042444,context_emphasis,136,What is a commonly used measurement used to determine the complexity of a computational problem?,how much time the best algorithm requires to solve the problem,computational complexity,0.0,0.0,0.0,2,2025-08-14T04:41:56.211545
+official_rag_prompt_engineering_20250814_042444,context_emphasis,137,What is one variable on which the running time may be contingent?,the instance,variable a against variable b,0.0,0.0,0.0,5,2025-08-14T04:41:58.260190
+official_rag_prompt_engineering_20250814_042444,context_emphasis,138,How is the time needed to obtain the solution to a problem calculated?,as a function of the size of the instance,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:42:00.185051
+official_rag_prompt_engineering_20250814_042444,context_emphasis,139,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,2025-08-14T04:42:01.532494
+official_rag_prompt_engineering_20250814_042444,basic,0,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,2025-08-14T04:42:02.573071
+official_rag_prompt_engineering_20250814_042444,basic,1,When were the Normans in Normandy?,10th and 11th centuries,9th century -- 9th century,0.0,0.0,0.0,5,2025-08-14T04:42:03.865955
+official_rag_prompt_engineering_20250814_042444,basic,2,From which countries did the Norse originate?,"Denmark, Iceland and Norway",sweden,0.0,0.0,0.0,1,2025-08-14T04:42:04.967089
+official_rag_prompt_engineering_20250814_042444,basic,3,Who was the Norse leader?,Rollo,cnut,0.0,0.0,0.0,1,2025-08-14T04:42:06.130416
+official_rag_prompt_engineering_20250814_042444,basic,4,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,2025-08-14T04:42:07.576364
+official_rag_prompt_engineering_20250814_042444,basic,5,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,2025-08-14T04:42:09.204948
+official_rag_prompt_engineering_20250814_042444,basic,6,Who ruled the duchy of Normandy,Richard I,king charles iii of west francia,0.0,0.0,0.0,6,2025-08-14T04:42:11.073158
+official_rag_prompt_engineering_20250814_042444,basic,7,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,2025-08-14T04:42:12.091089
+official_rag_prompt_engineering_20250814_042444,basic,8,What is the original meaning of the word Norman?,Viking,north,0.0,0.0,0.0,1,2025-08-14T04:42:13.272003
+official_rag_prompt_engineering_20250814_042444,basic,9,When was the Latin version of the word Norman first recorded?,9th century,1024,0.0,0.0,0.0,1,2025-08-14T04:42:14.513533
+official_rag_prompt_engineering_20250814_042444,basic,10,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,2025-08-14T04:42:16.006287
+official_rag_prompt_engineering_20250814_042444,basic,11,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,charles the simple,0.0,0.3333333333333333,0.3333333333333333,3,2025-08-14T04:42:17.899400
+official_rag_prompt_engineering_20250814_042444,basic,12,What river originally bounded the Duchy,Seine,elbe,0.0,0.0,0.0,1,2025-08-14T04:42:19.194310
+official_rag_prompt_engineering_20250814_042444,basic,13,Who upon arriving gave the original viking settlers a common identity?,Rollo,the byzantines,0.0,0.0,0.0,2,2025-08-14T04:42:20.745509
+official_rag_prompt_engineering_20250814_042444,basic,14,What was the Norman religion?,Catholicism,catholicism,1.0,1.0,1.0,1,2025-08-14T04:42:21.758471
+official_rag_prompt_engineering_20250814_042444,basic,15,What part of France were the Normans located?,north,west france,0.0,0.0,0.0,2,2025-08-14T04:42:23.010674
+official_rag_prompt_engineering_20250814_042444,basic,16,What was one of the Norman's major exports?,fighting horsemen,cloth,0.0,0.0,0.0,1,2025-08-14T04:42:24.192531
+official_rag_prompt_engineering_20250814_042444,basic,17,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,hohenstaufen,0.0,0.0,0.0,1,2025-08-14T04:42:25.651953
+official_rag_prompt_engineering_20250814_042444,basic,18,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,2025-08-14T04:42:26.908329
+official_rag_prompt_engineering_20250814_042444,basic,19,When did Robert Crispin go up against the Turks?,1060s,862,0.0,0.0,0.0,1,2025-08-14T04:42:27.849353
+official_rag_prompt_engineering_20250814_042444,basic,20,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,henshaw,0.0,0.0,0.0,1,2025-08-14T04:42:29.628302
+official_rag_prompt_engineering_20250814_042444,basic,21,What was the name of the Norman castle?,Afranji,neath castle,0.0,0.0,0.0,2,2025-08-14T04:42:31.432392
+official_rag_prompt_engineering_20250814_042444,basic,22,Who was the leader when the Franks entered the Euphrates valley?,Oursel,theudebert i,0.0,0.0,0.0,2,2025-08-14T04:42:33.117386
+official_rag_prompt_engineering_20250814_042444,basic,23,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,2025-08-14T04:42:34.823475
+official_rag_prompt_engineering_20250814_042444,basic,24,What were the origins of the Raouliii family?,Norman mercenary,english,0.0,0.0,0.0,1,2025-08-14T04:42:37.019732
+official_rag_prompt_engineering_20250814_042444,basic,25,What was the name of the count of Apulia ,Robert Guiscard,( last ) frederick iii,0.0,0.0,0.0,5,2025-08-14T04:42:38.540340
+official_rag_prompt_engineering_20250814_042444,basic,26,When did Dyrrachium  fall to the Normans?,1082,10th century,0.0,0.0,0.0,2,2025-08-14T04:42:39.960332
+official_rag_prompt_engineering_20250814_042444,basic,27,How many men were in Robert's army?,"30,000","1,000,000",0.0,0.0,0.0,1,2025-08-14T04:42:41.737285
+official_rag_prompt_engineering_20250814_042444,basic,28,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,2025-08-14T04:42:43.195176
+official_rag_prompt_engineering_20250814_042444,basic,29,Who was Robert's son?,Bohemond,steffon,0.0,0.0,0.0,1,2025-08-14T04:42:44.880729
+official_rag_prompt_engineering_20250814_042444,basic,30,What river was Petrela located by?,Deabolis,river irwell,0.0,0.0,0.0,2,2025-08-14T04:42:46.096324
+official_rag_prompt_engineering_20250814_042444,basic,31,When did the Normans attack Dyrrachium?,1185,october 1174,0.0,0.0,0.0,2,2025-08-14T04:42:47.365188
+official_rag_prompt_engineering_20250814_042444,basic,32,What was the naval base called?,Dyrrachium,guantanamo bay naval base,0.0,0.0,0.0,4,2025-08-14T04:42:48.849937
+official_rag_prompt_engineering_20250814_042444,basic,33,Where was Dyrrachium located?,the Adriatic,canada,0.0,0.0,0.0,1,2025-08-14T04:42:50.476167
+official_rag_prompt_engineering_20250814_042444,basic,34,Who did Emma Marry?,King Ethelred II,will arnett,0.0,0.0,0.0,2,2025-08-14T04:42:51.804838
+official_rag_prompt_engineering_20250814_042444,basic,35,Who was Emma's brother?,Duke Richard II,bradley spencer,0.0,0.0,0.0,2,2025-08-14T04:42:53.026627
+official_rag_prompt_engineering_20250814_042444,basic,36,To where did Ethelred flee?,Normandy,fled to be with ethelred,0.0,0.0,0.0,5,2025-08-14T04:42:54.306345
+official_rag_prompt_engineering_20250814_042444,basic,37,Who kicked Ethelred out?,Sweyn Forkbeard,howard,0.0,0.0,0.0,1,2025-08-14T04:42:55.162910
+official_rag_prompt_engineering_20250814_042444,basic,38,Who was Edward the Confessor's half-brother?,Harthacnut,edmund irons,0.0,0.0,0.0,2,2025-08-14T04:42:56.192577
+official_rag_prompt_engineering_20250814_042444,basic,39,When did Edward return?,1041,1357,0.0,0.0,0.0,1,2025-08-14T04:42:57.426982
+official_rag_prompt_engineering_20250814_042444,basic,40,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,himself,0.0,0.0,0.0,1,2025-08-14T04:42:58.165623
+official_rag_prompt_engineering_20250814_042444,basic,41,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,2025-08-14T04:42:59.586360
+official_rag_prompt_engineering_20250814_042444,basic,42,Who killed Harold II? ,William II,william the conqueror,0.0,0.4,0.5,3,2025-08-14T04:43:00.964953
+official_rag_prompt_engineering_20250814_042444,basic,43,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,2025-08-14T04:43:02.222152
+official_rag_prompt_engineering_20250814_042444,basic,44,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the bourgeoisie,0.0,0.0,0.0,2,2025-08-14T04:43:03.275484
+official_rag_prompt_engineering_20250814_042444,basic,45,What was the Anglo-Norman language's final form?,Modern English,middle english,0.0,0.5,0.5,2,2025-08-14T04:43:04.275246
+official_rag_prompt_engineering_20250814_042444,basic,46,In what year did the Norman's invade at Bannow Bay?,1169,1169,1.0,1.0,1.0,1,2025-08-14T04:43:05.532481
+official_rag_prompt_engineering_20250814_042444,basic,47,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,2025-08-14T04:43:06.651611
+official_rag_prompt_engineering_20250814_042444,basic,48,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,2025-08-14T04:43:07.643685
+official_rag_prompt_engineering_20250814_042444,basic,49,Who was Margaret's brother?,Edgar,philip,0.0,0.0,0.0,1,2025-08-14T04:43:08.770204
+official_rag_prompt_engineering_20250814_042444,basic,50,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,2025-08-14T04:43:10.333861
+official_rag_prompt_engineering_20250814_042444,basic,51,When was Scotland invaded by William?,1072,1612,0.0,0.0,0.0,1,2025-08-14T04:43:11.107519
+official_rag_prompt_engineering_20250814_042444,basic,52,Who was the hostage?,Duncan,thomas randolph,0.0,0.0,0.0,2,2025-08-14T04:43:12.774142
+official_rag_prompt_engineering_20250814_042444,basic,53,Who did Alexander I marry?,Sybilla of Normandy,emma rooke,0.0,0.0,0.0,2,2025-08-14T04:43:14.375412
+official_rag_prompt_engineering_20250814_042444,basic,54,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,norman,1.0,1.0,1.0,1,2025-08-14T04:43:16.282206
+official_rag_prompt_engineering_20250814_042444,basic,55,Where was Ralph earl of?,Hereford,east anglia,0.0,0.0,0.0,2,2025-08-14T04:43:17.993576
+official_rag_prompt_engineering_20250814_042444,basic,56,Who was Ralph in charge of being at war with?,the Welsh,u.s. army,0.0,0.0,0.0,2,2025-08-14T04:43:19.768637
+official_rag_prompt_engineering_20250814_042444,basic,57,Who made Ralph earl?,Edward the Confessor,ramsay,0.0,0.0,0.0,1,2025-08-14T04:43:21.040241
+official_rag_prompt_engineering_20250814_042444,basic,58,What country was under the control of Norman barons?,Wales,england,0.0,0.0,0.0,1,2025-08-14T04:43:22.366134
+official_rag_prompt_engineering_20250814_042444,basic,59,What year did Roger de Tosny fail to accomplish what he set out to do?,1018,1982,0.0,0.0,0.0,1,2025-08-14T04:43:24.105775
+official_rag_prompt_engineering_20250814_042444,basic,60,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope alexander ii,0.0,0.0,0.0,3,2025-08-14T04:43:25.257629
+official_rag_prompt_engineering_20250814_042444,basic,61,When did the Siege of Antioch take place?,1097,1097 and 1098,0.0,0.5,1.0,3,2025-08-14T04:43:26.514384
+official_rag_prompt_engineering_20250814_042444,basic,62,What was the name of Bohemond's nephew?,Tancred,jean - fréminet,0.0,0.0,0.0,3,2025-08-14T04:43:28.176305
+official_rag_prompt_engineering_20250814_042444,basic,63,What major conquest did Tancred play a roll in?,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,2025-08-14T04:43:30.175674
+official_rag_prompt_engineering_20250814_042444,basic,64,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,2025-08-14T04:43:31.424329
+official_rag_prompt_engineering_20250814_042444,basic,65,What ruined Richard's plans to reach Acre?,a storm,2018,0.0,0.0,0.0,1,2025-08-14T04:43:32.266667
+official_rag_prompt_engineering_20250814_042444,basic,66,Who was Richard's fiancee?,Berengaria,brittany baker,0.0,0.0,0.0,2,2025-08-14T04:43:33.461984
+official_rag_prompt_engineering_20250814_042444,basic,67,What year did the storm hit Richard's fleet?,1191,1794,0.0,0.0,0.0,1,2025-08-14T04:43:34.311113
+official_rag_prompt_engineering_20250814_042444,basic,68,Who ruled Cyprus in 1191?,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,2025-08-14T04:43:35.771718
+official_rag_prompt_engineering_20250814_042444,basic,69,Who was Guy's Rival?,Conrad of Montferrat,ky markham,0.0,0.0,0.0,2,2025-08-14T04:43:37.070521
+official_rag_prompt_engineering_20250814_042444,basic,70,What were Isaac's chains made out of?,silver,,0.0,0.0,0.0,0,2025-08-14T04:43:37.931354
+official_rag_prompt_engineering_20250814_042444,basic,71,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,2018,0.0,0.0,0.0,1,2025-08-14T04:43:38.664606
+official_rag_prompt_engineering_20250814_042444,basic,72,What continent are the Canarian Islands off the coast of?,Africa,western hemisphere,0.0,0.0,0.0,2,2025-08-14T04:43:39.551273
+official_rag_prompt_engineering_20250814_042444,basic,73,Who became the King of the Canary Islands?,Bethencourt,guipuzcoa,0.0,0.0,0.0,1,2025-08-14T04:43:41.064329
+official_rag_prompt_engineering_20250814_042444,basic,74,Who bought the rights?,Enrique Pérez de Guzmán,united artists,0.0,0.0,0.0,2,2025-08-14T04:43:42.208279
+official_rag_prompt_engineering_20250814_042444,basic,75,Who sold the rights?,Maciot de Bethencourt,who,0.0,0.0,0.0,1,2025-08-14T04:43:43.483015
+official_rag_prompt_engineering_20250814_042444,basic,76,Where are Jersey and Guernsey,Channel Islands,"normandy, france",0.0,0.0,0.0,2,2025-08-14T04:43:44.971205
+official_rag_prompt_engineering_20250814_042444,basic,77,How many customaries does Norman customary law have?,two,161,0.0,0.0,0.0,1,2025-08-14T04:43:45.794753
+official_rag_prompt_engineering_20250814_042444,basic,78,What is the Norman architecture idiom?,Romanesque,norman transitional style,0.0,0.0,0.0,3,2025-08-14T04:43:46.741588
+official_rag_prompt_engineering_20250814_042444,basic,79,What kind of arches does Norman architecture have?,rounded,grand arch,0.0,0.0,0.0,2,2025-08-14T04:43:47.684228
+official_rag_prompt_engineering_20250814_042444,basic,80,What architecture type came after Norman in England?,Early Gothic,processional gateway ( propylon ),0.0,0.0,0.0,5,2025-08-14T04:43:49.104509
+official_rag_prompt_engineering_20250814_042444,basic,81,What architecture type came before Norman in England?,Anglo-Saxon,romanesque,0.0,0.0,0.0,1,2025-08-14T04:43:50.325152
+official_rag_prompt_engineering_20250814_042444,basic,82,What place had the Norman Arab architectural style?,Sicily,england,0.0,0.0,0.0,1,2025-08-14T04:43:51.242994
+official_rag_prompt_engineering_20250814_042444,basic,83,When did the church reform begin?,early 11th century,1517,0.0,0.0,0.0,1,2025-08-14T04:43:52.734485
+official_rag_prompt_engineering_20250814_042444,basic,84,Who used the church to unify themselves?,dukes,native - born christians,0.0,0.0,0.0,4,2025-08-14T04:43:54.365964
+official_rag_prompt_engineering_20250814_042444,basic,85,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,2025-08-14T04:43:56.410165
+official_rag_prompt_engineering_20250814_042444,basic,86,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidery,1.0,1.0,1.0,1,2025-08-14T04:43:57.955467
+official_rag_prompt_engineering_20250814_042444,basic,87,What is Norman art's most well known piece?,Bayeux Tapestry,the battle of thermopylae,0.0,0.0,0.0,4,2025-08-14T04:43:59.875528
+official_rag_prompt_engineering_20250814_042444,basic,88,Who commissioned the Tapestry?,Odo,bishop odo,0.0,0.6666666666666666,1.0,2,2025-08-14T04:44:01.912926
+official_rag_prompt_engineering_20250814_042444,basic,89,What is the most important type of Norman art preserved in churches?,mosaics,norman architecture,0.0,0.0,0.0,2,2025-08-14T04:44:03.742889
+official_rag_prompt_engineering_20250814_042444,basic,90,In what century did important classical music developments occur in Normandy?,11th,1790s,0.0,0.0,0.0,1,2025-08-14T04:44:04.984646
+official_rag_prompt_engineering_20250814_042444,basic,91,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard ii,0.0,0.0,0.0,2,2025-08-14T04:44:06.123492
+official_rag_prompt_engineering_20250814_042444,basic,92,Where did the monks flee to?,southern Italy,italy,0.0,0.6666666666666666,0.5,1,2025-08-14T04:44:07.438185
+official_rag_prompt_engineering_20250814_042444,basic,93,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,montepulciano,0.0,0.0,0.0,1,2025-08-14T04:44:08.702438
+official_rag_prompt_engineering_20250814_042444,basic,94,Who patronized the monks in Italy? ,Robert Guiscard,rich and successful businessmen,0.0,0.0,0.0,4,2025-08-14T04:44:09.928599
+official_rag_prompt_engineering_20250814_042444,basic,95,What tradition were the Saint-Evroul monks known for?,singing,aristotelianism,0.0,0.0,0.0,1,2025-08-14T04:44:11.368663
+official_rag_prompt_engineering_20250814_042444,basic,96,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,2025-08-14T04:44:12.378445
+official_rag_prompt_engineering_20250814_042444,basic,97,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,complexity,0.0,0.0,0.0,1,2025-08-14T04:44:13.188159
+official_rag_prompt_engineering_20250814_042444,basic,98,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,2025-08-14T04:44:13.961748
+official_rag_prompt_engineering_20250814_042444,basic,99,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,turing degree,0.0,0.0,0.0,2,2025-08-14T04:44:15.053440
+official_rag_prompt_engineering_20250814_042444,basic,100,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,resource management,0.0,0.0,0.0,2,2025-08-14T04:44:16.259103
+official_rag_prompt_engineering_20250814_042444,basic,101,What are two basic primary resources used to guage complexity?,time and storage,water,0.0,0.0,0.0,1,2025-08-14T04:44:17.159032
+official_rag_prompt_engineering_20250814_042444,basic,102,What unit is measured to determine circuit complexity?,number of gates in a circuit,,0.0,0.0,0.0,0,2025-08-14T04:44:17.921845
+official_rag_prompt_engineering_20250814_042444,basic,103,What practical role does defining the complexity of problems play in everyday computing?,determine the practical limits on what computers can and cannot do,improving the efficiency of an algorithm,0.0,0.11764705882352942,0.09090909090909091,6,2025-08-14T04:44:19.483485
+official_rag_prompt_engineering_20250814_042444,basic,104,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,2025-08-14T04:44:20.638507
+official_rag_prompt_engineering_20250814_042444,basic,105,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,empirical algorithmics,0.0,0.0,0.0,2,2025-08-14T04:44:21.852943
+official_rag_prompt_engineering_20250814_042444,basic,106,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,analysis of algorithms,0.0,0.0,0.0,3,2025-08-14T04:44:23.050024
+official_rag_prompt_engineering_20250814_042444,basic,107,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?,computability theory,optimization,0.0,0.0,0.0,1,2025-08-14T04:44:24.095790
+official_rag_prompt_engineering_20250814_042444,basic,108,What is the name given to the input string of a computational problem?,problem instance,initial state,0.0,0.0,0.0,2,2025-08-14T04:44:25.036117
+official_rag_prompt_engineering_20250814_042444,basic,109,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,problem,0.0,0.6666666666666666,0.5,1,2025-08-14T04:44:26.056527
+official_rag_prompt_engineering_20250814_042444,basic,110,Is a problem instance typically characterized as abstract or concrete?,concrete,concrete,1.0,1.0,1.0,1,2025-08-14T04:44:27.006326
+official_rag_prompt_engineering_20250814_042444,basic,111,What is another name for any given measure of input associated with a problem?,instances,data,0.0,0.0,0.0,1,2025-08-14T04:44:28.084386
+official_rag_prompt_engineering_20250814_042444,basic,112,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,2025-08-14T04:44:29.101878
+official_rag_prompt_engineering_20250814_042444,basic,113,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,,0.0,0.0,0.0,0,2025-08-14T04:44:30.060867
+official_rag_prompt_engineering_20250814_042444,basic,114,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer?,round trip through all sites in Milan,the battle of thermopylae,0.0,0.0,0.0,4,2025-08-14T04:44:32.049589
+official_rag_prompt_engineering_20250814_042444,basic,115,What does computational complexity theory most specifically seek to answer? ,computational problems,computational problems,1.0,1.0,1.0,2,2025-08-14T04:44:33.467037
+official_rag_prompt_engineering_20250814_042444,basic,116,"In a computational problem, what can be described as a string over an alphabet?",problem instance,patterns,0.0,0.0,0.0,1,2025-08-14T04:44:34.766861
+official_rag_prompt_engineering_20250814_042444,basic,117,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,anagram,0.0,0.0,0.0,1,2025-08-14T04:44:36.085278
+official_rag_prompt_engineering_20250814_042444,basic,118,What is another term for the string of a problem instance?,bitstrings,java. util,0.0,0.0,0.0,2,2025-08-14T04:44:37.555483
+official_rag_prompt_engineering_20250814_042444,basic,119,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed?",binary notation,binary interpretation of the numbers,0.0,0.28571428571428575,0.5,5,2025-08-14T04:44:38.999385
+official_rag_prompt_engineering_20250814_042444,basic,120,What is one way in which graphs can be encoded? ,adjacency matrices,factorials n!,0.0,0.0,0.0,2,2025-08-14T04:44:40.723665
+official_rag_prompt_engineering_20250814_042444,basic,121,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,computational problems,0.0,0.5,0.5,2,2025-08-14T04:44:41.838690
+official_rag_prompt_engineering_20250814_042444,basic,122,What are the two simple word responses to a decision problem?,yes or no,yes,0.0,0.5,0.3333333333333333,1,2025-08-14T04:44:42.599917
+official_rag_prompt_engineering_20250814_042444,basic,123,What are the two integer responses to a decision problem?,1 or 0,yes,0.0,0.0,0.0,1,2025-08-14T04:44:43.633526
+official_rag_prompt_engineering_20250814_042444,basic,124,What will the output be for a member of the language of a decision problem?,yes,yes,1.0,1.0,1.0,1,2025-08-14T04:44:45.174882
+official_rag_prompt_engineering_20250814_042444,basic,125,What answer denotes that an algorithm has accepted an input string?,yes,is or is not a response,0.0,0.0,0.0,6,2025-08-14T04:44:46.943876
+official_rag_prompt_engineering_20250814_042444,basic,126,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,2025-08-14T04:44:47.973636
+official_rag_prompt_engineering_20250814_042444,basic,127,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,2025-08-14T04:44:48.918999
+official_rag_prompt_engineering_20250814_042444,basic,128,What encoding decision needs to be made in order to determine an exact definition of the formal language?,how graphs are encoded as binary strings,encoding decision,0.0,0.0,0.0,2,2025-08-14T04:44:50.148632
+official_rag_prompt_engineering_20250814_042444,basic,129,A function problem is an example of what?,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,2025-08-14T04:44:51.340568
+official_rag_prompt_engineering_20250814_042444,basic,130,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,2025-08-14T04:44:52.403370
+official_rag_prompt_engineering_20250814_042444,basic,131,The traveling salesman problem is an example of what type of problem?,A function problem,school bus routing problem,0.0,0.28571428571428575,0.3333333333333333,4,2025-08-14T04:44:53.741381
+official_rag_prompt_engineering_20250814_042444,basic,132,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling purchaser problem,0.0,0.28571428571428575,0.25,3,2025-08-14T04:44:54.845530
+official_rag_prompt_engineering_20250814_042444,basic,133,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,yes or no,0.0,0.0,0.0,3,2025-08-14T04:44:56.173657
+official_rag_prompt_engineering_20250814_042444,basic,134,How can function problems typically be restated?,decision problems,how can problem / solution be restated,0.0,0.0,0.0,7,2025-08-14T04:44:57.730463
+official_rag_prompt_engineering_20250814_042444,basic,135,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,set,0.0,0.5,0.3333333333333333,1,2025-08-14T04:44:58.670103
+official_rag_prompt_engineering_20250814_042444,basic,136,What is a commonly used measurement used to determine the complexity of a computational problem?,how much time the best algorithm requires to solve the problem,,0.0,0.0,0.0,0,2025-08-14T04:44:59.411550
+official_rag_prompt_engineering_20250814_042444,basic,137,What is one variable on which the running time may be contingent?,the instance,architecture,0.0,0.0,0.0,1,2025-08-14T04:45:00.472109
+official_rag_prompt_engineering_20250814_042444,basic,138,How is the time needed to obtain the solution to a problem calculated?,as a function of the size of the instance,,0.0,0.0,0.0,0,2025-08-14T04:45:01.224977
+official_rag_prompt_engineering_20250814_042444,basic,139,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,2025-08-14T04:45:02.144734
+official_rag_prompt_engineering_20250814_042444,knowledge_based,0,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,2025-08-14T04:45:03.085488
+official_rag_prompt_engineering_20250814_042444,knowledge_based,1,When were the Normans in Normandy?,10th and 11th centuries,10th century -- 15th century,0.0,0.25,0.25,5,2025-08-14T04:45:04.383823
+official_rag_prompt_engineering_20250814_042444,knowledge_based,2,From which countries did the Norse originate?,"Denmark, Iceland and Norway",scandinavia,0.0,0.0,0.0,1,2025-08-14T04:45:05.574858
+official_rag_prompt_engineering_20250814_042444,knowledge_based,3,Who was the Norse leader?,Rollo,problem : who was the norse leader,0.0,0.0,0.0,7,2025-08-14T04:45:07.020676
+official_rag_prompt_engineering_20250814_042444,knowledge_based,4,What century did the Normans first gain their separate identity?,10th century,the early 16th century,0.0,0.3333333333333333,0.5,4,2025-08-14T04:45:08.393006
+official_rag_prompt_engineering_20250814_042444,knowledge_based,5,Who was the duke in the battle of Hastings?,William the Conqueror,normandy duke of normandy,0.0,0.0,0.0,4,2025-08-14T04:45:10.040422
+official_rag_prompt_engineering_20250814_042444,knowledge_based,6,Who ruled the duchy of Normandy,Richard I,king charles iii,0.0,0.0,0.0,3,2025-08-14T04:45:11.990109
+official_rag_prompt_engineering_20250814_042444,knowledge_based,7,What religion were the Normans,Catholic,islam,0.0,0.0,0.0,1,2025-08-14T04:45:13.207042
+official_rag_prompt_engineering_20250814_042444,knowledge_based,8,What is the original meaning of the word Norman?,Viking,norman,0.0,0.0,0.0,1,2025-08-14T04:45:14.325014
+official_rag_prompt_engineering_20250814_042444,knowledge_based,9,When was the Latin version of the word Norman first recorded?,9th century,sometime before 1982,0.0,0.0,0.0,3,2025-08-14T04:45:15.752138
+official_rag_prompt_engineering_20250814_042444,knowledge_based,10,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,2025-08-14T04:45:17.382821
+official_rag_prompt_engineering_20250814_042444,knowledge_based,11,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,bảo đại,0.0,0.0,0.0,2,2025-08-14T04:45:21.202180
+official_rag_prompt_engineering_20250814_042444,knowledge_based,12,What river originally bounded the Duchy,Seine,rhode island,0.0,0.0,0.0,2,2025-08-14T04:45:22.735278
+official_rag_prompt_engineering_20250814_042444,knowledge_based,13,Who upon arriving gave the original viking settlers a common identity?,Rollo,the Peaks,0.0,0.0,0.0,2,2025-08-14T04:45:23.920886
+official_rag_prompt_engineering_20250814_042444,knowledge_based,14,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,2025-08-14T04:45:25.095862
+official_rag_prompt_engineering_20250814_042444,knowledge_based,15,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,2025-08-14T04:45:26.292570
+official_rag_prompt_engineering_20250814_042444,knowledge_based,16,What was one of the Norman's major exports?,fighting horsemen,cloth,0.0,0.0,0.0,1,2025-08-14T04:45:27.254904
+official_rag_prompt_engineering_20250814_042444,knowledge_based,17,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,the byzantine empire,0.0,0.0,0.0,3,2025-08-14T04:45:28.277630
+official_rag_prompt_engineering_20250814_042444,knowledge_based,18,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,2025-08-14T04:45:29.370883
+official_rag_prompt_engineering_20250814_042444,knowledge_based,19,When did Robert Crispin go up against the Turks?,1060s,robert crispin and the turks,0.0,0.0,0.0,5,2025-08-14T04:45:30.903074
+official_rag_prompt_engineering_20250814_042444,knowledge_based,20,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,jesus,0.0,0.0,0.0,1,2025-08-14T04:45:32.117515
+official_rag_prompt_engineering_20250814_042444,knowledge_based,21,What was the name of the Norman castle?,Afranji,trim castle,0.0,0.0,0.0,2,2025-08-14T04:45:33.144970
+official_rag_prompt_engineering_20250814_042444,knowledge_based,22,Who was the leader when the Franks entered the Euphrates valley?,Oursel,", using available knowledge",0.0,0.0,0.0,4,2025-08-14T04:45:34.185823
+official_rag_prompt_engineering_20250814_042444,knowledge_based,23,Who did the Normans team up with in Anatolia?,Turkish forces,,0.0,0.0,0.0,0,2025-08-14T04:45:35.196478
+official_rag_prompt_engineering_20250814_042444,knowledge_based,24,What were the origins of the Raouliii family?,Norman mercenary,norman origin,0.0,0.5,0.5,2,2025-08-14T04:45:36.648962
+official_rag_prompt_engineering_20250814_042444,knowledge_based,25,What was the name of the count of Apulia ,Robert Guiscard,", using available knowledge",0.0,0.0,0.0,4,2025-08-14T04:45:38.061257
+official_rag_prompt_engineering_20250814_042444,knowledge_based,26,When did Dyrrachium  fall to the Normans?,1082,"Answer, using available knowledge",0.0,0.0,0.0,4,2025-08-14T04:45:39.485698
+official_rag_prompt_engineering_20250814_042444,knowledge_based,27,How many men were in Robert's army?,"30,000",about a million men,0.0,0.0,0.0,4,2025-08-14T04:45:40.828379
+official_rag_prompt_engineering_20250814_042444,knowledge_based,28,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,2025-08-14T04:45:42.117750
+official_rag_prompt_engineering_20250814_042444,knowledge_based,29,Who was Robert's son?,Bohemond,robert's son,0.0,0.0,0.0,2,2025-08-14T04:45:43.445610
+official_rag_prompt_engineering_20250814_042444,knowledge_based,30,What river was Petrela located by?,Deabolis,river sita,0.0,0.0,0.0,2,2025-08-14T04:45:44.545969
+official_rag_prompt_engineering_20250814_042444,knowledge_based,31,When did the Normans attack Dyrrachium?,1185,2003,0.0,0.0,0.0,1,2025-08-14T04:45:45.628614
+official_rag_prompt_engineering_20250814_042444,knowledge_based,32,What was the naval base called?,Dyrrachium,Guantanamo bay naval base,0.0,0.0,0.0,4,2025-08-14T04:45:47.281800
+official_rag_prompt_engineering_20250814_042444,knowledge_based,33,Where was Dyrrachium located?,the Adriatic,north america,0.0,0.0,0.0,2,2025-08-14T04:45:48.623313
+official_rag_prompt_engineering_20250814_042444,knowledge_based,34,Who did Emma Marry?,King Ethelred II,marshall,0.0,0.0,0.0,1,2025-08-14T04:45:49.699096
+official_rag_prompt_engineering_20250814_042444,knowledge_based,35,Who was Emma's brother?,Duke Richard II,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:45:50.913245
+official_rag_prompt_engineering_20250814_042444,knowledge_based,36,To where did Ethelred flee?,Normandy,to go to bed,0.0,0.0,0.0,4,2025-08-14T04:45:51.951902
+official_rag_prompt_engineering_20250814_042444,knowledge_based,37,Who kicked Ethelred out?,Sweyn Forkbeard,patrick,0.0,0.0,0.0,1,2025-08-14T04:45:53.164125
+official_rag_prompt_engineering_20250814_042444,knowledge_based,38,Who was Edward the Confessor's half-brother?,Harthacnut,", using available knowledge",0.0,0.0,0.0,4,2025-08-14T04:45:54.165216
+official_rag_prompt_engineering_20250814_042444,knowledge_based,39,When did Edward return?,1041,25 february 2010,0.0,0.0,0.0,3,2025-08-14T04:45:55.662167
+official_rag_prompt_engineering_20250814_042444,knowledge_based,40,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,himself,0.0,0.0,0.0,1,2025-08-14T04:45:57.347694
+official_rag_prompt_engineering_20250814_042444,knowledge_based,41,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,2025-08-14T04:45:59.161398
+official_rag_prompt_engineering_20250814_042444,knowledge_based,42,Who killed Harold II? ,William II,henshaw,0.0,0.0,0.0,1,2025-08-14T04:46:00.877776
+official_rag_prompt_engineering_20250814_042444,knowledge_based,43,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,2025-08-14T04:46:02.638511
+official_rag_prompt_engineering_20250814_042444,knowledge_based,44,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the gentry,0.0,0.0,0.0,2,2025-08-14T04:46:04.513066
+official_rag_prompt_engineering_20250814_042444,knowledge_based,45,What was the Anglo-Norman language's final form?,Modern English,,0.0,0.0,0.0,0,2025-08-14T04:46:05.563507
+official_rag_prompt_engineering_20250814_042444,knowledge_based,46,In what year did the Norman's invade at Bannow Bay?,1169,1169,1.0,1.0,1.0,1,2025-08-14T04:46:06.720928
+official_rag_prompt_engineering_20250814_042444,knowledge_based,47,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,2025-08-14T04:46:08.059698
+official_rag_prompt_engineering_20250814_042444,knowledge_based,48,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,2025-08-14T04:46:08.963307
+official_rag_prompt_engineering_20250814_042444,knowledge_based,49,Who was Margaret's brother?,Edgar,,0.0,0.0,0.0,0,2025-08-14T04:46:10.076552
+official_rag_prompt_engineering_20250814_042444,knowledge_based,50,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,2025-08-14T04:46:11.628236
+official_rag_prompt_engineering_20250814_042444,knowledge_based,51,When was Scotland invaded by William?,1072,1612,0.0,0.0,0.0,1,2025-08-14T04:46:12.752463
+official_rag_prompt_engineering_20250814_042444,knowledge_based,52,Who was the hostage?,Duncan,the hostage,0.0,0.0,0.0,2,2025-08-14T04:46:14.228698
+official_rag_prompt_engineering_20250814_042444,knowledge_based,53,Who did Alexander I marry?,Sybilla of Normandy,theo,0.0,0.0,0.0,1,2025-08-14T04:46:15.333261
+official_rag_prompt_engineering_20250814_042444,knowledge_based,54,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,gaelic,0.0,0.0,0.0,1,2025-08-14T04:46:16.286415
+official_rag_prompt_engineering_20250814_042444,knowledge_based,55,Where was Ralph earl of?,Hereford,the mississippi river,0.0,0.0,0.0,3,2025-08-14T04:46:17.813087
+official_rag_prompt_engineering_20250814_042444,knowledge_based,56,Who was Ralph in charge of being at war with?,the Welsh,ralph,0.0,0.0,0.0,1,2025-08-14T04:46:18.662062
+official_rag_prompt_engineering_20250814_042444,knowledge_based,57,Who made Ralph earl?,Edward the Confessor,ralph earl,0.0,0.0,0.0,2,2025-08-14T04:46:19.633582
+official_rag_prompt_engineering_20250814_042444,knowledge_based,58,What country was under the control of Norman barons?,Wales,england,0.0,0.0,0.0,1,2025-08-14T04:46:20.523674
+official_rag_prompt_engineering_20250814_042444,knowledge_based,59,What year did Roger de Tosny fail to accomplish what he set out to do?,1018,1982,0.0,0.0,0.0,1,2025-08-14T04:46:21.296591
+official_rag_prompt_engineering_20250814_042444,knowledge_based,60,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope eugene iii,0.0,0.0,0.0,3,2025-08-14T04:46:22.539036
+official_rag_prompt_engineering_20250814_042444,knowledge_based,61,When did the Siege of Antioch take place?,1097,1097 and 1098,0.0,0.5,1.0,3,2025-08-14T04:46:23.642464
+official_rag_prompt_engineering_20250814_042444,knowledge_based,62,What was the name of Bohemond's nephew?,Tancred,jean - françois rameau,0.0,0.0,0.0,4,2025-08-14T04:46:25.216162
+official_rag_prompt_engineering_20250814_042444,knowledge_based,63,What major conquest did Tancred play a roll in?,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,2025-08-14T04:46:27.022114
+official_rag_prompt_engineering_20250814_042444,knowledge_based,64,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,2025-08-14T04:46:28.391447
+official_rag_prompt_engineering_20250814_042444,knowledge_based,65,What ruined Richard's plans to reach Acre?,a storm,drought,0.0,0.0,0.0,1,2025-08-14T04:46:29.714876
+official_rag_prompt_engineering_20250814_042444,knowledge_based,66,Who was Richard's fiancee?,Berengaria,winter ave zoli,0.0,0.0,0.0,3,2025-08-14T04:46:31.167347
+official_rag_prompt_engineering_20250814_042444,knowledge_based,67,What year did the storm hit Richard's fleet?,1191,1192,0.0,0.0,0.0,1,2025-08-14T04:46:32.101945
+official_rag_prompt_engineering_20250814_042444,knowledge_based,68,Who ruled Cyprus in 1191?,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,2025-08-14T04:46:33.503874
+official_rag_prompt_engineering_20250814_042444,knowledge_based,69,Who was Guy's Rival?,Conrad of Montferrat,strategic pluralism,0.0,0.0,0.0,2,2025-08-14T04:46:34.527688
+official_rag_prompt_engineering_20250814_042444,knowledge_based,70,What were Isaac's chains made out of?,silver,non-pareils,0.0,0.0,0.0,1,2025-08-14T04:46:36.468420
+official_rag_prompt_engineering_20250814_042444,knowledge_based,71,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,2018,0.0,0.0,0.0,1,2025-08-14T04:46:38.225314
+official_rag_prompt_engineering_20250814_042444,knowledge_based,72,What continent are the Canarian Islands off the coast of?,Africa,africa,1.0,1.0,1.0,1,2025-08-14T04:46:39.998845
+official_rag_prompt_engineering_20250814_042444,knowledge_based,73,Who became the King of the Canary Islands?,Bethencourt,jean de béthencourt,0.0,0.0,0.0,3,2025-08-14T04:46:42.026529
+official_rag_prompt_engineering_20250814_042444,knowledge_based,74,Who bought the rights?,Enrique Pérez de Guzmán,who,0.0,0.0,0.0,1,2025-08-14T04:46:43.429800
+official_rag_prompt_engineering_20250814_042444,knowledge_based,75,Who sold the rights?,Maciot de Bethencourt,who owns the rights,0.0,0.0,0.0,4,2025-08-14T04:46:44.957490
+official_rag_prompt_engineering_20250814_042444,knowledge_based,76,Where are Jersey and Guernsey,Channel Islands,channel islands,1.0,1.0,1.0,2,2025-08-14T04:46:46.116562
+official_rag_prompt_engineering_20250814_042444,knowledge_based,77,How many customaries does Norman customary law have?,two,,0.0,0.0,0.0,0,2025-08-14T04:46:46.840047
+official_rag_prompt_engineering_20250814_042444,knowledge_based,78,What is the Norman architecture idiom?,Romanesque,norman architecture,0.0,0.0,0.0,2,2025-08-14T04:46:47.831596
+official_rag_prompt_engineering_20250814_042444,knowledge_based,79,What kind of arches does Norman architecture have?,rounded,,0.0,0.0,0.0,0,2025-08-14T04:46:48.715352
+official_rag_prompt_engineering_20250814_042444,knowledge_based,80,What architecture type came after Norman in England?,Early Gothic,cathedrals,0.0,0.0,0.0,1,2025-08-14T04:46:50.103475
+official_rag_prompt_engineering_20250814_042444,knowledge_based,81,What architecture type came before Norman in England?,Anglo-Saxon,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:46:51.135260
+official_rag_prompt_engineering_20250814_042444,knowledge_based,82,What place had the Norman Arab architectural style?,Sicily,abbasid samarra,0.0,0.0,0.0,2,2025-08-14T04:46:52.680560
+official_rag_prompt_engineering_20250814_042444,knowledge_based,83,When did the church reform begin?,early 11th century,1962,0.0,0.0,0.0,1,2025-08-14T04:46:53.842021
+official_rag_prompt_engineering_20250814_042444,knowledge_based,84,Who used the church to unify themselves?,dukes,thomas h. palmer,0.0,0.0,0.0,3,2025-08-14T04:46:55.441514
+official_rag_prompt_engineering_20250814_042444,knowledge_based,85,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,2025-08-14T04:46:57.069905
+official_rag_prompt_engineering_20250814_042444,knowledge_based,86,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,2025-08-14T04:46:58.144746
+official_rag_prompt_engineering_20250814_042444,knowledge_based,87,What is Norman art's most well known piece?,Bayeux Tapestry,the battle of thermopylae,0.0,0.0,0.0,4,2025-08-14T04:46:59.442344
+official_rag_prompt_engineering_20250814_042444,knowledge_based,88,Who commissioned the Tapestry?,Odo,", using available knowledge",0.0,0.0,0.0,4,2025-08-14T04:47:00.475385
+official_rag_prompt_engineering_20250814_042444,knowledge_based,89,What is the most important type of Norman art preserved in churches?,mosaics,process,0.0,0.0,0.0,1,2025-08-14T04:47:01.597120
+official_rag_prompt_engineering_20250814_042444,knowledge_based,90,In what century did important classical music developments occur in Normandy?,11th,18th century,0.0,0.0,0.0,2,2025-08-14T04:47:02.792321
+official_rag_prompt_engineering_20250814_042444,knowledge_based,91,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard i,0.0,0.0,0.0,2,2025-08-14T04:47:03.986906
+official_rag_prompt_engineering_20250814_042444,knowledge_based,92,Where did the monks flee to?,southern Italy,china,0.0,0.0,0.0,1,2025-08-14T04:47:04.972360
+official_rag_prompt_engineering_20250814_042444,knowledge_based,93,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:47:06.268461
+official_rag_prompt_engineering_20250814_042444,knowledge_based,94,Who patronized the monks in Italy? ,Robert Guiscard,who,0.0,0.0,0.0,1,2025-08-14T04:47:07.647648
+official_rag_prompt_engineering_20250814_042444,knowledge_based,95,What tradition were the Saint-Evroul monks known for?,singing,monasteries,0.0,0.0,0.0,1,2025-08-14T04:47:09.160026
+official_rag_prompt_engineering_20250814_042444,knowledge_based,96,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,2025-08-14T04:47:10.194660
+official_rag_prompt_engineering_20250814_042444,knowledge_based,97,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,computation,0.0,0.0,0.0,1,2025-08-14T04:47:10.989545
+official_rag_prompt_engineering_20250814_042444,knowledge_based,98,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,2025-08-14T04:47:11.804758
+official_rag_prompt_engineering_20250814_042444,knowledge_based,99,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,Turing degree,0.0,0.0,0.0,2,2025-08-14T04:47:12.834529
+official_rag_prompt_engineering_20250814_042444,knowledge_based,100,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,computational resource management,0.0,0.0,0.0,3,2025-08-14T04:47:13.962246
+official_rag_prompt_engineering_20250814_042444,knowledge_based,101,What are two basic primary resources used to guage complexity?,time and storage,data,0.0,0.0,0.0,1,2025-08-14T04:47:14.759429
+official_rag_prompt_engineering_20250814_042444,knowledge_based,102,What unit is measured to determine circuit complexity?,number of gates in a circuit,true,0.0,0.0,0.0,1,2025-08-14T04:47:15.745531
+official_rag_prompt_engineering_20250814_042444,knowledge_based,103,What practical role does defining the complexity of problems play in everyday computing?,determine the practical limits on what computers can and cannot do,computational complexity,0.0,0.0,0.0,2,2025-08-14T04:47:17.279073
+official_rag_prompt_engineering_20250814_042444,knowledge_based,104,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computational complexity theory,0.0,0.2222222222222222,0.16666666666666666,3,2025-08-14T04:47:18.932443
+official_rag_prompt_engineering_20250814_042444,knowledge_based,105,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,artificial intelligence,0.0,0.0,0.0,2,2025-08-14T04:47:20.299137
+official_rag_prompt_engineering_20250814_042444,knowledge_based,106,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,computational complexity,0.0,0.8,0.6666666666666666,2,2025-08-14T04:47:21.878655
+official_rag_prompt_engineering_20250814_042444,knowledge_based,107,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?,computability theory,optimization,0.0,0.0,0.0,1,2025-08-14T04:47:23.195518
+official_rag_prompt_engineering_20250814_042444,knowledge_based,108,What is the name given to the input string of a computational problem?,problem instance,problem / solution,0.0,0.4,0.5,3,2025-08-14T04:47:24.603844
+official_rag_prompt_engineering_20250814_042444,knowledge_based,109,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,problem,0.0,0.6666666666666666,0.5,1,2025-08-14T04:47:25.737876
+official_rag_prompt_engineering_20250814_042444,knowledge_based,110,Is a problem instance typically characterized as abstract or concrete?,concrete,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:47:26.872337
+official_rag_prompt_engineering_20250814_042444,knowledge_based,111,What is another name for any given measure of input associated with a problem?,instances,data visuali zation,0.0,0.0,0.0,3,2025-08-14T04:47:28.276052
+official_rag_prompt_engineering_20250814_042444,knowledge_based,112,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,2025-08-14T04:47:29.459768
+official_rag_prompt_engineering_20250814_042444,knowledge_based,113,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,shortest possible route,0.0,0.0,0.0,3,2025-08-14T04:47:30.696921
+official_rag_prompt_engineering_20250814_042444,knowledge_based,114,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer?,round trip through all sites in Milan,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:47:31.974079
+official_rag_prompt_engineering_20250814_042444,knowledge_based,115,What does computational complexity theory most specifically seek to answer? ,computational problems,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:47:33.179597
+official_rag_prompt_engineering_20250814_042444,knowledge_based,116,"In a computational problem, what can be described as a string over an alphabet?",problem instance,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:47:34.367439
+official_rag_prompt_engineering_20250814_042444,knowledge_based,117,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,", r",0.0,0.0,0.0,2,2025-08-14T04:47:35.264179
+official_rag_prompt_engineering_20250814_042444,knowledge_based,118,What is another term for the string of a problem instance?,bitstrings,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:47:36.291982
+official_rag_prompt_engineering_20250814_042444,knowledge_based,119,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed?",binary notation,factorials n!,0.0,0.0,0.0,2,2025-08-14T04:47:37.387382
+official_rag_prompt_engineering_20250814_042444,knowledge_based,120,What is one way in which graphs can be encoded? ,adjacency matrices,communication,0.0,0.0,0.0,1,2025-08-14T04:47:38.609452
+official_rag_prompt_engineering_20250814_042444,knowledge_based,121,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,computational problems,0.0,0.5,0.5,2,2025-08-14T04:47:39.505362
+official_rag_prompt_engineering_20250814_042444,knowledge_based,122,What are the two simple word responses to a decision problem?,yes or no,decision,0.0,0.0,0.0,1,2025-08-14T04:47:40.462707
+official_rag_prompt_engineering_20250814_042444,knowledge_based,123,What are the two integer responses to a decision problem?,1 or 0,yes,0.0,0.0,0.0,1,2025-08-14T04:47:41.385701
+official_rag_prompt_engineering_20250814_042444,knowledge_based,124,What will the output be for a member of the language of a decision problem?,yes,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:47:42.795229
+official_rag_prompt_engineering_20250814_042444,knowledge_based,125,What answer denotes that an algorithm has accepted an input string?,yes,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:47:44.163192
+official_rag_prompt_engineering_20250814_042444,knowledge_based,126,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,2025-08-14T04:47:45.338958
+official_rag_prompt_engineering_20250814_042444,knowledge_based,127,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,2025-08-14T04:47:46.454176
+official_rag_prompt_engineering_20250814_042444,knowledge_based,128,What encoding decision needs to be made in order to determine an exact definition of the formal language?,how graphs are encoded as binary strings,summation,0.0,0.0,0.0,1,2025-08-14T04:47:47.596064
+official_rag_prompt_engineering_20250814_042444,knowledge_based,129,A function problem is an example of what?,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,2025-08-14T04:47:48.658004
+official_rag_prompt_engineering_20250814_042444,knowledge_based,130,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,2025-08-14T04:47:49.585280
+official_rag_prompt_engineering_20250814_042444,knowledge_based,131,The traveling salesman problem is an example of what type of problem?,A function problem,optimization,0.0,0.0,0.0,1,2025-08-14T04:47:50.472543
+official_rag_prompt_engineering_20250814_042444,knowledge_based,132,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling salesman problem,0.0,0.28571428571428575,0.25,3,2025-08-14T04:47:51.567992
+official_rag_prompt_engineering_20250814_042444,knowledge_based,133,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,simple,0.0,0.0,0.0,1,2025-08-14T04:47:52.814494
+official_rag_prompt_engineering_20250814_042444,knowledge_based,134,How can function problems typically be restated?,decision problems,summation,0.0,0.0,0.0,1,2025-08-14T04:47:54.071460
+official_rag_prompt_engineering_20250814_042444,knowledge_based,135,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,available knowledge,0.0,0.0,0.0,2,2025-08-14T04:47:55.212724
+official_rag_prompt_engineering_20250814_042444,knowledge_based,136,What is a commonly used measurement used to determine the complexity of a computational problem?,how much time the best algorithm requires to solve the problem,computational complexity,0.0,0.0,0.0,2,2025-08-14T04:47:56.052701
+official_rag_prompt_engineering_20250814_042444,knowledge_based,137,What is one variable on which the running time may be contingent?,the instance,variable a against variable b,0.0,0.0,0.0,5,2025-08-14T04:47:57.647570
+official_rag_prompt_engineering_20250814_042444,knowledge_based,138,How is the time needed to obtain the solution to a problem calculated?,as a function of the size of the instance,summation,0.0,0.0,0.0,1,2025-08-14T04:47:58.958777
+official_rag_prompt_engineering_20250814_042444,knowledge_based,139,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,2025-08-14T04:48:00.289657
+official_rag_prompt_engineering_20250814_042444,confident,0,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,2025-08-14T04:48:01.393820
+official_rag_prompt_engineering_20250814_042444,confident,1,When were the Normans in Normandy?,10th and 11th centuries,3rd century -- 17th century,0.0,0.0,0.0,5,2025-08-14T04:48:03.298547
+official_rag_prompt_engineering_20250814_042444,confident,2,From which countries did the Norse originate?,"Denmark, Iceland and Norway",norway,0.0,0.4,0.25,1,2025-08-14T04:48:04.911563
+official_rag_prompt_engineering_20250814_042444,confident,3,Who was the Norse leader?,Rollo,norse,0.0,0.0,0.0,1,2025-08-14T04:48:06.392640
+official_rag_prompt_engineering_20250814_042444,confident,4,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,2025-08-14T04:48:08.040108
+official_rag_prompt_engineering_20250814_042444,confident,5,Who was the duke in the battle of Hastings?,William the Conqueror,norman,0.0,0.0,0.0,1,2025-08-14T04:48:09.850761
+official_rag_prompt_engineering_20250814_042444,confident,6,Who ruled the duchy of Normandy,Richard I,charles - charles,0.0,0.0,0.0,3,2025-08-14T04:48:11.244587
+official_rag_prompt_engineering_20250814_042444,confident,7,What religion were the Normans,Catholic,normanism,0.0,0.0,0.0,1,2025-08-14T04:48:12.298746
+official_rag_prompt_engineering_20250814_042444,confident,8,What is the original meaning of the word Norman?,Viking,norman,0.0,0.0,0.0,1,2025-08-14T04:48:13.543964
+official_rag_prompt_engineering_20250814_042444,confident,9,When was the Latin version of the word Norman first recorded?,9th century,the late eighth century,0.0,0.3333333333333333,0.5,4,2025-08-14T04:48:14.616016
+official_rag_prompt_engineering_20250814_042444,confident,10,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,2025-08-14T04:48:15.526488
+official_rag_prompt_engineering_20250814_042444,confident,11,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,the franks,0.0,0.0,0.0,2,2025-08-14T04:48:17.380425
+official_rag_prompt_engineering_20250814_042444,confident,12,What river originally bounded the Duchy,Seine,high falls,0.0,0.0,0.0,2,2025-08-14T04:48:19.147151
+official_rag_prompt_engineering_20250814_042444,confident,13,Who upon arriving gave the original viking settlers a common identity?,Rollo,,0.0,0.0,0.0,0,2025-08-14T04:48:20.094477
+official_rag_prompt_engineering_20250814_042444,confident,14,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,2025-08-14T04:48:21.187718
+official_rag_prompt_engineering_20250814_042444,confident,15,What part of France were the Normans located?,north,western france,0.0,0.0,0.0,2,2025-08-14T04:48:22.453093
+official_rag_prompt_engineering_20250814_042444,confident,16,What was one of the Norman's major exports?,fighting horsemen,"266,827",0.0,0.0,0.0,1,2025-08-14T04:48:23.433187
+official_rag_prompt_engineering_20250814_042444,confident,17,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,,0.0,0.0,0.0,0,2025-08-14T04:48:24.305697
+official_rag_prompt_engineering_20250814_042444,confident,18,When did Herve serve as a Byzantine general?,1050s,2004 -- 05,0.0,0.0,0.0,3,2025-08-14T04:48:25.268787
+official_rag_prompt_engineering_20250814_042444,confident,19,When did Robert Crispin go up against the Turks?,1060s,the battle of odžak,0.0,0.0,0.0,4,2025-08-14T04:48:26.498643
+official_rag_prompt_engineering_20250814_042444,confident,20,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,how did you do it,0.0,0.0,0.0,5,2025-08-14T04:48:27.736035
+official_rag_prompt_engineering_20250814_042444,confident,21,What was the name of the Norman castle?,Afranji,`` feudal castle '',0.0,0.0,0.0,4,2025-08-14T04:48:29.023796
+official_rag_prompt_engineering_20250814_042444,confident,22,Who was the leader when the Franks entered the Euphrates valley?,Oursel,,0.0,0.0,0.0,0,2025-08-14T04:48:29.860706
+official_rag_prompt_engineering_20250814_042444,confident,23,Who did the Normans team up with in Anatolia?,Turkish forces,hittite,0.0,0.0,0.0,1,2025-08-14T04:48:30.938785
+official_rag_prompt_engineering_20250814_042444,confident,24,What were the origins of the Raouliii family?,Norman mercenary,"normandy, france",0.0,0.0,0.0,2,2025-08-14T04:48:32.297163
+official_rag_prompt_engineering_20250814_042444,confident,25,What was the name of the count of Apulia ,Robert Guiscard,john st. augustine,0.0,0.0,0.0,3,2025-08-14T04:48:34.464237
+official_rag_prompt_engineering_20250814_042444,confident,26,When did Dyrrachium  fall to the Normans?,1082,10th century,0.0,0.0,0.0,2,2025-08-14T04:48:36.458724
+official_rag_prompt_engineering_20250814_042444,confident,27,How many men were in Robert's army?,"30,000",about a million men,0.0,0.0,0.0,4,2025-08-14T04:48:38.064089
+official_rag_prompt_engineering_20250814_042444,confident,28,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,2025-08-14T04:48:39.063818
+official_rag_prompt_engineering_20250814_042444,confident,29,Who was Robert's son?,Bohemond,robert's son,0.0,0.0,0.0,2,2025-08-14T04:48:40.169324
+official_rag_prompt_engineering_20250814_042444,confident,30,What river was Petrela located by?,Deabolis,river sitka,0.0,0.0,0.0,2,2025-08-14T04:48:41.229575
+official_rag_prompt_engineering_20250814_042444,confident,31,When did the Normans attack Dyrrachium?,1185,1984,0.0,0.0,0.0,1,2025-08-14T04:48:43.231541
+official_rag_prompt_engineering_20250814_042444,confident,32,What was the naval base called?,Dyrrachium,fort severn,0.0,0.0,0.0,2,2025-08-14T04:48:44.886156
+official_rag_prompt_engineering_20250814_042444,confident,33,Where was Dyrrachium located?,the Adriatic,the earth's crust,0.0,0.4,0.5,3,2025-08-14T04:48:46.462047
+official_rag_prompt_engineering_20250814_042444,confident,34,Who did Emma Marry?,King Ethelred II,matt willis,0.0,0.0,0.0,2,2025-08-14T04:48:48.253211
+official_rag_prompt_engineering_20250814_042444,confident,35,Who was Emma's brother?,Duke Richard II,ellen,0.0,0.0,0.0,1,2025-08-14T04:48:49.038667
+official_rag_prompt_engineering_20250814_042444,confident,36,To where did Ethelred flee?,Normandy,toowoomba,0.0,0.0,0.0,1,2025-08-14T04:48:50.429298
+official_rag_prompt_engineering_20250814_042444,confident,37,Who kicked Ethelred out?,Sweyn Forkbeard,who kicked ethelred in the chest,0.0,0.0,0.0,6,2025-08-14T04:48:51.843072
+official_rag_prompt_engineering_20250814_042444,confident,38,Who was Edward the Confessor's half-brother?,Harthacnut,,0.0,0.0,0.0,0,2025-08-14T04:48:52.554891
+official_rag_prompt_engineering_20250814_042444,confident,39,When did Edward return?,1041,when,0.0,0.0,0.0,1,2025-08-14T04:48:53.488867
+official_rag_prompt_engineering_20250814_042444,confident,40,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,who,0.0,0.0,0.0,1,2025-08-14T04:48:54.354947
+official_rag_prompt_engineering_20250814_042444,confident,41,Where did Harold II die?,Battle of Hastings,in the caribbean,0.0,0.0,0.0,3,2025-08-14T04:48:55.606664
+official_rag_prompt_engineering_20250814_042444,confident,42,Who killed Harold II? ,William II,ler,0.0,0.0,0.0,1,2025-08-14T04:48:56.418315
+official_rag_prompt_engineering_20250814_042444,confident,43,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,2025-08-14T04:48:57.731579
+official_rag_prompt_engineering_20250814_042444,confident,44,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the,0.0,0.0,0.0,1,2025-08-14T04:48:58.946150
+official_rag_prompt_engineering_20250814_042444,confident,45,What was the Anglo-Norman language's final form?,Modern English,english,0.0,0.6666666666666666,0.5,1,2025-08-14T04:49:00.238791
+official_rag_prompt_engineering_20250814_042444,confident,46,In what year did the Norman's invade at Bannow Bay?,1169,1990,0.0,0.0,0.0,1,2025-08-14T04:49:01.352223
+official_rag_prompt_engineering_20250814_042444,confident,47,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,2025-08-14T04:49:02.403405
+official_rag_prompt_engineering_20250814_042444,confident,48,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,2025-08-14T04:49:03.668811
+official_rag_prompt_engineering_20250814_042444,confident,49,Who was Margaret's brother?,Edgar,patrick,0.0,0.0,0.0,1,2025-08-14T04:49:04.856463
+official_rag_prompt_engineering_20250814_042444,confident,50,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,2025-08-14T04:49:06.097852
+official_rag_prompt_engineering_20250814_042444,confident,51,When was Scotland invaded by William?,1072,1314,0.0,0.0,0.0,1,2025-08-14T04:49:07.072786
+official_rag_prompt_engineering_20250814_042444,confident,52,Who was the hostage?,Duncan,who you are,0.0,0.0,0.0,3,2025-08-14T04:49:08.225947
+official_rag_prompt_engineering_20250814_042444,confident,53,Who did Alexander I marry?,Sybilla of Normandy,theo,0.0,0.0,0.0,1,2025-08-14T04:49:09.679319
+official_rag_prompt_engineering_20250814_042444,confident,54,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,dutch,0.0,0.0,0.0,1,2025-08-14T04:49:11.160439
+official_rag_prompt_engineering_20250814_042444,confident,55,Where was Ralph earl of?,Hereford,the mississippi river,0.0,0.0,0.0,3,2025-08-14T04:49:13.039936
+official_rag_prompt_engineering_20250814_042444,confident,56,Who was Ralph in charge of being at war with?,the Welsh,roosevelt,0.0,0.0,0.0,1,2025-08-14T04:49:14.014454
+official_rag_prompt_engineering_20250814_042444,confident,57,Who made Ralph earl?,Edward the Confessor,ralph earl,0.0,0.0,0.0,2,2025-08-14T04:49:15.324925
+official_rag_prompt_engineering_20250814_042444,confident,58,What country was under the control of Norman barons?,Wales,wales,1.0,1.0,1.0,1,2025-08-14T04:49:16.218440
+official_rag_prompt_engineering_20250814_042444,confident,59,What year did Roger de Tosny fail to accomplish what he set out to do?,1018,1993,0.0,0.0,0.0,1,2025-08-14T04:49:16.915699
+official_rag_prompt_engineering_20250814_042444,confident,60,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,charles de lannoy,0.0,0.0,0.0,3,2025-08-14T04:49:18.118065
+official_rag_prompt_engineering_20250814_042444,confident,61,When did the Siege of Antioch take place?,1097,during the first crusade,0.0,0.0,0.0,4,2025-08-14T04:49:19.351839
+official_rag_prompt_engineering_20250814_042444,confident,62,What was the name of Bohemond's nephew?,Tancred,his look - alike brothers,0.0,0.0,0.0,5,2025-08-14T04:49:20.502643
+official_rag_prompt_engineering_20250814_042444,confident,63,What major conquest did Tancred play a roll in?,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,2025-08-14T04:49:22.165840
+official_rag_prompt_engineering_20250814_042444,confident,64,How long did Western Europe control Cyprus?,380 years,2012 / 13,0.0,0.0,0.0,3,2025-08-14T04:49:23.286663
+official_rag_prompt_engineering_20250814_042444,confident,65,What ruined Richard's plans to reach Acre?,a storm,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:49:25.220842
+official_rag_prompt_engineering_20250814_042444,confident,66,Who was Richard's fiancee?,Berengaria,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:49:27.059951
+official_rag_prompt_engineering_20250814_042444,confident,67,What year did the storm hit Richard's fleet?,1191,2012,0.0,0.0,0.0,1,2025-08-14T04:49:28.250858
+official_rag_prompt_engineering_20250814_042444,confident,68,Who ruled Cyprus in 1191?,Isaac Komnenos,king cnut,0.0,0.0,0.0,2,2025-08-14T04:49:30.071179
+official_rag_prompt_engineering_20250814_042444,confident,69,Who was Guy's Rival?,Conrad of Montferrat,herman,0.0,0.0,0.0,1,2025-08-14T04:49:30.959642
+official_rag_prompt_engineering_20250814_042444,confident,70,What were Isaac's chains made out of?,silver,iron,0.0,0.0,0.0,1,2025-08-14T04:49:32.056393
+official_rag_prompt_engineering_20250814_042444,confident,71,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,,0.0,0.0,0.0,0,2025-08-14T04:49:32.948913
+official_rag_prompt_engineering_20250814_042444,confident,72,What continent are the Canarian Islands off the coast of?,Africa,europe,0.0,0.0,0.0,1,2025-08-14T04:49:34.088046
+official_rag_prompt_engineering_20250814_042444,confident,73,Who became the King of the Canary Islands?,Bethencourt,whoopi goldberg,0.0,0.0,0.0,2,2025-08-14T04:49:35.506683
+official_rag_prompt_engineering_20250814_042444,confident,74,Who bought the rights?,Enrique Pérez de Guzmán,adult swim,0.0,0.0,0.0,2,2025-08-14T04:49:36.812912
+official_rag_prompt_engineering_20250814_042444,confident,75,Who sold the rights?,Maciot de Bethencourt,who,0.0,0.0,0.0,1,2025-08-14T04:49:37.957211
+official_rag_prompt_engineering_20250814_042444,confident,76,Where are Jersey and Guernsey,Channel Islands,the mediterranean sea,0.0,0.0,0.0,3,2025-08-14T04:49:39.364526
+official_rag_prompt_engineering_20250814_042444,confident,77,How many customaries does Norman customary law have?,two,three,0.0,0.0,0.0,1,2025-08-14T04:49:40.203027
+official_rag_prompt_engineering_20250814_042444,confident,78,What is the Norman architecture idiom?,Romanesque,norman transitional architecture,0.0,0.0,0.0,3,2025-08-14T04:49:41.559495
+official_rag_prompt_engineering_20250814_042444,confident,79,What kind of arches does Norman architecture have?,rounded,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:49:42.815426
+official_rag_prompt_engineering_20250814_042444,confident,80,What architecture type came after Norman in England?,Early Gothic,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:49:43.778991
+official_rag_prompt_engineering_20250814_042444,confident,81,What architecture type came before Norman in England?,Anglo-Saxon,romanesque architecture,0.0,0.0,0.0,2,2025-08-14T04:49:44.966735
+official_rag_prompt_engineering_20250814_042444,confident,82,What place had the Norman Arab architectural style?,Sicily,abbasid samarra,0.0,0.0,0.0,2,2025-08-14T04:49:46.412278
+official_rag_prompt_engineering_20250814_042444,confident,83,When did the church reform begin?,early 11th century,1876,0.0,0.0,0.0,1,2025-08-14T04:49:47.777922
+official_rag_prompt_engineering_20250814_042444,confident,84,Who used the church to unify themselves?,dukes,pope alexander iii,0.0,0.0,0.0,3,2025-08-14T04:49:49.214467
+official_rag_prompt_engineering_20250814_042444,confident,85,When were the French wars of religion?,16th century,the origin of the question,0.0,0.0,0.0,5,2025-08-14T04:49:50.519740
+official_rag_prompt_engineering_20250814_042444,confident,86,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,2025-08-14T04:49:51.621778
+official_rag_prompt_engineering_20250814_042444,confident,87,What is Norman art's most well known piece?,Bayeux Tapestry,the use of proportion,0.0,0.0,0.0,4,2025-08-14T04:49:53.039071
+official_rag_prompt_engineering_20250814_042444,confident,88,Who commissioned the Tapestry?,Odo,,0.0,0.0,0.0,0,2025-08-14T04:49:54.236059
+official_rag_prompt_engineering_20250814_042444,confident,89,What is the most important type of Norman art preserved in churches?,mosaics,architecture,0.0,0.0,0.0,1,2025-08-14T04:49:55.895267
+official_rag_prompt_engineering_20250814_042444,confident,90,In what century did important classical music developments occur in Normandy?,11th,the,0.0,0.0,0.0,1,2025-08-14T04:49:57.073830
+official_rag_prompt_engineering_20250814_042444,confident,91,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard ii,0.0,0.0,0.0,2,2025-08-14T04:49:58.233471
+official_rag_prompt_engineering_20250814_042444,confident,92,Where did the monks flee to?,southern Italy,the medieval institution of knighthood,0.0,0.0,0.0,5,2025-08-14T04:49:59.446072
+official_rag_prompt_engineering_20250814_042444,confident,93,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:50:00.536051
+official_rag_prompt_engineering_20250814_042444,confident,94,Who patronized the monks in Italy? ,Robert Guiscard,patronized the monks in italy,0.0,0.0,0.0,5,2025-08-14T04:50:01.915866
+official_rag_prompt_engineering_20250814_042444,confident,95,What tradition were the Saint-Evroul monks known for?,singing,the doctrine of the trinity,0.0,0.0,0.0,5,2025-08-14T04:50:03.145638
+official_rag_prompt_engineering_20250814_042444,confident,96,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,highest common factor,0.0,0.0,0.0,3,2025-08-14T04:50:04.330516
+official_rag_prompt_engineering_20250814_042444,confident,97,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,highest common factor,0.0,0.0,0.0,3,2025-08-14T04:50:05.195063
+official_rag_prompt_engineering_20250814_042444,confident,98,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,computer algorithm,0.0,0.0,0.0,2,2025-08-14T04:50:06.475217
+official_rag_prompt_engineering_20250814_042444,confident,99,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,Turing degree,0.0,0.0,0.0,2,2025-08-14T04:50:08.036463
+official_rag_prompt_engineering_20250814_042444,confident,100,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,data interpretation,0.0,0.0,0.0,2,2025-08-14T04:50:09.664829
+official_rag_prompt_engineering_20250814_042444,confident,101,What are two basic primary resources used to guage complexity?,time and storage,water,0.0,0.0,0.0,1,2025-08-14T04:50:10.771146
+official_rag_prompt_engineering_20250814_042444,confident,102,What unit is measured to determine circuit complexity?,number of gates in a circuit,j,0.0,0.0,0.0,1,2025-08-14T04:50:11.821382
+official_rag_prompt_engineering_20250814_042444,confident,103,What practical role does defining the complexity of problems play in everyday computing?,determine the practical limits on what computers can and cannot do,what turns you on?,0.0,0.13333333333333333,0.09090909090909091,4,2025-08-14T04:50:13.258259
+official_rag_prompt_engineering_20250814_042444,confident,104,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,,0.0,0.0,0.0,0,2025-08-14T04:50:14.215662
+official_rag_prompt_engineering_20250814_042444,confident,105,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,program analysis,0.0,0.4,0.3333333333333333,2,2025-08-14T04:50:15.368130
+official_rag_prompt_engineering_20250814_042444,confident,106,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,algorithm validation,0.0,0.0,0.0,2,2025-08-14T04:50:16.415291
+official_rag_prompt_engineering_20250814_042444,confident,107,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms?,computability theory,,0.0,0.0,0.0,0,2025-08-14T04:50:17.353664
+official_rag_prompt_engineering_20250814_042444,confident,108,What is the name given to the input string of a computational problem?,problem instance,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:50:18.716541
+official_rag_prompt_engineering_20250814_042444,confident,109,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,empty set,0.0,0.0,0.0,2,2025-08-14T04:50:20.044998
+official_rag_prompt_engineering_20250814_042444,confident,110,Is a problem instance typically characterized as abstract or concrete?,concrete,concrete ( solution ),0.0,0.4,1.0,4,2025-08-14T04:50:21.301661
+official_rag_prompt_engineering_20250814_042444,confident,111,What is another name for any given measure of input associated with a problem?,instances,data,0.0,0.0,0.0,1,2025-08-14T04:50:22.692492
+official_rag_prompt_engineering_20250814_042444,confident,112,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,2025-08-14T04:50:23.814068
+official_rag_prompt_engineering_20250814_042444,confident,113,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,15 - kilometre,0.0,0.0,0.0,3,2025-08-14T04:50:24.914312
+official_rag_prompt_engineering_20250814_042444,confident,114,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer?,round trip through all sites in Milan,the price,0.0,0.0,0.0,2,2025-08-14T04:50:25.913555
+official_rag_prompt_engineering_20250814_042444,confident,115,What does computational complexity theory most specifically seek to answer? ,computational problems,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:50:27.053112
+official_rag_prompt_engineering_20250814_042444,confident,116,"In a computational problem, what can be described as a string over an alphabet?",problem instance,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:50:28.383978
+official_rag_prompt_engineering_20250814_042444,confident,117,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:50:29.600422
+official_rag_prompt_engineering_20250814_042444,confident,118,What is another term for the string of a problem instance?,bitstrings,String,0.0,0.0,0.0,1,2025-08-14T04:50:30.508710
+official_rag_prompt_engineering_20250814_042444,confident,119,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed?",binary notation,factorials n!,0.0,0.0,0.0,2,2025-08-14T04:50:32.002013
+official_rag_prompt_engineering_20250814_042444,confident,120,What is one way in which graphs can be encoded? ,adjacency matrices,true,0.0,0.0,0.0,1,2025-08-14T04:50:33.063578
+official_rag_prompt_engineering_20250814_042444,confident,121,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,decision problem,0.0,0.5,0.5,2,2025-08-14T04:50:33.966772
+official_rag_prompt_engineering_20250814_042444,confident,122,What are the two simple word responses to a decision problem?,yes or no,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:50:35.372271
+official_rag_prompt_engineering_20250814_042444,confident,123,What are the two integer responses to a decision problem?,1 or 0,two different answers,0.0,0.0,0.0,3,2025-08-14T04:50:36.778718
+official_rag_prompt_engineering_20250814_042444,confident,124,What will the output be for a member of the language of a decision problem?,yes,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:50:38.662024
+official_rag_prompt_engineering_20250814_042444,confident,125,What answer denotes that an algorithm has accepted an input string?,yes,yes,1.0,1.0,1.0,1,2025-08-14T04:50:39.841572
+official_rag_prompt_engineering_20250814_042444,confident,126,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,2025-08-14T04:50:41.058954
+official_rag_prompt_engineering_20250814_042444,confident,127,What is the term for the set of all connected graphs related to this decision problem?,formal language,decision problem,0.0,0.0,0.0,2,2025-08-14T04:50:42.181656
+official_rag_prompt_engineering_20250814_042444,confident,128,What encoding decision needs to be made in order to determine an exact definition of the formal language?,how graphs are encoded as binary strings,encoding decision,0.0,0.0,0.0,2,2025-08-14T04:50:43.087181
+official_rag_prompt_engineering_20250814_042444,confident,129,A function problem is an example of what?,a computational problem,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:50:44.364727
+official_rag_prompt_engineering_20250814_042444,confident,130,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,2025-08-14T04:50:45.477334
+official_rag_prompt_engineering_20250814_042444,confident,131,The traveling salesman problem is an example of what type of problem?,A function problem,what turns you on?,0.0,0.0,0.0,4,2025-08-14T04:50:46.837401
+official_rag_prompt_engineering_20250814_042444,confident,132,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling purchaser problem,0.0,0.28571428571428575,0.25,3,2025-08-14T04:50:48.085023
+official_rag_prompt_engineering_20250814_042444,confident,133,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,simple,0.0,0.0,0.0,1,2025-08-14T04:50:49.160321
+official_rag_prompt_engineering_20250814_042444,confident,134,How can function problems typically be restated?,decision problems,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:50:50.308568
+official_rag_prompt_engineering_20250814_042444,confident,135,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,sets,0.0,0.0,0.0,1,2025-08-14T04:50:51.922841
+official_rag_prompt_engineering_20250814_042444,confident,136,What is a commonly used measurement used to determine the complexity of a computational problem?,how much time the best algorithm requires to solve the problem,complexity,0.0,0.0,0.0,1,2025-08-14T04:50:52.974248
+official_rag_prompt_engineering_20250814_042444,confident,137,What is one variable on which the running time may be contingent?,the instance,variable a against variable b,0.0,0.0,0.0,5,2025-08-14T04:50:54.496623
+official_rag_prompt_engineering_20250814_042444,confident,138,How is the time needed to obtain the solution to a problem calculated?,as a function of the size of the instance,problem / solution,0.0,0.0,0.0,3,2025-08-14T04:50:55.808649
+official_rag_prompt_engineering_20250814_042444,confident,139,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,2025-08-14T04:50:57.287182

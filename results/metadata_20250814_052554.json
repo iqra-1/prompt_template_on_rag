@@ -1,0 +1,69 @@
+{
+  "experiment_id": "targeted_fix_20250814_051741",
+  "config": {
+    "experiment": {
+      "name": "targeted_template_fix",
+      "version": "1.0",
+      "description": "Targeted fix to demonstrate template impact"
+    },
+    "models": {
+      "rag_model": "facebook/rag-token-nq",
+      "use_real_wikipedia": true,
+      "precision": "fp16"
+    },
+    "hardware": {
+      "preferred_gpu": "auto",
+      "memory_optimization": true,
+      "batch_size": 1
+    },
+    "experiment_settings": {
+      "num_test_questions": 50,
+      "num_templates": 7,
+      "evaluation_metrics": [
+        "f1_score",
+        "exact_match",
+        "token_overlap"
+      ]
+    },
+    "templates": [
+      {
+        "name": "retrieval_focused",
+        "template": "Based on retrieved information, answer: {question}"
+      },
+      {
+        "name": "knowledge_synthesis",
+        "template": "Using available knowledge sources, answer: {question}"
+      },
+      {
+        "name": "instructional_clear",
+        "template": "Please provide a clear answer to: {question}"
+      },
+      {
+        "name": "context_guided",
+        "template": "Draw from relevant context to answer: {question}"
+      },
+      {
+        "name": "confident_direct",
+        "template": "Answer directly: {question}"
+      },
+      {
+        "name": "structured_response",
+        "template": "Provide a well-structured answer to: {question}"
+      },
+      {
+        "name": "basic",
+        "template": "{question}"
+      }
+    ],
+    "output": {
+      "save_detailed_results": true,
+      "save_summary": true,
+      "save_markdown_report": false,
+      "results_directory": "results"
+    }
+  },
+  "timestamp": "20250814_052554",
+  "total_results": 350,
+  "gpu_used": "cuda:1",
+  "real_wikipedia": true
+}

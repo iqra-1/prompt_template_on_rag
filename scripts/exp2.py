@@ -198,8 +198,19 @@ class TargetedRAGExperiment:
 
         # Add some SQuAD questions for balance
         try:
+            # Get target number of questions from config
             from datasets import load_dataset
-            dataset = load_dataset("squad_v2", split="validation[:200]")
+            max_questions = self.config['experiment_settings']['num_test_questions']
+
+            # Load extra to ensure we get enough with answers (SQuAD 2.0 has many without answers)
+            # Load 3x target, max 2000
+            load_size = min(max_questions * 3, 2000)
+
+            self.log_message(
+                f"Loading {load_size} questions to get {max_questions} with answers")
+
+            dataset = load_dataset(
+                "squad_v2", split=f"validation[:{load_size}]")
 
             squad_questions = []
             for item in dataset:
@@ -485,6 +496,52 @@ class TargetedRAGExperiment:
 
         return template_metrics
 
+    def save_results(self, template_metrics):
+        """Save comprehensive results"""
+        self.log_message("\n Saving results...")
+
+        # Create results directory
+        results_dir = f"../{self.config['output']['results_directory']}"
+        os.makedirs(results_dir, exist_ok=True)
+
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        max_questions = self.config['experiment_settings']['num_test_questions']
+
+        # Save detailed results CSV
+        if self.config['output']['save_detailed_results']:
+            detailed_file = f"{results_dir}/exp2-{max_questions}.csv"
+            df = pd.DataFrame(self.results)
+            df.to_csv(detailed_file, index=False)
+            self.log_message(f"   Detailed results: {detailed_file}")
+
+        # Save summary CSV
+        if self.config['output']['save_summary']:
+            summary_file = f"{results_dir}/summary_{timestamp}.csv"
+            summary_df = pd.DataFrame(template_metrics).T
+            summary_df.to_csv(summary_file)
+            self.log_message(f"   Summary: {summary_file}")
+
+        # Save markdown report
+        if self.config['output']['save_markdown_report']:
+            report_file = f"{results_dir}/report_{timestamp}.md"
+            self.generate_markdown_report(template_metrics, report_file)
+            self.log_message(f" Report: {report_file}")
+
+        # Save experiment metadata
+        metadata = {
+            'experiment_id': self.experiment_id,
+            'config': self.config,
+            'timestamp': timestamp,
+            'total_results': len(self.results),
+            'gpu_used': self.device,
+            'real_wikipedia': self.config['models']['use_real_wikipedia']
+        }
+
+        metadata_file = f"{results_dir}/metadata_{timestamp}.json"
+        with open(metadata_file, 'w') as f:
+            json.dump(metadata, f, indent=2)
+        self.log_message(f"   Metadata: {metadata_file}")
+
     def display_sample_results(self):
         """Display sample results"""
         self.log_message("\n SAMPLE RESULTS:")
@@ -532,6 +589,7 @@ def main():
         experiment.run_experiment()
         template_metrics = experiment.analyze_results()
         experiment.display_sample_results()
+        experiment.save_results(template_metrics)
 
         experiment.log_message("\n TARGETED EXPERIMENT COMPLETED!")
         return True

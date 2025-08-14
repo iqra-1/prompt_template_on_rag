@@ -1,0 +1,351 @@
+experiment_id,template,question_id,question,true_answer,generated_answer,exact_match,f1_score,token_overlap,answer_length,question_type,timestamp
+targeted_fix_20250814_051741,retrieval_focused,0,What is the capital of France?,Paris,paris,1.0,1.0,1.0,1,Simple fact - retrieval should help,2025-08-14T05:23:15.810709
+targeted_fix_20250814_051741,retrieval_focused,1,Who wrote Romeo and Juliet?,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Basic fact - retrieval should be clear,2025-08-14T05:23:16.124299
+targeted_fix_20250814_051741,retrieval_focused,2,What is 2 plus 2?,4,factorials n!,0.0,0.0,0.0,2,Simple math - should be straightforward,2025-08-14T05:23:16.479893
+targeted_fix_20250814_051741,retrieval_focused,3,What is photosynthesis?,process where plants make food from sunlight,,0.0,0.0,0.0,0,Knowledge synthesis should explain better,2025-08-14T05:23:16.931998
+targeted_fix_20250814_051741,retrieval_focused,4,How do computers work?,they process information using electrical circuits,what turns you on?,0.0,0.0,0.0,4,Synthesis should give better explanation,2025-08-14T05:23:17.640037
+targeted_fix_20250814_051741,retrieval_focused,5,Name three colors,red blue green,red,0.0,0.5,0.3333333333333333,1,Clear instruction should structure answer,2025-08-14T05:23:17.886410
+targeted_fix_20250814_051741,retrieval_focused,6,List two animals,cat dog,cat,0.0,0.6666666666666666,0.5,1,Clear instruction should help with listing,2025-08-14T05:23:18.126624
+targeted_fix_20250814_051741,retrieval_focused,7,Why is water important?,essential for life and survival,health,0.0,0.0,0.0,1,Context should provide better reasoning,2025-08-14T05:23:18.618724
+targeted_fix_20250814_051741,retrieval_focused,8,What makes plants green?,chlorophyll,chlorophyll,1.0,1.0,1.0,1,Context should identify specific cause,2025-08-14T05:23:19.215308
+targeted_fix_20250814_051741,retrieval_focused,9,Is the Earth round?,yes,factorials n!,0.0,0.0,0.0,2,Direct confidence should be clear,2025-08-14T05:23:20.499379
+targeted_fix_20250814_051741,retrieval_focused,10,Do birds fly?,yes,,0.0,0.0,0.0,0,Direct answer should be confident,2025-08-14T05:23:21.051017
+targeted_fix_20250814_051741,retrieval_focused,11,What are the primary colors?,red yellow blue,blue,0.0,0.5,0.3333333333333333,1,Structure should organize the list,2025-08-14T05:23:21.538064
+targeted_fix_20250814_051741,retrieval_focused,12,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-08-14T05:23:22.059168
+targeted_fix_20250814_051741,retrieval_focused,13,When were the Normans in Normandy?,10th and 11th centuries,9th century -- 9th century,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:23:22.898998
+targeted_fix_20250814_051741,retrieval_focused,14,From which countries did the Norse originate?,"Denmark, Iceland and Norway",iceland,0.0,0.4,0.25,1,SQuAD baseline,2025-08-14T05:23:23.261586
+targeted_fix_20250814_051741,retrieval_focused,15,Who was the Norse leader?,Rollo,bjorn ulvaeus,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:23.718033
+targeted_fix_20250814_051741,retrieval_focused,16,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-08-14T05:23:24.084072
+targeted_fix_20250814_051741,retrieval_focused,17,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-08-14T05:23:24.676609
+targeted_fix_20250814_051741,retrieval_focused,18,Who ruled the duchy of Normandy,Richard I,king charles iii,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:23:25.204614
+targeted_fix_20250814_051741,retrieval_focused,19,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:25.559280
+targeted_fix_20250814_051741,retrieval_focused,20,What is the original meaning of the word Norman?,Viking,north,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:26.143267
+targeted_fix_20250814_051741,retrieval_focused,21,When was the Latin version of the word Norman first recorded?,9th century,in 1024,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:26.459596
+targeted_fix_20250814_051741,retrieval_focused,22,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:26.752107
+targeted_fix_20250814_051741,retrieval_focused,23,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,the franks,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:27.127836
+targeted_fix_20250814_051741,retrieval_focused,24,What river originally bounded the Duchy,Seine,tennessee river,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:27.411605
+targeted_fix_20250814_051741,retrieval_focused,25,Who upon arriving gave the original viking settlers a common identity?,Rollo,the inuit,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:27.668235
+targeted_fix_20250814_051741,retrieval_focused,26,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:27.985402
+targeted_fix_20250814_051741,retrieval_focused,27,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:28.296485
+targeted_fix_20250814_051741,retrieval_focused,28,What was one of the Norman's major exports?,fighting horsemen,foodstuffs,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:28.554250
+targeted_fix_20250814_051741,retrieval_focused,29,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,byzantine empire,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:28.937868
+targeted_fix_20250814_051741,retrieval_focused,30,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:23:29.334669
+targeted_fix_20250814_051741,retrieval_focused,31,When did Robert Crispin go up against the Turks?,1060s,1984,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:30.122349
+targeted_fix_20250814_051741,retrieval_focused,32,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,factorials,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:31.357087
+targeted_fix_20250814_051741,retrieval_focused,33,What was the name of the Norman castle?,Afranji,the château de caen,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:23:32.454070
+targeted_fix_20250814_051741,retrieval_focused,34,Who was the leader when the Franks entered the Euphrates valley?,Oursel,,0.0,0.0,0.0,0,SQuAD baseline,2025-08-14T05:23:32.956096
+targeted_fix_20250814_051741,retrieval_focused,35,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:33.599728
+targeted_fix_20250814_051741,retrieval_focused,36,What were the origins of the Raouliii family?,Norman mercenary,byzantine origin,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:34.346328
+targeted_fix_20250814_051741,retrieval_focused,37,What was the name of the count of Apulia ,Robert Guiscard,( last ) frederick iii,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:23:34.800434
+targeted_fix_20250814_051741,retrieval_focused,38,When did Dyrrachium  fall to the Normans?,1082,true,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:35.352629
+targeted_fix_20250814_051741,retrieval_focused,39,How many men were in Robert's army?,"30,000","about 100,000 and 150,000",0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:23:35.895958
+targeted_fix_20250814_051741,retrieval_focused,40,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:36.360151
+targeted_fix_20250814_051741,retrieval_focused,41,Who was Robert's son?,Bohemond,robert's son,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:37.024630
+targeted_fix_20250814_051741,retrieval_focused,42,What river was Petrela located by?,Deabolis,river sita,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:37.411136
+targeted_fix_20250814_051741,retrieval_focused,43,When did the Normans attack Dyrrachium?,1185,2003,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:37.708331
+targeted_fix_20250814_051741,retrieval_focused,44,What was the naval base called?,Dyrrachium,naval station guantanamo bay,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:23:38.111017
+targeted_fix_20250814_051741,retrieval_focused,45,Where was Dyrrachium located?,the Adriatic,north - western asia,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:23:38.762741
+targeted_fix_20250814_051741,retrieval_focused,46,Who did Emma Marry?,King Ethelred II,matt willis,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:39.307840
+targeted_fix_20250814_051741,retrieval_focused,47,Who was Emma's brother?,Duke Richard II,bryce gheisar,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:39.689795
+targeted_fix_20250814_051741,retrieval_focused,48,To where did Ethelred flee?,Normandy,britain,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:40.078763
+targeted_fix_20250814_051741,retrieval_focused,49,Who kicked Ethelred out?,Sweyn Forkbeard,the undertaker,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:40.692602
+targeted_fix_20250814_051741,knowledge_synthesis,0,What is the capital of France?,Paris,paris,1.0,1.0,1.0,1,Simple fact - retrieval should help,2025-08-14T05:23:41.353215
+targeted_fix_20250814_051741,knowledge_synthesis,1,Who wrote Romeo and Juliet?,William Shakespeare,who?,0.0,0.0,0.0,1,Basic fact - retrieval should be clear,2025-08-14T05:23:41.894353
+targeted_fix_20250814_051741,knowledge_synthesis,2,What is 2 plus 2?,4,factorials n!,0.0,0.0,0.0,2,Simple math - should be straightforward,2025-08-14T05:23:42.589706
+targeted_fix_20250814_051741,knowledge_synthesis,3,What is photosynthesis?,process where plants make food from sunlight,"plants, algae and cyanobacteria",0.0,0.0,0.0,4,Knowledge synthesis should explain better,2025-08-14T05:23:43.462089
+targeted_fix_20250814_051741,knowledge_synthesis,4,How do computers work?,they process information using electrical circuits,problem / problem / solution,0.0,0.0,0.0,5,Synthesis should give better explanation,2025-08-14T05:23:44.411817
+targeted_fix_20250814_051741,knowledge_synthesis,5,Name three colors,red blue green,,0.0,0.0,0.0,0,Clear instruction should structure answer,2025-08-14T05:23:44.718656
+targeted_fix_20250814_051741,knowledge_synthesis,6,List two animals,cat dog,cat,0.0,0.6666666666666666,0.5,1,Clear instruction should help with listing,2025-08-14T05:23:45.013652
+targeted_fix_20250814_051741,knowledge_synthesis,7,Why is water important?,essential for life and survival,data visuali zation,0.0,0.0,0.0,3,Context should provide better reasoning,2025-08-14T05:23:45.434359
+targeted_fix_20250814_051741,knowledge_synthesis,8,What makes plants green?,chlorophyll,what makes plants green,0.0,0.0,0.0,4,Context should identify specific cause,2025-08-14T05:23:46.291127
+targeted_fix_20250814_051741,knowledge_synthesis,9,Is the Earth round?,yes,what turns you on?,0.0,0.0,0.0,4,Direct confidence should be clear,2025-08-14T05:23:46.968226
+targeted_fix_20250814_051741,knowledge_synthesis,10,Do birds fly?,yes,do you like sex?,0.0,0.0,0.0,4,Direct answer should be confident,2025-08-14T05:23:47.471381
+targeted_fix_20250814_051741,knowledge_synthesis,11,What are the primary colors?,red yellow blue,blue,0.0,0.5,0.3333333333333333,1,Structure should organize the list,2025-08-14T05:23:47.707417
+targeted_fix_20250814_051741,knowledge_synthesis,12,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-08-14T05:23:48.017581
+targeted_fix_20250814_051741,knowledge_synthesis,13,When were the Normans in Normandy?,10th and 11th centuries,10th century -- 15th century,0.0,0.25,0.25,5,SQuAD baseline,2025-08-14T05:23:48.417859
+targeted_fix_20250814_051741,knowledge_synthesis,14,From which countries did the Norse originate?,"Denmark, Iceland and Norway",scandinavia,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:48.694935
+targeted_fix_20250814_051741,knowledge_synthesis,15,Who was the Norse leader?,Rollo,who was the norse leader,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:23:49.072349
+targeted_fix_20250814_051741,knowledge_synthesis,16,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-08-14T05:23:49.406143
+targeted_fix_20250814_051741,knowledge_synthesis,17,Who was the duke in the battle of Hastings?,William the Conqueror,normandy duke of normandy,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:23:49.810567
+targeted_fix_20250814_051741,knowledge_synthesis,18,Who ruled the duchy of Normandy,Richard I,king charles iii,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:23:50.210047
+targeted_fix_20250814_051741,knowledge_synthesis,19,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:50.477936
+targeted_fix_20250814_051741,knowledge_synthesis,20,What is the original meaning of the word Norman?,Viking,data visuali zation,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:23:51.318605
+targeted_fix_20250814_051741,knowledge_synthesis,21,When was the Latin version of the word Norman first recorded?,9th century,in 1024,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:51.834650
+targeted_fix_20250814_051741,knowledge_synthesis,22,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:52.507814
+targeted_fix_20250814_051741,knowledge_synthesis,23,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,patrick alexander russell,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:23:53.870344
+targeted_fix_20250814_051741,knowledge_synthesis,24,What river originally bounded the Duchy,Seine,tennessee river,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:54.913758
+targeted_fix_20250814_051741,knowledge_synthesis,25,Who upon arriving gave the original viking settlers a common identity?,Rollo,the Normans,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:55.505899
+targeted_fix_20250814_051741,knowledge_synthesis,26,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:55.884423
+targeted_fix_20250814_051741,knowledge_synthesis,27,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:56.287563
+targeted_fix_20250814_051741,knowledge_synthesis,28,What was one of the Norman's major exports?,fighting horsemen,"266,827",0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:56.803994
+targeted_fix_20250814_051741,knowledge_synthesis,29,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,byzantine empire,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:57.562135
+targeted_fix_20250814_051741,knowledge_synthesis,30,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:23:57.907610
+targeted_fix_20250814_051741,knowledge_synthesis,31,When did Robert Crispin go up against the Turks?,1060s,robert crispin's diary,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:23:58.270415
+targeted_fix_20250814_051741,knowledge_synthesis,32,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,british empire,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:58.583667
+targeted_fix_20250814_051741,knowledge_synthesis,33,What was the name of the Norman castle?,Afranji,,0.0,0.0,0.0,0,SQuAD baseline,2025-08-14T05:23:58.816634
+targeted_fix_20250814_051741,knowledge_synthesis,34,Who was the leader when the Franks entered the Euphrates valley?,Oursel,2018,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:59.040746
+targeted_fix_20250814_051741,knowledge_synthesis,35,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:23:59.337558
+targeted_fix_20250814_051741,knowledge_synthesis,36,What were the origins of the Raouliii family?,Norman mercenary,byzantine origin,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:23:59.642470
+targeted_fix_20250814_051741,knowledge_synthesis,37,What was the name of the count of Apulia ,Robert Guiscard,,0.0,0.0,0.0,0,SQuAD baseline,2025-08-14T05:23:59.942431
+targeted_fix_20250814_051741,knowledge_synthesis,38,When did Dyrrachium  fall to the Normans?,1082,1970s,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:00.704542
+targeted_fix_20250814_051741,knowledge_synthesis,39,How many men were in Robert's army?,"30,000","1,250,000 men",0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:01.615066
+targeted_fix_20250814_051741,knowledge_synthesis,40,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:02.353143
+targeted_fix_20250814_051741,knowledge_synthesis,41,Who was Robert's son?,Bohemond,,0.0,0.0,0.0,0,SQuAD baseline,2025-08-14T05:24:02.848785
+targeted_fix_20250814_051741,knowledge_synthesis,42,What river was Petrela located by?,Deabolis,river sita,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:03.598067
+targeted_fix_20250814_051741,knowledge_synthesis,43,When did the Normans attack Dyrrachium?,1185,2018,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:04.168047
+targeted_fix_20250814_051741,knowledge_synthesis,44,What was the naval base called?,Dyrrachium,Guantanamo bay naval base,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:04.938452
+targeted_fix_20250814_051741,knowledge_synthesis,45,Where was Dyrrachium located?,the Adriatic,the earth's crust,0.0,0.4,0.5,3,SQuAD baseline,2025-08-14T05:24:05.383878
+targeted_fix_20250814_051741,knowledge_synthesis,46,Who did Emma Marry?,King Ethelred II,theo,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:05.850935
+targeted_fix_20250814_051741,knowledge_synthesis,47,Who was Emma's brother?,Duke Richard II,madhavrao,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:06.370033
+targeted_fix_20250814_051741,knowledge_synthesis,48,To where did Ethelred flee?,Normandy,to the netherlands,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:24:06.788426
+targeted_fix_20250814_051741,knowledge_synthesis,49,Who kicked Ethelred out?,Sweyn Forkbeard,ethelred,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:07.540185
+targeted_fix_20250814_051741,instructional_clear,0,What is the capital of France?,Paris,paris,1.0,1.0,1.0,1,Simple fact - retrieval should help,2025-08-14T05:24:08.273804
+targeted_fix_20250814_051741,instructional_clear,1,Who wrote Romeo and Juliet?,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Basic fact - retrieval should be clear,2025-08-14T05:24:08.573596
+targeted_fix_20250814_051741,instructional_clear,2,What is 2 plus 2?,4,the question,0.0,0.0,0.0,2,Simple math - should be straightforward,2025-08-14T05:24:08.899677
+targeted_fix_20250814_051741,instructional_clear,3,What is photosynthesis?,process where plants make food from sunlight,photosynthesis,0.0,0.0,0.0,1,Knowledge synthesis should explain better,2025-08-14T05:24:09.230699
+targeted_fix_20250814_051741,instructional_clear,4,How do computers work?,they process information using electrical circuits,what turns you on?,0.0,0.0,0.0,4,Synthesis should give better explanation,2025-08-14T05:24:09.568588
+targeted_fix_20250814_051741,instructional_clear,5,Name three colors,red blue green,blue,0.0,0.5,0.3333333333333333,1,Clear instruction should structure answer,2025-08-14T05:24:09.816637
+targeted_fix_20250814_051741,instructional_clear,6,List two animals,cat dog,cat,0.0,0.6666666666666666,0.5,1,Clear instruction should help with listing,2025-08-14T05:24:10.090099
+targeted_fix_20250814_051741,instructional_clear,7,Why is water important?,essential for life and survival,for all known forms of life,0.0,0.3636363636363636,0.4,6,Context should provide better reasoning,2025-08-14T05:24:10.444546
+targeted_fix_20250814_051741,instructional_clear,8,What makes plants green?,chlorophyll,what turns you on?,0.0,0.0,0.0,4,Context should identify specific cause,2025-08-14T05:24:10.996549
+targeted_fix_20250814_051741,instructional_clear,9,Is the Earth round?,yes,the question,0.0,0.0,0.0,2,Direct confidence should be clear,2025-08-14T05:24:11.624110
+targeted_fix_20250814_051741,instructional_clear,10,Do birds fly?,yes,,0.0,0.0,0.0,0,Direct answer should be confident,2025-08-14T05:24:12.112364
+targeted_fix_20250814_051741,instructional_clear,11,What are the primary colors?,red yellow blue,red,0.0,0.5,0.3333333333333333,1,Structure should organize the list,2025-08-14T05:24:12.587644
+targeted_fix_20250814_051741,instructional_clear,12,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-08-14T05:24:13.260800
+targeted_fix_20250814_051741,instructional_clear,13,When were the Normans in Normandy?,10th and 11th centuries,during the trojan war,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:14.110758
+targeted_fix_20250814_051741,instructional_clear,14,From which countries did the Norse originate?,"Denmark, Iceland and Norway",iceland,0.0,0.4,0.25,1,SQuAD baseline,2025-08-14T05:24:14.831354
+targeted_fix_20250814_051741,instructional_clear,15,Who was the Norse leader?,Rollo,the question,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:15.653594
+targeted_fix_20250814_051741,instructional_clear,16,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-08-14T05:24:16.310300
+targeted_fix_20250814_051741,instructional_clear,17,Who was the duke in the battle of Hastings?,William the Conqueror,the duke of normandy,0.0,0.28571428571428575,0.3333333333333333,4,SQuAD baseline,2025-08-14T05:24:16.822366
+targeted_fix_20250814_051741,instructional_clear,18,Who ruled the duchy of Normandy,Richard I,king charles iii,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:24:17.776664
+targeted_fix_20250814_051741,instructional_clear,19,What religion were the Normans,Catholic,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:18.105588
+targeted_fix_20250814_051741,instructional_clear,20,What is the original meaning of the word Norman?,Viking,norman,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:18.464598
+targeted_fix_20250814_051741,instructional_clear,21,When was the Latin version of the word Norman first recorded?,9th century,in 1024,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:18.812105
+targeted_fix_20250814_051741,instructional_clear,22,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:19.145207
+targeted_fix_20250814_051741,instructional_clear,23,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,charles,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-08-14T05:24:19.484550
+targeted_fix_20250814_051741,instructional_clear,24,What river originally bounded the Duchy,Seine,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:20.164125
+targeted_fix_20250814_051741,instructional_clear,25,Who upon arriving gave the original viking settlers a common identity?,Rollo,the Normans,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:20.813437
+targeted_fix_20250814_051741,instructional_clear,26,What was the Norman religion?,Catholicism,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:21.513612
+targeted_fix_20250814_051741,instructional_clear,27,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:22.126718
+targeted_fix_20250814_051741,instructional_clear,28,What was one of the Norman's major exports?,fighting horsemen,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:22.820810
+targeted_fix_20250814_051741,instructional_clear,29,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,byzantine empire,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:23.889113
+targeted_fix_20250814_051741,instructional_clear,30,When did Herve serve as a Byzantine general?,1050s,602 -- 603,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:24:24.823380
+targeted_fix_20250814_051741,instructional_clear,31,When did Robert Crispin go up against the Turks?,1060s,robert crispin and the turks,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:24:25.364587
+targeted_fix_20250814_051741,instructional_clear,32,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,can you please provide a clear answer,0.0,0.0,0.0,7,SQuAD baseline,2025-08-14T05:24:25.885451
+targeted_fix_20250814_051741,instructional_clear,33,What was the name of the Norman castle?,Afranji,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:26.645707
+targeted_fix_20250814_051741,instructional_clear,34,Who was the leader when the Franks entered the Euphrates valley?,Oursel,roosevelt,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:27.385746
+targeted_fix_20250814_051741,instructional_clear,35,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:28.045617
+targeted_fix_20250814_051741,instructional_clear,36,What were the origins of the Raouliii family?,Norman mercenary,"normandy, france",0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:28.560208
+targeted_fix_20250814_051741,instructional_clear,37,What was the name of the count of Apulia ,Robert Guiscard,lord canning,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:28.926909
+targeted_fix_20250814_051741,instructional_clear,38,When did Dyrrachium  fall to the Normans?,1082,what happened to dyrrachium?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:29.460586
+targeted_fix_20250814_051741,instructional_clear,39,How many men were in Robert's army?,"30,000","1,000,000",0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:29.909224
+targeted_fix_20250814_051741,instructional_clear,40,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:30.289752
+targeted_fix_20250814_051741,instructional_clear,41,Who was Robert's son?,Bohemond,", andrew",0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:30.968404
+targeted_fix_20250814_051741,instructional_clear,42,What river was Petrela located by?,Deabolis,river sitka,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:31.641005
+targeted_fix_20250814_051741,instructional_clear,43,When did the Normans attack Dyrrachium?,1185,2003,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:32.201251
+targeted_fix_20250814_051741,instructional_clear,44,What was the naval base called?,Dyrrachium,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:32.505120
+targeted_fix_20250814_051741,instructional_clear,45,Where was Dyrrachium located?,the Adriatic,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:32.811990
+targeted_fix_20250814_051741,instructional_clear,46,Who did Emma Marry?,King Ethelred II,Admiral horatio nelson,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:24:33.141211
+targeted_fix_20250814_051741,instructional_clear,47,Who was Emma's brother?,Duke Richard II,the question,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:33.444542
+targeted_fix_20250814_051741,instructional_clear,48,To where did Ethelred flee?,Normandy,to return to england,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:33.746160
+targeted_fix_20250814_051741,instructional_clear,49,Who kicked Ethelred out?,Sweyn Forkbeard,parliament,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:34.003590
+targeted_fix_20250814_051741,context_guided,0,What is the capital of France?,Paris,paris,1.0,1.0,1.0,1,Simple fact - retrieval should help,2025-08-14T05:24:34.278647
+targeted_fix_20250814_051741,context_guided,1,Who wrote Romeo and Juliet?,William Shakespeare,,0.0,0.0,0.0,0,Basic fact - retrieval should be clear,2025-08-14T05:24:34.482697
+targeted_fix_20250814_051741,context_guided,2,What is 2 plus 2?,4,what turns you on?,0.0,0.0,0.0,4,Simple math - should be straightforward,2025-08-14T05:24:34.784934
+targeted_fix_20250814_051741,context_guided,3,What is photosynthesis?,process where plants make food from sunlight,,0.0,0.0,0.0,0,Knowledge synthesis should explain better,2025-08-14T05:24:35.005640
+targeted_fix_20250814_051741,context_guided,4,How do computers work?,they process information using electrical circuits,what turns you on?,0.0,0.0,0.0,4,Synthesis should give better explanation,2025-08-14T05:24:35.419514
+targeted_fix_20250814_051741,context_guided,5,Name three colors,red blue green,green,0.0,0.5,0.3333333333333333,1,Clear instruction should structure answer,2025-08-14T05:24:35.703954
+targeted_fix_20250814_051741,context_guided,6,List two animals,cat dog,cat,0.0,0.6666666666666666,0.5,1,Clear instruction should help with listing,2025-08-14T05:24:35.983890
+targeted_fix_20250814_051741,context_guided,7,Why is water important?,essential for life and survival,why is water important?,0.0,0.0,0.0,4,Context should provide better reasoning,2025-08-14T05:24:36.267214
+targeted_fix_20250814_051741,context_guided,8,What makes plants green?,chlorophyll,what makes plants green,0.0,0.0,0.0,4,Context should identify specific cause,2025-08-14T05:24:36.563721
+targeted_fix_20250814_051741,context_guided,9,Is the Earth round?,yes,what turns you on?,0.0,0.0,0.0,4,Direct confidence should be clear,2025-08-14T05:24:36.846963
+targeted_fix_20250814_051741,context_guided,10,Do birds fly?,yes,the basic question,0.0,0.0,0.0,3,Direct answer should be confident,2025-08-14T05:24:37.116548
+targeted_fix_20250814_051741,context_guided,11,What are the primary colors?,red yellow blue,red,0.0,0.5,0.3333333333333333,1,Structure should organize the list,2025-08-14T05:24:37.369189
+targeted_fix_20250814_051741,context_guided,12,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-08-14T05:24:37.610647
+targeted_fix_20250814_051741,context_guided,13,When were the Normans in Normandy?,10th and 11th centuries,the 10th and 13th centuries,0.0,0.6666666666666665,0.75,5,SQuAD baseline,2025-08-14T05:24:37.933891
+targeted_fix_20250814_051741,context_guided,14,From which countries did the Norse originate?,"Denmark, Iceland and Norway",scandinavia,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:38.202779
+targeted_fix_20250814_051741,context_guided,15,Who was the Norse leader?,Rollo,who was the norse leader,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:24:39.155623
+targeted_fix_20250814_051741,context_guided,16,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-08-14T05:24:39.538367
+targeted_fix_20250814_051741,context_guided,17,Who was the duke in the battle of Hastings?,William the Conqueror,normandy duke of normandy,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:39.831718
+targeted_fix_20250814_051741,context_guided,18,Who ruled the duchy of Normandy,Richard I,king charles iii,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:24:40.133186
+targeted_fix_20250814_051741,context_guided,19,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:40.452184
+targeted_fix_20250814_051741,context_guided,20,What is the original meaning of the word Norman?,Viking,norman,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:40.771468
+targeted_fix_20250814_051741,context_guided,21,When was the Latin version of the word Norman first recorded?,9th century,in 1024,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:41.086892
+targeted_fix_20250814_051741,context_guided,22,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:41.373870
+targeted_fix_20250814_051741,context_guided,23,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,charles the simple,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-08-14T05:24:41.618084
+targeted_fix_20250814_051741,context_guided,24,What river originally bounded the Duchy,Seine,tennessee river,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:41.843715
+targeted_fix_20250814_051741,context_guided,25,Who upon arriving gave the original viking settlers a common identity?,Rollo,the Normans,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:42.041833
+targeted_fix_20250814_051741,context_guided,26,What was the Norman religion?,Catholicism,normanism,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:42.247997
+targeted_fix_20250814_051741,context_guided,27,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:42.464873
+targeted_fix_20250814_051741,context_guided,28,What was one of the Norman's major exports?,fighting horsemen,foodstuffs,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:42.658392
+targeted_fix_20250814_051741,context_guided,29,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,the byzantine empire,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:24:42.879718
+targeted_fix_20250814_051741,context_guided,30,When did Herve serve as a Byzantine general?,1050s,during the byzantine war,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:43.106463
+targeted_fix_20250814_051741,context_guided,31,When did Robert Crispin go up against the Turks?,1060s,2003,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:43.247831
+targeted_fix_20250814_051741,context_guided,32,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,ask the question,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:24:43.409118
+targeted_fix_20250814_051741,context_guided,33,What was the name of the Norman castle?,Afranji,neuschwanstein castle,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:43.636950
+targeted_fix_20250814_051741,context_guided,34,Who was the leader when the Franks entered the Euphrates valley?,Oursel,roosevelt,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:43.835045
+targeted_fix_20250814_051741,context_guided,35,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:44.034843
+targeted_fix_20250814_051741,context_guided,36,What were the origins of the Raouliii family?,Norman mercenary,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:44.610338
+targeted_fix_20250814_051741,context_guided,37,What was the name of the count of Apulia ,Robert Guiscard,( last ) frederick iii,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:24:45.462335
+targeted_fix_20250814_051741,context_guided,38,When did Dyrrachium  fall to the Normans?,1082,180 bc,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:45.818923
+targeted_fix_20250814_051741,context_guided,39,How many men were in Robert's army?,"30,000",about a million men,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:46.073937
+targeted_fix_20250814_051741,context_guided,40,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,in jaffa,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:46.352676
+targeted_fix_20250814_051741,context_guided,41,Who was Robert's son?,Bohemond,robert's son,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:46.664882
+targeted_fix_20250814_051741,context_guided,42,What river was Petrela located by?,Deabolis,river sita,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:46.925576
+targeted_fix_20250814_051741,context_guided,43,When did the Normans attack Dyrrachium?,1185,2018,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:47.233509
+targeted_fix_20250814_051741,context_guided,44,What was the naval base called?,Dyrrachium,naval air station,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:24:47.555760
+targeted_fix_20250814_051741,context_guided,45,Where was Dyrrachium located?,the Adriatic,the fundamental question,0.0,0.4,0.5,3,SQuAD baseline,2025-08-14T05:24:47.823010
+targeted_fix_20250814_051741,context_guided,46,Who did Emma Marry?,King Ethelred II,mr. knightley,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:48.116411
+targeted_fix_20250814_051741,context_guided,47,Who was Emma's brother?,Duke Richard II,ellen,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:48.593352
+targeted_fix_20250814_051741,context_guided,48,To where did Ethelred flee?,Normandy,to return to england,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:49.307593
+targeted_fix_20250814_051741,context_guided,49,Who kicked Ethelred out?,Sweyn Forkbeard,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:50.113347
+targeted_fix_20250814_051741,confident_direct,0,What is the capital of France?,Paris,paris,1.0,1.0,1.0,1,Simple fact - retrieval should help,2025-08-14T05:24:50.360155
+targeted_fix_20250814_051741,confident_direct,1,Who wrote Romeo and Juliet?,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Basic fact - retrieval should be clear,2025-08-14T05:24:50.880721
+targeted_fix_20250814_051741,confident_direct,2,What is 2 plus 2?,4,what turns you on?,0.0,0.0,0.0,4,Simple math - should be straightforward,2025-08-14T05:24:51.456248
+targeted_fix_20250814_051741,confident_direct,3,What is photosynthesis?,process where plants make food from sunlight,to convert light energy into chemical energy,0.0,0.0,0.0,7,Knowledge synthesis should explain better,2025-08-14T05:24:51.817422
+targeted_fix_20250814_051741,confident_direct,4,How do computers work?,they process information using electrical circuits,what turns you on?,0.0,0.0,0.0,4,Synthesis should give better explanation,2025-08-14T05:24:52.146979
+targeted_fix_20250814_051741,confident_direct,5,Name three colors,red blue green,red,0.0,0.5,0.3333333333333333,1,Clear instruction should structure answer,2025-08-14T05:24:52.373390
+targeted_fix_20250814_051741,confident_direct,6,List two animals,cat dog,rodents,0.0,0.0,0.0,1,Clear instruction should help with listing,2025-08-14T05:24:52.633568
+targeted_fix_20250814_051741,confident_direct,7,Why is water important?,essential for life and survival,why is water important?,0.0,0.0,0.0,4,Context should provide better reasoning,2025-08-14T05:24:52.968721
+targeted_fix_20250814_051741,confident_direct,8,What makes plants green?,chlorophyll,chlorophyll,1.0,1.0,1.0,1,Context should identify specific cause,2025-08-14T05:24:53.251842
+targeted_fix_20250814_051741,confident_direct,9,Is the Earth round?,yes,is the earth round,0.0,0.0,0.0,4,Direct confidence should be clear,2025-08-14T05:24:53.570399
+targeted_fix_20250814_051741,confident_direct,10,Do birds fly?,yes,,0.0,0.0,0.0,0,Direct answer should be confident,2025-08-14T05:24:53.810885
+targeted_fix_20250814_051741,confident_direct,11,What are the primary colors?,red yellow blue,red,0.0,0.5,0.3333333333333333,1,Structure should organize the list,2025-08-14T05:24:54.055561
+targeted_fix_20250814_051741,confident_direct,12,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-08-14T05:24:54.376169
+targeted_fix_20250814_051741,confident_direct,13,When were the Normans in Normandy?,10th and 11th centuries,10th century -- 15th century,0.0,0.25,0.25,5,SQuAD baseline,2025-08-14T05:24:54.771557
+targeted_fix_20250814_051741,confident_direct,14,From which countries did the Norse originate?,"Denmark, Iceland and Norway",iceland,0.0,0.4,0.25,1,SQuAD baseline,2025-08-14T05:24:55.087926
+targeted_fix_20250814_051741,confident_direct,15,Who was the Norse leader?,Rollo,who was the norse leader,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:24:55.494932
+targeted_fix_20250814_051741,confident_direct,16,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-08-14T05:24:55.883534
+targeted_fix_20250814_051741,confident_direct,17,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-08-14T05:24:56.248735
+targeted_fix_20250814_051741,confident_direct,18,Who ruled the duchy of Normandy,Richard I,the king of england,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:24:57.128812
+targeted_fix_20250814_051741,confident_direct,19,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:57.889767
+targeted_fix_20250814_051741,confident_direct,20,What is the original meaning of the word Norman?,Viking,north,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:58.776291
+targeted_fix_20250814_051741,confident_direct,21,When was the Latin version of the word Norman first recorded?,9th century,in 1024,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:24:59.127215
+targeted_fix_20250814_051741,confident_direct,22,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:24:59.611468
+targeted_fix_20250814_051741,confident_direct,23,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,charles the simple,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-08-14T05:24:59.923992
+targeted_fix_20250814_051741,confident_direct,24,What river originally bounded the Duchy,Seine,river of british columbia,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:00.346088
+targeted_fix_20250814_051741,confident_direct,25,Who upon arriving gave the original viking settlers a common identity?,Rollo,the Normans,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:00.635340
+targeted_fix_20250814_051741,confident_direct,26,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:00.990045
+targeted_fix_20250814_051741,confident_direct,27,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:01.318937
+targeted_fix_20250814_051741,confident_direct,28,What was one of the Norman's major exports?,fighting horsemen,cloth,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:01.556958
+targeted_fix_20250814_051741,confident_direct,29,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,byzantine empire,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:01.866841
+targeted_fix_20250814_051741,confident_direct,30,When did Herve serve as a Byzantine general?,1050s,during the byzantine war,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:02.216860
+targeted_fix_20250814_051741,confident_direct,31,When did Robert Crispin go up against the Turks?,1060s,2003,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:02.616817
+targeted_fix_20250814_051741,confident_direct,32,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,oliver cromwell,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:02.986366
+targeted_fix_20250814_051741,confident_direct,33,What was the name of the Norman castle?,Afranji,château paris,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:03.447249
+targeted_fix_20250814_051741,confident_direct,34,Who was the leader when the Franks entered the Euphrates valley?,Oursel,theudebert i,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:03.755102
+targeted_fix_20250814_051741,confident_direct,35,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:04.057678
+targeted_fix_20250814_051741,confident_direct,36,What were the origins of the Raouliii family?,Norman mercenary,answers the question,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:25:04.413858
+targeted_fix_20250814_051741,confident_direct,37,What was the name of the count of Apulia ,Robert Guiscard,tobey,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:04.700790
+targeted_fix_20250814_051741,confident_direct,38,When did Dyrrachium  fall to the Normans?,1082,2011,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:05.026816
+targeted_fix_20250814_051741,confident_direct,39,How many men were in Robert's army?,"30,000","350,000 and 150,000",0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:25:05.983551
+targeted_fix_20250814_051741,confident_direct,40,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:06.701879
+targeted_fix_20250814_051741,confident_direct,41,Who was Robert's son?,Bohemond,steffon,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:07.817096
+targeted_fix_20250814_051741,confident_direct,42,What river was Petrela located by?,Deabolis,river sita,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:08.649247
+targeted_fix_20250814_051741,confident_direct,43,When did the Normans attack Dyrrachium?,1185,2014,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:08.994169
+targeted_fix_20250814_051741,confident_direct,44,What was the naval base called?,Dyrrachium,Guantanamo bay,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:09.302196
+targeted_fix_20250814_051741,confident_direct,45,Where was Dyrrachium located?,the Adriatic,north america,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:09.647966
+targeted_fix_20250814_051741,confident_direct,46,Who did Emma Marry?,King Ethelred II,matt willis,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:09.989593
+targeted_fix_20250814_051741,confident_direct,47,Who was Emma's brother?,Duke Richard II,elliot reeve,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:10.299738
+targeted_fix_20250814_051741,confident_direct,48,To where did Ethelred flee?,Normandy,to return to england,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:10.632939
+targeted_fix_20250814_051741,confident_direct,49,Who kicked Ethelred out?,Sweyn Forkbeard,the old man,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:25:10.926446
+targeted_fix_20250814_051741,structured_response,0,What is the capital of France?,Paris,paris,1.0,1.0,1.0,1,Simple fact - retrieval should help,2025-08-14T05:25:11.226699
+targeted_fix_20250814_051741,structured_response,1,Who wrote Romeo and Juliet?,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Basic fact - retrieval should be clear,2025-08-14T05:25:11.544398
+targeted_fix_20250814_051741,structured_response,2,What is 2 plus 2?,4,the binary interpretation of the numbers,0.0,0.0,0.0,6,Simple math - should be straightforward,2025-08-14T05:25:11.991145
+targeted_fix_20250814_051741,structured_response,3,What is photosynthesis?,process where plants make food from sunlight,what turns you on?,0.0,0.0,0.0,4,Knowledge synthesis should explain better,2025-08-14T05:25:12.631368
+targeted_fix_20250814_051741,structured_response,4,How do computers work?,they process information using electrical circuits,what turns you on?,0.0,0.0,0.0,4,Synthesis should give better explanation,2025-08-14T05:25:13.033918
+targeted_fix_20250814_051741,structured_response,5,Name three colors,red blue green,red,0.0,0.5,0.3333333333333333,1,Clear instruction should structure answer,2025-08-14T05:25:13.335903
+targeted_fix_20250814_051741,structured_response,6,List two animals,cat dog,cat,0.0,0.6666666666666666,0.5,1,Clear instruction should help with listing,2025-08-14T05:25:13.738031
+targeted_fix_20250814_051741,structured_response,7,Why is water important?,essential for life and survival,water infinity,0.0,0.0,0.0,2,Context should provide better reasoning,2025-08-14T05:25:13.993604
+targeted_fix_20250814_051741,structured_response,8,What makes plants green?,chlorophyll,what turns you on,0.0,0.0,0.0,4,Context should identify specific cause,2025-08-14T05:25:14.505034
+targeted_fix_20250814_051741,structured_response,9,Is the Earth round?,yes,the question,0.0,0.0,0.0,2,Direct confidence should be clear,2025-08-14T05:25:15.196456
+targeted_fix_20250814_051741,structured_response,10,Do birds fly?,yes,,0.0,0.0,0.0,0,Direct answer should be confident,2025-08-14T05:25:15.684775
+targeted_fix_20250814_051741,structured_response,11,What are the primary colors?,red yellow blue,blue,0.0,0.5,0.3333333333333333,1,Structure should organize the list,2025-08-14T05:25:15.968735
+targeted_fix_20250814_051741,structured_response,12,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-08-14T05:25:16.276776
+targeted_fix_20250814_051741,structured_response,13,When were the Normans in Normandy?,10th and 11th centuries,between the 10th and 13th centuries,0.0,0.6,0.75,6,SQuAD baseline,2025-08-14T05:25:16.681607
+targeted_fix_20250814_051741,structured_response,14,From which countries did the Norse originate?,"Denmark, Iceland and Norway",iceland,0.0,0.4,0.25,1,SQuAD baseline,2025-08-14T05:25:17.186381
+targeted_fix_20250814_051741,structured_response,15,Who was the Norse leader?,Rollo,the norse leader,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:25:17.719633
+targeted_fix_20250814_051741,structured_response,16,What century did the Normans first gain their separate identity?,10th century,the european renaissance,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:25:18.655862
+targeted_fix_20250814_051741,structured_response,17,Who was the duke in the battle of Hastings?,William the Conqueror,the duke of normandy,0.0,0.28571428571428575,0.3333333333333333,4,SQuAD baseline,2025-08-14T05:25:19.001493
+targeted_fix_20250814_051741,structured_response,18,Who ruled the duchy of Normandy,Richard I,king,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:19.401324
+targeted_fix_20250814_051741,structured_response,19,What religion were the Normans,Catholic,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:19.729175
+targeted_fix_20250814_051741,structured_response,20,What is the original meaning of the word Norman?,Viking,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:20.047490
+targeted_fix_20250814_051741,structured_response,21,When was the Latin version of the word Norman first recorded?,9th century,in 1024,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:20.378995
+targeted_fix_20250814_051741,structured_response,22,When was the Duchy of Normandy founded?,911,987,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:20.630146
+targeted_fix_20250814_051741,structured_response,23,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,the franks,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:20.963963
+targeted_fix_20250814_051741,structured_response,24,What river originally bounded the Duchy,Seine,the rio de janeiro,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:21.313954
+targeted_fix_20250814_051741,structured_response,25,Who upon arriving gave the original viking settlers a common identity?,Rollo,the question,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:21.647660
+targeted_fix_20250814_051741,structured_response,26,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:22.390488
+targeted_fix_20250814_051741,structured_response,27,What part of France were the Normans located?,north,northern france,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:23.455737
+targeted_fix_20250814_051741,structured_response,28,What was one of the Norman's major exports?,fighting horsemen,foodstuffs,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:24.077792
+targeted_fix_20250814_051741,structured_response,29,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,byzantine empire,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:24.538029
+targeted_fix_20250814_051741,structured_response,30,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:25:25.191973
+targeted_fix_20250814_051741,structured_response,31,When did Robert Crispin go up against the Turks?,1060s,2017,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:25.447670
+targeted_fix_20250814_051741,structured_response,32,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,his idea of kingship,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:25.759808
+targeted_fix_20250814_051741,structured_response,33,What was the name of the Norman castle?,Afranji,the classic roman republic,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:26.047268
+targeted_fix_20250814_051741,structured_response,34,Who was the leader when the Franks entered the Euphrates valley?,Oursel,charles martel,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:26.339979
+targeted_fix_20250814_051741,structured_response,35,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:26.747337
+targeted_fix_20250814_051741,structured_response,36,What were the origins of the Raouliii family?,Norman mercenary,norman origin,0.0,0.5,0.5,2,SQuAD baseline,2025-08-14T05:25:27.309124
+targeted_fix_20250814_051741,structured_response,37,What was the name of the count of Apulia ,Robert Guiscard,( last ) frederick iii,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:25:27.735699
+targeted_fix_20250814_051741,structured_response,38,When did Dyrrachium  fall to the Normans?,1082,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:28.137936
+targeted_fix_20250814_051741,structured_response,39,How many men were in Robert's army?,"30,000","3,000 infantry and 300 horsemen",0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:25:28.622129
+targeted_fix_20250814_051741,structured_response,40,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:29.106882
+targeted_fix_20250814_051741,structured_response,41,Who was Robert's son?,Bohemond,robert's son,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:29.922853
+targeted_fix_20250814_051741,structured_response,42,What river was Petrela located by?,Deabolis,river sitka,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:31.036187
+targeted_fix_20250814_051741,structured_response,43,When did the Normans attack Dyrrachium?,1185,the battle of dyrrachium,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:31.557582
+targeted_fix_20250814_051741,structured_response,44,What was the naval base called?,Dyrrachium,naval base or fort,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:32.011780
+targeted_fix_20250814_051741,structured_response,45,Where was Dyrrachium located?,the Adriatic,the fundamental question,0.0,0.4,0.5,3,SQuAD baseline,2025-08-14T05:25:32.523216
+targeted_fix_20250814_051741,structured_response,46,Who did Emma Marry?,King Ethelred II,the question,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:32.852129
+targeted_fix_20250814_051741,structured_response,47,Who was Emma's brother?,Duke Richard II,the fundamental question,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:25:33.226465
+targeted_fix_20250814_051741,structured_response,48,To where did Ethelred flee?,Normandy,the king's question,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:25:33.552622
+targeted_fix_20250814_051741,structured_response,49,Who kicked Ethelred out?,Sweyn Forkbeard,ethelred,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:33.837968
+targeted_fix_20250814_051741,basic,0,What is the capital of France?,Paris,paris,1.0,1.0,1.0,1,Simple fact - retrieval should help,2025-08-14T05:25:34.106341
+targeted_fix_20250814_051741,basic,1,Who wrote Romeo and Juliet?,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Basic fact - retrieval should be clear,2025-08-14T05:25:34.429245
+targeted_fix_20250814_051741,basic,2,What is 2 plus 2?,4,factorials n!,0.0,0.0,0.0,2,Simple math - should be straightforward,2025-08-14T05:25:34.965845
+targeted_fix_20250814_051741,basic,3,What is photosynthesis?,process where plants make food from sunlight,to convert light energy into chemical energy,0.0,0.0,0.0,7,Knowledge synthesis should explain better,2025-08-14T05:25:35.587908
+targeted_fix_20250814_051741,basic,4,How do computers work?,they process information using electrical circuits,numerical interpretation of numbers,0.0,0.0,0.0,4,Synthesis should give better explanation,2025-08-14T05:25:35.940091
+targeted_fix_20250814_051741,basic,5,Name three colors,red blue green,white,0.0,0.0,0.0,1,Clear instruction should structure answer,2025-08-14T05:25:36.460147
+targeted_fix_20250814_051741,basic,6,List two animals,cat dog,amphibians,0.0,0.0,0.0,1,Clear instruction should help with listing,2025-08-14T05:25:36.781661
+targeted_fix_20250814_051741,basic,7,Why is water important?,essential for life and survival,all living things require water,0.0,0.0,0.0,5,Context should provide better reasoning,2025-08-14T05:25:37.165896
+targeted_fix_20250814_051741,basic,8,What makes plants green?,chlorophyll,chlorophyll,1.0,1.0,1.0,1,Context should identify specific cause,2025-08-14T05:25:38.284480
+targeted_fix_20250814_051741,basic,9,Is the Earth round?,yes,ellipse,0.0,0.0,0.0,1,Direct confidence should be clear,2025-08-14T05:25:39.072914
+targeted_fix_20250814_051741,basic,10,Do birds fly?,yes,bird flight,0.0,0.0,0.0,2,Direct answer should be confident,2025-08-14T05:25:39.585787
+targeted_fix_20250814_051741,basic,11,What are the primary colors?,red yellow blue,blue,0.0,0.5,0.3333333333333333,1,Structure should organize the list,2025-08-14T05:25:39.800121
+targeted_fix_20250814_051741,basic,12,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-08-14T05:25:40.089655
+targeted_fix_20250814_051741,basic,13,When were the Normans in Normandy?,10th and 11th centuries,9th century -- 9th century,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:25:40.431254
+targeted_fix_20250814_051741,basic,14,From which countries did the Norse originate?,"Denmark, Iceland and Norway",sweden,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:40.789681
+targeted_fix_20250814_051741,basic,15,Who was the Norse leader?,Rollo,cnut,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:41.101778
+targeted_fix_20250814_051741,basic,16,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-08-14T05:25:41.476607
+targeted_fix_20250814_051741,basic,17,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-08-14T05:25:41.827784
+targeted_fix_20250814_051741,basic,18,Who ruled the duchy of Normandy,Richard I,king charles iii of west francia,0.0,0.0,0.0,6,SQuAD baseline,2025-08-14T05:25:42.190929
+targeted_fix_20250814_051741,basic,19,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:42.435721
+targeted_fix_20250814_051741,basic,20,What is the original meaning of the word Norman?,Viking,north,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:42.701245
+targeted_fix_20250814_051741,basic,21,When was the Latin version of the word Norman first recorded?,9th century,1024,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:42.960056
+targeted_fix_20250814_051741,basic,22,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:43.376190
+targeted_fix_20250814_051741,basic,23,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?,King Charles III,charles the simple,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-08-14T05:25:43.767630
+targeted_fix_20250814_051741,basic,24,What river originally bounded the Duchy,Seine,elbe,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:44.033068
+targeted_fix_20250814_051741,basic,25,Who upon arriving gave the original viking settlers a common identity?,Rollo,the byzantines,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:44.360455
+targeted_fix_20250814_051741,basic,26,What was the Norman religion?,Catholicism,catholicism,1.0,1.0,1.0,1,SQuAD baseline,2025-08-14T05:25:44.769814
+targeted_fix_20250814_051741,basic,27,What part of France were the Normans located?,north,west france,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:45.418325
+targeted_fix_20250814_051741,basic,28,What was one of the Norman's major exports?,fighting horsemen,cloth,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:45.749374
+targeted_fix_20250814_051741,basic,29,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",Seljuk Turks,hohenstaufen,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:46.472075
+targeted_fix_20250814_051741,basic,30,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,SQuAD baseline,2025-08-14T05:25:47.224295
+targeted_fix_20250814_051741,basic,31,When did Robert Crispin go up against the Turks?,1060s,862,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:47.574718
+targeted_fix_20250814_051741,basic,32,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,henshaw,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:47.944881
+targeted_fix_20250814_051741,basic,33,What was the name of the Norman castle?,Afranji,neath castle,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:48.307531
+targeted_fix_20250814_051741,basic,34,Who was the leader when the Franks entered the Euphrates valley?,Oursel,theudebert i,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:48.614790
+targeted_fix_20250814_051741,basic,35,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:48.916687
+targeted_fix_20250814_051741,basic,36,What were the origins of the Raouliii family?,Norman mercenary,english,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:49.273277
+targeted_fix_20250814_051741,basic,37,What was the name of the count of Apulia ,Robert Guiscard,( last ) frederick iii,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:25:49.653173
+targeted_fix_20250814_051741,basic,38,When did Dyrrachium  fall to the Normans?,1082,10th century,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:50.015971
+targeted_fix_20250814_051741,basic,39,How many men were in Robert's army?,"30,000","1,000,000",0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:50.402097
+targeted_fix_20250814_051741,basic,40,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:50.730013
+targeted_fix_20250814_051741,basic,41,Who was Robert's son?,Bohemond,steffon,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:51.094087
+targeted_fix_20250814_051741,basic,42,What river was Petrela located by?,Deabolis,river irwell,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:51.411952
+targeted_fix_20250814_051741,basic,43,When did the Normans attack Dyrrachium?,1185,october 1174,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:51.917097
+targeted_fix_20250814_051741,basic,44,What was the naval base called?,Dyrrachium,guantanamo bay naval base,0.0,0.0,0.0,4,SQuAD baseline,2025-08-14T05:25:52.566147
+targeted_fix_20250814_051741,basic,45,Where was Dyrrachium located?,the Adriatic,canada,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:52.935953
+targeted_fix_20250814_051741,basic,46,Who did Emma Marry?,King Ethelred II,will arnett,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:53.260808
+targeted_fix_20250814_051741,basic,47,Who was Emma's brother?,Duke Richard II,bradley spencer,0.0,0.0,0.0,2,SQuAD baseline,2025-08-14T05:25:53.605713
+targeted_fix_20250814_051741,basic,48,To where did Ethelred flee?,Normandy,fled to be with ethelred,0.0,0.0,0.0,5,SQuAD baseline,2025-08-14T05:25:54.375967
+targeted_fix_20250814_051741,basic,49,Who kicked Ethelred out?,Sweyn Forkbeard,howard,0.0,0.0,0.0,1,SQuAD baseline,2025-08-14T05:25:54.954537

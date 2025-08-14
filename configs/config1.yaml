@@ -17,7 +17,7 @@ hardware:
   batch_size: 1
   
 experiment_settings:
-  num_test_questions: 120
+  num_test_questions: 140
   num_templates: 7
   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
   
@@ -36,6 +36,14 @@ templates:
     template: "Using available knowledge, answer: {question}"
   - name: "confident"
     template: "Provide a confident, accurate answer: {question}"
+
+# templates:
+#   - name: "precise_instruction"
+#     template: "Give a factual, concise answer to: {question}"
+#   - name: "basic"
+#     template: "{question}"
+#   - name: "confident"
+#     template: "Provide accurate answer of this {question}"
 
 output:
   save_detailed_results: true

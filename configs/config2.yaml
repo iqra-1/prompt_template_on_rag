@@ -17,7 +17,7 @@ hardware:
   batch_size: 1
   
 experiment_settings:
-  num_test_questions: 50  # Start smaller for testing
+  num_test_questions: 340  # Start smaller for testing
   num_templates: 7
   evaluation_metrics: ["f1_score", "exact_match", "token_overlap"]
 

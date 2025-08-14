@@ -503,10 +503,11 @@ class ProductionRAGExperiment:
         os.makedirs(results_dir, exist_ok=True)
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        max_questions = self.config['experiment_settings']['num_test_questions']
 
         # Save detailed results CSV
         if self.config['output']['save_detailed_results']:
-            detailed_file = f"{results_dir}/detailed_results_{timestamp}.csv"
+            detailed_file = f"{results_dir}/exp1_{max_questions}.csv"
             df = pd.DataFrame(self.results)
             df.to_csv(detailed_file, index=False)
             self.log_message(f"   Detailed results: {detailed_file}")

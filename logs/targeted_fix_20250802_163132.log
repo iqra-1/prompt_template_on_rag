@@ -1,0 +1,337 @@
+[16:31:32]  Setting up GPU configuration...
+[16:31:32]  Using device: cuda:1
+[16:31:32]  Loading RAG models...
+[16:35:53]  RAG system ready!
+[16:35:53]  Loading targeted evaluation dataset...
+[16:35:56]  Dataset loaded: 12 questions
+[16:35:56]    - SQuAD questions: 91
+[16:35:56]  Starting targeted RAG experiment...
+[16:35:56]  Testing 7 templates on 12 questions
+[16:35:56] 
+ Testing template: retrieval_focused
+[16:35:58] DEBUG: Generated='paris' vs Expected='paris'
+[16:35:58] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:35:58] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:35:59] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[16:35:59] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[16:35:59] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:35:59] DEBUG: Generated='factorials n!' vs Expected='4'
+[16:35:59] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:35:59] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:35:59] DEBUG: Generated='' vs Expected='process where plants make food from sunlight'
+[16:35:59] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:00] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[16:36:00] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:00] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:00] DEBUG: Generated='red' vs Expected='red blue green'
+[16:36:00] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:00] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:01] DEBUG: Generated='cat' vs Expected='cat dog'
+[16:36:01] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[16:36:01] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[16:36:01] DEBUG: Generated='health' vs Expected='essential for life and survival'
+[16:36:01] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:01] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:01] DEBUG: Generated='chlorophyll' vs Expected='chlorophyll'
+[16:36:01] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:36:01] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:02] DEBUG: Generated='factorials n!' vs Expected='yes'
+[16:36:02] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:02] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:02]   Progress: 10/12 - Recent F1: 0.417
+[16:36:02] DEBUG: Generated='' vs Expected='yes'
+[16:36:02] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:03] DEBUG: Generated='blue' vs Expected='red yellow blue'
+[16:36:03] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:03] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:03]    retrieval_focused completed: F1=0.389, EM=0.250
+[16:36:03] 
+ Testing template: knowledge_synthesis
+[16:36:03] DEBUG: Generated='paris' vs Expected='paris'
+[16:36:03] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:36:03] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:03] DEBUG: Generated='who?' vs Expected='william shakespeare'
+[16:36:03] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:03] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:04] DEBUG: Generated='factorials n!' vs Expected='4'
+[16:36:04] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:04] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:04] DEBUG: Generated='plants, algae and cyanobacteria' vs Expected='process where plants make food from sunlight'
+[16:36:04] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:04] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:05] DEBUG: Generated='problem / problem / solution' vs Expected='they process information using electrical circuits'
+[16:36:05] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:05] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:05] DEBUG: Generated='' vs Expected='red blue green'
+[16:36:05] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:06] DEBUG: Generated='cat' vs Expected='cat dog'
+[16:36:06] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[16:36:06] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[16:36:06] DEBUG: Generated='data visuali zation' vs Expected='essential for life and survival'
+[16:36:06] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:06] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:06] DEBUG: Generated='what makes plants green' vs Expected='chlorophyll'
+[16:36:06] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:06] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:07] DEBUG: Generated='what turns you on?' vs Expected='yes'
+[16:36:07] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:07] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:07]   Progress: 10/12 - Recent F1: 0.167
+[16:36:07] DEBUG: Generated='do you like sex?' vs Expected='yes'
+[16:36:07] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:07] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:08] DEBUG: Generated='blue' vs Expected='red yellow blue'
+[16:36:08] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:08] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:08]    knowledge_synthesis completed: F1=0.181, EM=0.083
+[16:36:08] 
+ Testing template: instructional_clear
+[16:36:08] DEBUG: Generated='paris' vs Expected='paris'
+[16:36:08] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:36:08] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:08] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[16:36:08] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[16:36:08] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:09] DEBUG: Generated='the question' vs Expected='4'
+[16:36:09] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:09] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:09] DEBUG: Generated='photosynthesis' vs Expected='process where plants make food from sunlight'
+[16:36:09] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:09] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:10] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[16:36:10] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:10] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:10] DEBUG: Generated='blue' vs Expected='red blue green'
+[16:36:10] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:10] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:11] DEBUG: Generated='cat' vs Expected='cat dog'
+[16:36:11] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[16:36:11] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[16:36:11] DEBUG: Generated='for all known forms of life' vs Expected='essential for life and survival'
+[16:36:11] DEBUG: Overlap=2, Precision=0.333, Recall=0.400
+[16:36:11] DEBUG: F1=0.364, EM=0.0, Overlap=0.400
+[16:36:12] DEBUG: Generated='what turns you on?' vs Expected='chlorophyll'
+[16:36:12] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:12] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:12] DEBUG: Generated='the question' vs Expected='yes'
+[16:36:12] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:12] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:12]   Progress: 10/12 - Recent F1: 0.353
+[16:36:12] DEBUG: Generated='' vs Expected='yes'
+[16:36:12] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:12] DEBUG: Generated='red' vs Expected='red yellow blue'
+[16:36:12] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:12] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:12]    instructional_clear completed: F1=0.336, EM=0.167
+[16:36:12] 
+ Testing template: context_guided
+[16:36:13] DEBUG: Generated='paris' vs Expected='paris'
+[16:36:13] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:36:13] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:13] DEBUG: Generated='' vs Expected='william shakespeare'
+[16:36:13] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:14] DEBUG: Generated='what turns you on?' vs Expected='4'
+[16:36:14] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:14] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:14] DEBUG: Generated='' vs Expected='process where plants make food from sunlight'
+[16:36:14] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:14] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[16:36:14] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:14] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:15] DEBUG: Generated='green' vs Expected='red blue green'
+[16:36:15] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:15] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:15] DEBUG: Generated='cat' vs Expected='cat dog'
+[16:36:15] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[16:36:15] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[16:36:16] DEBUG: Generated='why is water important?' vs Expected='essential for life and survival'
+[16:36:16] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:16] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:16] DEBUG: Generated='what makes plants green' vs Expected='chlorophyll'
+[16:36:16] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:16] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:16] DEBUG: Generated='what turns you on?' vs Expected='yes'
+[16:36:16] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:16] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:16]   Progress: 10/12 - Recent F1: 0.217
+[16:36:17] DEBUG: Generated='the basic question' vs Expected='yes'
+[16:36:17] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:17] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:17] DEBUG: Generated='red' vs Expected='red yellow blue'
+[16:36:17] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:17] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:17]    context_guided completed: F1=0.222, EM=0.083
+[16:36:17] 
+ Testing template: confident_direct
+[16:36:18] DEBUG: Generated='paris' vs Expected='paris'
+[16:36:18] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:36:18] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:18] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[16:36:18] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[16:36:18] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:18] DEBUG: Generated='what turns you on?' vs Expected='4'
+[16:36:18] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:18] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:19] DEBUG: Generated='to convert light energy into chemical energy' vs Expected='process where plants make food from sunlight'
+[16:36:19] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:19] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:20] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[16:36:20] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:20] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:20] DEBUG: Generated='red' vs Expected='red blue green'
+[16:36:20] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:20] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:20] DEBUG: Generated='rodents' vs Expected='cat dog'
+[16:36:20] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:20] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:21] DEBUG: Generated='why is water important?' vs Expected='essential for life and survival'
+[16:36:21] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:21] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:21] DEBUG: Generated='chlorophyll' vs Expected='chlorophyll'
+[16:36:21] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:36:21] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:21] DEBUG: Generated='is the earth round' vs Expected='yes'
+[16:36:21] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:21] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:21]   Progress: 10/12 - Recent F1: 0.350
+[16:36:22] DEBUG: Generated='' vs Expected='yes'
+[16:36:22] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:22] DEBUG: Generated='red' vs Expected='red yellow blue'
+[16:36:22] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:22] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:22]    confident_direct completed: F1=0.333, EM=0.250
+[16:36:22] 
+ Testing template: structured_response
+[16:36:23] DEBUG: Generated='paris' vs Expected='paris'
+[16:36:23] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:36:23] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:23] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[16:36:23] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[16:36:23] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:24] DEBUG: Generated='the binary interpretation of the numbers' vs Expected='4'
+[16:36:24] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:24] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:24] DEBUG: Generated='what turns you on?' vs Expected='process where plants make food from sunlight'
+[16:36:24] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:24] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:25] DEBUG: Generated='what turns you on?' vs Expected='they process information using electrical circuits'
+[16:36:25] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:25] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:25] DEBUG: Generated='red' vs Expected='red blue green'
+[16:36:25] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:25] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:25] DEBUG: Generated='cat' vs Expected='cat dog'
+[16:36:25] DEBUG: Overlap=1, Precision=1.000, Recall=0.500
+[16:36:25] DEBUG: F1=0.667, EM=0.0, Overlap=0.500
+[16:36:26] DEBUG: Generated='water infinity' vs Expected='essential for life and survival'
+[16:36:26] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:26] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:26] DEBUG: Generated='what turns you on' vs Expected='chlorophyll'
+[16:36:26] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:26] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:27] DEBUG: Generated='the question' vs Expected='yes'
+[16:36:27] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:27] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:27]   Progress: 10/12 - Recent F1: 0.317
+[16:36:27] DEBUG: Generated='' vs Expected='yes'
+[16:36:27] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:27] DEBUG: Generated='blue' vs Expected='red yellow blue'
+[16:36:27] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:27] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:27]    structured_response completed: F1=0.306, EM=0.167
+[16:36:27] 
+ Testing template: basic
+[16:36:28] DEBUG: Generated='paris' vs Expected='paris'
+[16:36:28] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:36:28] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:28] DEBUG: Generated='william shakespeare' vs Expected='william shakespeare'
+[16:36:28] DEBUG: Overlap=2, Precision=1.000, Recall=1.000
+[16:36:28] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:28] DEBUG: Generated='factorials n!' vs Expected='4'
+[16:36:28] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:28] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:29] DEBUG: Generated='to convert light energy into chemical energy' vs Expected='process where plants make food from sunlight'
+[16:36:29] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:29] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:29] DEBUG: Generated='numerical interpretation of numbers' vs Expected='they process information using electrical circuits'
+[16:36:29] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:29] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:30] DEBUG: Generated='white' vs Expected='red blue green'
+[16:36:30] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:30] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:30] DEBUG: Generated='amphibians' vs Expected='cat dog'
+[16:36:30] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:30] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:31] DEBUG: Generated='all living things require water' vs Expected='essential for life and survival'
+[16:36:31] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:31] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:31] DEBUG: Generated='chlorophyll' vs Expected='chlorophyll'
+[16:36:31] DEBUG: Overlap=1, Precision=1.000, Recall=1.000
+[16:36:31] DEBUG: F1=1.000, EM=1.0, Overlap=1.000
+[16:36:32] DEBUG: Generated='ellipse' vs Expected='yes'
+[16:36:32] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:32] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:32]   Progress: 10/12 - Recent F1: 0.300
+[16:36:32] DEBUG: Generated='bird flight' vs Expected='yes'
+[16:36:32] DEBUG: Overlap=0, Precision=0.000, Recall=0.000
+[16:36:32] DEBUG: F1=0.000, EM=0.0, Overlap=0.000
+[16:36:32] DEBUG: Generated='blue' vs Expected='red yellow blue'
+[16:36:32] DEBUG: Overlap=1, Precision=1.000, Recall=0.333
+[16:36:32] DEBUG: F1=0.500, EM=0.0, Overlap=0.333
+[16:36:32]    basic completed: F1=0.292, EM=0.250
+[16:36:32] 
+ Experiment completed! Total results: 84
+[16:36:32] 
+ ANALYZING RESULTS...
+[16:36:32] 
+ TEMPLATE PERFORMANCE RANKING:
+[16:36:32] --------------------------------------------------------------------------------
+[16:36:32] Template             F1 Score   EM Score   Samples  Improvement 
+[16:36:32] --------------------------------------------------------------------------------
+[16:36:32] retrieval_focused    0.389     0.250     12       ++33.3%     
+[16:36:32] instructional_clear  0.336     0.167     12       ++15.2%     
+[16:36:32] confident_direct     0.333     0.250     12       ++14.3%     
+[16:36:32] structured_response  0.306     0.167     12       ++4.8%      
+[16:36:32] basic                0.292     0.250     12       BASELINE    
+[16:36:32] context_guided       0.222     0.083     12       +-23.8%     
+[16:36:32] knowledge_synthesis  0.181     0.083     12       +-38.1%     
+[16:36:32] 
+ SUCCESS ANALYSIS:
+[16:36:32]    Best Template: retrieval_focused (F1: 0.389)
+[16:36:32]    SUCCESS! Basic template relegated to rank 5
+[16:36:32]    Template engineering shows measurable impact!
+[16:36:32] 
+ SAMPLE RESULTS:
+[16:36:32] ======================================================================
+[16:36:32] 
+ Template: retrieval_focused (Rank 1)
+[16:36:32]    Q: What is the capital of France?...
+[16:36:32]    Expected: Paris
+[16:36:32]    Generated: paris
+[16:36:32]    Score: F1=1.000
+[16:36:32]    Q: Who wrote Romeo and Juliet?...
+[16:36:32]    Expected: William Shakespeare
+[16:36:32]    Generated: william shakespeare
+[16:36:32]    Score: F1=1.000
+[16:36:32] 
+ Template: instructional_clear (Rank 2)
+[16:36:32]    Q: What is the capital of France?...
+[16:36:32]    Expected: Paris
+[16:36:32]    Generated: paris
+[16:36:32]    Score: F1=1.000
+[16:36:32]    Q: Who wrote Romeo and Juliet?...
+[16:36:32]    Expected: William Shakespeare
+[16:36:32]    Generated: william shakespeare
+[16:36:32]    Score: F1=1.000
+[16:36:32] 
+ Template: confident_direct (Rank 3)
+[16:36:32]    Q: What is the capital of France?...
+[16:36:32]    Expected: Paris
+[16:36:32]    Generated: paris
+[16:36:32]    Score: F1=1.000
+[16:36:32]    Q: Who wrote Romeo and Juliet?...
+[16:36:32]    Expected: William Shakespeare
+[16:36:32]    Generated: william shakespeare
+[16:36:32]    Score: F1=1.000
+[16:36:32] 
+ TARGETED EXPERIMENT COMPLETED!

@@ -1,0 +1,1044 @@
+experiment_id,template,question_id,question,true_answer,generated_answer,exact_match,f1_score,token_overlap,answer_length,question_type,timestamp
+minimal_20250708_182558,question_mark,0,What is the capital of France,Paris,paris,1.0,1.0,1.0,1,Missing punctuation - question mark should help,2025-07-08T18:30:32.863750
+minimal_20250708_182558,question_mark,1,Who wrote Hamlet,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Statement form - question mark should improve,2025-07-08T18:30:33.232199
+minimal_20250708_182558,question_mark,2,When did World War II end,1945,2 september 1945,0.0,0.5,1.0,3,Missing question mark,2025-07-08T18:30:33.501773
+minimal_20250708_182558,question_mark,3,Tell me the largest planet,Jupiter,greenwich,0.0,0.0,0.0,1,Command form - politeness might help,2025-07-08T18:30:33.750262
+minimal_20250708_182558,question_mark,4,Give me the chemical symbol for gold,Au,Au,1.0,1.0,1.0,1,Imperative form - polite request better,2025-07-08T18:30:33.976591
+minimal_20250708_182558,question_mark,5,What is the speed of light,299792458 meters per second,"299,792,458 metres per second",0.0,0.5,0.5,4,Could be vague - precision request should help,2025-07-08T18:30:34.322914
+minimal_20250708_182558,question_mark,6,Population of Tokyo,37 million,"38,140,000",0.0,0.0,0.0,1,Incomplete question - precision should help,2025-07-08T18:30:34.594002
+minimal_20250708_182558,question_mark,7,Photosynthesis,process where plants make food from sunlight,photosynthesis,0.0,0.0,0.0,1,Single word - 'what is' framing should help,2025-07-08T18:30:34.925804
+minimal_20250708_182558,question_mark,8,Democracy,government by the people,democratic,0.0,0.0,0.0,1,Single concept - definition framing helps,2025-07-08T18:30:35.172882
+minimal_20250708_182558,question_mark,9,What color is the sky?,blue,blue,1.0,1.0,1.0,1,Perfect question - basic should win,2025-07-08T18:30:35.386584
+minimal_20250708_182558,question_mark,10,How many days in a week?,seven,seven,1.0,1.0,1.0,1,Simple count - basic should be fine,2025-07-08T18:30:35.556499
+minimal_20250708_182558,question_mark,11,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:30:35.834803
+minimal_20250708_182558,question_mark,12,When were the Normans in Normandy,10th and 11th centuries,9th century -- 9th century,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:30:36.182828
+minimal_20250708_182558,question_mark,13,From which countries did the Norse originate?,"Denmark, Iceland and Norway",norway,0.0,0.4,0.25,1,SQuAD baseline,2025-07-08T18:30:36.441360
+minimal_20250708_182558,question_mark,14,Who was the Norse leader?,Rollo,cnut,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:36.685651
+minimal_20250708_182558,question_mark,15,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:30:36.980282
+minimal_20250708_182558,question_mark,16,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:30:37.273963
+minimal_20250708_182558,question_mark,17,Who ruled the duchy of Normandy,Richard I,king charles iii of west francia,0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:30:37.599998
+minimal_20250708_182558,question_mark,18,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:37.811395
+minimal_20250708_182558,question_mark,19,What is the original meaning of the word Norman?,Viking,north,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:38.053790
+minimal_20250708_182558,question_mark,20,When was the Latin version of the word Norman first recorded,9th century,1024,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:38.312967
+minimal_20250708_182558,question_mark,21,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:38.575269
+minimal_20250708_182558,question_mark,22,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with,King Charles III,charles the simple,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:30:38.887528
+minimal_20250708_182558,question_mark,23,What river originally bounded the Duchy,Seine,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:30:39.113777
+minimal_20250708_182558,question_mark,24,Who upon arriving gave the original viking settlers a common identity?,Rollo,the byzantines,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:39.389253
+minimal_20250708_182558,question_mark,25,What was the Norman religion?,Catholicism,catholicism,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:30:39.664224
+minimal_20250708_182558,question_mark,26,What part of France were the Normans located?,north,west france,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:39.952344
+minimal_20250708_182558,question_mark,27,What was one of the Norman's major exports,fighting horsemen,cloth,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:40.188044
+minimal_20250708_182558,question_mark,28,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia",Seljuk Turks,hohenstaufen,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:40.480487
+minimal_20250708_182558,question_mark,29,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:30:40.782855
+minimal_20250708_182558,question_mark,30,When did Robert Crispin go up against the Turks?,1060s,862,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:41.038870
+minimal_20250708_182558,question_mark,31,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,henshaw,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:41.299052
+minimal_20250708_182558,question_mark,32,What was the name of the Norman castle?,Afranji,neuschwanstein castle,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:41.595818
+minimal_20250708_182558,question_mark,33,Who was the leader when the Franks entered the Euphrates valley?,Oursel,charles martel,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:41.873813
+minimal_20250708_182558,question_mark,34,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:42.121959
+minimal_20250708_182558,question_mark,35,What were the origins of the Raouliii family?,Norman mercenary,english,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:42.365823
+minimal_20250708_182558,question_mark,36,What was the name of the count of Apulia ,Robert Guiscard,armistice of villa giusti,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:30:42.689726
+minimal_20250708_182558,question_mark,37,When did Dyrrachium  fall to the Normans?,1082,10th century,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:42.953693
+minimal_20250708_182558,question_mark,38,How many men were in Robert's army,"30,000","1,000,000",0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:43.358507
+minimal_20250708_182558,question_mark,39,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:43.700168
+minimal_20250708_182558,question_mark,40,Who was Robert's son,Bohemond,steffon,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:43.984684
+minimal_20250708_182558,question_mark,41,What river was Petrela located by,Deabolis,river irwell,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:44.247868
+minimal_20250708_182558,question_mark,42,When did the Normans attack Dyrrachium?,1185,january / february ad 627,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:30:44.557225
+minimal_20250708_182558,question_mark,43,What was the naval base called?,Dyrrachium,naval station guantanamo bay,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:30:44.845692
+minimal_20250708_182558,question_mark,44,Where was Dyrrachium located?,the Adriatic,north america,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:45.158618
+minimal_20250708_182558,question_mark,45,Who did Emma Marry?,King Ethelred II,kunj,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:45.415142
+minimal_20250708_182558,question_mark,46,Who was Emma's brother?,Duke Richard II,elliot reeve,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:45.702860
+minimal_20250708_182558,question_mark,47,To where did Ethelred flee?,Normandy,fled to be with ethelred,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:30:45.996667
+minimal_20250708_182558,question_mark,48,Who kicked Ethelred out,Sweyn Forkbeard,howard,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:46.257111
+minimal_20250708_182558,question_mark,49,Who was Edward the Confessor's half-brother?,Harthacnut,edwin of mercia,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:30:46.565723
+minimal_20250708_182558,question_mark,50,When did Edward return?,1041,1357,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:46.828428
+minimal_20250708_182558,question_mark,51,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,?,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:47.077967
+minimal_20250708_182558,question_mark,52,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,SQuAD baseline,2025-07-08T18:30:47.385502
+minimal_20250708_182558,question_mark,53,Who killed Harold II? ,William II,william the conqueror,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:30:47.677399
+minimal_20250708_182558,question_mark,54,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:30:47.970927
+minimal_20250708_182558,question_mark,55,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the bourgeoisie,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:48.240393
+minimal_20250708_182558,question_mark,56,What was the Anglo-Norman language's final form?,Modern English,middle english,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:30:48.471652
+minimal_20250708_182558,question_mark,57,In what year did the Norman's invade at Bannow Bay?,1169,1169,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:30:48.750919
+minimal_20250708_182558,question_mark,58,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:48.987499
+minimal_20250708_182558,question_mark,59,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:30:49.240181
+minimal_20250708_182558,question_mark,60,Who was Margaret's brother?,Edgar,dauphin of france,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:30:49.557283
+minimal_20250708_182558,question_mark,61,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:49.913176
+minimal_20250708_182558,question_mark,62,When was Scotland invaded by William?,1072,1612,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:50.150558
+minimal_20250708_182558,question_mark,63,Who was the hostage?,Duncan,iran,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:50.432705
+minimal_20250708_182558,question_mark,64,Who did Alexander I marry?,Sybilla of Normandy,yolande of dreux,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:30:50.775858
+minimal_20250708_182558,question_mark,65,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,norman,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:30:51.086679
+minimal_20250708_182558,question_mark,66,Where was Ralph earl of?,Hereford,east anglia,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:51.286382
+minimal_20250708_182558,question_mark,67,Who was Ralph in charge of being at war with?,the Welsh,u.s. army,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:51.652643
+minimal_20250708_182558,question_mark,68,Who made Ralph earl?,Edward the Confessor,robert morley,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:51.958919
+minimal_20250708_182558,question_mark,69,What country was under the control of Norman barons,Wales,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:52.229048
+minimal_20250708_182558,question_mark,70,What year did Roger de Tosny fail to accomplish what he set out to do,1018,1982,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:52.514065
+minimal_20250708_182558,question_mark,71,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope alexander ii,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:30:52.818926
+minimal_20250708_182558,question_mark,72,When did the Siege of Antioch take place?,1097,1097 and 1098,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:30:53.115668
+minimal_20250708_182558,question_mark,73,What was the name of Bohemond's nephew?,Tancred,??,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:53.387789
+minimal_20250708_182558,question_mark,74,What major conquest did Tancred play a roll in,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:30:53.744095
+minimal_20250708_182558,question_mark,75,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:30:53.986682
+minimal_20250708_182558,question_mark,76,What ruined Richard's plans to reach Acre?,a storm,drought,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:54.239312
+minimal_20250708_182558,question_mark,77,Who was Richard's fiancee?,Berengaria,?,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:54.580799
+minimal_20250708_182558,question_mark,78,What year did the storm hit Richard's fleet?,1191,1794,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:54.814523
+minimal_20250708_182558,question_mark,79,Who ruled Cyprus in 1191,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:30:55.135827
+minimal_20250708_182558,question_mark,80,Who was Guy's Rival?,Conrad of Montferrat,herman brar,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:55.424330
+minimal_20250708_182558,question_mark,81,What were Isaac's chains made out of,silver,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:30:55.629992
+minimal_20250708_182558,question_mark,82,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:30:55.815407
+minimal_20250708_182558,question_mark,83,What continent are the Canarian Islands off the coast of?,Africa,western hemisphere,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:56.084323
+minimal_20250708_182558,question_mark,84,Who became the King of the Canary Islands,Bethencourt,guipuzcoa,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:56.410055
+minimal_20250708_182558,question_mark,85,Who bought the rights?,Enrique Pérez de Guzmán,tolkien estate,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:56.694981
+minimal_20250708_182558,question_mark,86,Who sold the rights,Maciot de Bethencourt,who,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:56.991329
+minimal_20250708_182558,question_mark,87,Where are Jersey and Guernsey,Channel Islands,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:57.256802
+minimal_20250708_182558,question_mark,88,How many customaries does Norman customary law have,two,161,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:57.506657
+minimal_20250708_182558,question_mark,89,What is the Norman architecture idiom?,Romanesque,the arch,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:57.804877
+minimal_20250708_182558,question_mark,90,What kind of arches does Norman architecture have?,rounded,grand arch,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:30:58.174189
+minimal_20250708_182558,question_mark,91,What architecture type came after Norman in England,Early Gothic,processional gateway ( propylon ),0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:30:58.452933
+minimal_20250708_182558,question_mark,92,What architecture type came before Norman in England?,Anglo-Saxon,romanesque,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:58.703502
+minimal_20250708_182558,question_mark,93,What place had the Norman Arab architectural style?,Sicily,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:58.964745
+minimal_20250708_182558,question_mark,94,When did the church reform begin?,early 11th century,1517,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:30:59.205817
+minimal_20250708_182558,question_mark,95,Who used the church to unify themselves?,dukes,native - born christians,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:30:59.494262
+minimal_20250708_182558,question_mark,96,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:30:59.784321
+minimal_20250708_182558,question_mark,97,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidery,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:31:00.043024
+minimal_20250708_182558,question_mark,98,What is Norman art's most well known piece?,Bayeux Tapestry,the battle of thermopylae,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:00.358644
+minimal_20250708_182558,question_mark,99,Who commissioned the Tapestry?,Odo,bishop odo,0.0,0.6666666666666666,1.0,2,SQuAD baseline,2025-07-08T18:31:00.668899
+minimal_20250708_182558,question_mark,100,What is the most important type of Norman art preserved in churches?,mosaics,norman architecture,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:00.966769
+minimal_20250708_182558,question_mark,101,In what century did important classical music developments occur in Normandy,11th,1790s,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:01.235387
+minimal_20250708_182558,question_mark,102,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard ii,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:01.440059
+minimal_20250708_182558,question_mark,103,Where did the monks flee to,southern Italy,italy,0.0,0.6666666666666666,0.5,1,SQuAD baseline,2025-07-08T18:31:01.641757
+minimal_20250708_182558,question_mark,104,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,san vitale,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:01.912183
+minimal_20250708_182558,question_mark,105,Who patronized the monks in Italy? ,Robert Guiscard,rich and successful businessmen,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:02.164153
+minimal_20250708_182558,question_mark,106,What tradition were the Saint-Evroul monks known for?,singing,aristotelianism ( philosophy ),0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:02.513993
+minimal_20250708_182558,question_mark,107,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,SQuAD baseline,2025-07-08T18:31:02.769096
+minimal_20250708_182558,question_mark,108,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,inherent difficulty,1.0,1.0,1.0,2,SQuAD baseline,2025-07-08T18:31:03.008891
+minimal_20250708_182558,question_mark,109,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:03.273436
+minimal_20250708_182558,question_mark,110,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,turing degree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:03.544165
+minimal_20250708_182558,question_mark,111,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,pareto chart,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:03.826970
+minimal_20250708_182558,question_mark,112,What are two basic primary resources used to guage complexity?,time and storage,water,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:04.041681
+minimal_20250708_182558,question_mark,113,What unit is measured to determine circuit complexity?,number of gates in a circuit,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:31:04.222971
+minimal_20250708_182558,question_mark,114,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:31:04.466943
+minimal_20250708_182558,question_mark,115,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,program analysis,0.0,0.4,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:31:04.728635
+minimal_20250708_182558,question_mark,116,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:31:04.972474
+minimal_20250708_182558,question_mark,117,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms,computability theory,optimization,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:05.269211
+minimal_20250708_182558,question_mark,118,What is the name given to the input string of a computational problem?,problem instance,state,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:05.474838
+minimal_20250708_182558,question_mark,119,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,a problem,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:31:05.709463
+minimal_20250708_182558,question_mark,120,Is a problem instance typically characterized as abstract or concrete,concrete,concrete,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:31:05.966854
+minimal_20250708_182558,question_mark,121,What is another name for any given measure of input associated with a problem?,instances,data,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:06.219232
+minimal_20250708_182558,question_mark,122,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:06.465274
+minimal_20250708_182558,question_mark,123,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,150 -- 200 km,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:06.773908
+minimal_20250708_182558,question_mark,124,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer,round trip through all sites in Milan,the battle of thermopylae,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:07.090777
+minimal_20250708_182558,question_mark,125,What does computational complexity theory most specifically seek to answer? ,computational problems,computational problem,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:31:07.327393
+minimal_20250708_182558,question_mark,126,"In a computational problem, what can be described as a string over an alphabet?",problem instance,algorithm,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:07.508180
+minimal_20250708_182558,question_mark,127,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,?,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:07.745760
+minimal_20250708_182558,question_mark,128,What is another term for the string of a problem instance?,bitstrings,problem / solution,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:08.009991
+minimal_20250708_182558,question_mark,129,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed",binary notation,binary interpretation of the numbers,0.0,0.28571428571428575,0.5,5,SQuAD baseline,2025-07-08T18:31:08.273339
+minimal_20250708_182558,question_mark,130,What is one way in which graphs can be encoded? ,adjacency matrices,factorials n!,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:08.535066
+minimal_20250708_182558,question_mark,131,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,computational problems,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:31:08.806519
+minimal_20250708_182558,question_mark,132,What are the two simple word responses to a decision problem?,yes or no,yes,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:31:09.068215
+minimal_20250708_182558,question_mark,133,What are the two integer responses to a decision problem,1 or 0,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:09.339930
+minimal_20250708_182558,question_mark,134,What will the output be for a member of the language of a decision problem?,yes,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:09.620552
+minimal_20250708_182558,question_mark,135,What answer denotes that an algorithm has accepted an input string?,yes,yes,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:31:09.855100
+minimal_20250708_182558,question_mark,136,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:10.053047
+minimal_20250708_182558,question_mark,137,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:10.260978
+minimal_20250708_182558,question_mark,138,What encoding decision needs to be made in order to determine an exact definition of the formal language,how graphs are encoded as binary strings,encoding decision,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:10.523789
+minimal_20250708_182558,question_mark,139,A function problem is an example of what,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:31:10.798002
+minimal_20250708_182558,question_mark,140,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:31:11.042633
+minimal_20250708_182558,question_mark,141,The traveling salesman problem is an example of what type of problem?,A function problem,school bus routing problem,0.0,0.28571428571428575,0.3333333333333333,4,SQuAD baseline,2025-07-08T18:31:11.331761
+minimal_20250708_182558,question_mark,142,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling purchaser problem,0.0,0.28571428571428575,0.25,3,SQuAD baseline,2025-07-08T18:31:11.608995
+minimal_20250708_182558,question_mark,143,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,yes or no,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:11.906566
+minimal_20250708_182558,question_mark,144,How can function problems typically be restated,decision problems,how can problem / solution be restated,0.0,0.0,0.0,7,SQuAD baseline,2025-07-08T18:31:12.225685
+minimal_20250708_182558,question_mark,145,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,set,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:31:12.449998
+minimal_20250708_182558,question_mark,146,What is one variable on which the running time may be contingent?,the instance,architecture,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:12.769393
+minimal_20250708_182558,question_mark,147,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:13.028119
+minimal_20250708_182558,question_mark,148,Complexity theory seeks to define the relationship between the scale of algorithms with respect to what other variable,an increase in the input size,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:31:13.310571
+minimal_20250708_182558,polite_request,0,What is the capital of France,Paris,paris,1.0,1.0,1.0,1,Missing punctuation - question mark should help,2025-07-08T18:31:13.550478
+minimal_20250708_182558,polite_request,1,Who wrote Hamlet,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Statement form - question mark should improve,2025-07-08T18:31:13.835585
+minimal_20250708_182558,polite_request,2,When did World War II end,1945,"december 31, 1946",0.0,0.0,0.0,3,Missing question mark,2025-07-08T18:31:14.118393
+minimal_20250708_182558,polite_request,3,Tell me the largest planet,Jupiter,jupiter,1.0,1.0,1.0,1,Command form - politeness might help,2025-07-08T18:31:14.365498
+minimal_20250708_182558,polite_request,4,Give me the chemical symbol for gold,Au,Au,1.0,1.0,1.0,1,Imperative form - polite request better,2025-07-08T18:31:14.584247
+minimal_20250708_182558,polite_request,5,What is the speed of light,299792458 meters per second,speed of light,0.0,0.0,0.0,3,Could be vague - precision request should help,2025-07-08T18:31:14.865014
+minimal_20250708_182558,polite_request,6,Population of Tokyo,37 million,"2,423,925",0.0,0.0,0.0,1,Incomplete question - precision should help,2025-07-08T18:31:15.165869
+minimal_20250708_182558,polite_request,7,Photosynthesis,process where plants make food from sunlight,photosynthesis,0.0,0.0,0.0,1,Single word - 'what is' framing should help,2025-07-08T18:31:15.456139
+minimal_20250708_182558,polite_request,8,Democracy,government by the people,democracy,0.0,0.0,0.0,1,Single concept - definition framing helps,2025-07-08T18:31:15.720147
+minimal_20250708_182558,polite_request,9,What color is the sky?,blue,blue,1.0,1.0,1.0,1,Perfect question - basic should win,2025-07-08T18:31:15.967006
+minimal_20250708_182558,polite_request,10,How many days in a week?,seven,seven,1.0,1.0,1.0,1,Simple count - basic should be fine,2025-07-08T18:31:16.209546
+minimal_20250708_182558,polite_request,11,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:31:16.496747
+minimal_20250708_182558,polite_request,12,When were the Normans in Normandy,10th and 11th centuries,9th century -- 9th century,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:31:16.755801
+minimal_20250708_182558,polite_request,13,From which countries did the Norse originate?,"Denmark, Iceland and Norway",iceland,0.0,0.4,0.25,1,SQuAD baseline,2025-07-08T18:31:17.038187
+minimal_20250708_182558,polite_request,14,Who was the Norse leader?,Rollo,whoopi goldberg,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:17.402741
+minimal_20250708_182558,polite_request,15,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:31:17.688417
+minimal_20250708_182558,polite_request,16,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:31:17.984483
+minimal_20250708_182558,polite_request,17,Who ruled the duchy of Normandy,Richard I,king charles iii of west francia,0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:31:18.287098
+minimal_20250708_182558,polite_request,18,What religion were the Normans,Catholic,native - born protestants,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:18.550821
+minimal_20250708_182558,polite_request,19,What is the original meaning of the word Norman?,Viking,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:18.824836
+minimal_20250708_182558,polite_request,20,When was the Latin version of the word Norman first recorded,9th century,1024,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:19.054293
+minimal_20250708_182558,polite_request,21,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:19.400407
+minimal_20250708_182558,polite_request,22,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with,King Charles III,charles the simple,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:31:19.637008
+minimal_20250708_182558,polite_request,23,What river originally bounded the Duchy,Seine,river of british columbia,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:19.948971
+minimal_20250708_182558,polite_request,24,Who upon arriving gave the original viking settlers a common identity?,Rollo,the british,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:20.241527
+minimal_20250708_182558,polite_request,25,What was the Norman religion?,Catholicism,normanism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:20.519871
+minimal_20250708_182558,polite_request,26,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:20.815048
+minimal_20250708_182558,polite_request,27,What was one of the Norman's major exports,fighting horsemen,foodstuffs,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:21.091829
+minimal_20250708_182558,polite_request,28,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia",Seljuk Turks,hohenstaufen,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:21.363303
+minimal_20250708_182558,polite_request,29,When did Herve serve as a Byzantine general?,1050s,during the byzantine war,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:21.655111
+minimal_20250708_182558,polite_request,30,When did Robert Crispin go up against the Turks?,1060s,robert crispin,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:21.991938
+minimal_20250708_182558,polite_request,31,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,roger,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:22.219342
+minimal_20250708_182558,polite_request,32,What was the name of the Norman castle?,Afranji,castle,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:22.586033
+minimal_20250708_182558,polite_request,33,Who was the leader when the Franks entered the Euphrates valley?,Oursel,theudebert i,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:22.839454
+minimal_20250708_182558,polite_request,34,Who did the Normans team up with in Anatolia?,Turkish forces,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:31:23.054492
+minimal_20250708_182558,polite_request,35,What were the origins of the Raouliii family?,Norman mercenary,italian origin,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:23.267970
+minimal_20250708_182558,polite_request,36,What was the name of the count of Apulia ,Robert Guiscard,william,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:23.616436
+minimal_20250708_182558,polite_request,37,When did Dyrrachium  fall to the Normans?,1082,1361,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:23.867043
+minimal_20250708_182558,polite_request,38,How many men were in Robert's army,"30,000","1,000,000",0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:24.190999
+minimal_20250708_182558,polite_request,39,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:24.452705
+minimal_20250708_182558,polite_request,40,Who was Robert's son,Bohemond,steffon baratheon,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:24.746157
+minimal_20250708_182558,polite_request,41,What river was Petrela located by,Deabolis,river sita,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:25.074052
+minimal_20250708_182558,polite_request,42,When did the Normans attack Dyrrachium?,1185,"october 2, 1187",0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:25.351832
+minimal_20250708_182558,polite_request,43,What was the naval base called?,Dyrrachium,fort severn,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:25.638999
+minimal_20250708_182558,polite_request,44,Where was Dyrrachium located?,the Adriatic,north america,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:25.935129
+minimal_20250708_182558,polite_request,45,Who did Emma Marry?,King Ethelred II,troy,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:26.188804
+minimal_20250708_182558,polite_request,46,Who was Emma's brother?,Duke Richard II,anthony copeland jr.,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:26.489370
+minimal_20250708_182558,polite_request,47,To where did Ethelred flee?,Normandy,toowoomba,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:26.803039
+minimal_20250708_182558,polite_request,48,Who kicked Ethelred out,Sweyn Forkbeard,the old man,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:27.071245
+minimal_20250708_182558,polite_request,49,Who was Edward the Confessor's half-brother?,Harthacnut,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:27.327396
+minimal_20250708_182558,polite_request,50,When did Edward return?,1041,18 november 2016,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:27.570050
+minimal_20250708_182558,polite_request,51,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,"his lordship, edward",0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:27.848792
+minimal_20250708_182558,polite_request,52,Where did Harold II die?,Battle of Hastings,in the caribbean,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:28.091576
+minimal_20250708_182558,polite_request,53,Who killed Harold II? ,William II,henshaw,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:28.332092
+minimal_20250708_182558,polite_request,54,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:31:28.613779
+minimal_20250708_182558,polite_request,55,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the bourgeoisie,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:28.864315
+minimal_20250708_182558,polite_request,56,What was the Anglo-Norman language's final form?,Modern English,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:31:29.053694
+minimal_20250708_182558,polite_request,57,In what year did the Norman's invade at Bannow Bay?,1169,1990,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:29.313751
+minimal_20250708_182558,polite_request,58,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:29.569064
+minimal_20250708_182558,polite_request,59,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:31:29.868838
+minimal_20250708_182558,polite_request,60,Who was Margaret's brother?,Edgar,patrick,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:30.116560
+minimal_20250708_182558,polite_request,61,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:30.389143
+minimal_20250708_182558,polite_request,62,When was Scotland invaded by William?,1072,1612,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:30.574737
+minimal_20250708_182558,polite_request,63,Who was the hostage?,Duncan,thomas randolph,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:30.943977
+minimal_20250708_182558,polite_request,64,Who did Alexander I marry?,Sybilla of Normandy,theo,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:31.231411
+minimal_20250708_182558,polite_request,65,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,flemish,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:31.484655
+minimal_20250708_182558,polite_request,66,Where was Ralph earl of?,Hereford,the mississippi river,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:31.792896
+minimal_20250708_182558,polite_request,67,Who was Ralph in charge of being at war with?,the Welsh,u.s. army,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:32.067878
+minimal_20250708_182558,polite_request,68,Who made Ralph earl?,Edward the Confessor,ralph earl,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:32.392480
+minimal_20250708_182558,polite_request,69,What country was under the control of Norman barons,Wales,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:32.655557
+minimal_20250708_182558,polite_request,70,What year did Roger de Tosny fail to accomplish what he set out to do,1018,1938,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:32.824645
+minimal_20250708_182558,polite_request,71,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope alexander ii,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:33.100534
+minimal_20250708_182558,polite_request,72,When did the Siege of Antioch take place?,1097,1097 and 1098,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:31:33.358026
+minimal_20250708_182558,polite_request,73,What was the name of Bohemond's nephew?,Tancred,william,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:33.639288
+minimal_20250708_182558,polite_request,74,What major conquest did Tancred play a roll in,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:33.969894
+minimal_20250708_182558,polite_request,75,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:34.207032
+minimal_20250708_182558,polite_request,76,What ruined Richard's plans to reach Acre?,a storm,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:34.421711
+minimal_20250708_182558,polite_request,77,Who was Richard's fiancee?,Berengaria,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:34.671338
+minimal_20250708_182558,polite_request,78,What year did the storm hit Richard's fleet?,1191,1982,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:34.891134
+minimal_20250708_182558,polite_request,79,Who ruled Cyprus in 1191,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:31:35.220376
+minimal_20250708_182558,polite_request,80,Who was Guy's Rival?,Conrad of Montferrat,high - profile celebrities,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:35.491155
+minimal_20250708_182558,polite_request,81,What were Isaac's chains made out of,silver,iron,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:35.740071
+minimal_20250708_182558,polite_request,82,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,2018,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:36.038398
+minimal_20250708_182558,polite_request,83,What continent are the Canarian Islands off the coast of?,Africa,africa,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:31:36.332282
+minimal_20250708_182558,polite_request,84,Who became the King of the Canary Islands,Bethencourt,jean de béthencourt,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:36.632049
+minimal_20250708_182558,polite_request,85,Who bought the rights?,Enrique Pérez de Guzmán,who,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:36.894338
+minimal_20250708_182558,polite_request,86,Who sold the rights,Maciot de Bethencourt,thompson company,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:37.171563
+minimal_20250708_182558,polite_request,87,Where are Jersey and Guernsey,Channel Islands,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:37.444899
+minimal_20250708_182558,polite_request,88,How many customaries does Norman customary law have,two,161,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:37.688330
+minimal_20250708_182558,polite_request,89,What is the Norman architecture idiom?,Romanesque,norman transitional architecture,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:37.974082
+minimal_20250708_182558,polite_request,90,What kind of arches does Norman architecture have?,rounded,grand arch,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:38.218897
+minimal_20250708_182558,polite_request,91,What architecture type came after Norman in England,Early Gothic,romanesque architecture,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:38.488794
+minimal_20250708_182558,polite_request,92,What architecture type came before Norman in England?,Anglo-Saxon,romanesque,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:38.765407
+minimal_20250708_182558,polite_request,93,What place had the Norman Arab architectural style?,Sicily,southern italy,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:39.019624
+minimal_20250708_182558,polite_request,94,When did the church reform begin?,early 11th century,1517,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:39.290081
+minimal_20250708_182558,polite_request,95,Who used the church to unify themselves?,dukes,union of soviet socialist republics,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:31:39.618380
+minimal_20250708_182558,polite_request,96,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:39.957848
+minimal_20250708_182558,polite_request,97,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:40.241556
+minimal_20250708_182558,polite_request,98,What is Norman art's most well known piece?,Bayeux Tapestry,the battle of thermopylae,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:40.554229
+minimal_20250708_182558,polite_request,99,Who commissioned the Tapestry?,Odo,bishop odo,0.0,0.6666666666666666,1.0,2,SQuAD baseline,2025-07-08T18:31:40.881421
+minimal_20250708_182558,polite_request,100,What is the most important type of Norman art preserved in churches?,mosaics,architecture,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:41.186634
+minimal_20250708_182558,polite_request,101,In what century did important classical music developments occur in Normandy,11th,the 17th century,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:41.470954
+minimal_20250708_182558,polite_request,102,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard i,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:41.710406
+minimal_20250708_182558,polite_request,103,Where did the monks flee to,southern Italy,california,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:41.944517
+minimal_20250708_182558,polite_request,104,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:42.203146
+minimal_20250708_182558,polite_request,105,Who patronized the monks in Italy? ,Robert Guiscard,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:31:42.408262
+minimal_20250708_182558,polite_request,106,What tradition were the Saint-Evroul monks known for?,singing,aristotelianism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:42.797695
+minimal_20250708_182558,polite_request,107,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,SQuAD baseline,2025-07-08T18:31:43.045764
+minimal_20250708_182558,polite_request,108,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,complexity,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:43.270364
+minimal_20250708_182558,polite_request,109,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:43.533861
+minimal_20250708_182558,polite_request,110,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,turing degree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:43.776140
+minimal_20250708_182558,polite_request,111,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,computational resource management,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:44.070078
+minimal_20250708_182558,polite_request,112,What are two basic primary resources used to guage complexity?,time and storage,water,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:44.249978
+minimal_20250708_182558,polite_request,113,What unit is measured to determine circuit complexity?,number of gates in a circuit,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:31:44.476716
+minimal_20250708_182558,polite_request,114,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:31:44.734792
+minimal_20250708_182558,polite_request,115,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,program analysis,0.0,0.4,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:31:45.025611
+minimal_20250708_182558,polite_request,116,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,algorithm analysis,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:45.310432
+minimal_20250708_182558,polite_request,117,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms,computability theory,optimization,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:45.553935
+minimal_20250708_182558,polite_request,118,What is the name given to the input string of a computational problem?,problem instance,problem / solution,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:31:45.771685
+minimal_20250708_182558,polite_request,119,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,a problem,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:31:45.984324
+minimal_20250708_182558,polite_request,120,Is a problem instance typically characterized as abstract or concrete,concrete,concrete,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:31:46.258945
+minimal_20250708_182558,polite_request,121,What is another name for any given measure of input associated with a problem?,instances,data,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:46.529670
+minimal_20250708_182558,polite_request,122,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:46.704366
+minimal_20250708_182558,polite_request,123,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,shortest possible route,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:46.910730
+minimal_20250708_182558,polite_request,124,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer,round trip through all sites in Milan,traveling salesman problem,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:47.177174
+minimal_20250708_182558,polite_request,125,What does computational complexity theory most specifically seek to answer? ,computational problems,computational problems,1.0,1.0,1.0,2,SQuAD baseline,2025-07-08T18:31:47.437739
+minimal_20250708_182558,polite_request,126,"In a computational problem, what can be described as a string over an alphabet?",problem instance,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:47.720853
+minimal_20250708_182558,polite_request,127,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,anagram,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:47.966800
+minimal_20250708_182558,polite_request,128,What is another term for the string of a problem instance?,bitstrings,String,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:48.164169
+minimal_20250708_182558,polite_request,129,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed",binary notation,highest common factor,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:48.404533
+minimal_20250708_182558,polite_request,130,What is one way in which graphs can be encoded? ,adjacency matrices,highest common factor,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:48.643783
+minimal_20250708_182558,polite_request,131,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,computational problems,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:31:48.889799
+minimal_20250708_182558,polite_request,132,What are the two simple word responses to a decision problem?,yes or no,yes,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:31:49.151763
+minimal_20250708_182558,polite_request,133,What are the two integer responses to a decision problem,1 or 0,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:49.427758
+minimal_20250708_182558,polite_request,134,What will the output be for a member of the language of a decision problem?,yes,yes,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:31:49.723065
+minimal_20250708_182558,polite_request,135,What answer denotes that an algorithm has accepted an input string?,yes,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:49.991735
+minimal_20250708_182558,polite_request,136,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:50.217679
+minimal_20250708_182558,polite_request,137,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:50.456912
+minimal_20250708_182558,polite_request,138,What encoding decision needs to be made in order to determine an exact definition of the formal language,how graphs are encoded as binary strings,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:50.739781
+minimal_20250708_182558,polite_request,139,A function problem is an example of what,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:31:50.992192
+minimal_20250708_182558,polite_request,140,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:31:51.231168
+minimal_20250708_182558,polite_request,141,The traveling salesman problem is an example of what type of problem?,A function problem,school bus routing problem,0.0,0.28571428571428575,0.3333333333333333,4,SQuAD baseline,2025-07-08T18:31:51.533182
+minimal_20250708_182558,polite_request,142,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,vehicle routing problem,0.0,0.28571428571428575,0.25,3,SQuAD baseline,2025-07-08T18:31:51.774792
+minimal_20250708_182558,polite_request,143,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,yes or no,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:52.017363
+minimal_20250708_182558,polite_request,144,How can function problems typically be restated,decision problems,restructuring,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:52.291421
+minimal_20250708_182558,polite_request,145,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,set,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:31:52.562673
+minimal_20250708_182558,polite_request,146,What is one variable on which the running time may be contingent?,the instance,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:31:52.832611
+minimal_20250708_182558,polite_request,147,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:31:53.095614
+minimal_20250708_182558,polite_request,148,Complexity theory seeks to define the relationship between the scale of algorithms with respect to what other variable,an increase in the input size,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:31:53.376741
+minimal_20250708_182558,short_instruction,0,What is the capital of France,Paris,paris,1.0,1.0,1.0,1,Missing punctuation - question mark should help,2025-07-08T18:31:53.604640
+minimal_20250708_182558,short_instruction,1,Who wrote Hamlet,William Shakespeare,shakespeare,0.0,0.6666666666666666,0.5,1,Statement form - question mark should improve,2025-07-08T18:31:53.867028
+minimal_20250708_182558,short_instruction,2,When did World War II end,1945,"december 31, 1946",0.0,0.0,0.0,3,Missing question mark,2025-07-08T18:31:54.090228
+minimal_20250708_182558,short_instruction,3,Tell me the largest planet,Jupiter,fermi's paradox,0.0,0.0,0.0,2,Command form - politeness might help,2025-07-08T18:31:54.330509
+minimal_20250708_182558,short_instruction,4,Give me the chemical symbol for gold,Au,Au,1.0,1.0,1.0,1,Imperative form - polite request better,2025-07-08T18:31:54.607735
+minimal_20250708_182558,short_instruction,5,What is the speed of light,299792458 meters per second,"299,792,458 metres per second",0.0,0.5,0.5,4,Could be vague - precision request should help,2025-07-08T18:31:54.927362
+minimal_20250708_182558,short_instruction,6,Population of Tokyo,37 million,"37,925,000",0.0,0.0,0.0,1,Incomplete question - precision should help,2025-07-08T18:31:55.197070
+minimal_20250708_182558,short_instruction,7,Photosynthesis,process where plants make food from sunlight,photosynthesis,0.0,0.0,0.0,1,Single word - 'what is' framing should help,2025-07-08T18:31:55.448936
+minimal_20250708_182558,short_instruction,8,Democracy,government by the people,democracy,0.0,0.0,0.0,1,Single concept - definition framing helps,2025-07-08T18:31:55.715152
+minimal_20250708_182558,short_instruction,9,What color is the sky?,blue,blue,1.0,1.0,1.0,1,Perfect question - basic should win,2025-07-08T18:31:55.972723
+minimal_20250708_182558,short_instruction,10,How many days in a week?,seven,seven,1.0,1.0,1.0,1,Simple count - basic should be fine,2025-07-08T18:31:56.213377
+minimal_20250708_182558,short_instruction,11,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:31:56.502000
+minimal_20250708_182558,short_instruction,12,When were the Normans in Normandy,10th and 11th centuries,9th century -- 9th century,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:31:56.817328
+minimal_20250708_182558,short_instruction,13,From which countries did the Norse originate?,"Denmark, Iceland and Norway",iceland,0.0,0.4,0.25,1,SQuAD baseline,2025-07-08T18:31:57.091989
+minimal_20250708_182558,short_instruction,14,Who was the Norse leader?,Rollo,whoopi goldberg,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:57.397909
+minimal_20250708_182558,short_instruction,15,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:31:57.704554
+minimal_20250708_182558,short_instruction,16,Who was the duke in the battle of Hastings?,William the Conqueror,normandy duke of normandy,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:31:57.992530
+minimal_20250708_182558,short_instruction,17,Who ruled the duchy of Normandy,Richard I,king charles iii of west francia,0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:31:58.362152
+minimal_20250708_182558,short_instruction,18,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:58.672734
+minimal_20250708_182558,short_instruction,19,What is the original meaning of the word Norman?,Viking,norman,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:58.968356
+minimal_20250708_182558,short_instruction,20,When was the Latin version of the word Norman first recorded,9th century,1024,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:59.208591
+minimal_20250708_182558,short_instruction,21,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:31:59.544713
+minimal_20250708_182558,short_instruction,22,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with,King Charles III,russian empire,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:31:59.815863
+minimal_20250708_182558,short_instruction,23,What river originally bounded the Duchy,Seine,mississippi river,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:00.125042
+minimal_20250708_182558,short_instruction,24,Who upon arriving gave the original viking settlers a common identity?,Rollo,the Normans,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:00.368596
+minimal_20250708_182558,short_instruction,25,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:00.637298
+minimal_20250708_182558,short_instruction,26,What part of France were the Normans located?,north,west france,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:00.895025
+minimal_20250708_182558,short_instruction,27,What was one of the Norman's major exports,fighting horsemen,petroleum,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:01.136964
+minimal_20250708_182558,short_instruction,28,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia",Seljuk Turks,byzantine empire,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:01.387027
+minimal_20250708_182558,short_instruction,29,When did Herve serve as a Byzantine general?,1050s,during the byzantine war,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:01.659214
+minimal_20250708_182558,short_instruction,30,When did Robert Crispin go up against the Turks?,1060s,1971,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:01.964309
+minimal_20250708_182558,short_instruction,31,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,madame bovary,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:02.269518
+minimal_20250708_182558,short_instruction,32,What was the name of the Norman castle?,Afranji,rouen,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:02.497255
+minimal_20250708_182558,short_instruction,33,Who was the leader when the Franks entered the Euphrates valley?,Oursel,theudebert i,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:02.731433
+minimal_20250708_182558,short_instruction,34,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:02.973015
+minimal_20250708_182558,short_instruction,35,What were the origins of the Raouliii family?,Norman mercenary,italian noble family,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:03.201522
+minimal_20250708_182558,short_instruction,36,What was the name of the count of Apulia ,Robert Guiscard,( last ) frederick iii,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:32:03.504841
+minimal_20250708_182558,short_instruction,37,When did Dyrrachium  fall to the Normans?,1082,battle of dyrrachium,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:03.799573
+minimal_20250708_182558,short_instruction,38,How many men were in Robert's army,"30,000","about 100,000 and 150,000",0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:04.165567
+minimal_20250708_182558,short_instruction,39,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:04.439312
+minimal_20250708_182558,short_instruction,40,Who was Robert's son,Bohemond,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:32:04.663288
+minimal_20250708_182558,short_instruction,41,What river was Petrela located by,Deabolis,river sitka,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:04.939357
+minimal_20250708_182558,short_instruction,42,When did the Normans attack Dyrrachium?,1185,2018,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:05.152012
+minimal_20250708_182558,short_instruction,43,What was the naval base called?,Dyrrachium,Guantanamo bay naval base,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:05.355801
+minimal_20250708_182558,short_instruction,44,Where was Dyrrachium located?,the Adriatic,the levant,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:32:05.648289
+minimal_20250708_182558,short_instruction,45,Who did Emma Marry?,King Ethelred II,matt willis,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:05.948966
+minimal_20250708_182558,short_instruction,46,Who was Emma's brother?,Duke Richard II,matthew,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:06.184623
+minimal_20250708_182558,short_instruction,47,To where did Ethelred flee?,Normandy,to return to portland,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:06.455425
+minimal_20250708_182558,short_instruction,48,Who kicked Ethelred out,Sweyn Forkbeard,his father and cousins,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:06.710166
+minimal_20250708_182558,short_instruction,49,Who was Edward the Confessor's half-brother?,Harthacnut,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:06.980404
+minimal_20250708_182558,short_instruction,50,When did Edward return?,1041,18 november 2011,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:07.252357
+minimal_20250708_182558,short_instruction,51,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,who,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:07.554979
+minimal_20250708_182558,short_instruction,52,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,SQuAD baseline,2025-07-08T18:32:07.874436
+minimal_20250708_182558,short_instruction,53,Who killed Harold II? ,William II,henshaw,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:08.161864
+minimal_20250708_182558,short_instruction,54,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:32:08.439675
+minimal_20250708_182558,short_instruction,55,Who was the ruling class ahead of the Normans?,Anglo-Saxons,anglo - normans,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:08.734729
+minimal_20250708_182558,short_instruction,56,What was the Anglo-Norman language's final form?,Modern English,middle english,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:32:08.974992
+minimal_20250708_182558,short_instruction,57,In what year did the Norman's invade at Bannow Bay?,1169,january,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:09.244402
+minimal_20250708_182558,short_instruction,58,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:09.449052
+minimal_20250708_182558,short_instruction,59,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:32:09.688907
+minimal_20250708_182558,short_instruction,60,Who was Margaret's brother?,Edgar,philip,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:09.972752
+minimal_20250708_182558,short_instruction,61,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:10.273176
+minimal_20250708_182558,short_instruction,62,When was Scotland invaded by William?,1072,1612,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:10.471638
+minimal_20250708_182558,short_instruction,63,Who was the hostage?,Duncan,the united states of america,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:32:10.766569
+minimal_20250708_182558,short_instruction,64,Who did Alexander I marry?,Sybilla of Normandy,theo,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:10.993320
+minimal_20250708_182558,short_instruction,65,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,norman,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:32:11.223511
+minimal_20250708_182558,short_instruction,66,Where was Ralph earl of?,Hereford,the mississippi river,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:11.590418
+minimal_20250708_182558,short_instruction,67,Who was Ralph in charge of being at war with?,the Welsh,u.s. army,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:11.867671
+minimal_20250708_182558,short_instruction,68,Who made Ralph earl?,Edward the Confessor,who,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:12.152723
+minimal_20250708_182558,short_instruction,69,What country was under the control of Norman barons,Wales,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:12.359545
+minimal_20250708_182558,short_instruction,70,What year did Roger de Tosny fail to accomplish what he set out to do,1018,1982,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:12.591439
+minimal_20250708_182558,short_instruction,71,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope alexander ii,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:12.847766
+minimal_20250708_182558,short_instruction,72,When did the Siege of Antioch take place?,1097,during the first crusade,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:13.134581
+minimal_20250708_182558,short_instruction,73,What was the name of Bohemond's nephew?,Tancred,jean,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:13.427338
+minimal_20250708_182558,short_instruction,74,What major conquest did Tancred play a roll in,Jerusalem,british invasion of belgium,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:13.703994
+minimal_20250708_182558,short_instruction,75,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:13.916554
+minimal_20250708_182558,short_instruction,76,What ruined Richard's plans to reach Acre?,a storm,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:32:14.127934
+minimal_20250708_182558,short_instruction,77,Who was Richard's fiancee?,Berengaria,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:14.431934
+minimal_20250708_182558,short_instruction,78,What year did the storm hit Richard's fleet?,1191,1794,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:14.651192
+minimal_20250708_182558,short_instruction,79,Who ruled Cyprus in 1191,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:32:14.937848
+minimal_20250708_182558,short_instruction,80,Who was Guy's Rival?,Conrad of Montferrat,herman,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:15.143804
+minimal_20250708_182558,short_instruction,81,What were Isaac's chains made out of,silver,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:32:15.354082
+minimal_20250708_182558,short_instruction,82,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,2018,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:15.516171
+minimal_20250708_182558,short_instruction,83,What continent are the Canarian Islands off the coast of?,Africa,north america,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:15.738099
+minimal_20250708_182558,short_instruction,84,Who became the King of the Canary Islands,Bethencourt,jean de béthencourt,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:16.021179
+minimal_20250708_182558,short_instruction,85,Who bought the rights?,Enrique Pérez de Guzmán,the seller,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:16.273688
+minimal_20250708_182558,short_instruction,86,Who sold the rights,Maciot de Bethencourt,animax asia,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:16.561635
+minimal_20250708_182558,short_instruction,87,Where are Jersey and Guernsey,Channel Islands,"normandy, france",0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:16.824685
+minimal_20250708_182558,short_instruction,88,How many customaries does Norman customary law have,two,161,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:17.060628
+minimal_20250708_182558,short_instruction,89,What is the Norman architecture idiom?,Romanesque,transitional,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:17.278562
+minimal_20250708_182558,short_instruction,90,What kind of arches does Norman architecture have?,rounded,grand arch,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:17.538906
+minimal_20250708_182558,short_instruction,91,What architecture type came after Norman in England,Early Gothic,processional gateway ( propylon ),0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:32:17.935008
+minimal_20250708_182558,short_instruction,92,What architecture type came before Norman in England?,Anglo-Saxon,romanesque,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:18.191505
+minimal_20250708_182558,short_instruction,93,What place had the Norman Arab architectural style?,Sicily,southern italy,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:18.386440
+minimal_20250708_182558,short_instruction,94,When did the church reform begin?,early 11th century,1517,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:18.635775
+minimal_20250708_182558,short_instruction,95,Who used the church to unify themselves?,dukes,the catholic church,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:18.909663
+minimal_20250708_182558,short_instruction,96,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:19.225269
+minimal_20250708_182558,short_instruction,97,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:19.478298
+minimal_20250708_182558,short_instruction,98,What is Norman art's most well known piece?,Bayeux Tapestry,the battle of thermopylae,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:19.771342
+minimal_20250708_182558,short_instruction,99,Who commissioned the Tapestry?,Odo,bishop odo,0.0,0.6666666666666666,1.0,2,SQuAD baseline,2025-07-08T18:32:20.039870
+minimal_20250708_182558,short_instruction,100,What is the most important type of Norman art preserved in churches?,mosaics,processional gateway ( propylon ),0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:32:20.363402
+minimal_20250708_182558,short_instruction,101,In what century did important classical music developments occur in Normandy,11th,the 14th century,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:20.622731
+minimal_20250708_182558,short_instruction,102,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:32:20.841560
+minimal_20250708_182558,short_instruction,103,Where did the monks flee to,southern Italy,the levant,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:21.105316
+minimal_20250708_182558,short_instruction,104,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:21.387308
+minimal_20250708_182558,short_instruction,105,Who patronized the monks in Italy? ,Robert Guiscard,who,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:21.677079
+minimal_20250708_182558,short_instruction,106,What tradition were the Saint-Evroul monks known for?,singing,aristotelianism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:21.984999
+minimal_20250708_182558,short_instruction,107,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,SQuAD baseline,2025-07-08T18:32:22.221117
+minimal_20250708_182558,short_instruction,108,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,computational complexity,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:22.416903
+minimal_20250708_182558,short_instruction,109,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:22.636943
+minimal_20250708_182558,short_instruction,110,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,turing degree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:22.885506
+minimal_20250708_182558,short_instruction,111,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,computational resource management,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:23.206308
+minimal_20250708_182558,short_instruction,112,What are two basic primary resources used to guage complexity?,time and storage,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:32:23.423146
+minimal_20250708_182558,short_instruction,113,What unit is measured to determine circuit complexity?,number of gates in a circuit,Boolean,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:23.638562
+minimal_20250708_182558,short_instruction,114,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:32:23.898307
+minimal_20250708_182558,short_instruction,115,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,program analysis,0.0,0.4,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:32:24.075875
+minimal_20250708_182558,short_instruction,116,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,computational complexity,0.0,0.8,0.6666666666666666,2,SQuAD baseline,2025-07-08T18:32:24.325504
+minimal_20250708_182558,short_instruction,117,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms,computability theory,optimization,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:24.575246
+minimal_20250708_182558,short_instruction,118,What is the name given to the input string of a computational problem?,problem instance,`` input '',0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:24.867552
+minimal_20250708_182558,short_instruction,119,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,problem,0.0,0.6666666666666666,0.5,1,SQuAD baseline,2025-07-08T18:32:25.116806
+minimal_20250708_182558,short_instruction,120,Is a problem instance typically characterized as abstract or concrete,concrete,concrete,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:32:25.396042
+minimal_20250708_182558,short_instruction,121,What is another name for any given measure of input associated with a problem?,instances,data,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:25.686657
+minimal_20250708_182558,short_instruction,122,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:25.938663
+minimal_20250708_182558,short_instruction,123,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,shortest possible route,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:26.217418
+minimal_20250708_182558,short_instruction,124,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer,round trip through all sites in Milan,vehicle routing problem,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:26.505720
+minimal_20250708_182558,short_instruction,125,What does computational complexity theory most specifically seek to answer? ,computational problems,computational problem,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:32:26.762942
+minimal_20250708_182558,short_instruction,126,"In a computational problem, what can be described as a string over an alphabet?",problem instance,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:27.028568
+minimal_20250708_182558,short_instruction,127,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:27.361873
+minimal_20250708_182558,short_instruction,128,What is another term for the string of a problem instance?,bitstrings,String,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:27.618664
+minimal_20250708_182558,short_instruction,129,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed",binary notation,highest common factor,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:27.911289
+minimal_20250708_182558,short_instruction,130,What is one way in which graphs can be encoded? ,adjacency matrices,factorials n!,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:28.192807
+minimal_20250708_182558,short_instruction,131,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,computational problems,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:32:28.358833
+minimal_20250708_182558,short_instruction,132,What are the two simple word responses to a decision problem?,yes or no,yes,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:32:28.600169
+minimal_20250708_182558,short_instruction,133,What are the two integer responses to a decision problem,1 or 0,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:28.850175
+minimal_20250708_182558,short_instruction,134,What will the output be for a member of the language of a decision problem?,yes,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:29.122800
+minimal_20250708_182558,short_instruction,135,What answer denotes that an algorithm has accepted an input string?,yes,is or is not a response,0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:32:29.457813
+minimal_20250708_182558,short_instruction,136,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,natural numbers,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:29.692741
+minimal_20250708_182558,short_instruction,137,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:29.938437
+minimal_20250708_182558,short_instruction,138,What encoding decision needs to be made in order to determine an exact definition of the formal language,how graphs are encoded as binary strings,encoding decision,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:30.183611
+minimal_20250708_182558,short_instruction,139,A function problem is an example of what,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:32:30.418124
+minimal_20250708_182558,short_instruction,140,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:32:30.641456
+minimal_20250708_182558,short_instruction,141,The traveling salesman problem is an example of what type of problem?,A function problem,school bus routing problem,0.0,0.28571428571428575,0.3333333333333333,4,SQuAD baseline,2025-07-08T18:32:30.901615
+minimal_20250708_182558,short_instruction,142,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling purchaser problem,0.0,0.28571428571428575,0.25,3,SQuAD baseline,2025-07-08T18:32:31.165102
+minimal_20250708_182558,short_instruction,143,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,yes or no,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:31.404495
+minimal_20250708_182558,short_instruction,144,How can function problems typically be restated,decision problems,functional ( solution ),0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:31.708304
+minimal_20250708_182558,short_instruction,145,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,set,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:32:32.003075
+minimal_20250708_182558,short_instruction,146,What is one variable on which the running time may be contingent?,the instance,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:32:32.307518
+minimal_20250708_182558,short_instruction,147,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:32.532144
+minimal_20250708_182558,short_instruction,148,Complexity theory seeks to define the relationship between the scale of algorithms with respect to what other variable,an increase in the input size,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:32:32.790973
+minimal_20250708_182558,precise,0,What is the capital of France,Paris,paris,1.0,1.0,1.0,1,Missing punctuation - question mark should help,2025-07-08T18:32:33.005226
+minimal_20250708_182558,precise,1,Who wrote Hamlet,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Statement form - question mark should improve,2025-07-08T18:32:33.287440
+minimal_20250708_182558,precise,2,When did World War II end,1945,2 september 1945,0.0,0.5,1.0,3,Missing question mark,2025-07-08T18:32:33.555834
+minimal_20250708_182558,precise,3,Tell me the largest planet,Jupiter,earth,0.0,0.0,0.0,1,Command form - politeness might help,2025-07-08T18:32:33.801645
+minimal_20250708_182558,precise,4,Give me the chemical symbol for gold,Au,au,1.0,1.0,1.0,1,Imperative form - polite request better,2025-07-08T18:32:34.033885
+minimal_20250708_182558,precise,5,What is the speed of light,299792458 meters per second,"299,792,458 metres per second",0.0,0.5,0.5,4,Could be vague - precision request should help,2025-07-08T18:32:34.336558
+minimal_20250708_182558,precise,6,Population of Tokyo,37 million,"37,925,000",0.0,0.0,0.0,1,Incomplete question - precision should help,2025-07-08T18:32:34.593321
+minimal_20250708_182558,precise,7,Photosynthesis,process where plants make food from sunlight,photosynthesis,0.0,0.0,0.0,1,Single word - 'what is' framing should help,2025-07-08T18:32:34.815257
+minimal_20250708_182558,precise,8,Democracy,government by the people,representative democracy,0.0,0.0,0.0,2,Single concept - definition framing helps,2025-07-08T18:32:35.029350
+minimal_20250708_182558,precise,9,What color is the sky?,blue,blue,1.0,1.0,1.0,1,Perfect question - basic should win,2025-07-08T18:32:35.245942
+minimal_20250708_182558,precise,10,How many days in a week?,seven,seven,1.0,1.0,1.0,1,Simple count - basic should be fine,2025-07-08T18:32:35.471171
+minimal_20250708_182558,precise,11,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:32:35.689587
+minimal_20250708_182558,precise,12,When were the Normans in Normandy,10th and 11th centuries,911,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:35.938101
+minimal_20250708_182558,precise,13,From which countries did the Norse originate?,"Denmark, Iceland and Norway",sweden,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:36.172023
+minimal_20250708_182558,precise,14,Who was the Norse leader?,Rollo,cnut,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:36.452524
+minimal_20250708_182558,precise,15,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:32:36.815606
+minimal_20250708_182558,precise,16,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:32:37.112845
+minimal_20250708_182558,precise,17,Who ruled the duchy of Normandy,Richard I,king charles iii,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:37.420411
+minimal_20250708_182558,precise,18,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:37.653449
+minimal_20250708_182558,precise,19,What is the original meaning of the word Norman?,Viking,north,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:37.902057
+minimal_20250708_182558,precise,20,When was the Latin version of the word Norman first recorded,9th century,1024,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:38.184464
+minimal_20250708_182558,precise,21,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:38.534242
+minimal_20250708_182558,precise,22,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with,King Charles III,hr. fréminet,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:38.836614
+minimal_20250708_182558,precise,23,What river originally bounded the Duchy,Seine,elbe,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:39.071585
+minimal_20250708_182558,precise,24,Who upon arriving gave the original viking settlers a common identity?,Rollo,the byzantines,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:39.336802
+minimal_20250708_182558,precise,25,What was the Norman religion?,Catholicism,catholicism,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:32:39.607566
+minimal_20250708_182558,precise,26,What part of France were the Normans located?,north,west france,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:39.799254
+minimal_20250708_182558,precise,27,What was one of the Norman's major exports,fighting horsemen,cloth,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:40.029741
+minimal_20250708_182558,precise,28,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia",Seljuk Turks,the bulgars,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:40.274473
+minimal_20250708_182558,precise,29,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:40.537637
+minimal_20250708_182558,precise,30,When did Robert Crispin go up against the Turks?,1060s,862,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:40.744312
+minimal_20250708_182558,precise,31,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,armistice of villa giusti,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:41.067247
+minimal_20250708_182558,precise,32,What was the name of the Norman castle?,Afranji,norman castle,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:41.336116
+minimal_20250708_182558,precise,33,Who was the leader when the Franks entered the Euphrates valley?,Oursel,theudebert i,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:41.615643
+minimal_20250708_182558,precise,34,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:41.887332
+minimal_20250708_182558,precise,35,What were the origins of the Raouliii family?,Norman mercenary,english,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:42.156602
+minimal_20250708_182558,precise,36,What was the name of the count of Apulia ,Robert Guiscard,armistice of villa giusti,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:42.514523
+minimal_20250708_182558,precise,37,When did Dyrrachium  fall to the Normans?,1082,10th century,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:42.812952
+minimal_20250708_182558,precise,38,How many men were in Robert's army,"30,000","4,000 +",0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:43.102018
+minimal_20250708_182558,precise,39,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,paris,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:43.370893
+minimal_20250708_182558,precise,40,Who was Robert's son,Bohemond,steffon,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:43.669312
+minimal_20250708_182558,precise,41,What river was Petrela located by,Deabolis,river sita,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:43.939209
+minimal_20250708_182558,precise,42,When did the Normans attack Dyrrachium?,1185,"october 2, 1187",0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:44.237270
+minimal_20250708_182558,precise,43,What was the naval base called?,Dyrrachium,argentina,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:44.489595
+minimal_20250708_182558,precise,44,Where was Dyrrachium located?,the Adriatic,provincia yugoslavia,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:44.826191
+minimal_20250708_182558,precise,45,Who did Emma Marry?,King Ethelred II,ken tanaka,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:45.048677
+minimal_20250708_182558,precise,46,Who was Emma's brother?,Duke Richard II,sam spruell,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:45.280232
+minimal_20250708_182558,precise,47,To where did Ethelred flee?,Normandy,london,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:45.604820
+minimal_20250708_182558,precise,48,Who kicked Ethelred out,Sweyn Forkbeard,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:32:45.770081
+minimal_20250708_182558,precise,49,Who was Edward the Confessor's half-brother?,Harthacnut,edmund irons,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:46.048808
+minimal_20250708_182558,precise,50,When did Edward return?,1041,april 2009,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:46.300898
+minimal_20250708_182558,precise,51,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,ceo,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:46.541578
+minimal_20250708_182558,precise,52,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,SQuAD baseline,2025-07-08T18:32:46.812426
+minimal_20250708_182558,precise,53,Who killed Harold II? ,William II,william the conqueror,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:32:47.089565
+minimal_20250708_182558,precise,54,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:32:47.363392
+minimal_20250708_182558,precise,55,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the kings,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:47.671073
+minimal_20250708_182558,precise,56,What was the Anglo-Norman language's final form?,Modern English,french,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:47.888785
+minimal_20250708_182558,precise,57,In what year did the Norman's invade at Bannow Bay?,1169,1170,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:48.084206
+minimal_20250708_182558,precise,58,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:48.315030
+minimal_20250708_182558,precise,59,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:32:48.534196
+minimal_20250708_182558,precise,60,Who was Margaret's brother?,Edgar,henry vi,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:48.813966
+minimal_20250708_182558,precise,61,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:49.087270
+minimal_20250708_182558,precise,62,When was Scotland invaded by William?,1072,1612,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:49.315113
+minimal_20250708_182558,precise,63,Who was the hostage?,Duncan,iran,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:49.624875
+minimal_20250708_182558,precise,64,Who did Alexander I marry?,Sybilla of Normandy,yolande of dreux,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:32:49.920201
+minimal_20250708_182558,precise,65,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,norman,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:32:50.187850
+minimal_20250708_182558,precise,66,Where was Ralph earl of?,Hereford,east anglia,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:50.464316
+minimal_20250708_182558,precise,67,Who was Ralph in charge of being at war with?,the Welsh,sultan muhammad abuljadayel,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:50.882190
+minimal_20250708_182558,precise,68,Who made Ralph earl?,Edward the Confessor,mfsb group,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:51.131907
+minimal_20250708_182558,precise,69,What country was under the control of Norman barons,Wales,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:51.370591
+minimal_20250708_182558,precise,70,What year did Roger de Tosny fail to accomplish what he set out to do,1018,1982,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:51.625489
+minimal_20250708_182558,precise,71,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope alexander ii,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:51.917210
+minimal_20250708_182558,precise,72,When did the Siege of Antioch take place?,1097,1097 and 1098,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:32:52.199213
+minimal_20250708_182558,precise,73,What was the name of Bohemond's nephew?,Tancred,nephew,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:52.475634
+minimal_20250708_182558,precise,74,What major conquest did Tancred play a roll in,Jerusalem,british invasion of belgium,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:52.812746
+minimal_20250708_182558,precise,75,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:53.058253
+minimal_20250708_182558,precise,76,What ruined Richard's plans to reach Acre?,a storm,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:32:53.336020
+minimal_20250708_182558,precise,77,Who was Richard's fiancee?,Berengaria,", wasn't she",0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:53.551681
+minimal_20250708_182558,precise,78,What year did the storm hit Richard's fleet?,1191,1703,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:53.800113
+minimal_20250708_182558,precise,79,Who ruled Cyprus in 1191,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:32:54.080525
+minimal_20250708_182558,precise,80,Who was Guy's Rival?,Conrad of Montferrat,herman brar,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:54.336928
+minimal_20250708_182558,precise,81,What were Isaac's chains made out of,silver,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:32:54.500251
+minimal_20250708_182558,precise,82,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,armistice of villa giusti,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:54.808583
+minimal_20250708_182558,precise,83,What continent are the Canarian Islands off the coast of?,Africa,western hemisphere,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:55.057785
+minimal_20250708_182558,precise,84,Who became the King of the Canary Islands,Bethencourt,jean de béthencourt,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:32:55.345667
+minimal_20250708_182558,precise,85,Who bought the rights?,Enrique Pérez de Guzmán,united artists,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:55.613449
+minimal_20250708_182558,precise,86,Who sold the rights,Maciot de Bethencourt,tolkien,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:55.958149
+minimal_20250708_182558,precise,87,Where are Jersey and Guernsey,Channel Islands,"normandy, france",0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:56.263600
+minimal_20250708_182558,precise,88,How many customaries does Norman customary law have,two,161,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:56.475838
+minimal_20250708_182558,precise,89,What is the Norman architecture idiom?,Romanesque,transitional,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:56.741686
+minimal_20250708_182558,precise,90,What kind of arches does Norman architecture have?,rounded,grand arch,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:56.990528
+minimal_20250708_182558,precise,91,What architecture type came after Norman in England,Early Gothic,romanesque architecture,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:57.267735
+minimal_20250708_182558,precise,92,What architecture type came before Norman in England?,Anglo-Saxon,romanesque,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:57.527887
+minimal_20250708_182558,precise,93,What place had the Norman Arab architectural style?,Sicily,ireland,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:57.778050
+minimal_20250708_182558,precise,94,When did the church reform begin?,early 11th century,1517,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:57.979508
+minimal_20250708_182558,precise,95,Who used the church to unify themselves?,dukes,native - born christians,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:58.207056
+minimal_20250708_182558,precise,96,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:32:58.464277
+minimal_20250708_182558,precise,97,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:32:58.685725
+minimal_20250708_182558,precise,98,What is Norman art's most well known piece?,Bayeux Tapestry,salvator mundi,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:58.988737
+minimal_20250708_182558,precise,99,Who commissioned the Tapestry?,Odo,bishop odo,0.0,0.6666666666666666,1.0,2,SQuAD baseline,2025-07-08T18:32:59.309402
+minimal_20250708_182558,precise,100,What is the most important type of Norman art preserved in churches?,mosaics,norman architecture,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:59.578239
+minimal_20250708_182558,precise,101,In what century did important classical music developments occur in Normandy,11th,18th century,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:32:59.800472
+minimal_20250708_182558,precise,102,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard ii,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:00.036982
+minimal_20250708_182558,precise,103,Where did the monks flee to,southern Italy,india,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:00.386640
+minimal_20250708_182558,precise,104,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,montepulciano,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:00.673543
+minimal_20250708_182558,precise,105,Who patronized the monks in Italy? ,Robert Guiscard,patronized the monks in italy,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:33:00.968242
+minimal_20250708_182558,precise,106,What tradition were the Saint-Evroul monks known for?,singing,aristotelianism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:01.235793
+minimal_20250708_182558,precise,107,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,SQuAD baseline,2025-07-08T18:33:01.494549
+minimal_20250708_182558,precise,108,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,complexity,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:01.753372
+minimal_20250708_182558,precise,109,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,an algorithm,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:02.025737
+minimal_20250708_182558,precise,110,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,turing degree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:02.240265
+minimal_20250708_182558,precise,111,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,computational complexity,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:02.460637
+minimal_20250708_182558,precise,112,What are two basic primary resources used to guage complexity?,time and storage,water,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:02.672378
+minimal_20250708_182558,precise,113,What unit is measured to determine circuit complexity?,number of gates in a circuit,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:33:02.934292
+minimal_20250708_182558,precise,114,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:33:03.202334
+minimal_20250708_182558,precise,115,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,program analysis,0.0,0.4,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:33:03.390918
+minimal_20250708_182558,precise,116,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,analysis of algorithms,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:03.677050
+minimal_20250708_182558,precise,117,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms,computability theory,optimization,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:03.891479
+minimal_20250708_182558,precise,118,What is the name given to the input string of a computational problem?,problem instance,state,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:04.140002
+minimal_20250708_182558,precise,119,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,problem,0.0,0.6666666666666666,0.5,1,SQuAD baseline,2025-07-08T18:33:04.364566
+minimal_20250708_182558,precise,120,Is a problem instance typically characterized as abstract or concrete,concrete,concrete,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:04.550772
+minimal_20250708_182558,precise,121,What is another name for any given measure of input associated with a problem?,instances,data,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:04.804396
+minimal_20250708_182558,precise,122,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:05.020880
+minimal_20250708_182558,precise,123,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,tens of kilometers,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:05.310075
+minimal_20250708_182558,precise,124,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer,round trip through all sites in Milan,the battle of thermopylae,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:05.614792
+minimal_20250708_182558,precise,125,What does computational complexity theory most specifically seek to answer? ,computational problems,computational problem,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:33:05.878866
+minimal_20250708_182558,precise,126,"In a computational problem, what can be described as a string over an alphabet?",problem instance,patterns,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:06.120836
+minimal_20250708_182558,precise,127,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,alphonse,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:06.378052
+minimal_20250708_182558,precise,128,What is another term for the string of a problem instance?,bitstrings,java. util,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:06.645740
+minimal_20250708_182558,precise,129,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed",binary notation,binary interpretation of the numbers,0.0,0.28571428571428575,0.5,5,SQuAD baseline,2025-07-08T18:33:06.879202
+minimal_20250708_182558,precise,130,What is one way in which graphs can be encoded? ,adjacency matrices,factorials n!,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:07.135313
+minimal_20250708_182558,precise,131,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,p versus n,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:07.378827
+minimal_20250708_182558,precise,132,What are the two simple word responses to a decision problem?,yes or no,yes,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:33:07.664584
+minimal_20250708_182558,precise,133,What are the two integer responses to a decision problem,1 or 0,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:07.890401
+minimal_20250708_182558,precise,134,What will the output be for a member of the language of a decision problem?,yes,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:08.196293
+minimal_20250708_182558,precise,135,What answer denotes that an algorithm has accepted an input string?,yes,ρ,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:08.458188
+minimal_20250708_182558,precise,136,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:08.630815
+minimal_20250708_182558,precise,137,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:08.877262
+minimal_20250708_182558,precise,138,What encoding decision needs to be made in order to determine an exact definition of the formal language,how graphs are encoded as binary strings,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:33:09.088395
+minimal_20250708_182558,precise,139,A function problem is an example of what,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:33:09.340014
+minimal_20250708_182558,precise,140,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:33:09.615788
+minimal_20250708_182558,precise,141,The traveling salesman problem is an example of what type of problem?,A function problem,school bus routing problem,0.0,0.28571428571428575,0.3333333333333333,4,SQuAD baseline,2025-07-08T18:33:09.927153
+minimal_20250708_182558,precise,142,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling purchaser problem,0.0,0.28571428571428575,0.25,3,SQuAD baseline,2025-07-08T18:33:10.200684
+minimal_20250708_182558,precise,143,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:10.476015
+minimal_20250708_182558,precise,144,How can function problems typically be restated,decision problems,operational definition,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:10.776615
+minimal_20250708_182558,precise,145,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,set,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:33:11.094845
+minimal_20250708_182558,precise,146,What is one variable on which the running time may be contingent?,the instance,contingent variable,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:11.369081
+minimal_20250708_182558,precise,147,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:11.676098
+minimal_20250708_182558,precise,148,Complexity theory seeks to define the relationship between the scale of algorithms with respect to what other variable,an increase in the input size,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:33:11.961733
+minimal_20250708_182558,what_is,0,What is the capital of France,Paris,paris,1.0,1.0,1.0,1,Missing punctuation - question mark should help,2025-07-08T18:33:12.235059
+minimal_20250708_182558,what_is,1,Who wrote Hamlet,William Shakespeare,shakespeare,0.0,0.6666666666666666,0.5,1,Statement form - question mark should improve,2025-07-08T18:33:12.459305
+minimal_20250708_182558,what_is,2,When did World War II end,1945,2 september 1945,0.0,0.5,1.0,3,Missing question mark,2025-07-08T18:33:12.759008
+minimal_20250708_182558,what_is,3,Tell me the largest planet,Jupiter,what turns you on?,0.0,0.0,0.0,4,Command form - politeness might help,2025-07-08T18:33:13.069343
+minimal_20250708_182558,what_is,4,Give me the chemical symbol for gold,Au,gold,0.0,0.0,0.0,1,Imperative form - polite request better,2025-07-08T18:33:13.330440
+minimal_20250708_182558,what_is,5,What is the speed of light,299792458 meters per second,"299,792,458 metres per second",0.0,0.5,0.5,4,Could be vague - precision request should help,2025-07-08T18:33:13.669107
+minimal_20250708_182558,what_is,6,Population of Tokyo,37 million,what turns you on?,0.0,0.0,0.0,4,Incomplete question - precision should help,2025-07-08T18:33:13.933959
+minimal_20250708_182558,what_is,7,Photosynthesis,process where plants make food from sunlight,,0.0,0.0,0.0,0,Single word - 'what is' framing should help,2025-07-08T18:33:14.143642
+minimal_20250708_182558,what_is,8,Democracy,government by the people,democracy,0.0,0.0,0.0,1,Single concept - definition framing helps,2025-07-08T18:33:14.367179
+minimal_20250708_182558,what_is,9,What color is the sky?,blue,blue,1.0,1.0,1.0,1,Perfect question - basic should win,2025-07-08T18:33:14.609727
+minimal_20250708_182558,what_is,10,How many days in a week?,seven,seven,1.0,1.0,1.0,1,Simple count - basic should be fine,2025-07-08T18:33:14.824840
+minimal_20250708_182558,what_is,11,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:15.044509
+minimal_20250708_182558,what_is,12,When were the Normans in Normandy,10th and 11th centuries,during the trojan war,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:15.332545
+minimal_20250708_182558,what_is,13,From which countries did the Norse originate?,"Denmark, Iceland and Norway",from the norse,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:15.590691
+minimal_20250708_182558,what_is,14,Who was the Norse leader?,Rollo,who was the norse leader?,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:33:15.892821
+minimal_20250708_182558,what_is,15,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:33:16.134743
+minimal_20250708_182558,what_is,16,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:33:16.424188
+minimal_20250708_182558,what_is,17,Who ruled the duchy of Normandy,Richard I,king charles iii,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:16.725336
+minimal_20250708_182558,what_is,18,What religion were the Normans,Catholic,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:17.041869
+minimal_20250708_182558,what_is,19,What is the original meaning of the word Norman?,Viking,`` north '',0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:17.308761
+minimal_20250708_182558,what_is,20,When was the Latin version of the word Norman first recorded,9th century,in 1024,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:17.547220
+minimal_20250708_182558,what_is,21,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:17.845178
+minimal_20250708_182558,what_is,22,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with,King Charles III,charles the simple,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:33:18.167185
+minimal_20250708_182558,what_is,23,What river originally bounded the Duchy,Seine,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:18.434403
+minimal_20250708_182558,what_is,24,Who upon arriving gave the original viking settlers a common identity?,Rollo,the Normans,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:18.703508
+minimal_20250708_182558,what_is,25,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:18.978886
+minimal_20250708_182558,what_is,26,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:19.257456
+minimal_20250708_182558,what_is,27,What was one of the Norman's major exports,fighting horsemen,cloth,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:19.525412
+minimal_20250708_182558,what_is,28,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia",Seljuk Turks,hohenstaufen,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:19.759555
+minimal_20250708_182558,what_is,29,When did Herve serve as a Byzantine general?,1050s,2004 -- 05,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:20.034849
+minimal_20250708_182558,what_is,30,When did Robert Crispin go up against the Turks?,1060s,robert crispin and the turks,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:33:20.354410
+minimal_20250708_182558,what_is,31,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,how did roussel de bailleul win,0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:33:20.695518
+minimal_20250708_182558,what_is,32,What was the name of the Norman castle?,Afranji,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:20.967592
+minimal_20250708_182558,what_is,33,Who was the leader when the Franks entered the Euphrates valley?,Oursel,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:33:21.195084
+minimal_20250708_182558,what_is,34,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:21.422914
+minimal_20250708_182558,what_is,35,What were the origins of the Raouliii family?,Norman mercenary,the origin of the raouliii family,0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:33:21.781033
+minimal_20250708_182558,what_is,36,What was the name of the count of Apulia ,Robert Guiscard,( c.s. ),0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:22.083150
+minimal_20250708_182558,what_is,37,When did Dyrrachium  fall to the Normans?,1082,age of discovery,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:22.405956
+minimal_20250708_182558,what_is,38,How many men were in Robert's army,"30,000","1,000,000",0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:22.717031
+minimal_20250708_182558,what_is,39,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:23.006163
+minimal_20250708_182558,what_is,40,Who was Robert's son,Bohemond,steffon baratheon,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:23.284029
+minimal_20250708_182558,what_is,41,What river was Petrela located by,Deabolis,river sita,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:23.544339
+minimal_20250708_182558,what_is,42,When did the Normans attack Dyrrachium?,1185,2003,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:23.831611
+minimal_20250708_182558,what_is,43,What was the naval base called?,Dyrrachium,Guantanamo bay,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:24.116074
+minimal_20250708_182558,what_is,44,Where was Dyrrachium located?,the Adriatic,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:24.391365
+minimal_20250708_182558,what_is,45,Who did Emma Marry?,King Ethelred II,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:24.651189
+minimal_20250708_182558,what_is,46,Who was Emma's brother?,Duke Richard II,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:24.914862
+minimal_20250708_182558,what_is,47,To where did Ethelred flee?,Normandy,to return to england,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:25.186121
+minimal_20250708_182558,what_is,48,Who kicked Ethelred out,Sweyn Forkbeard,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:25.461300
+minimal_20250708_182558,what_is,49,Who was Edward the Confessor's half-brother?,Harthacnut,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:33:25.678267
+minimal_20250708_182558,what_is,50,When did Edward return?,1041,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:25.948046
+minimal_20250708_182558,what_is,51,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,who should be archbishop of canterbury,0.0,0.2222222222222222,0.3333333333333333,6,SQuAD baseline,2025-07-08T18:33:26.278917
+minimal_20250708_182558,what_is,52,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,SQuAD baseline,2025-07-08T18:33:26.589575
+minimal_20250708_182558,what_is,53,Who killed Harold II? ,William II,why did you kill harold ii,0.0,0.25,0.5,6,SQuAD baseline,2025-07-08T18:33:26.929003
+minimal_20250708_182558,what_is,54,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:33:27.201187
+minimal_20250708_182558,what_is,55,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the bourgeoisie,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:27.517332
+minimal_20250708_182558,what_is,56,What was the Anglo-Norman language's final form?,Modern English,"of medieval latin, diverse french varieties",0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:33:27.817622
+minimal_20250708_182558,what_is,57,In what year did the Norman's invade at Bannow Bay?,1169,1169,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:28.065062
+minimal_20250708_182558,what_is,58,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:28.294127
+minimal_20250708_182558,what_is,59,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:28.563725
+minimal_20250708_182558,what_is,60,Who was Margaret's brother?,Edgar,patrick,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:28.867424
+minimal_20250708_182558,what_is,61,Who was Margaret's husband?,King Malcolm III of Scotland,todd,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:29.164435
+minimal_20250708_182558,what_is,62,When was Scotland invaded by William?,1072,1612,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:29.422821
+minimal_20250708_182558,what_is,63,Who was the hostage?,Duncan,who was the hostage,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:29.686926
+minimal_20250708_182558,what_is,64,Who did Alexander I marry?,Sybilla of Normandy,maria maria,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:29.984361
+minimal_20250708_182558,what_is,65,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,norman,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:30.256309
+minimal_20250708_182558,what_is,66,Where was Ralph earl of?,Hereford,the mississippi river,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:30.541693
+minimal_20250708_182558,what_is,67,Who was Ralph in charge of being at war with?,the Welsh,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:30.822303
+minimal_20250708_182558,what_is,68,Who made Ralph earl?,Edward the Confessor,who made ralph earl?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:31.139001
+minimal_20250708_182558,what_is,69,What country was under the control of Norman barons,Wales,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:31.377373
+minimal_20250708_182558,what_is,70,What year did Roger de Tosny fail to accomplish what he set out to do,1018,1982,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:31.611145
+minimal_20250708_182558,what_is,71,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope leo iv,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:31.898099
+minimal_20250708_182558,what_is,72,When did the Siege of Antioch take place?,1097,during the first crusade,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:32.188707
+minimal_20250708_182558,what_is,73,What was the name of Bohemond's nephew?,Tancred,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:32.459357
+minimal_20250708_182558,what_is,74,What major conquest did Tancred play a roll in,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:32.802279
+minimal_20250708_182558,what_is,75,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:33.047996
+minimal_20250708_182558,what_is,76,What ruined Richard's plans to reach Acre?,a storm,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:33.337227
+minimal_20250708_182558,what_is,77,Who was Richard's fiancee?,Berengaria,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:33.621967
+minimal_20250708_182558,what_is,78,What year did the storm hit Richard's fleet?,1191,1982,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:33.853439
+minimal_20250708_182558,what_is,79,Who ruled Cyprus in 1191,Isaac Komnenos,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:34.172825
+minimal_20250708_182558,what_is,80,Who was Guy's Rival?,Conrad of Montferrat,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:34.461315
+minimal_20250708_182558,what_is,81,What were Isaac's chains made out of,silver,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:33:34.662675
+minimal_20250708_182558,what_is,82,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,why not,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:34.892625
+minimal_20250708_182558,what_is,83,What continent are the Canarian Islands off the coast of?,Africa,africa,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:35.179881
+minimal_20250708_182558,what_is,84,Who became the King of the Canary Islands,Bethencourt,miguel iii,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:35.456860
+minimal_20250708_182558,what_is,85,Who bought the rights?,Enrique Pérez de Guzmán,who,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:35.665462
+minimal_20250708_182558,what_is,86,Who sold the rights,Maciot de Bethencourt,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:35.930743
+minimal_20250708_182558,what_is,87,Where are Jersey and Guernsey,Channel Islands,in the english channel,0.0,0.3333333333333333,0.5,4,SQuAD baseline,2025-07-08T18:33:36.184467
+minimal_20250708_182558,what_is,88,How many customaries does Norman customary law have,two,two,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:36.407558
+minimal_20250708_182558,what_is,89,What is the Norman architecture idiom?,Romanesque,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:36.686182
+minimal_20250708_182558,what_is,90,What kind of arches does Norman architecture have?,rounded,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:33:36.865764
+minimal_20250708_182558,what_is,91,What architecture type came after Norman in England,Early Gothic,romanesque architecture,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:37.179547
+minimal_20250708_182558,what_is,92,What architecture type came before Norman in England?,Anglo-Saxon,romanesque,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:37.429441
+minimal_20250708_182558,what_is,93,What place had the Norman Arab architectural style?,Sicily,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:33:37.653881
+minimal_20250708_182558,what_is,94,When did the church reform begin?,early 11th century,1517,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:37.931313
+minimal_20250708_182558,what_is,95,Who used the church to unify themselves?,dukes,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:38.228596
+minimal_20250708_182558,what_is,96,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:38.507300
+minimal_20250708_182558,what_is,97,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:38.740721
+minimal_20250708_182558,what_is,98,What is Norman art's most well known piece?,Bayeux Tapestry,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:39.051203
+minimal_20250708_182558,what_is,99,Who commissioned the Tapestry?,Odo,king frederick i,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:39.320149
+minimal_20250708_182558,what_is,100,What is the most important type of Norman art preserved in churches?,mosaics,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:39.583487
+minimal_20250708_182558,what_is,101,In what century did important classical music developments occur in Normandy,11th,18th century,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:39.854389
+minimal_20250708_182558,what_is,102,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:33:40.084831
+minimal_20250708_182558,what_is,103,Where did the monks flee to,southern Italy,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:40.374962
+minimal_20250708_182558,what_is,104,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:40.662760
+minimal_20250708_182558,what_is,105,Who patronized the monks in Italy? ,Robert Guiscard,who,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:40.930094
+minimal_20250708_182558,what_is,106,What tradition were the Saint-Evroul monks known for?,singing,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:41.216408
+minimal_20250708_182558,what_is,107,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,SQuAD baseline,2025-07-08T18:33:41.471264
+minimal_20250708_182558,what_is,108,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,factoring,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:41.734509
+minimal_20250708_182558,what_is,109,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:41.982153
+minimal_20250708_182558,what_is,110,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,decision problem,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:42.219067
+minimal_20250708_182558,what_is,111,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,decision problem,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:42.457170
+minimal_20250708_182558,what_is,112,What are two basic primary resources used to guage complexity?,time and storage,water,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:42.681446
+minimal_20250708_182558,what_is,113,What unit is measured to determine circuit complexity?,number of gates in a circuit,Boolean functions,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:42.965965
+minimal_20250708_182558,what_is,114,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computational complexity theory,0.0,0.2222222222222222,0.16666666666666666,3,SQuAD baseline,2025-07-08T18:33:43.228829
+minimal_20250708_182558,what_is,115,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,search,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:43.514596
+minimal_20250708_182558,what_is,116,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,optimization,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:43.767985
+minimal_20250708_182558,what_is,117,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms,computability theory,optimization,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:44.036402
+minimal_20250708_182558,what_is,118,What is the name given to the input string of a computational problem?,problem instance,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:44.249370
+minimal_20250708_182558,what_is,119,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,empty set,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:44.489266
+minimal_20250708_182558,what_is,120,Is a problem instance typically characterized as abstract or concrete,concrete,concrete,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:44.745166
+minimal_20250708_182558,what_is,121,What is another name for any given measure of input associated with a problem?,instances,data,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:45.059776
+minimal_20250708_182558,what_is,122,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:45.320155
+minimal_20250708_182558,what_is,123,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,traveling salesman problem,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:45.606520
+minimal_20250708_182558,what_is,124,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer,round trip through all sites in Milan,vehicle routing problem,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:45.914093
+minimal_20250708_182558,what_is,125,What does computational complexity theory most specifically seek to answer? ,computational problems,p versus n,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:46.227179
+minimal_20250708_182558,what_is,126,"In a computational problem, what can be described as a string over an alphabet?",problem instance,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:46.495939
+minimal_20250708_182558,what_is,127,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:33:46.775820
+minimal_20250708_182558,what_is,128,What is another term for the string of a problem instance?,bitstrings,search,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:47.057804
+minimal_20250708_182558,what_is,129,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed",binary notation,factorials n!,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:47.381918
+minimal_20250708_182558,what_is,130,What is one way in which graphs can be encoded? ,adjacency matrices,two different processes,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:47.663208
+minimal_20250708_182558,what_is,131,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,computational problems,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:33:47.904247
+minimal_20250708_182558,what_is,132,What are the two simple word responses to a decision problem?,yes or no,yes,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:33:48.162895
+minimal_20250708_182558,what_is,133,What are the two integer responses to a decision problem,1 or 0,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:48.353985
+minimal_20250708_182558,what_is,134,What will the output be for a member of the language of a decision problem?,yes,yes,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:48.614115
+minimal_20250708_182558,what_is,135,What answer denotes that an algorithm has accepted an input string?,yes,acceptance,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:48.833490
+minimal_20250708_182558,what_is,136,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,natural numbers,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:49.074591
+minimal_20250708_182558,what_is,137,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:49.343519
+minimal_20250708_182558,what_is,138,What encoding decision needs to be made in order to determine an exact definition of the formal language,how graphs are encoded as binary strings,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:49.634868
+minimal_20250708_182558,what_is,139,A function problem is an example of what,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:33:49.831016
+minimal_20250708_182558,what_is,140,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:33:50.087065
+minimal_20250708_182558,what_is,141,The traveling salesman problem is an example of what type of problem?,A function problem,school bus routing problem,0.0,0.28571428571428575,0.3333333333333333,4,SQuAD baseline,2025-07-08T18:33:50.356851
+minimal_20250708_182558,what_is,142,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling salesman problem,0.0,0.28571428571428575,0.25,3,SQuAD baseline,2025-07-08T18:33:50.652558
+minimal_20250708_182558,what_is,143,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,yes or no,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:50.909997
+minimal_20250708_182558,what_is,144,How can function problems typically be restated,decision problems,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:33:51.201062
+minimal_20250708_182558,what_is,145,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,set,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:33:51.448330
+minimal_20250708_182558,what_is,146,What is one variable on which the running time may be contingent?,the instance,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:33:51.721544
+minimal_20250708_182558,what_is,147,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:33:51.978937
+minimal_20250708_182558,what_is,148,Complexity theory seeks to define the relationship between the scale of algorithms with respect to what other variable,an increase in the input size,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:33:52.247314
+minimal_20250708_182558,direct,0,What is the capital of France,Paris,paris,1.0,1.0,1.0,1,Missing punctuation - question mark should help,2025-07-08T18:33:52.438589
+minimal_20250708_182558,direct,1,Who wrote Hamlet,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Statement form - question mark should improve,2025-07-08T18:33:52.729234
+minimal_20250708_182558,direct,2,When did World War II end,1945,2 september 1945,0.0,0.5,1.0,3,Missing question mark,2025-07-08T18:33:53.040560
+minimal_20250708_182558,direct,3,Tell me the largest planet,Jupiter,greenwich,0.0,0.0,0.0,1,Command form - politeness might help,2025-07-08T18:33:53.345941
+minimal_20250708_182558,direct,4,Give me the chemical symbol for gold,Au,Au,1.0,1.0,1.0,1,Imperative form - polite request better,2025-07-08T18:33:53.543132
+minimal_20250708_182558,direct,5,What is the speed of light,299792458 meters per second,"299,792,458 metres per second",0.0,0.5,0.5,4,Could be vague - precision request should help,2025-07-08T18:33:53.861857
+minimal_20250708_182558,direct,6,Population of Tokyo,37 million,"2,423,925",0.0,0.0,0.0,1,Incomplete question - precision should help,2025-07-08T18:33:54.126620
+minimal_20250708_182558,direct,7,Photosynthesis,process where plants make food from sunlight,photosynthesis,0.0,0.0,0.0,1,Single word - 'what is' framing should help,2025-07-08T18:33:54.402579
+minimal_20250708_182558,direct,8,Democracy,government by the people,democracy,0.0,0.0,0.0,1,Single concept - definition framing helps,2025-07-08T18:33:54.641145
+minimal_20250708_182558,direct,9,What color is the sky?,blue,blue,1.0,1.0,1.0,1,Perfect question - basic should win,2025-07-08T18:33:54.854518
+minimal_20250708_182558,direct,10,How many days in a week?,seven,seven,1.0,1.0,1.0,1,Simple count - basic should be fine,2025-07-08T18:33:55.074119
+minimal_20250708_182558,direct,11,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:33:55.268730
+minimal_20250708_182558,direct,12,When were the Normans in Normandy,10th and 11th centuries,911,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:55.559899
+minimal_20250708_182558,direct,13,From which countries did the Norse originate?,"Denmark, Iceland and Norway",norway,0.0,0.4,0.25,1,SQuAD baseline,2025-07-08T18:33:55.789543
+minimal_20250708_182558,direct,14,Who was the Norse leader?,Rollo,cnut,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:56.076678
+minimal_20250708_182558,direct,15,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:33:56.374704
+minimal_20250708_182558,direct,16,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:33:56.678845
+minimal_20250708_182558,direct,17,Who ruled the duchy of Normandy,Richard I,king charles iii of west francia,0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:33:56.982255
+minimal_20250708_182558,direct,18,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:57.219138
+minimal_20250708_182558,direct,19,What is the original meaning of the word Norman?,Viking,normaunds,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:57.481797
+minimal_20250708_182558,direct,20,When was the Latin version of the word Norman first recorded,9th century,1024,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:57.751986
+minimal_20250708_182558,direct,21,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:58.004187
+minimal_20250708_182558,direct,22,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with,King Charles III,charles the simple,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:33:58.255341
+minimal_20250708_182558,direct,23,What river originally bounded the Duchy,Seine,tennessee river,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:58.517207
+minimal_20250708_182558,direct,24,Who upon arriving gave the original viking settlers a common identity?,Rollo,the inuit,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:33:58.756879
+minimal_20250708_182558,direct,25,What was the Norman religion?,Catholicism,islam,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:59.039796
+minimal_20250708_182558,direct,26,What part of France were the Normans located?,north,normandy,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:59.364348
+minimal_20250708_182558,direct,27,What was one of the Norman's major exports,fighting horsemen,fur,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:59.594045
+minimal_20250708_182558,direct,28,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia",Seljuk Turks,hohenstaufen,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:33:59.889784
+minimal_20250708_182558,direct,29,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:00.156547
+minimal_20250708_182558,direct,30,When did Robert Crispin go up against the Turks?,1060s,1971,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:00.366900
+minimal_20250708_182558,direct,31,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:34:00.622203
+minimal_20250708_182558,direct,32,What was the name of the Norman castle?,Afranji,neuschwanstein castle,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:00.930863
+minimal_20250708_182558,direct,33,Who was the leader when the Franks entered the Euphrates valley?,Oursel,theudebert i,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:01.204074
+minimal_20250708_182558,direct,34,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:01.480462
+minimal_20250708_182558,direct,35,What were the origins of the Raouliii family?,Norman mercenary,english,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:01.741598
+minimal_20250708_182558,direct,36,What was the name of the count of Apulia ,Robert Guiscard,frederick iii,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:01.991373
+minimal_20250708_182558,direct,37,When did Dyrrachium  fall to the Normans?,1082,10th or 11th century,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:02.283258
+minimal_20250708_182558,direct,38,How many men were in Robert's army,"30,000","over 60,000 men",0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:02.557635
+minimal_20250708_182558,direct,39,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:02.795087
+minimal_20250708_182558,direct,40,Who was Robert's son,Bohemond,steffon,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:03.088095
+minimal_20250708_182558,direct,41,What river was Petrela located by,Deabolis,river irwell,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:03.324766
+minimal_20250708_182558,direct,42,When did the Normans attack Dyrrachium?,1185,august,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:03.539561
+minimal_20250708_182558,direct,43,What was the naval base called?,Dyrrachium,navy island,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:03.824132
+minimal_20250708_182558,direct,44,Where was Dyrrachium located?,the Adriatic,north america,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:04.125893
+minimal_20250708_182558,direct,45,Who did Emma Marry?,King Ethelred II,matt willis,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:04.517049
+minimal_20250708_182558,direct,46,Who was Emma's brother?,Duke Richard II,elliot reeve,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:04.806178
+minimal_20250708_182558,direct,47,To where did Ethelred flee?,Normandy,to return to england,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:05.067572
+minimal_20250708_182558,direct,48,Who kicked Ethelred out,Sweyn Forkbeard,henderson,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:05.310422
+minimal_20250708_182558,direct,49,Who was Edward the Confessor's half-brother?,Harthacnut,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:34:05.532404
+minimal_20250708_182558,direct,50,When did Edward return?,1041,18 november 2011,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:05.822095
+minimal_20250708_182558,direct,51,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,augustine,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:06.152211
+minimal_20250708_182558,direct,52,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,SQuAD baseline,2025-07-08T18:34:06.434848
+minimal_20250708_182558,direct,53,Who killed Harold II? ,William II,maude,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:06.664195
+minimal_20250708_182558,direct,54,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:34:06.928674
+minimal_20250708_182558,direct,55,Who was the ruling class ahead of the Normans?,Anglo-Saxons,anglo - normans,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:07.218077
+minimal_20250708_182558,direct,56,What was the Anglo-Norman language's final form?,Modern English,middle english,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:34:07.442904
+minimal_20250708_182558,direct,57,In what year did the Norman's invade at Bannow Bay?,1169,1169,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:07.672819
+minimal_20250708_182558,direct,58,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:07.896101
+minimal_20250708_182558,direct,59,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:08.173290
+minimal_20250708_182558,direct,60,Who was Margaret's brother?,Edgar,eamonn's,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:08.551783
+minimal_20250708_182558,direct,61,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:08.862527
+minimal_20250708_182558,direct,62,When was Scotland invaded by William?,1072,1612,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:09.053650
+minimal_20250708_182558,direct,63,Who was the hostage?,Duncan,british soldier leslie williams,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:09.407658
+minimal_20250708_182558,direct,64,Who did Alexander I marry?,Sybilla of Normandy,philip,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:09.739145
+minimal_20250708_182558,direct,65,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,norman,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:10.085200
+minimal_20250708_182558,direct,66,Where was Ralph earl of?,Hereford,new york,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:10.410216
+minimal_20250708_182558,direct,67,Who was Ralph in charge of being at war with?,the Welsh,u.s. army,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:10.686871
+minimal_20250708_182558,direct,68,Who made Ralph earl?,Edward the Confessor,ralph earl,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:11.004487
+minimal_20250708_182558,direct,69,What country was under the control of Norman barons,Wales,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:11.244697
+minimal_20250708_182558,direct,70,What year did Roger de Tosny fail to accomplish what he set out to do,1018,1982,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:11.429808
+minimal_20250708_182558,direct,71,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope alexander ii,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:11.682748
+minimal_20250708_182558,direct,72,When did the Siege of Antioch take place?,1097,1097 and 1098,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:34:11.948012
+minimal_20250708_182558,direct,73,What was the name of Bohemond's nephew?,Tancred,jean - fréminet,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:12.305618
+minimal_20250708_182558,direct,74,What major conquest did Tancred play a roll in,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:12.659583
+minimal_20250708_182558,direct,75,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:12.990864
+minimal_20250708_182558,direct,76,What ruined Richard's plans to reach Acre?,a storm,drought,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:13.211131
+minimal_20250708_182558,direct,77,Who was Richard's fiancee?,Berengaria,brittany baker ( ex-wife ),0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:34:13.539313
+minimal_20250708_182558,direct,78,What year did the storm hit Richard's fleet?,1191,1982,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:13.714874
+minimal_20250708_182558,direct,79,Who ruled Cyprus in 1191,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:34:13.995004
+minimal_20250708_182558,direct,80,Who was Guy's Rival?,Conrad of Montferrat,herman brar,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:14.262358
+minimal_20250708_182558,direct,81,What were Isaac's chains made out of,silver,iron,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:14.422741
+minimal_20250708_182558,direct,82,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,king richard i,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:14.745309
+minimal_20250708_182558,direct,83,What continent are the Canarian Islands off the coast of?,Africa,western hemisphere,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:14.971636
+minimal_20250708_182558,direct,84,Who became the King of the Canary Islands,Bethencourt,guadarfia,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:15.276474
+minimal_20250708_182558,direct,85,Who bought the rights?,Enrique Pérez de Guzmán,who,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:15.551938
+minimal_20250708_182558,direct,86,Who sold the rights,Maciot de Bethencourt,sidgwick & jackson,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:15.839902
+minimal_20250708_182558,direct,87,Where are Jersey and Guernsey,Channel Islands,"normandy, france",0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:16.100199
+minimal_20250708_182558,direct,88,How many customaries does Norman customary law have,two,161,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:16.299921
+minimal_20250708_182558,direct,89,What is the Norman architecture idiom?,Romanesque,transitional,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:16.499286
+minimal_20250708_182558,direct,90,What kind of arches does Norman architecture have?,rounded,horseshoe arch,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:16.749478
+minimal_20250708_182558,direct,91,What architecture type came after Norman in England,Early Gothic,processional gateway ( propylon ),0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:34:17.038072
+minimal_20250708_182558,direct,92,What architecture type came before Norman in England?,Anglo-Saxon,romanesque architecture,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:17.286035
+minimal_20250708_182558,direct,93,What place had the Norman Arab architectural style?,Sicily,southern italy,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:17.523899
+minimal_20250708_182558,direct,94,When did the church reform begin?,early 11th century,1517,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:17.804250
+minimal_20250708_182558,direct,95,Who used the church to unify themselves?,dukes,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:18.127846
+minimal_20250708_182558,direct,96,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:18.497362
+minimal_20250708_182558,direct,97,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidered,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:18.757621
+minimal_20250708_182558,direct,98,What is Norman art's most well known piece?,Bayeux Tapestry,the battle of thermopylae,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:19.115420
+minimal_20250708_182558,direct,99,Who commissioned the Tapestry?,Odo,bishop odo,0.0,0.6666666666666666,1.0,2,SQuAD baseline,2025-07-08T18:34:19.464284
+minimal_20250708_182558,direct,100,What is the most important type of Norman art preserved in churches?,mosaics,processional gateway ( propylon ),0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:34:19.746744
+minimal_20250708_182558,direct,101,In what century did important classical music developments occur in Normandy,11th,18th century,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:20.016611
+minimal_20250708_182558,direct,102,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard ii,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:20.303907
+minimal_20250708_182558,direct,103,Where did the monks flee to,southern Italy,italy,0.0,0.6666666666666666,0.5,1,SQuAD baseline,2025-07-08T18:34:20.535188
+minimal_20250708_182558,direct,104,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,san vitale,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:20.829408
+minimal_20250708_182558,direct,105,Who patronized the monks in Italy? ,Robert Guiscard,the pope,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:21.095814
+minimal_20250708_182558,direct,106,What tradition were the Saint-Evroul monks known for?,singing,aristotelianism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:21.398891
+minimal_20250708_182558,direct,107,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,SQuAD baseline,2025-07-08T18:34:21.682702
+minimal_20250708_182558,direct,108,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,computational complexity,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:21.921304
+minimal_20250708_182558,direct,109,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:22.168227
+minimal_20250708_182558,direct,110,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,turing degree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:22.405811
+minimal_20250708_182558,direct,111,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,computational resource management,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:22.622928
+minimal_20250708_182558,direct,112,What are two basic primary resources used to guage complexity?,time and storage,water,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:22.821914
+minimal_20250708_182558,direct,113,What unit is measured to determine circuit complexity?,number of gates in a circuit,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:34:23.032536
+minimal_20250708_182558,direct,114,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:34:23.319082
+minimal_20250708_182558,direct,115,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,program analysis,0.0,0.4,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:34:23.593180
+minimal_20250708_182558,direct,116,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,algorithm analysis,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:23.868662
+minimal_20250708_182558,direct,117,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms,computability theory,optimization,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:24.147340
+minimal_20250708_182558,direct,118,What is the name given to the input string of a computational problem?,problem instance,problem / solution,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:34:24.354606
+minimal_20250708_182558,direct,119,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,problem,0.0,0.6666666666666666,0.5,1,SQuAD baseline,2025-07-08T18:34:24.587585
+minimal_20250708_182558,direct,120,Is a problem instance typically characterized as abstract or concrete,concrete,concrete,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:24.878165
+minimal_20250708_182558,direct,121,What is another name for any given measure of input associated with a problem?,instances,data,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:25.149378
+minimal_20250708_182558,direct,122,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:25.430028
+minimal_20250708_182558,direct,123,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,shortest possible route,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:25.668984
+minimal_20250708_182558,direct,124,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer,round trip through all sites in Milan,hamilton cycle,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:25.910920
+minimal_20250708_182558,direct,125,What does computational complexity theory most specifically seek to answer? ,computational problems,computational problem,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:34:26.119696
+minimal_20250708_182558,direct,126,"In a computational problem, what can be described as a string over an alphabet?",problem instance,patterns,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:26.348419
+minimal_20250708_182558,direct,127,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,anagram,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:26.596244
+minimal_20250708_182558,direct,128,What is another term for the string of a problem instance?,bitstrings,tell - me,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:26.859913
+minimal_20250708_182558,direct,129,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed",binary notation,binary interpretation of the numbers,0.0,0.28571428571428575,0.5,5,SQuAD baseline,2025-07-08T18:34:27.151639
+minimal_20250708_182558,direct,130,What is one way in which graphs can be encoded? ,adjacency matrices,factorials n!,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:27.464324
+minimal_20250708_182558,direct,131,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,computational problems,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:34:27.694188
+minimal_20250708_182558,direct,132,What are the two simple word responses to a decision problem?,yes or no,yes,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:34:27.936121
+minimal_20250708_182558,direct,133,What are the two integer responses to a decision problem,1 or 0,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:28.157336
+minimal_20250708_182558,direct,134,What will the output be for a member of the language of a decision problem?,yes,what turns you on?,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:28.418254
+minimal_20250708_182558,direct,135,What answer denotes that an algorithm has accepted an input string?,yes,tell - me,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:28.664982
+minimal_20250708_182558,direct,136,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:28.969077
+minimal_20250708_182558,direct,137,What is the term for the set of all connected graphs related to this decision problem?,formal language,complete graph,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:29.232489
+minimal_20250708_182558,direct,138,What encoding decision needs to be made in order to determine an exact definition of the formal language,how graphs are encoded as binary strings,encode,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:29.526824
+minimal_20250708_182558,direct,139,A function problem is an example of what,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:34:29.796854
+minimal_20250708_182558,direct,140,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:34:30.106778
+minimal_20250708_182558,direct,141,The traveling salesman problem is an example of what type of problem?,A function problem,school bus routing problem,0.0,0.28571428571428575,0.3333333333333333,4,SQuAD baseline,2025-07-08T18:34:30.389360
+minimal_20250708_182558,direct,142,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling salesman problem,0.0,0.28571428571428575,0.25,3,SQuAD baseline,2025-07-08T18:34:30.649665
+minimal_20250708_182558,direct,143,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,simple,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:30.910793
+minimal_20250708_182558,direct,144,How can function problems typically be restated,decision problems,structures,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:31.246613
+minimal_20250708_182558,direct,145,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,set,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:34:31.464566
+minimal_20250708_182558,direct,146,What is one variable on which the running time may be contingent?,the instance,architecture,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:31.761953
+minimal_20250708_182558,direct,147,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:32.039918
+minimal_20250708_182558,direct,148,Complexity theory seeks to define the relationship between the scale of algorithms with respect to what other variable,an increase in the input size,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:34:32.316783
+minimal_20250708_182558,basic,0,What is the capital of France,Paris,paris,1.0,1.0,1.0,1,Missing punctuation - question mark should help,2025-07-08T18:34:32.569198
+minimal_20250708_182558,basic,1,Who wrote Hamlet,William Shakespeare,william shakespeare,1.0,1.0,1.0,2,Statement form - question mark should improve,2025-07-08T18:34:32.852905
+minimal_20250708_182558,basic,2,When did World War II end,1945,2 september 1945,0.0,0.5,1.0,3,Missing question mark,2025-07-08T18:34:33.135125
+minimal_20250708_182558,basic,3,Tell me the largest planet,Jupiter,uy scuti,0.0,0.0,0.0,2,Command form - politeness might help,2025-07-08T18:34:33.417727
+minimal_20250708_182558,basic,4,Give me the chemical symbol for gold,Au,au,1.0,1.0,1.0,1,Imperative form - polite request better,2025-07-08T18:34:33.632968
+minimal_20250708_182558,basic,5,What is the speed of light,299792458 meters per second,"299,792,458 metres per second",0.0,0.5,0.5,4,Could be vague - precision request should help,2025-07-08T18:34:33.930072
+minimal_20250708_182558,basic,6,Population of Tokyo,37 million,"37,925,000",0.0,0.0,0.0,1,Incomplete question - precision should help,2025-07-08T18:34:34.232565
+minimal_20250708_182558,basic,7,Photosynthesis,process where plants make food from sunlight,photosynthesis,0.0,0.0,0.0,1,Single word - 'what is' framing should help,2025-07-08T18:34:34.439033
+minimal_20250708_182558,basic,8,Democracy,government by the people,free and fair elections,0.0,0.0,0.0,4,Single concept - definition framing helps,2025-07-08T18:34:34.643490
+minimal_20250708_182558,basic,9,What color is the sky?,blue,blue,1.0,1.0,1.0,1,Perfect question - basic should win,2025-07-08T18:34:34.826647
+minimal_20250708_182558,basic,10,How many days in a week?,seven,seven,1.0,1.0,1.0,1,Simple count - basic should be fine,2025-07-08T18:34:34.985035
+minimal_20250708_182558,basic,11,In what country is Normandy located?,France,france,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:35.174381
+minimal_20250708_182558,basic,12,When were the Normans in Normandy,10th and 11th centuries,911,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:35.344680
+minimal_20250708_182558,basic,13,From which countries did the Norse originate?,"Denmark, Iceland and Norway",sweden,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:35.581856
+minimal_20250708_182558,basic,14,Who was the Norse leader?,Rollo,cnut,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:35.835140
+minimal_20250708_182558,basic,15,What century did the Normans first gain their separate identity?,10th century,the ninth century,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:34:36.134673
+minimal_20250708_182558,basic,16,Who was the duke in the battle of Hastings?,William the Conqueror,william,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:34:36.436309
+minimal_20250708_182558,basic,17,Who ruled the duchy of Normandy,Richard I,king charles iii of west francia,0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:34:36.731550
+minimal_20250708_182558,basic,18,What religion were the Normans,Catholic,catholicism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:36.964988
+minimal_20250708_182558,basic,19,What is the original meaning of the word Norman?,Viking,north,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:37.201871
+minimal_20250708_182558,basic,20,When was the Latin version of the word Norman first recorded,9th century,1024,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:37.508858
+minimal_20250708_182558,basic,21,When was the Duchy of Normandy founded?,911,1066,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:37.785315
+minimal_20250708_182558,basic,22,Who did Rollo sign the treaty of Saint-Clair-sur-Epte with,King Charles III,charles martel,0.0,0.4,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:34:38.055499
+minimal_20250708_182558,basic,23,What river originally bounded the Duchy,Seine,elbe,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:38.304697
+minimal_20250708_182558,basic,24,Who upon arriving gave the original viking settlers a common identity?,Rollo,the byzantines,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:38.574114
+minimal_20250708_182558,basic,25,What was the Norman religion?,Catholicism,catholicism,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:38.759467
+minimal_20250708_182558,basic,26,What part of France were the Normans located?,north,west france,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:39.001156
+minimal_20250708_182558,basic,27,What was one of the Norman's major exports,fighting horsemen,cloth,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:39.206424
+minimal_20250708_182558,basic,28,"Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia",Seljuk Turks,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:34:39.387101
+minimal_20250708_182558,basic,29,When did Herve serve as a Byzantine general?,1050s,1984 -- 86,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:39.664065
+minimal_20250708_182558,basic,30,When did Robert Crispin go up against the Turks?,1060s,862,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:39.909550
+minimal_20250708_182558,basic,31,Who ruined Roussel de Bailleul's plans for an independent state?,Alexius Komnenos,henshaw,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:40.226249
+minimal_20250708_182558,basic,32,What was the name of the Norman castle?,Afranji,neath castle,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:40.535718
+minimal_20250708_182558,basic,33,Who was the leader when the Franks entered the Euphrates valley?,Oursel,theudebert i,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:40.825933
+minimal_20250708_182558,basic,34,Who did the Normans team up with in Anatolia?,Turkish forces,turkey,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:41.118946
+minimal_20250708_182558,basic,35,What were the origins of the Raouliii family?,Norman mercenary,english,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:41.399407
+minimal_20250708_182558,basic,36,What was the name of the count of Apulia ,Robert Guiscard,( last ) frederick iii,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:34:41.688530
+minimal_20250708_182558,basic,37,When did Dyrrachium  fall to the Normans?,1082,10th century,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:41.961595
+minimal_20250708_182558,basic,38,How many men were in Robert's army,"30,000","4,000 +",0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:42.259609
+minimal_20250708_182558,basic,39,Where did the Normans and Byzantines sign the peace treaty?,Deabolis,constantinople,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:42.518299
+minimal_20250708_182558,basic,40,Who was Robert's son,Bohemond,odo,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:42.753134
+minimal_20250708_182558,basic,41,What river was Petrela located by,Deabolis,river irwell,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:43.010740
+minimal_20250708_182558,basic,42,When did the Normans attack Dyrrachium?,1185,october 1174,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:43.285159
+minimal_20250708_182558,basic,43,What was the naval base called?,Dyrrachium,guantanamo bay naval base,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:43.581287
+minimal_20250708_182558,basic,44,Where was Dyrrachium located?,the Adriatic,canada,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:43.867163
+minimal_20250708_182558,basic,45,Who did Emma Marry?,King Ethelred II,will arnett,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:44.125847
+minimal_20250708_182558,basic,46,Who was Emma's brother?,Duke Richard II,bradley spencer,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:44.391789
+minimal_20250708_182558,basic,47,To where did Ethelred flee?,Normandy,fled to be with ethelred,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:34:44.698474
+minimal_20250708_182558,basic,48,Who kicked Ethelred out,Sweyn Forkbeard,heather,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:44.940897
+minimal_20250708_182558,basic,49,Who was Edward the Confessor's half-brother?,Harthacnut,edmund irons,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:45.209383
+minimal_20250708_182558,basic,50,When did Edward return?,1041,1357,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:45.506882
+minimal_20250708_182558,basic,51,Who did Edward make archbishop of Canterbury?,Robert of Jumièges,himself,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:45.726119
+minimal_20250708_182558,basic,52,Where did Harold II die?,Battle of Hastings,at the battle of hastings,0.0,0.7499999999999999,1.0,5,SQuAD baseline,2025-07-08T18:34:46.025271
+minimal_20250708_182558,basic,53,Who killed Harold II? ,William II,william the conqueror,0.0,0.4,0.5,3,SQuAD baseline,2025-07-08T18:34:46.265844
+minimal_20250708_182558,basic,54,When was the Battle of Hastings?,1066,14 october 1066,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:34:46.503726
+minimal_20250708_182558,basic,55,Who was the ruling class ahead of the Normans?,Anglo-Saxons,the bourgeoisie,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:46.743220
+minimal_20250708_182558,basic,56,What was the Anglo-Norman language's final form?,Modern English,middle english,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:34:46.957596
+minimal_20250708_182558,basic,57,In what year did the Norman's invade at Bannow Bay?,1169,1169,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:47.173016
+minimal_20250708_182558,basic,58,What country did the Normans invade in 1169?,Ireland,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:47.377866
+minimal_20250708_182558,basic,59,What culture did the Normans combine with in Ireland?,Irish,irish,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:47.602642
+minimal_20250708_182558,basic,60,Who was Margaret's brother?,Edgar,philip,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:47.878325
+minimal_20250708_182558,basic,61,Who was Margaret's husband?,King Malcolm III of Scotland,hans schroeder,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:48.221546
+minimal_20250708_182558,basic,62,When was Scotland invaded by William?,1072,1612,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:48.448086
+minimal_20250708_182558,basic,63,Who was the hostage?,Duncan,thomas randolph,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:48.827143
+minimal_20250708_182558,basic,64,Who did Alexander I marry?,Sybilla of Normandy,emma rooke,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:49.098110
+minimal_20250708_182558,basic,65,"What culture's arrival in Scotland is know as the ""Davidian Revolution""?",Norman,norman,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:49.336080
+minimal_20250708_182558,basic,66,Where was Ralph earl of?,Hereford,east anglia,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:49.587344
+minimal_20250708_182558,basic,67,Who was Ralph in charge of being at war with?,the Welsh,u.s. army,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:49.896559
+minimal_20250708_182558,basic,68,Who made Ralph earl?,Edward the Confessor,ramsay,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:50.095225
+minimal_20250708_182558,basic,69,What country was under the control of Norman barons,Wales,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:50.341691
+minimal_20250708_182558,basic,70,What year did Roger de Tosny fail to accomplish what he set out to do,1018,1982,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:50.609733
+minimal_20250708_182558,basic,71,Who was in charge of the papal army in the War of Barbastro?,William of Montreuil,pope alexander ii,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:50.884378
+minimal_20250708_182558,basic,72,When did the Siege of Antioch take place?,1097,1097 and 1098,0.0,0.5,1.0,3,SQuAD baseline,2025-07-08T18:34:51.176697
+minimal_20250708_182558,basic,73,What was the name of Bohemond's nephew?,Tancred,jean - fréminet,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:51.478344
+minimal_20250708_182558,basic,74,What major conquest did Tancred play a roll in,Jerusalem,british - iroquois victory,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:51.838415
+minimal_20250708_182558,basic,75,How long did Western Europe control Cyprus?,380 years,1878 -- 79,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:52.086711
+minimal_20250708_182558,basic,76,What ruined Richard's plans to reach Acre?,a storm,2018,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:52.263229
+minimal_20250708_182558,basic,77,Who was Richard's fiancee?,Berengaria,brittany baker,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:52.554075
+minimal_20250708_182558,basic,78,What year did the storm hit Richard's fleet?,1191,1794,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:52.781154
+minimal_20250708_182558,basic,79,Who ruled Cyprus in 1191,Isaac Komnenos,king richard i of england,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:34:53.081226
+minimal_20250708_182558,basic,80,Who was Guy's Rival?,Conrad of Montferrat,ky markham,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:53.340806
+minimal_20250708_182558,basic,81,What were Isaac's chains made out of,silver,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:34:53.562306
+minimal_20250708_182558,basic,82,Who led Richard's troops when Cyprus was conquered?,Guy de Lusignan,2018,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:53.724454
+minimal_20250708_182558,basic,83,What continent are the Canarian Islands off the coast of?,Africa,western hemisphere,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:53.974219
+minimal_20250708_182558,basic,84,Who became the King of the Canary Islands,Bethencourt,jean de béthencourt,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:54.294053
+minimal_20250708_182558,basic,85,Who bought the rights?,Enrique Pérez de Guzmán,united artists,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:54.560789
+minimal_20250708_182558,basic,86,Who sold the rights,Maciot de Bethencourt,tolkien,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:54.906373
+minimal_20250708_182558,basic,87,Where are Jersey and Guernsey,Channel Islands,"normandy, france",0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:55.258199
+minimal_20250708_182558,basic,88,How many customaries does Norman customary law have,two,161,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:55.500650
+minimal_20250708_182558,basic,89,What is the Norman architecture idiom?,Romanesque,norman transitional style,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:34:55.784531
+minimal_20250708_182558,basic,90,What kind of arches does Norman architecture have?,rounded,grand arch,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:56.035134
+minimal_20250708_182558,basic,91,What architecture type came after Norman in England,Early Gothic,processional gateway ( propylon ),0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:34:56.337852
+minimal_20250708_182558,basic,92,What architecture type came before Norman in England?,Anglo-Saxon,romanesque,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:56.600583
+minimal_20250708_182558,basic,93,What place had the Norman Arab architectural style?,Sicily,england,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:56.866366
+minimal_20250708_182558,basic,94,When did the church reform begin?,early 11th century,1517,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:57.164676
+minimal_20250708_182558,basic,95,Who used the church to unify themselves?,dukes,native - born christians,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:57.441805
+minimal_20250708_182558,basic,96,When were the French wars of religion?,16th century,between 1562 and 1598,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:57.727774
+minimal_20250708_182558,basic,97,What kind of needlework was used in the creation of the Bayeux Tapestry?,embroidery,embroidery,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:34:57.983134
+minimal_20250708_182558,basic,98,What is Norman art's most well known piece?,Bayeux Tapestry,the battle of thermopylae,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:34:58.292593
+minimal_20250708_182558,basic,99,Who commissioned the Tapestry?,Odo,bishop odo,0.0,0.6666666666666666,1.0,2,SQuAD baseline,2025-07-08T18:34:58.597947
+minimal_20250708_182558,basic,100,What is the most important type of Norman art preserved in churches?,mosaics,norman architecture,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:58.877033
+minimal_20250708_182558,basic,101,In what century did important classical music developments occur in Normandy,11th,1790s,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:59.129498
+minimal_20250708_182558,basic,102,Who were the two abbots at Fécamp Abbey?,William of Volpiano and John of Ravenna,richard ii,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:34:59.395806
+minimal_20250708_182558,basic,103,Where did the monks flee to,southern Italy,italy,0.0,0.6666666666666666,0.5,1,SQuAD baseline,2025-07-08T18:34:59.672838
+minimal_20250708_182558,basic,104,What monastery did the Saint-Evroul monks establish in Italy?,Latin monastery at Sant'Eufemia.,montepulciano,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:34:59.976867
+minimal_20250708_182558,basic,105,Who patronized the monks in Italy? ,Robert Guiscard,rich and successful businessmen,0.0,0.0,0.0,4,SQuAD baseline,2025-07-08T18:35:00.235112
+minimal_20250708_182558,basic,106,What tradition were the Saint-Evroul monks known for?,singing,aristotelianism,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:00.565938
+minimal_20250708_182558,basic,107,What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?,Computational complexity theory,computational complexity theory,1.0,1.0,1.0,3,SQuAD baseline,2025-07-08T18:35:00.839283
+minimal_20250708_182558,basic,108,By what main attribute are computational problems classified utilizing computational complexity theory? ,inherent difficulty,complexity,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:01.050319
+minimal_20250708_182558,basic,109,What is the term for a task that generally lends itself to being solved by a computer?,computational problems,algorithm,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:01.244144
+minimal_20250708_182558,basic,110,What measure of a computational problem broadly defines the inherent difficulty of the solution?,if its solution requires significant resources,turing degree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:35:01.495623
+minimal_20250708_182558,basic,111,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,mathematical models of computation,resource management,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:35:01.745719
+minimal_20250708_182558,basic,112,What are two basic primary resources used to guage complexity?,time and storage,water,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:01.941096
+minimal_20250708_182558,basic,113,What unit is measured to determine circuit complexity?,number of gates in a circuit,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:35:02.122483
+minimal_20250708_182558,basic,114,What two fields of theoretical computer science closely mirror computational complexity theory?,analysis of algorithms and computability theory,computability theory,0.0,0.5,0.3333333333333333,2,SQuAD baseline,2025-07-08T18:35:02.382018
+minimal_20250708_182558,basic,115,What field of computer science analyzes the resource requirements of a specific algorithm isolated unto itself within a given problem?,analysis of algorithms,empirical algorithmics,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:35:02.628937
+minimal_20250708_182558,basic,116,What field of computer science analyzes all possible algorithms in aggregate to determine the resource requirements needed to solve to a given problem?  ,computational complexity theory,analysis of algorithms,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:35:02.901437
+minimal_20250708_182558,basic,117,What field of computer science is primarily concerned with determining the likelihood of whether or not a problem can ultimately be solved using algorithms,computability theory,optimization,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:03.173726
+minimal_20250708_182558,basic,118,What is the name given to the input string of a computational problem?,problem instance,initial state,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:35:03.448364
+minimal_20250708_182558,basic,119,"In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",the problem,problem,0.0,0.6666666666666666,0.5,1,SQuAD baseline,2025-07-08T18:35:03.718343
+minimal_20250708_182558,basic,120,Is a problem instance typically characterized as abstract or concrete,concrete,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:35:03.970710
+minimal_20250708_182558,basic,121,What is another name for any given measure of input associated with a problem?,instances,data,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:04.257842
+minimal_20250708_182558,basic,122,What is the general term used to describe the output to any given input in a problem instance?,solution,output,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:04.511624
+minimal_20250708_182558,basic,123,By how many kilometers does the traveling salesman problem seek to classify a route between the 15 largest cities in Germany?,2000,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:35:04.701411
+minimal_20250708_182558,basic,124,What is one example of an instance that the quantitative answer to the traveling salesman problem fails to answer,round trip through all sites in Milan,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:35:04.888557
+minimal_20250708_182558,basic,125,What does computational complexity theory most specifically seek to answer? ,computational problems,computational problems,1.0,1.0,1.0,2,SQuAD baseline,2025-07-08T18:35:05.146672
+minimal_20250708_182558,basic,126,"In a computational problem, what can be described as a string over an alphabet?",problem instance,patterns,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:05.369600
+minimal_20250708_182558,basic,127,What is the name of the alphabet is most commonly used in a problem instance?,binary alphabet,anagram,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:05.635442
+minimal_20250708_182558,basic,128,What is another term for the string of a problem instance?,bitstrings,java. util,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:35:05.914208
+minimal_20250708_182558,basic,129,"In the encoding of mathematical objects, what is the way in which integers are commonly expressed",binary notation,binary interpretation of the numbers,0.0,0.28571428571428575,0.5,5,SQuAD baseline,2025-07-08T18:35:06.216071
+minimal_20250708_182558,basic,130,What is one way in which graphs can be encoded? ,adjacency matrices,factorials n!,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:35:06.515385
+minimal_20250708_182558,basic,131,What kind of problems are one of the main topics studied in computational complexity theory?,Decision problems,computational problems,0.0,0.5,0.5,2,SQuAD baseline,2025-07-08T18:35:06.775310
+minimal_20250708_182558,basic,132,What are the two simple word responses to a decision problem?,yes or no,yes,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:35:06.926444
+minimal_20250708_182558,basic,133,What are the two integer responses to a decision problem,1 or 0,yes,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:07.154618
+minimal_20250708_182558,basic,134,What will the output be for a member of the language of a decision problem?,yes,yes,1.0,1.0,1.0,1,SQuAD baseline,2025-07-08T18:35:07.422481
+minimal_20250708_182558,basic,135,What answer denotes that an algorithm has accepted an input string?,yes,is or is not a response,0.0,0.0,0.0,6,SQuAD baseline,2025-07-08T18:35:07.706056
+minimal_20250708_182558,basic,136,What kind of graph is an example of an input used in a decision problem?,arbitrary graph,decision tree,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:35:07.878668
+minimal_20250708_182558,basic,137,What is the term for the set of all connected graphs related to this decision problem?,formal language,dominating set,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:35:08.108940
+minimal_20250708_182558,basic,138,What encoding decision needs to be made in order to determine an exact definition of the formal language,how graphs are encoded as binary strings,,0.0,0.0,0.0,0,SQuAD baseline,2025-07-08T18:35:08.324964
+minimal_20250708_182558,basic,139,A function problem is an example of what,a computational problem,computational complexity theory,0.0,0.3333333333333333,0.3333333333333333,3,SQuAD baseline,2025-07-08T18:35:08.566721
+minimal_20250708_182558,basic,140,How many outputs are expected for each input in a function problem?,a single output,single,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:35:08.783085
+minimal_20250708_182558,basic,141,The traveling salesman problem is an example of what type of problem?,A function problem,school bus routing problem,0.0,0.28571428571428575,0.3333333333333333,4,SQuAD baseline,2025-07-08T18:35:09.068641
+minimal_20250708_182558,basic,142,"In addition to the traveling salesman problem, what is another example of a function problem?",the integer factorization problem,traveling purchaser problem,0.0,0.28571428571428575,0.25,3,SQuAD baseline,2025-07-08T18:35:09.316400
+minimal_20250708_182558,basic,143,Is the output of a functional problem typically characterized by a simple or complex answer?,complex,yes or no,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:35:09.559078
+minimal_20250708_182558,basic,144,How can function problems typically be restated,decision problems,operational definition,0.0,0.0,0.0,2,SQuAD baseline,2025-07-08T18:35:09.810125
+minimal_20250708_182558,basic,145,"If two integers are multiplied and output a value, what is this expression set called?",set of triples,set,0.0,0.5,0.3333333333333333,1,SQuAD baseline,2025-07-08T18:35:10.069182
+minimal_20250708_182558,basic,146,What is one variable on which the running time may be contingent?,the instance,architecture,0.0,0.0,0.0,1,SQuAD baseline,2025-07-08T18:35:10.327977
+minimal_20250708_182558,basic,147,In what unit is the size of the input measured?,bits,in si units,0.0,0.0,0.0,3,SQuAD baseline,2025-07-08T18:35:10.588109
+minimal_20250708_182558,basic,148,Complexity theory seeks to define the relationship between the scale of algorithms with respect to what other variable,an increase in the input size,variable a against variable b,0.0,0.0,0.0,5,SQuAD baseline,2025-07-08T18:35:10.876269

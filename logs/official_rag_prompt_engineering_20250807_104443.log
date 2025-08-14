@@ -1,0 +1,117 @@
+[10:44:43]  Setting up GPU configuration...
+[10:44:43]  Selected GPU 0: 79.3GB available
+[10:44:43]  Using device: cuda:0
+[10:44:43]  Loading Facebook RAG models...
+[10:44:44] Model: facebook/rag-token-nq
+[10:44:44]   Loading tokenizer...
+[10:44:45] Loading Wikipedia retriever...
+[10:46:08]  Retriever loaded!
+[10:46:08]   Loading RAG Token model...
+[10:49:39]  RAG Token system ready!
+[10:49:39]  Loading evaluation dataset...
+[10:49:39] Loading 9 questions to get 3 with answers
+[10:49:43]  SQuAD 2.0 loaded: 9 raw questions
+[10:49:43]  Final dataset: 3 questions with answers
+[10:49:43]  Loaded 3 evaluation questions
+[10:49:43]  Expected total evaluations: 3 × 7 templates = 21
+[10:49:43]  Starting production RAG experiment...
+[10:49:43]  Experiment scope:
+[10:49:43]    Questions: 3
+[10:49:43]    Templates: 3
+[10:49:43]    Total evaluations: 9
+[10:49:43] 
+Testing template: precise_instruction
+[10:49:43] Generating answer for template: precise_instruction
+[10:49:43] Using prompt: Give a factual, concise answer to: In what country is Normandy located?
+[10:49:43] Input prepared: torch.Size([1, 18])
+[10:49:45] RAG generated: ' france' for precise_instruction
+[10:49:45] Generating answer for template: precise_instruction
+[10:49:45] Using prompt: Give a factual, concise answer to: When were the Normans in Normandy?
+[10:49:45] Input prepared: torch.Size([1, 19])
+[10:49:45] RAG generated: ' between the 10th and 13th centuries' for precise_instruction
+[10:49:45] Generating answer for template: precise_instruction
+[10:49:45] Using prompt: Give a factual, concise answer to: From which countries did the Norse originate?
+[10:49:45] Input prepared: torch.Size([1, 19])
+[10:49:46] RAG generated: ' scandinavia' for precise_instruction
+[10:49:46]    precise_instruction summary: F1=0.533, EM=0.333
+[10:49:46] 
+Testing template: basic
+[10:49:46] Generating answer for template: basic
+[10:49:46] Using prompt: In what country is Normandy located?
+[10:49:46] Input prepared: torch.Size([1, 9])
+[10:49:46] RAG generated: ' france' for basic
+[10:49:46] Generating answer for template: basic
+[10:49:46] Using prompt: When were the Normans in Normandy?
+[10:49:46] Input prepared: torch.Size([1, 10])
+[10:49:47] RAG generated: ' 9th century -- 9th century' for basic
+[10:49:47] Generating answer for template: basic
+[10:49:47] Using prompt: From which countries did the Norse originate?
+[10:49:47] Input prepared: torch.Size([1, 10])
+[10:49:47] RAG generated: ' sweden' for basic
+[10:49:47]    basic summary: F1=0.333, EM=0.333
+[10:49:47] 
+Testing template: confident
+[10:49:47] Generating answer for template: confident
+[10:49:47] Using prompt: Provide accurate answer of this In what country is Normandy located?
+[10:49:47] Input prepared: torch.Size([1, 14])
+[10:49:48] RAG generated: ' france' for confident
+[10:49:48] Generating answer for template: confident
+[10:49:48] Using prompt: Provide accurate answer of this When were the Normans in Normandy?
+[10:49:48] Input prepared: torch.Size([1, 15])
+[10:49:48] RAG generated: ' 1000s france' for confident
+[10:49:48] Generating answer for template: confident
+[10:49:48] Using prompt: Provide accurate answer of this From which countries did the Norse originate?
+[10:49:48] Input prepared: torch.Size([1, 15])
+[10:49:49] RAG generated: ' iceland' for confident
+[10:49:49]    confident summary: F1=0.467, EM=0.333
+[10:49:49] 
+ Experiment completed!
+[10:49:49]  Total results generated: 9
+[10:49:49] 
+ ANALYZING RESULTS...
+[10:49:49] 
+ TEMPLATE PERFORMANCE RANKING:
+[10:49:49] --------------------------------------------------------------------------------
+[10:49:49] Template             F1 Score   EM Score   Overlap    Length  
+[10:49:49] --------------------------------------------------------------------------------
+[10:49:49] precise_instruction  0.533     0.333     0.583     2.7
+[10:49:49] confident            0.467     0.333     0.417     1.3
+[10:49:49] basic                0.333     0.333     0.333     2.3
+[10:49:49] 
+ STATISTICAL ANALYSIS:
+[10:49:49]    Best Template: precise_instruction (F1: 0.533)
+[10:49:49]    Worst Template: basic (F1: 0.333)
+[10:49:49]    Performance Improvement: 60.0%
+[10:49:49]    F1 Score Range: 0.333 - 0.533
+[10:49:49]   Using REAL Wikipedia embeddings
+[10:49:49]    EXCELLENT: Research-grade performance achieved!
+[10:49:49] 
+ Saving results...
+[10:49:49]    Detailed results: ../results/detailed_results_20250807_104949.csv
+[10:49:49]    Summary: ../results/summary_20250807_104949.csv
+[10:49:49]  Report: ../results/report_20250807_104949.md
+[10:49:49]    Metadata: ../results/metadata_20250807_104949.json
+[10:49:49] 
+ SAMPLE RESULTS:
+[10:49:49] ======================================================================
+[10:49:49] 
+ Example 1 (Template: precise_instruction):
+[10:49:49]    Q: In what country is Normandy located?
+[10:49:49]    Expected: France
+[10:49:49]    Generated: france
+[10:49:49]    F1: 1.000, EM: 1.0
+[10:49:49] 
+ Example 2 (Template: precise_instruction):
+[10:49:49]    Q: When were the Normans in Normandy?
+[10:49:49]    Expected: 10th and 11th centuries
+[10:49:49]    Generated: between the 10th and 13th centuries
+[10:49:49]    F1: 0.600, EM: 0.0
+[10:49:49] 
+ Example 3 (Template: precise_instruction):
+[10:49:49]    Q: From which countries did the Norse originate?
+[10:49:49]    Expected: Denmark, Iceland and Norway
+[10:49:49]    Generated: scandinavia
+[10:49:49]    F1: 0.000, EM: 0.0
+[10:49:49] 
+ EXPERIMENT COMPLETED SUCCESSFULLY!
+[10:49:49]  Check the results directory for detailed outputs
