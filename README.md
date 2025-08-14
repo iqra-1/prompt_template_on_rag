@@ -19,6 +19,7 @@ These findings challenge the assumption that more complex prompts lead to better
 prompt+rag/
 ├── scripts/            # Python scripts for experiments
 ├── results/            # Output CSV files from experiments
+├── requirements.txt
 └── README.md
 
 ````
