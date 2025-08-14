@@ -16,7 +16,7 @@ These findings challenge the assumption that more complex prompts lead to better
 ## Repository Structure
 ```
 
-prompt+rag/
+prompt_template_on_rag/
 ├── scripts/            # Python scripts for experiments
 ├── results/            # Output CSV files from experiments
 ├── requirements.txt
